@@ -1,0 +1,1 @@
+xcopy /e /y tytRank  build\wechatgame\tytRank\

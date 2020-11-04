@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "5955bb1d-717e-4779-986f-b61d6b35dbb1",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "danzhu_logo": {
+      "ver": "1.0.3",
+      "uuid": "9f1c38ee-ae55-4890-939a-6e7ab7ff2529",
+      "rawTextureUuid": "5955bb1d-717e-4779-986f-b61d6b35dbb1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 557,
+      "height": 235,
+      "rawWidth": 557,
+      "rawHeight": 235,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "feidie",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 6,
+  "sample": 1,
+  "speed": 4,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "42d56346-b6d7-4544-b916-49ea93b0a47f"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "704e1f15-1a0c-42af-abd3-4a6ae25e70b5"
+            }
+          },
+          {
+            "frame": 2,
+            "value": {
+              "__uuid__": "9765b9cd-38fb-41fa-b5da-4e21a4e5eb85"
+            }
+          },
+          {
+            "frame": 3,
+            "value": {
+              "__uuid__": "1ca46a38-3025-40d1-8f20-c867ba4e425f"
+            }
+          },
+          {
+            "frame": 4,
+            "value": {
+              "__uuid__": "f13c93db-3846-4c38-8815-06f75224cf5f"
+            }
+          },
+          {
+            "frame": 5,
+            "value": {
+              "__uuid__": "116d95e0-0b90-4365-8375-d9c857c19d63"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}
