@@ -1,0 +1,15 @@
+# 在命令行中进入引擎路径
+cd E:/engine
+# 安装 gulp 构建工具
+npm install -g gulp
+# 安装依赖的模块
+npm install
+
+进行修改然后编译
+gulp build-dev
+
+该命令会在引擎目录下生成一个 bin 文件夹，并将引擎源码编译到 bin 目录下
+
+注意：如果在编译过程中出现 JavaScript heap out of memory 的报错，可执行以下命令解决：
+
+gulp build-dev --max-old-space-size=8192
