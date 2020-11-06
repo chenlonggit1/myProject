@@ -1,0 +1,14 @@
+import { {SuperClassName} } from "{SuperClassPath}";
+
+/**
+*@description:{Description}
+**/
+export class {ClassName} extends {SuperClassName} 
+{
+	public static ClassName:string = "{ClassName}";
+	
+	protected initViews():void
+	{
+		super.initViews();
+	}
+}

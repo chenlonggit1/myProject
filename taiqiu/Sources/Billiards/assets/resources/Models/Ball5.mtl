@@ -1,0 +1,44 @@
+{
+  "__type__": "cc.Material",
+  "_name": "Ball5",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "abc2cb62-7852-4525-a90d-d474487b88f2"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "diffuseColor": {
+          "__type__": "cc.Color",
+          "r": 120,
+          "g": 120,
+          "b": 120,
+          "a": 255
+        },
+        "specularColor": {
+          "__type__": "cc.Color",
+          "r": 218,
+          "g": 218,
+          "b": 218,
+          "a": 255
+        },
+        "glossiness": 0.25,
+        "diffuseTexture": {
+          "__uuid__": "4fb6a71c-8ca3-49b8-a81d-4122b89dce00"
+        },
+        "specularTexture": {
+          "__uuid__": "4fb6a71c-8ca3-49b8-a81d-4122b89dce00"
+        }
+      },
+      "defines": {
+        "USE_DIFFUSE_TEXTURE": true,
+        "USE_SPECULAR": true,
+        "USE_SPECULAR_TEXTURE": false,
+        "OUTPUT_TO_GAMMA": true,
+        "USE_EMISSIVE": false
+      }
+    }
+  }
+}

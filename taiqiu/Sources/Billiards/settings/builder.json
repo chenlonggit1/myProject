@@ -1,0 +1,55 @@
+{
+  "excludeScenes": [],
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "startScene": "c421bbf3-adec-4436-8640-6046281459aa",
+  "title": "Billiards",
+  "webOrientation": "landscape",
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "mainCompressionType": "merge_all_json",
+  "mainIsRemote": false,
+  "optimizeHotUpdate": false,
+  "md5Cache": false,
+  "nativeMd5Cache": false,
+  "encryptJs": true,
+  "xxteaKey": "d871bd07-ab6f-48",
+  "zipCompressJs": true,
+  "fb-instant-games": {},
+  "android": {
+    "REMOTE_SERVER_ROOT": "",
+    "packageName": "com.kys.wulin.qihoo"
+  },
+  "ios": {
+    "REMOTE_SERVER_ROOT": "",
+    "packageName": "org.cocos2d.demo"
+  },
+  "mac": {
+    "REMOTE_SERVER_ROOT": "",
+    "height": 720,
+    "packageName": "org.cocos2d.demo",
+    "width": 1280
+  },
+  "win32": {
+    "REMOTE_SERVER_ROOT": "",
+    "height": 720,
+    "width": 1280
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "http://192.168.1.21:7456/preview-android-instant/",
+    "host": "",
+    "packageName": "org.cocos2d.demo",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": true
+  },
+  "appBundle": false,
+  "includeAnySDK": false
+}

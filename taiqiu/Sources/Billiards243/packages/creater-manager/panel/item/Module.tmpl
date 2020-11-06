@@ -1,0 +1,43 @@
+<ui-prop name="模块名称：">
+	<ui-input id="name" class="flex-1"></ui-input>
+	<ui-checkbox v-bind:checked="isCreateDir" v-on:click="(isCreateDir=!isCreateDir)" checked>创建文件夹</ui-checkbox>
+</ui-prop>
+<ui-prop name="继承：">
+    <ui-select id="superClass" class="flex-3">
+        <option v-for="option in searchs">{{option}}</option>
+    </ui-select>
+	<ui-input id="search" class="flex-1" style="max-width:80px;" v-on:change="updateSearchs()" title="输入关键词查找父类"></ui-input>
+</ui-prop>
+<ui-prop name="绑定的Node节点：">
+	<ui-input id="bindAttr" class="flex-1"></ui-input>
+	<i class="icon-eye" style="cursor: pointer;" aria-hidden="true" title="不填默认绑定this.node，绑定其他节点Panel/Content 等同 this.node.Panel.Content"></i>
+</ui-prop>
+<ui-prop name="自动释放资源：">
+	<ui-checkbox v-bind:checked="isAutoRelease" v-on:click="(isAutoRelease=!isAutoRelease)"></ui-checkbox>
+	<editor-label v-show="isAutoRelease" disabled>延时释放时间(ms)</editor-label>
+	<ui-input v-show="isAutoRelease" class="flex-1" v-value="delayTime"></ui-input>
+	<i v-show="isAutoRelease" class="icon-eye" style="cursor: pointer;" aria-hidden="true" title="模块销毁时延时释放引用的素材资源，如果资源还在其他模块中有使用则不会被释放；设置为0，销毁模块时会立即释放资源"></i>
+</ui-prop>
+<ui-prop name="需要加载的Prefabs：">
+	<div class="flex-3 layout horizontal left center" title="已选择的预制体">
+		<ui-input id="prefabSearch" style="max-width:80px;" v-on:change="updatePrefabSearchs()" title="输入关键词查找预制体"></ui-input>
+		[{{selectedPrefabs}}]
+	</div>
+</ui-prop>
+<div class="child scroll">
+	<ui-box-container class="shadow height-limited"
+					style="height: 160px; min-height:50px;">
+		<prefab-item v-if="prefabSearchs && prefabSearchs.length>0" track-by="$index"
+				v-for="(index,prefabItem) in prefabSearchs" v-bind:data="prefabItem"
+				v-bind:index="index">
+		</prefab-item>
+	</ui-box-container>
+</div>
+<ui-prop name="说明：">
+	<ui-input id="description" class="flex-1"></ui-input>
+</ui-prop>
+
+<div style="margin:10px;height:20px;" class="flex-3 layout vertical center">
+	<span style="color:red;">{{errMsg}}</span>
+</div>
+<ui-button style="margin:20 10 10 10;width:100%;" class="green flex-1" v-on:confirm="onCreate">创建</ui-button>

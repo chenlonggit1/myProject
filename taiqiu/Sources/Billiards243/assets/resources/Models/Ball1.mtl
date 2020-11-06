@@ -1,0 +1,57 @@
+{
+  "__type__": "cc.Material",
+  "_name": "Ball1",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "abc2cb62-7852-4525-a90d-d474487b88f2"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "diffuseColor": {
+          "__type__": "cc.Color",
+          "r": 108,
+          "g": 108,
+          "b": 108,
+          "a": 255
+        },
+        "specularColor": {
+          "__type__": "cc.Color",
+          "r": 218,
+          "g": 218,
+          "b": 218,
+          "a": 255
+        },
+        "glossiness": 0.25,
+        "emissiveColor": {
+          "__type__": "cc.Color",
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "diffuseTexture": {
+          "__uuid__": "98b96224-c03b-4645-aadc-b5f0c5f0760b"
+        },
+        "specularTexture": {
+          "__uuid__": "115fa255-9070-46d4-b1dc-39c6038fe4c5"
+        },
+        "emissiveTexture": {
+          "__uuid__": "98b96224-c03b-4645-aadc-b5f0c5f0760b"
+        }
+      },
+      "defines": {
+        "USE_DIFFUSE_TEXTURE": true,
+        "USE_SPECULAR": true,
+        "USE_SPECULAR_TEXTURE": false,
+        "OUTPUT_TO_GAMMA": true,
+        "USE_NORMAL_TEXTURE": false,
+        "USE_EMISSIVE": false,
+        "USE_EMISSIVE_TEXTURE": false,
+        "INPUT_IS_GAMMA": false
+      }
+    }
+  }
+}

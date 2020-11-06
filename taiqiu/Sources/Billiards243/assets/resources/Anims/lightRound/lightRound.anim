@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "lightRound",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5166666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "8d8e4417-a613-4b2e-b5e3-9670eb3a2629"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "3e4fb967-b3f1-4b9a-8714-3b667ef83646"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "00d678f8-9f97-400b-810f-b6ada4e06a98"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "9a453674-f50a-4b66-8aee-4a21f1dd75d4"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,21 @@
+{
+  "name": "creater-manager",
+  "version": "1.0.0",
+  "description": "The package template for getting started.",
+  "author": "Cocos Creator",
+  "scene-script": "scene-walker.js",
+  "main": "main.js",
+  "main-menu": {
+    "插件/脚本创建工具": {
+      "message": "creater-manager:open",
+      "accelerator": "CmdOrCtrl+g"
+    }
+  },
+  "panel": {
+    "main": "panel/panel.js",
+    "type": "dockable",
+    "title": "creater-manager",
+    "width": 960,
+    "height": 720
+  }
+}

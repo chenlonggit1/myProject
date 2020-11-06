@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">Bilyart</string>
+    <string name="viewfinderview_status_text1" translatable="false">将二维码/条码放入取景框内</string>
+    <string name="viewfinderview_status_text2" translatable="false">即可自动扫描</string>
+    <string name="scan_it" translatable="false">扫一扫</string>
+    <string name="msg_camera_framework_bug" translatable="false">摄像头打开异常，请重启设备</string>
+    <string name="button_ok" translatable="false">OK</string>
+</resources>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kys.wulin.qihoo"
+    android:installLocation="auto"
+    android:keepScreenOn="true">
+
+    <application
+        android:name="org.cocos2dx.javascript.MyApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true">
+        <!-- Tell Cocos2dxActivity the name of our .so -->
+        <activity
+            android:name="org.cocos2dx.javascript.AppActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorLandscape"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+
+                <category android:name="android.intent.category.DEFAULT"></category>
+                <category android:name="android.intent.category.BROWSABLE"></category>
+
+                <data
+                    android:host="wulin"
+                    android:scheme="xjgks"></data>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.kys.wulin.qihoo.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.kys.wulin.qihoo"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        <!-- Tell Cocos2dxActivity the name of our .so -->
+        <activity
+            android:name="com.kys.wulin.qihoo.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.kys.wulin.qihoo"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        <!-- 扫码二维码回调 -->
+        <activity
+            android:name="com.kys.wulin.qihoo.zxing.android.CaptureActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        <activity
+            android:name="com.unionpay.uppay.PayActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.unionpay.UPPayWapActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustResize" />
+
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="cocos2djs" />
+        <!-- 必须添加 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.kys.wulin.qihoo.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <uses-library
+            android:name="org.simalliance.openmobileapi"
+            android:required="false" />
+
+        <!-- UMENG PUSH START -->
+        <meta-data
+            android:name="UMENG_PUSH_APPKEY"
+            android:value="5f5723a83739314483bda6f2" />
+        <meta-data
+            android:name="UMENG_PUSH_SECRET"
+            android:value="8e0a86bfb06496e778c7c1d61f52fe5c" />
+        <!-- XIAOMI厂商通道（可在代码配置） start-->
+        <meta-data
+            android:name="com.xiaomi.push.api_key"
+            android:value="\5551862954094" />
+        <meta-data
+            android:name="com.xiaomi.push.app_id"
+            android:value="\2882303761518629094" />
+        <!-- XIAOMI厂商通道 end-->
+        <!-- MEIZU厂商通道（可在代码配置） start-->
+        <meta-data
+            android:name="com.meizu.push.api_key"
+            android:value="此处改为MEIZU后台真实参数" />
+        <meta-data
+            android:name="com.meizu.push.app_id"
+            android:value="此处改为MEIZU后台真实参数" />
+        <!-- MEIZU厂商通道 end-->
+        <!-- OPPO厂商通道（可在代码配置） start-->
+        <meta-data
+            android:name="com.oppo.push.api_key"
+            android:value="此处改为OPPO后台真实参数" />
+        <meta-data
+            android:name="com.oppo.push.app_id"
+            android:value="此处改为OPPO后台真实参数" />
+        <!-- OPPO厂商通道 end-->
+        <!-- VIVO厂商通道 start-->
+        <meta-data
+            android:name="com.vivo.push.api_key"
+            android:value="此处改为VIVO后台真实参数" />
+        <meta-data
+            android:name="com.vivo.push.app_id"
+            android:value="此处改为VIVO后台真实参数" />
+        <!-- VIVO厂商通道 end-->
+
+        <!-- HUAWEI厂商通道 start-->
+        <meta-data
+            android:name="com.huawei.hms.client.appid"
+            android:value="\102797045" />
+        <!-- HUAWEI厂商通道 end-->
+        <!-- 本地推送 START -->
+        <receiver
+            android:name="com.kys.common.push.NotificationReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="kys_local_push" />
+            </intent-filter>
+        </receiver>
+        <!-- 本地推送 END -->
+        <!-- 以下为基本配置信息，需要自行添加至您的AndroidManifest文件中 start-->
+        <service
+            android:name="com.taobao.accs.ChannelService"
+            android:exported="true"
+            android:process=":channel">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.SERVICE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.ELECTION" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.taobao.accs.data.MsgDistributeService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.taobao.accs.EventReceiver"
+            android:process=":channel">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.taobao.accs.ServiceReceiver"
+            android:process=":channel">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.COMMAND" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.START_FROM_AGOO" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.taobao.accs.internal.AccsJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:process=":channel" />
+
+        <service
+            android:name="com.taobao.accs.ChannelService$KernelService"
+            android:process=":channel" />
+
+        <service
+            android:name="org.android.agoo.accs.AgooService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.umeng.message.UmengIntentService"
+            android:exported="true"
+            android:process=":channel">
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.umeng.message.XiaomiIntentService"
+            android:exported="true"
+            android:process=":channel">
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.taobao.agoo.AgooCommondReceiver"
+            android:exported="true"
+            android:process=":channel">
+            <intent-filter>
+                <action android:name="${applicationId}.intent.action.COMMAND" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.umeng.message.UmengMessageIntentReceiverService"
+            android:exported="true"
+            android:process=":channel">
+            <intent-filter>
+                <action android:name="org.android.agoo.client.MessageReceiverService" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.umeng.message.NotificationProxyBroadcastReceiver"
+            android:exported="false" />
+
+        <service
+            android:name="com.umeng.message.UmengMessageCallbackHandlerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE">
+            <intent-filter>
+                <action android:name="com.umeng.messge.registercallback.action" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.umeng.message.enablecallback.action" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.umeng.message.disablecallback.action" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.umeng.message.message.handler.action" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.umeng.message.message.sendmessage.action" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.umeng.message.UmengDownloadResourceService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <provider
+            android:name="com.umeng.message.provider.MessageProvider"
+            android:authorities="${applicationId}.umeng.message"
+            android:exported="false">
+            <grant-uri-permission android:pathPattern=".*" />
+        </provider>
+        <!-- 以下为基本配置信息，需要自行添加至您的AndroidManifest文件中 end-->
+        <!-- 魅族 start-->
+        <!--push应用定义消息receiver声明 -->
+        <receiver android:name=".receiver.MeizuPushReceiver">
+            <intent-filter>
+                <!-- 接收push消息 -->
+                <action android:name="com.meizu.flyme.push.intent.MESSAGE" />
+                <!-- 接收register消息 -->
+                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK" />
+                <!-- 接收unregister消息-->
+                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK" />
+                <!-- 兼容低版本Flyme3推送服务配置 -->
+                <action android:name="com.meizu.c2dm.intent.REGISTRATION" />
+                <action android:name="com.meizu.c2dm.intent.RECEIVE" />
+
+                <category android:name="${applicationId}" />
+            </intent-filter>
+        </receiver>
+        <!-- 魅族 end-->
+        <!-- UMENG PUSH END -->
+    </application>
+
+    <uses-feature android:glEsVersion="0x00020000" />
+    <uses-feature android:name="android.hardware.nfc.hce" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 推荐的权限 -->
+    <!-- 添加如下权限，以便使用更多的第三方SDK和更精准的统计数据 -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_SINTERNETTATE" />
+    <!-- for mta statistics, not necessary-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="org.simalliance.openmobileapi.SMARTCARD" />
+    <uses-permission android:name="android.permission.NFC" />
+    <!-- 以下为需要的基本权限，需要自行添加至您的AndroidManifest文件中 start-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_ADDED" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_CHANGED" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_INSTALL" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REPLACED" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- 以下为需要的基本权限，需要自行添加至您的AndroidManifest文件中 end-->
+
+</manifest>

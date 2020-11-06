@@ -1,0 +1,92 @@
+{
+  "collision-matrix": [
+    [
+      false,
+      null,
+      false
+    ],
+    [
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      null,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "excluded-modules": [
+    "WebView",
+    "3D Physics/Builtin"
+  ],
+  "group-list": [
+    "default",
+    "UI",
+    "Tables",
+    "Pockets",
+    "Balls",
+    "Background",
+    "Content"
+  ],
+  "design-resolution-width": 1792,
+  "design-resolution-height": 828,
+  "fit-width": false,
+  "fit-height": true,
+  "use-project-simulator-setting": false,
+  "simulator-orientation": false,
+  "use-customize-simulator": true,
+  "simulator-resolution": {
+    "height": 640,
+    "width": 960
+  },
+  "last-module-event-record-time": 1604367599778,
+  "assets-sort-type": "name",
+  "facebook": {
+    "appID": "",
+    "audience": {
+      "enable": false
+    },
+    "enable": false,
+    "live": {
+      "enable": false
+    }
+  },
+  "preview-port": 7456,
+  "migrate-history": [
+    "cloud-function"
+  ],
+  "clear-simulator-cache": true
+}

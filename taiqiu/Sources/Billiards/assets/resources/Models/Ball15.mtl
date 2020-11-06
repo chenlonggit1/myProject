@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.Material",
+  "_name": "Ball15",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "abc2cb62-7852-4525-a90d-d474487b88f2"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "glossiness": 0.25,
+        "diffuseColor": {
+          "__type__": "cc.Color",
+          "r": 140,
+          "g": 140,
+          "b": 140,
+          "a": 255
+        },
+        "specularColor": {
+          "__type__": "cc.Color",
+          "r": 218,
+          "g": 218,
+          "b": 218,
+          "a": 255
+        },
+        "diffuseTexture": {
+          "__uuid__": "d08dbd0b-62ab-4edc-8ab8-c1d6cb69e725"
+        }
+      },
+      "defines": {
+        "USE_DIFFUSE_TEXTURE": true,
+        "USE_SPECULAR": true,
+        "OUTPUT_TO_GAMMA": true
+      }
+    },
+    "1": {
+      "props": {},
+      "defines": {}
+    }
+  }
+}

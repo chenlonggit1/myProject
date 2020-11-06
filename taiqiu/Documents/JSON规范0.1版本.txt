@@ -1,0 +1,37 @@
+【请求json格式】
+cmd		: 协议号
+data	: 请求数据体
+
+下面是登录示例
+{
+	"cmd":1001,
+	"data": {
+		"token":"gB2nYjwY13SVtaWC-AFztM2f3TlU"
+	}
+}
+
+
+应答json格式：
+cmd 	: 协议号
+code	: 错误码，0代表成功，非0代表错误
+msg 	: 当错误码不为0时，会有错误信息提示
+data    : 应答数据体
+
+成功应答示例：
+{
+	"cmd":1001,
+	"code": 0,
+	"msg" : ""
+	"data": {
+		"id": 1,
+		"nick": "小马",
+		"head": "test.jpg"
+	}
+}
+错误应答示例：
+{
+	"cmd":1001,
+	"code": 1,
+	"msg" : "token不合法"
+	"data": {}
+}

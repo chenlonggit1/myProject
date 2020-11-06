@@ -1,0 +1,28 @@
+<ui-prop name="选择核心库所在目录：">
+	<div class="flex-1 layout horizontal  center">
+			<ui-input class="flex-1" disabled v-value="corePath"></ui-input>
+			<ui-button class="green" v-on:confirm="onSelectFolder(1)">选择</ui-button>
+	</div>
+</ui-prop>
+<ui-prop name="保存游戏根目录：">
+	<div class="flex-1 layout horizontal  center">
+			<ui-input class="flex-1" disabled  v-value="gamePath"></ui-input>
+			<ui-button class="green" v-on:confirm="onSelectFolder(2)">选择</ui-button>
+	</div>
+</ui-prop>
+<ui-prop name="选择目录：">
+	<div class="flex-1 layout horizontal  center">
+		<ui-select id="gameSelect" class="flex-3">
+			<option v-for="option in gameSearchs">{{option}}</option>
+		</ui-select>
+		<ui-input id="gameSearch" class="flex-1" style="max-width:80px;" v-on:change="updateGameSearchs()" title="输入关键词查找目录"></ui-input>
+	</div>
+</ui-prop>
+<ui-prop name="创建类型：">
+	<ui-select id="typeSelect" class="flex-1">
+		<option v-for="option in types">{{option}}</option>
+	</ui-select>
+</ui-prop>
+<section style="margin-top: 20px;" class="list-section">
+	<div id="view" class="scroll"></div>
+</section>

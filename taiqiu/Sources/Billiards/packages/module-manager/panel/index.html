@@ -1,0 +1,38 @@
+<div class="layout vertical flex-1">
+    <ui-prop name="选择核心库所在目录：">
+        <div class="flex-1 layout horizontal  center">
+            <ui-input class="flex-1" disabled v-value="corePath"></ui-input>
+            <ui-button class="green" v-on:confirm="onSelectFolder">选择</ui-button>
+        </div>
+    </ui-prop>
+    <div class="center layout horizontal" style="margin-left: 25px; margin-right: 25px;">
+        
+        <div class="box flex-1 layout horizontal center">
+            <ui-button class="box tiny" v-on:confirm="updateModules">
+                <i class="icon-arrows-cw"></i>
+            </ui-button>
+            <h4 style="width: 100%;" align="center"> 模块名称</h4>
+        </div>
+        <div class="box flex-1">
+            <h4 style="width: 100%;" align="center"> 模块描述</h4>
+        </div>
+        <div class="box flex-3" style="display: block;">
+            <h4 style="width: 100%;" align="center"> 本地文件路径</h4>
+        </div>
+        <div class="box flex-1 layout horizontal">
+            <h4 style="width: 100%;" align="center"> 操作</h4>
+        </div>
+    </div>
+    <section class="list-section">
+        <ul>
+            <h1 v-if="modules && modules.length===0"
+                style="width: 100%;height: auto; margin: 0;" align="center">
+                未在项目中找到已有模块
+            </h1>
+            <module-item v-if="modules && modules.length>0" track-by="$index"
+                v-for="(index,moduleItem) in modules" v-bind:data="moduleItem"
+                v-bind:index="index">
+            </module-item>
+        </ul>
+    </section>
+</div>

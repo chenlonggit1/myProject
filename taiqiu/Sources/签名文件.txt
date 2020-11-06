@@ -1,0 +1,15 @@
+转keystore为p12
+keytool -importkeystore -srckeystore E:\Git\Cocos\Billiards\Sources\keystore.keystore -srcstoretype JKS -deststoretype PKCS12 -destkeystore E:\Git\Cocos\Billiards\Sources\keystore.p12
+转p12为jks
+keytool -v -importkeystore -srckeystore E:\Git\Cocos\Billiards\Sources\keystore.p12 -srcstoretype PKCS12 -destkeystore E:\Git\Cocos\Billiards\Sources\keystore.jks -deststoretype JKS
+
+
+密码：wj5544200
+别名：taiqiu
+密码：wj5544200
+
+
+
+keytool -importkeystore -srckeystore E:\Git\Cocos\Billiards\Sources\Billiards.jks -srcstoretype JKS -deststoretype PKCS12 -destkeystore E:\Git\Cocos\Billiards\Sources\Billiards.p12
+
+keytool -v -importkeystore -srckeystore E:\Git\Cocos\Billiards\Sources\Billiards.p12 -srcstoretype PKCS12 -destkeystore E:\Git\Cocos\Billiards\Sources\Billiards.keystore -deststoretype JKS
