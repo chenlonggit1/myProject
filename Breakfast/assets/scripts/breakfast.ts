@@ -16,7 +16,7 @@ export default class NewClass extends cc.Component {
     private meat:cc.Node = null;            // 肉
     private guide:cc.Node = null;           // 引导
     private guideMask:cc.Node = null;       // 遮罩
-    private finger:cc.Animation = null;     // 手指
+    private finger:cc.Node = null;          // 手指
     private submitAni:cc.Animation = null;  // 提交动画
     private submitBtn:cc.Node = null;       // 提交
     private great:cc.Animation = null;
@@ -50,7 +50,7 @@ export default class NewClass extends cc.Component {
         this.meat = getNodeChildByName(this.bodyNode,"tex_youP_wuti");
         this.guide = getNodeChildByName(element,"guide");
         this.guideMask = getNodeChildByName(this.guide, "guideMask");
-        this.finger = getNodeChildByName(this.guide, "finger", cc.Animation);
+        this.finger = getNodeChildByName(this.guide, "finger");
         this.submitAni = getNodeChildByName(element,"interactive_anNiu",cc.Animation);
         this.submitBtn = getNodeChildByName(this.submitAni.node,"tex_tiJiao_anNiu/anNiu_cai");
         this.great = getNodeChildByName(element,"great", cc.Animation);
@@ -74,7 +74,8 @@ export default class NewClass extends cc.Component {
         this.bubble.on(cc.Animation.EventType.FINISHED, ()=>{
             this.bubbleFinished();
         });
-        this.finger.on(cc.Animation.EventType.FINISHED,()=>{
+        this.guideMask.getComponent(cc.Animation).on(cc.Animation.EventType.FINISHED,()=>{
+            this.GuideFinished();
         });
 
         this.submitBtn.on(cc.Node.EventType.TOUCH_START, this.submit, this);
@@ -117,6 +118,7 @@ export default class NewClass extends cc.Component {
             this.curBody = getNodeChildByName(this.bodyNode,data.bodyClick.name);
             this.curBody.getComponent(cc.Animation).play("item_click");
             if(this.guideMask.active) this.guideMask.active = false;
+            if(this.finger.active) this.finger.active = false;
             if(!this.bTitleOut) {
                 this.bTitleOut = true;
                 this.title.play("tiMu_out");
@@ -124,13 +126,15 @@ export default class NewClass extends cc.Component {
         }else if(data.bodyMove) {
             this.title.node.active = false;
             this.guideMask.active = false;
+            this.finger.active = false
             let info = data.bodyMove;
             this.bIsMoveEnd = info.bIsMoveEnd;
             this.curBody = getNodeChildByName(this.bodyNode,data.bodyMove.name);
             this.curBody.setPosition(info.pos);
+            //this.curBody.runAction(cc.moveTo(0.1,info.pos));
             this.curBody.zIndex = 100; 
             this.curBody.getChildByName("yinYing").active = false;
-            this.playPlateAnim(info.result);
+            //this.playPlateAnim(info.result);
         }else if(data.bodyEnd) {
             if(this.bIsMoveEnd) return;
             this.bIsMoveEnd = data.bodyEnd.bIsMoveEnd;
@@ -155,6 +159,7 @@ export default class NewClass extends cc.Component {
             this.curBody = getNodeChildByName(this.bodyNode,refreshData.bodyClick.name);
             this.curBody.getComponent(cc.Animation).play("item_click");
             if(this.guideMask.active) this.guideMask.active = false;
+            if(this.finger.active) this.finger.active = false;
             if(!this.bTitleOut) {
                 this.bTitleOut = true;
                 this.title.play("tiMu_out");
@@ -162,16 +167,19 @@ export default class NewClass extends cc.Component {
         } else if(refreshData.bodyMove) {
             this.title.node.active = false;
             this.guideMask.active = false;
+            this.finger.active = false
             let info = refreshData.bodyMove;
             this.bIsMoveEnd = refreshData.bIsMoveEnd;
             this.curBody = getNodeChildByName(this.bodyNode,refreshData.bodyMove.name);
             this.curBody.setPosition(info.pos);
+            //this.curBody.runAction(cc.moveTo(0.1,info.pos));
             this.curBody.zIndex = 100; 
             this.curBody.getChildByName("yinYing").active = false;
-            this.playPlateAnim(info.result);
+            //this.playPlateAnim(info.result);
         } else if(refreshData.bodyEnd) {
             this.title.node.active = false;
             this.guideMask.active = false;
+            this.finger.active = false
             if(this.bIsMoveEnd) return;
             this.bIsMoveEnd = refreshData.bIsMoveEnd;
             this.curBody = getNodeChildByName(this.bodyNode,refreshData.bodyEnd.name);
@@ -182,11 +190,13 @@ export default class NewClass extends cc.Component {
             this.setBodyPlate();
             this.bodyEndFinish(refreshData.bodyEnd.pos);
             this.playSettleAnim();
+            //this.curBody.getChildByName("yinYing").active = true;
         } else if(refreshData.submit) {
             if(this.bIsSubmit) return;
             this.bIsSubmit = refreshData.submit.bIsSubmit;
             this.title.node.active = false;
             this.guideMask.active = false;
+            this.finger.active = false
             this.curBodyOrder = refreshData.submit.curBodyOrder;
             this.bodyList = refreshData.submit.bodyList;
             this.setBodyPlate();
@@ -201,6 +211,12 @@ export default class NewClass extends cc.Component {
             this.bubble.play("qiPao_xunHuan");
     }
 
+    // 引导图层动画完成
+    private GuideFinished() {
+        this.finger.active = true;
+        this.finger.getComponent(cc.Animation).play("ani_hand_click_new");
+    }
+
     // 物体点击
     private bodyStart(event: any) {
         this.curBody = event.target;
@@ -213,6 +229,7 @@ export default class NewClass extends cc.Component {
         this.bodyPos = this.curBody.getPosition();
         this.curBody.getComponent(cc.Animation).play("item_click");
         if(this.guideMask.active) this.guideMask.active = false;
+        if(this.finger.active) this.finger.active = false;
         if(!this.bTitleOut) {
             this.bTitleOut = true;
             this.title.play("tiMu_out");
@@ -225,10 +242,11 @@ export default class NewClass extends cc.Component {
         let pos = event.getLocation();
         pos = this.node.convertToNodeSpaceAR(pos);
         this.curBody.setPosition(pos);
+        //this.curBody.runAction(cc.moveTo(0.1,pos));
         this.curBody.zIndex = 100;
         this.curBody.getChildByName("yinYing").active = false;
         let result = this.plateNode.getBoundingBoxToWorld().contains(event.getLocation());
-        this.playPlateAnim(result);
+        //this.playPlateAnim(result);
         this.bIsMoveEnd = false;
         let data = {
             name: this.curBody.name,
@@ -263,11 +281,18 @@ export default class NewClass extends cc.Component {
         this.curBody.zIndex = this.curBodyOrder.length;
         let result = this.plateNode.getBoundingBoxToWorld().contains(pos);
         if(result) {
-            this.curBodyOrder.push(this.curBodyIndex);
-            this.curBodyNode.push(this.curBody);
-            this.curBody.setPosition(this.plate.node.getPosition());
+            let index = this.curBodyOrder.indexOf(this.curBodyIndex);
+            if(index === -1){
+                this.curBodyOrder.push(this.curBodyIndex);
+                this.curBodyNode.push(this.curBody);
+            }
+            //this.curBody.setPosition(this.plate.node.getPosition());
+            let action1 = cc.moveTo(0.2,cc.v2(this.plate.node.x, Math.min(this.plate.node.y+50,this.curBody.y)));
+            let action2 = cc.moveTo(0.1,cc.v2(this.plate.node.x,this.plate.node.y));
+            this.curBody.runAction(cc.sequence(action1,action2));
             this.playSettleAnim();
-            this.playPlateAnim(false);
+            this.playPlateAnim();
+            //this.playPlateAnim(false);
             if(this.curBodyOrder.length === this.order.length) {
                 this.submitBtn.active = true;
                 this.submitAni.play("anNiuBianSe");
@@ -290,17 +315,23 @@ export default class NewClass extends cc.Component {
                         this.curBodyNode.splice(index,1);
                     }
                     this.bodyList[containsIndex] = this.curBodyIndex;
-                    this.curBody.setPosition(this.bodyPlate[containsIndex].getPosition());
+                    //this.curBody.setPosition(this.bodyPlate[containsIndex].getPosition());
+                    this.curBody.runAction(cc.moveTo(0.2,this.bodyPlate[containsIndex].getPosition()));
                     this.curBody.getChildByName("yinYing").active = true;
                     if(this.submitBtn.active) this.submitBtn.active = false;
                     return;
                 }
             }
             if(this.curBodyListIdx >- 1) this.bodyList[this.curBodyListIdx] = this.curBodyIndex;
-            this.curBody.setPosition(this.bodyPos);
+            //this.curBody.setPosition(this.bodyPos);
+            let action1 = cc.moveTo(0.2,cc.v2(this.bodyPos.x, Math.min(this.bodyPos.y+50,this.curBody.y)));
+            let action2 = cc.moveTo(0.1,cc.v2(this.bodyPos.x,this.bodyPos.y));
+            this.curBody.runAction(cc.sequence(action1,action2));
             let orderLength = this.curBodyOrder.length;
+            cc.log(this.curBodyIndex,orderLength);
             if(orderLength > 0 && this.curBodyIndex === this.curBodyOrder[orderLength - 1]) {
                 this.playSettleAnim();
+                //cc.log('qqq',this.curBodyIndex,orderLength);
             } else {
                 this.curBody.getChildByName("yinYing").active = true;
             }
@@ -309,18 +340,11 @@ export default class NewClass extends cc.Component {
     }
 
     // 播放或暂停盘子动画
-    private playPlateAnim(isPlay:Boolean) {
+    private playPlateAnim() {
         let isPlaying = this.plate.getAnimationState("big_plate_in_effect").isPlaying;
-        if(isPlay) {
-            if(!isPlaying) {
-                getNodeChildByName(this.plate.node,"panZi_faGuang").active = true;
-                this.plate.play("big_plate_in_effect");
-            }
-        } else {
-            if(isPlaying) {
-                getNodeChildByName(this.plate.node,"panZi_faGuang").active = false;
-                this.plate.stop();
-            }
+        if(!isPlaying) {
+            getNodeChildByName(this.plate.node,"panZi_faGuang").active = true;
+            this.plate.play("big_plate_in_effect");
         }
     }
 
@@ -361,13 +385,19 @@ export default class NewClass extends cc.Component {
     // 播放放入动画
     private playSettleAnim() {
         for(let i = 0; i < this.curBodyNode.length; i++) {
-            this.curBodyNode[i].getComponent(cc.Animation).play("item_settle");
-            this.curBodyNode[i].getChildByName("yinYing").active = false;
+            this.playPutInAnim(this.curBodyNode[i], i===0);// i===0 大盘的最下层物体加阴影
         }
+    }
+    
+    // 播放放入动画
+    private playPutInAnim(bodyNode: any, bShowShadow: boolean) {
+        bodyNode.getComponent(cc.Animation).play("item_settle");
+        bodyNode.getChildByName("yinYing").active = bShowShadow;
     }
 
     // 重连设置物体所在的盘子
     private setBodyPlate() {
+        cc.log("setBodyPlate");
         let node = [this.bread,this.vegetables,this.meat];
         for(let i = 0; i < this.bodyList.length; i++) {
             if(this.bodyList[i] > -1) {
@@ -377,7 +407,7 @@ export default class NewClass extends cc.Component {
         for(let i = 0; i < this.curBodyOrder.length; i++) {
             node[this.curBodyOrder[i]].setPosition(this.plate.node.getPosition());
             node[this.curBodyOrder[i]].zIndex = i;
-            node[this.curBodyOrder[i]].getChildByName("yinYing").active = false;
+            node[this.curBodyOrder[i]].getChildByName("yinYing").active = true;
             this.curBodyNode.push(node[this.curBodyOrder[i]]);
         }
     }
