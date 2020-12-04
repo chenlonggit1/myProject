@@ -98,8 +98,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1792,
-      "height": 828
+      "width": 1334,
+      "height": 750
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -110,8 +110,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        896,
-        414,
+        667,
+        375,
         0,
         0,
         0,
@@ -160,8 +160,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 960,
-      "height": 640
+      "width": 1334,
+      "height": 750
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -174,7 +174,7 @@
       "array": [
         0,
         0,
-        448.60115916033925,
+        441.11815840576435,
         0,
         0,
         0,
@@ -267,8 +267,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1792,
-      "height": 828
+      "width": 1334,
+      "height": 750
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -849,7 +849,7 @@
         "__uuid__": "747bdc76-aa5f-4e89-aa20-26c96cef9dd3"
       }
     ],
-    "playOnLoad": true,
+    "playOnLoad": false,
     "_id": "08mNQ3TGZLJapc1mFCGbOt"
   },
   {
@@ -3965,7 +3965,7 @@
         "__uuid__": "86a09e65-a265-4e39-8772-6d6766016be1"
       }
     ],
-    "playOnLoad": true,
+    "playOnLoad": false,
     "_id": "21rBw6jEJIdr2ZCFXTbz8B"
   },
   {
@@ -10424,7 +10424,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1600,
+      "width": 1334,
       "height": 750
     },
     "_anchorPoint": {
@@ -10581,7 +10581,7 @@
         "__uuid__": "5c181e37-b92b-4b56-bb95-7a1610b8cece"
       }
     ],
-    "playOnLoad": true,
+    "playOnLoad": false,
     "_id": "80LzgYkUhPuahZ4c2BUnMp"
   },
   {
@@ -11090,10 +11090,10 @@
         "__uuid__": "2c2f84e0-7af7-44fd-8979-39b5b2aaf363"
       },
       {
-        "__uuid__": "b5dbc9fd-ab94-4c82-bb22-8f95e7800452"
+        "__uuid__": "2d84c7a2-be03-4b18-8405-861aaf35963b"
       },
       {
-        "__uuid__": "2d84c7a2-be03-4b18-8405-861aaf35963b"
+        "__uuid__": "b5dbc9fd-ab94-4c82-bb22-8f95e7800452"
       }
     ],
     "playOnLoad": false,
@@ -11180,8 +11180,8 @@
     "_enabled": true,
     "_designResolution": {
       "__type__": "cc.Size",
-      "width": 1792,
-      "height": 828
+      "width": 1334,
+      "height": 750
     },
     "_fitWidth": false,
     "_fitHeight": true,
