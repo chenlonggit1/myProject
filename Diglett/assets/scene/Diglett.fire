@@ -192,7 +192,7 @@
       "array": [
         0,
         0,
-        454.6633369868303,
+        536.0619332314491,
         0,
         0,
         0,
@@ -2516,42 +2516,42 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_custom": true,
+    "_custom": false,
     "_file": {
-      "__uuid__": "49e5d961-5aff-4100-993b-200c7940c12d"
+      "__uuid__": "2511d316-192e-4f59-9dff-ec5b763dfaa6"
     },
     "_spriteFrame": {
       "__uuid__": "3de92554-08e6-492c-809a-7480e2b3e589"
     },
     "_texture": null,
-    "_stopped": false,
+    "_stopped": true,
     "playOnLoad": true,
     "autoRemoveOnFinish": false,
-    "totalParticles": 50,
-    "duration": 0.5,
-    "emissionRate": 30,
-    "life": 0.8,
-    "lifeVar": 0.3,
+    "totalParticles": 300,
+    "duration": 0.15,
+    "emissionRate": 600,
+    "life": 0.3,
+    "lifeVar": 0.55,
     "_startColor": {
       "__type__": "cc.Color",
-      "r": 146,
-      "g": 83,
-      "b": 18,
-      "a": 195
+      "r": 240,
+      "g": 174,
+      "b": 107,
+      "a": 255
     },
     "_startColorVar": {
       "__type__": "cc.Color",
       "r": 0,
       "g": 0,
       "b": 0,
-      "a": 0
+      "a": 129
     },
     "_endColor": {
       "__type__": "cc.Color",
-      "r": 255,
-      "g": 192,
-      "b": 128,
-      "a": 148
+      "r": 202,
+      "g": 140,
+      "b": 75,
+      "a": 62
     },
     "_endColorVar": {
       "__type__": "cc.Color",
@@ -2560,16 +2560,16 @@
       "b": 0,
       "a": 0
     },
-    "angle": 100,
-    "angleVar": 40,
-    "startSize": 150,
-    "startSizeVar": 30,
-    "endSize": 50,
-    "endSizeVar": 10,
+    "angle": 30,
+    "angleVar": 65,
+    "startSize": 60,
+    "startSizeVar": 80,
+    "endSize": 200,
+    "endSizeVar": 100,
     "startSpin": 0,
     "startSpinVar": 0,
-    "endSpin": 90,
-    "endSpinVar": 30,
+    "endSpin": 100,
+    "endSpinVar": 200,
     "sourcePos": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -2577,24 +2577,24 @@
     },
     "posVar": {
       "__type__": "cc.Vec2",
-      "x": 150,
-      "y": 50
+      "x": 100,
+      "y": 0
     },
-    "_positionType": 1,
-    "positionType": 1,
+    "_positionType": 2,
+    "positionType": 2,
     "emitterMode": 0,
     "gravity": {
       "__type__": "cc.Vec2",
-      "x": 50,
-      "y": 150
+      "x": -160,
+      "y": 280
     },
-    "speed": 160,
-    "speedVar": 1.3,
-    "tangentialAccel": 60,
-    "tangentialAccelVar": 20,
-    "radialAccel": 30,
-    "radialAccelVar": 10,
-    "rotationIsDir": false,
+    "speed": 200,
+    "speedVar": 100,
+    "tangentialAccel": 50,
+    "tangentialAccelVar": 200,
+    "radialAccel": 50,
+    "radialAccelVar": 100,
+    "rotationIsDir": true,
     "startRadius": 0,
     "startRadiusVar": 0,
     "endRadius": 0,

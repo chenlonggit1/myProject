@@ -84,7 +84,7 @@ export default class NewClass extends cc.Component {
         this.isClick = false;
         let index = parseInt(evt.node.name.replace("holeBtn", ""));
         this.hammer.node.active = true;
-        let pos = cc.v2(this.diglettNode[index].node.x-60,this.diglettNode[index].node.y+200);
+        let pos = cc.v2(this.diglettNode[index].node.x-170,this.diglettNode[index].node.y+130);
         this.hammer.node.setPosition(pos);
         this.hammer.setAnimation(0,"chuizi",false);
         this.hammer.setCompleteListener(()=>{
@@ -129,7 +129,6 @@ export default class NewClass extends cc.Component {
     private playAudio(name:string, loop:boolean, volume: number = 1) {
         cc.resources.load(`audio/${name}`, cc.AudioClip, function (err, clip:cc.AudioClip) {
             if(err) return;
-            console.log(clip.name);
             cc.audioEngine.play(clip,loop,volume);
         });
     }
