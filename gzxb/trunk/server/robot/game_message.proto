@@ -1,0 +1,516 @@
+syntax = "proto2";
+package Game;
+
+//游戏操作码
+enum PROTOCOL {
+	BASE_MESSAGE						= 1;		// 游戏基础消息
+	ALLOC_SERVER						= 13;		// 请求分配服务器
+	ALLOC_SERVER_ADDRESS_RSP			= 14;		// 请求分配服务器返回
+	PARTNER_USER_LOGIN_REQ				= 16;		// 玩家登录游戏请求
+	HTTP_RESULT							= 50;		// Http请求返回
+	
+	LOGIN_GAME_REQ						= 1000;		// 登录游戏请求
+	LOGIN_GAME_RSP						= 1001;		// 登录游戏回应
+	LOGOUT_GAME_REQ						= 1002;		// 登出游戏请求
+	LOGOUT_GAME_RSP						= 1003;		// 登出游戏回应
+	
+	PING_GAME_REQ						= 1004;		// ping Game请求
+	PING_GAME_RSP						= 1005;		// ping Game回应
+	
+	SYNC_MONEY_RSP						= 1008;		// 同步金币
+	
+	JOIN_ROOM_REQ						= 1100;		// 加入房间请求
+	JOIN_ROOM_RSP						= 1101;		// 加入房间回应
+	LEAVE_ROOM_REQ						= 1102;		// 离开房间请求
+	LEAVE_ROOM_RSP						= 1103;		// 离开房间回应	
+	
+	ENTER_GAME_RSP						= 1200;		// 进入游戏回应
+	START_GAME_REQ						= 1201;		// 开始游戏请求
+	START_GAME_RSP						= 1202;		// 开始游戏请求回应
+	RESTART_GAME_REQ					= 1203;		// 重新开始游戏请求
+	RESTART_GAME_RSP					= 1204;		// 重新开始游戏回应
+	GAME_BEGIN_RSP						= 1205;		// 游戏回合初始化
+	GAME_END_RSP						= 1208;		// 游戏结束(回合结束、结算)
+	
+	SET_RATIO_REQ						= 1210;		// 设置倍率请求
+	SET_RATIO_RSP						= 1211;		// 设置倍率回应
+	BET_RSP								= 1212;		// 下注回应
+	INVALID_SCORE_RSP					= 1213;		// 无效消耗
+	
+	
+	OPEN_ONE_CARD_REQ					= 1220;		// 翻开一张卡牌请求
+	OPEN_ONE_CARD_RSP					= 1221;		// 翻开一张卡牌回应
+	USE_ONE_CARD_REQ					= 1222;		// 使用一张卡牌请求
+	USE_ONE_CARD_RSP					= 1223;		// 使用一张卡牌回应
+	SYNC_CARD_RSP						= 1224;		// 同步卡牌信息回应
+	SYNC_INIT_CARD_RSP					= 1225;		// 同步初始所有卡牌信息回应
+	
+	EQUIP_HERO_REQ						= 1230;		// 上阵英雄请求
+	EQUIP_HERO_RSP						= 1231;		// 上阵英雄回应
+	UNEQUIP_HERO_REQ					= 1232;		// 下阵英雄请求
+	UNEQUIP_HERO_RSP					= 1233;		// 下阵英雄回应
+	CHANGE_HERO_POSITION_REQ			= 1234;		// 交换英雄方位请求
+	CHANGE_HERO_POSITION_RSP			= 1235;		// 交换英雄方位回应
+	
+	SYNC_INIT_POSITION_RSP				= 1236;		// 同步初始需上阵列表
+	SYNC_ALL_POSITION_RSP				= 1237;		// 同步上阵列表
+	
+	ENTITY_SPAWN_RSP					= 1240;		// 实体生成回应
+	ATTACK_ENTITY_REQ					= 1241;		// 攻击实体请求
+	ENTITY_DEATH_RSP					= 1242;		// 实体死亡回应	
+	KILL_ENTITY_REQ						= 1243;		// 直接杀死实体请求(不会下注)
+	SYNC_INIT_ENTITY_RSP				= 1244;		// 同步初始所有战斗游戏实体
+	
+	UNLOCK_HEROS_RSP					= 1245;		// 解锁英雄通知
+	
+	SYNC_STORY_DATA						= 1253;		// 同步剧情数据
+	
+	ALLERGEN_ATTACK_REQ					= 1255;		// 过敏源攻击请求
+	ALLERGEN_ATTACK_RSP					= 1256;		// 过敏源攻击回应
+	ALLERGEN_SETTLE_RSP					= 1257;		// 过敏原结算
+	RESET_ALLERGEN_SETTLE_FLAG_REQ		= 1258;		// 清理结算标志
+}
+
+// 回应码
+enum ErrorCode {
+	// 以下是大厅的错误回应码(与大厅的回应保持一致)，不要修改
+	SUCCESS								= 0;		// 成功
+	PARAM_ERROR							= 1;		// 参数错误
+	NOT_REIGSTER 						= 2;		// 没有注册
+	PLAYER_NOT_EXIST					= 3;		// 玩家不存在((服务器缓存中没有玩家对象))
+	DESERIALIZE_FAILED					= 4;		// 反序列化失败
+	FRESH_USER_MONEY_ERROR				= 5;		// 刷新玩家金币失败
+	SYSTEM_ERROR 						= 6; 		// 系统错误
+	
+	ENTER_ROOM_LOCK_FAILED 				= 10001;	// 进房间加锁失败
+	ENTER_ROOM_GET_BASE_INFO_FAILED		= 10002;	// 进房间获取用户基本数据失败
+	ENTER_ROOM_READ_GOLD_FAILED			= 10003;	// 进房间读取金币失败
+	ENTER_ROOM_LACK_GOLD_FAILED			= 10004;	// 进房间失败(金币不足)
+	ENTER_ROOM_LOAD_DATA_FAILED			= 10005;	// 进房间加载玩家键值对数据失败
+	
+	
+	// 以下是自定义的错误回应码
+	ACCOUNT_REMOTE_LOGIN				= 20000;	// 账号异地登录(被顶号)
+	
+	START_GAME_STATUS_ERROR				= 20100;	// 当前状态不能开始游戏(游戏已经开始了)
+	RESTART_GAME_STATUS_ERROR			= 20101;	// 当前状态不能重新开始游戏(回合必须开始了)
+	
+	SET_RATIO_NOT_EXIST					= 20200;	// 设置的倍率不存在
+	SET_RATIO_LACK_GOLD_FAILED			= 20201;	// 金币不足以设置当前倍率
+	SET_RATIO_STORY_LOCKED_FAILED		= 20203;	// 剧情模式倍率锁定
+	
+	CARD_OPEN_LACK_GOLD_FAILED			= 20300;	// 金币不足无法翻牌
+	CARD_ALREADY_OPENED					= 20301;	// 卡牌已被翻开了
+	CARD_ALREADY_USED					= 20302;	// 卡牌已被使用过了
+	CARD_NOT_ALLOW_USE					= 20303;	// 卡牌不能使用
+	
+	ENQUIP_ROLE_ID_NOT_EXIST			= 20310;	// 上阵英雄不存在
+	ENQUIP_ROLE_NOT_UNLOCK				= 20311;	// 上阵了未解锁的英雄
+	ENQUIP_ROLE_ALREADY_BE_ENQUIP		= 20312;	// 英雄已经在阵容上
+	
+	UNENQUIP_POSITION_IS_NULL			= 20313;	// 方位是空的无法下阵
+	UNENQUIP_COUT_LIMIT					= 20314;	// 只剩一个英雄在阵容上，无法下阵
+
+	
+	ATTACK_ENTITY_NOT_EXIST				= 20320;	// 实体不存在
+	ATTACK_ENTITY_NOT_MONSTER			= 20321;	// 攻击实体不是怪物类型	
+	ATTACK_ENTITY_LACK_GOLD_FAILED		= 20322;	// 攻击实体金币不够
+	
+	
+	INVALID_REQ_WITH_STORY_MODE			= 20330;	// 不是合法命令(剧情模式)
+	INVALID_REQ_WITH_NORMAL_MODE		= 20331;	// 不是合法命令(常规模式)
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 登录游戏
+message LoginGameReq {
+	required int64 PlayerId = 1;
+	required string Token = 2;
+}
+
+message LoginGameRsp {
+    required string Nick = 1;			// 昵称
+    required int32 Sex = 2;				// 性别
+    required string Portrait = 3;		// 头像
+	required int64 Money 	= 4;		// 当前金币
+	
+}
+
+// 同步金币
+message SyncMoneyRsp {
+	required uint32 Type 			= 1;		// 同步类型 1:充值 2.
+	required uint64 Delta 			= 3;		// 增量金币
+	required int64 Money 			= 4;		// 当前金币
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 进入游戏通知
+message EnterGameRsp {
+	repeated uint32 HeroList 		= 1;		// 已解锁的英雄列表
+}
+
+// 回合初始通知
+message GameBeginRsp {
+	required uint32 Ratio 			= 1;		// 倍率
+	required uint32 LevelID 		= 2;		// 关卡ID
+	required int64 Money 			= 3;		// 当前金币
+	required uint64 KillCount 		= 4;		// 击杀数
+}
+
+// 回合结束通知
+message GameEndRsp {	
+
+}
+
+
+// 解锁英雄通知
+message UnlockHerosRsp {
+	required uint64 KillCount 		= 1;		// 击杀数				
+	repeated uint32 UnlockHeros 	= 2;		// 当前解锁的英雄
+}
+
+// 设置倍率请求
+message SetRatioReq {
+	required uint32 Ratio 		= 1;		// 实体ID
+}
+
+// 设置倍率回应
+message SetRatioRsp {
+	required uint32 Ratio 		= 1;		// 实体ID
+}
+
+message BetExtraInfo {
+	required uint32 BetType 		= 1;		// 下注类型 1:使用宝箱 2:触发剧情 3:攻击怪物
+	required uint32 BetIndex 		= 2;		// 下注对应卡牌索引
+	
+	// 下注类型2时需要传递的数据
+	optional uint32 AttackerID 		= 5;		// 攻击者实体ID
+	optional uint32 BeAttackerID 	= 6;		// 被攻击者实体ID
+}
+
+// 下注回应
+message BetRsp {
+	required uint32 Ratio 			= 1;		// 选择的倍率
+	required uint64 Consume 		= 2;		// 下注金币消耗
+	required uint64 Delta 			= 3;		// 增量金币
+	required int64 Money 			= 4;		// 当前金币
+
+	optional BetExtraInfo Info		= 6;		// 下注附加信息
+}
+
+// 道具类型
+enum ItemType {
+	ITEM_TYPE_NONE = 0;							// 无效
+	ITEM_TYPE_BOX = 1;							// 宝箱
+	ITEM_TYPE_HERO = 2;							// 英雄
+	ITEM_TYPE_MONSTER = 3;						// 怪物
+	ITME_TYPE_STORY	= 4;						// 剧情
+	ITME_TYPE_EMPTY	= 5;						// 空道具
+}
+
+
+// 无效分消耗回应(通知客户端加钱)
+message InvalidScoreRsp {
+	required uint64 Money 			= 1;		// 当前金币
+	required uint64 Consume 		= 2;		// 消耗
+	required string Desc 			= 3;		// 描述
+	required int32 Index 			= 4;		// 索引 -1 表示无效索引
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 卡牌
+message Card {
+	required uint32 Index 			= 1;		// 卡牌索引
+	required uint32 ItemTypeID 		= 2;		// 物品类型ID
+	required uint32 ItemID 			= 3;		// 物品类型ID
+	required CardStatus Status 		= 4;		// 物品类型ID
+}
+
+// 卡牌状态
+enum CardStatus{
+	CT_NOT_OPENED 					= 0;		// 卡牌未翻开
+	CT_ALREADY_OPEND 				= 1;		// 已翻开
+	CT_IN_USE						= 2;		// 使用中
+	CT_USE_UP						= 3;		// 使用完了
+}
+
+// 翻开卡牌回应
+message OpenOneCardReq {
+    required uint32 CardIndex 		= 1;		// 卡牌索引
+	required uint32 Times			= 3;		// 下注倍数 最小是10，10表示1倍，服务器会除10计算
+	required uint32 Ratio 			= 4;		// 下注倍率
+}
+
+// 使用一张已翻开的卡牌
+message UseOneCardReq {
+    required uint32 CardIndex 		= 1;		// 卡牌索引
+}
+
+// 同步初始所有卡牌信息
+message SyncInitCardRsp {
+	repeated Card CardList 			= 1;		// 卡牌列表信息
+}
+
+// 同步卡牌信息
+message SyncCardRsp {
+	required Card CardData 			= 1;		// 卡牌信息
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 游戏战斗实体
+message EntityInfo {
+	required uint32 ID 				= 1;		// 实体ID 
+	required uint32 RoleID 			= 2;		// 角色ID(配置表里id) 
+	required uint32 Type 			= 3;		// 实体类型 1:英雄 2:怪物
+	required uint32 Index 			= 4;		// 索引
+}
+
+// 上阵英雄
+message EquipHeroReq {
+	required uint32 Position 		= 1;		// 方位 
+	required uint32 RoleID 			= 2;		// 角色ID 
+}
+
+// 下阵英雄
+message UnEquipHeroReq {
+	required uint32 Position 		= 1;		// 方位 
+}
+
+// 方位
+message PositionInfo{
+	required uint32 Position 		= 1;		// 方位    0-4
+	required uint32 RoleID 			= 2;		// 角色ID  0:表示无效英雄
+	required uint32 EntityID 		= 3;		// 实体ID  0:表示无效实体
+}
+
+// 同步初始阵容信息
+message SyncInitPositionRsp {
+	repeated PositionInfo PositionList = 6;	// 默认上阵信息
+}
+
+// 同步阵容信息
+message SyncAllPositionRsp {
+	repeated PositionInfo PositionList = 6;	// 上阵列表信息
+}
+
+// 交换阵容请求
+message ChangePositionReq {
+	required uint32 SourcePosition 		= 1;		// 源方位    0-4
+	required uint32 TargetPosition 		= 2;		// 目标方位    0-4
+}
+
+// 交换阵容回应
+message ChangePositionRsp {
+	required uint32 SourcePosition 		= 1;		// 源方位    0-4
+	required uint32 SourceEntityID 		= 2;		// 源实体id  
+	required uint32 TargetPosition 		= 3;		// 目标方位    0-4
+	required uint32 TargetEntityID 		= 4;		// 目标实体id   
+}
+
+// 同步初始实体列表
+message SyncInitEntityRsp {
+	repeated EntityInfo EntityList 	= 1;
+}
+
+// 游戏实体生成回应
+message EntitySpawnRsp {
+	required EntityInfo Entity 	= 1;
+}
+
+// 游戏实体死亡数据回应
+message EntityDeathRsp {
+	required uint32 EntityID 		= 1;		// 实体ID
+	required bool Normal 			= 2;		// 是否正常死亡 
+	required uint64 KillCount 		= 3;		// 击杀数
+}
+
+// 攻击实体请求
+message AttackEntityReq {
+	required uint32 AttackerID 		= 1;		// 攻击者实体ID
+	required uint32 BeAttackerID 	= 2;		// 被攻击者实体ID
+	required uint32 Times			= 3;		// 下注倍数(技能可复数倍下注)
+	required uint32 Ratio 			= 4;		// 下注倍率
+}
+
+
+// 直接杀死实体请求
+message KillEntityReq {
+	required uint32 EntityID 		= 1;		// 实体ID
+}
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// 同步剧情数据
+message SyncStoryData {
+	required int64 Money 			= 1;		// 当前金币
+	required uint32 StoryID 		= 3;		// 剧情ID	
+	optional bytes Data			= 5;	
+}
+
+
+
+// 同步剧情数据
+message SyncStoryData {
+	required int64 Money 			= 1;		// 当前金币
+	required uint32 StoryID 		= 3;		// 剧情ID	
+	optional bytes Data			= 5;	
+}
+
+
+// 过敏源剧情data
+message AllergenData {
+	required bool Status 			= 1;		// 剧情状态 是否激活 
+	required uint32 Index 			= 2;		// 剧情触发对应卡牌索引	
+	required uint32 LockRatio 		= 3;		// 剧情锁定倍率		
+	optional uint64 TotalRward 		= 4;		// 实际应得金币总奖励
+	repeated bool AttackResult		= 5;		// 攻击目标 true表示可以被命中 false表示不可以被命中
+	repeated bool AttackStatus		= 6;		// 5个怪物 状态 true表示已攻击 false表示未攻击
+}
+
+// 过敏源剧情攻击请求
+message AllergenAttackReq {
+	required uint32 Index 		= 1;		// 怪物索引
+}
+
+// 过敏源剧情攻击回应
+message AllergenAttackRsp {
+	required uint32 Index 	= 1;					// 怪物索引
+	required uint64 Delta 	= 2;					// 增量金币
+	required uint64 FirstReward 	= 3;			// 首杀奖励
+	required uint64 SingleReward 	= 4;			// 单次奖励
+	required uint64 ComboReward 	= 5;			// 连接奖励
+	required uint64 ComboCount 	= 6;				// 连击数
+}
+
+// 过敏源剧情结算
+message AllergenSettleRsp {
+	required int64 Money 			= 1;		// 当前金币
+	required uint64 Delta 	= 2;			// 增量金币
+}
+
+// 清理结算标志
+message ResetAllergenSettleFlagReq {
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 消息协议
+message Message {
+	// 玩家ID
+	optional int64 PlayerId = 1;
+	// 操作码
+	required int32 Ops = 2;
+	// 数据
+	optional bytes Data = 3;
+}
+
+// Http响应结果篡改
+message HttpResult {
+	required int32 En = 1;
+	optional bytes Data = 2;
+}
+
+// 请求分配游戏服务器
+message AllocServer {
+	required int32 GameId = 1;
+	required int32 GroupId = 2;
+}
+
+//请求分配游戏服务器返回
+message AllocServerAddressResp{
+	required string Address = 1;
+}
+
+message QPPartnerUserLoginReq {
+	required int32 GameID = 1;
+	required int32 PartnerID = 2;
+	required int32 MarkerID = 3;
+	required string Version = 4;
+	required string UnionID = 5;
+	required string NickName = 6;
+	required string HeadimgUrl = 7;
+	required int32 Sex = 8;
+	optional bool Json = 9[default = false];
+}
+
+// 发送心跳到服务器
+message PingGameReq {
+}
+
+// 接收服务器返回的心跳
+message PingGameRsp {
+}
+
+// 加入房间请求
+message JoinRoomReq {
+}
+
+// 加入房间回应
+message JoinRoomRsp {
+}
+
+// 退出房间请求
+message LeaveRoomReq {
+}
+
+// 退出房间回应
+message LeaveRoomRsp {
+}
+
+// 游戏开始请求
+message StartGameReq {
+}
+
+// 游戏开始回应
+message StartGameRsp {
+}
+
+// 重新开始游戏请求
+message RestartGameReq {
+}
+
+// 重新开始游戏回应
+message RestartGameRsp {
+}
+
+
+// 翻开一张卡牌回应
+message OpenOneCardRsp {
+}
+
+// 使用一张卡牌回应
+message UseOneCardRsp {
+}
+
+// 上阵英雄回应
+message EquipHeroRsp {
+}
+
+// 下阵英雄回应
+message UnEquipHeroRsp {
+}
+
+// 下阵英雄回应
+message RespawnEntityRsp {
+}
+
+// 登出游戏请求
+message LogoutGameReq {
+}
+
+// 登出游戏回应
+message LogoutGameRsp {
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////

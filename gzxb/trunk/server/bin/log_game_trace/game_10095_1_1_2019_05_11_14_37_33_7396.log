@@ -1,0 +1,8 @@
+2019/05/11 14:37:33.598200 git.huoys.com/qp/common/hall_logic/launcher.OnStart 40 Warning: url.json:&{%!s(int32=10095) %!s(int32=1) %!s(int32=0) %!s(int32=1) %!s(int=4)}.
+2019/05/11 14:37:33.600200 git.huoys.com/qp/common/hall_logic/launcher.OnStart 42 Warning: Start Game(10095) Arena(1) Server(1) Sucess !
+2019/05/11 14:37:33.611200 git.huoys.com/qp/common/hall_message_s.RegisterGame 110 Info: RegisterGame:1,1.
+2019/05/11 14:37:33.619200 git.huoys.com/qp/common/hall_message_s.RegisterGame 126 Info: register game msgRecv.En: 0.
+2019/05/11 14:37:33.679200 git.huoys.com/qp/cells/module/web.(*webmodule).OnInit 44 Warning: http url:0.0.0.0:9011.
+2019/05/11 14:37:33.685200 git.huoys.com/qp/common/http_message.acceptHTTPRequest 80 Info: Http server listen at:0.0.0.0:9011
+2019/05/11 14:37:38.530200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:37:39.314200 git.huoys.com/qp/common/hall_logic/player_base.(*stHallData).Serialize 68 Warning: baseuserinfoget:{"baseuserinfoget":{"Sex":"0","NickName":"QP_P150015E675E02B","Partner":[{}]}},name:QP_P150015E675E02B,nickName:QP_P150015E675E02B,weChatName:.

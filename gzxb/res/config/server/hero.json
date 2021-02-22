@@ -1,0 +1,7 @@
+[
+	{ "ID":200, "Condition":1000, "EnableDemount":1, "isUnlock":1 },
+	{ "ID":201, "Condition":0, "EnableDemount":0, "isUnlock":1 },
+	{ "ID":202, "Condition":100, "EnableDemount":1, "isUnlock":1 },
+	{ "ID":203, "Condition":5000, "EnableDemount":1, "isUnlock":0 },
+	{ "ID":204, "Condition":5000, "EnableDemount":1, "isUnlock":0 }
+]

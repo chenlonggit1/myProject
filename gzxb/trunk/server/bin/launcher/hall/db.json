@@ -1,0 +1,22 @@
+{
+	"Games": [{
+		"GameID": 10095,
+		"Host": "192.168.217.146:39000",
+		"Database": "game_qp_cells",
+		"UserID": "SY_GameServer1",
+		"Password": "cd24fb0d6963f7d2.NET",
+		"EncryptEnabled": false,
+		"SQLConnectionTimeout": 5
+	}],
+	"redis": {
+		"temporary": {
+			"addr": "172.12.10.119:6379",
+			"pwd": ""
+		},
+		"persistent": {
+			"addr": "172.13.0.52:6379",
+			"pwd": ""
+		}
+	},
+	"RedisFlag":false
+}

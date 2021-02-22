@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "ef_huanongxinglianqiujun_attack1_01",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.36666666666666664,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "xian": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.03333333333333333,
+                "value": {
+                  "__uuid__": "60499053-4d32-4f07-84f8-71cc9db6c8c7"
+                }
+              },
+              {
+                "frame": 0.1,
+                "value": {
+                  "__uuid__": "361254fb-9e0e-4d9e-9a7f-53510c1202e4"
+                }
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": {
+                  "__uuid__": "cc607aea-ef9f-4b46-95c7-34b903ccf565"
+                }
+              },
+              {
+                "frame": 0.23333333333333334,
+                "value": {
+                  "__uuid__": "cbca0cf2-a264-442f-bc29-5fb082c81431"
+                }
+              },
+              {
+                "frame": 0.3,
+                "value": {
+                  "__uuid__": "d39c6aed-f65f-4971-a577-f784528d808d"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.03333333333333333,
+              "value": 255
+            },
+            {
+              "frame": 0.3,
+              "value": 255
+            },
+            {
+              "frame": 0.36666666666666664,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

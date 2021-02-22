@@ -1,0 +1,57 @@
+2019/05/14 09:18:17.247200 git.huoys.com/qp/hall/sql.GetPassportID 166 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/14 09:25:27.310200 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/14 09:25:27.311200 git.huoys.com/qp/hall/sql.GetPassportID 166 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	

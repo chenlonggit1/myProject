@@ -1,0 +1,139 @@
+
+aixibao01.png
+size: 433,433
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm
+  rotate: false
+  xy: 326, 254
+  size: 101, 86
+  orig: 101, 86
+  offset: 0, 0
+  index: -1
+L_foot
+  rotate: false
+  xy: 2, 2
+  size: 32, 23
+  orig: 32, 23
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: false
+  xy: 2, 27
+  size: 131, 67
+  orig: 131, 67
+  offset: 0, 0
+  index: -1
+L_leg
+  rotate: false
+  xy: 169, 30
+  size: 54, 58
+  orig: 54, 58
+  offset: 0, 0
+  index: -1
+L_leg1
+  rotate: true
+  xy: 135, 28
+  size: 30, 32
+  orig: 30, 32
+  offset: 0, 0
+  index: -1
+L_upper
+  rotate: false
+  xy: 228, 251
+  size: 96, 95
+  orig: 96, 95
+  offset: 0, 0
+  index: -1
+R_arm
+  rotate: false
+  xy: 227, 84
+  size: 103, 46
+  orig: 103, 46
+  offset: 0, 0
+  index: -1
+R_foot
+  rotate: false
+  xy: 381, 90
+  size: 34, 19
+  orig: 34, 19
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: false
+  xy: 228, 348
+  size: 129, 83
+  orig: 129, 83
+  offset: 0, 0
+  index: -1
+R_leg
+  rotate: false
+  xy: 381, 111
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+R_leg1
+  rotate: false
+  xy: 135, 60
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+R_upper
+  rotate: false
+  xy: 332, 67
+  size: 47, 76
+  orig: 47, 76
+  offset: 0, 0
+  index: -1
+attack
+  rotate: true
+  xy: 359, 342
+  size: 89, 69
+  orig: 89, 69
+  offset: 0, 0
+  index: -1
+close
+  rotate: true
+  xy: 311, 145
+  size: 104, 58
+  orig: 104, 58
+  offset: 0, 0
+  index: -1
+die
+  rotate: false
+  xy: 2, 96
+  size: 178, 144
+  orig: 178, 144
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 242
+  size: 224, 189
+  orig: 224, 189
+  offset: 0, 0
+  index: -1
+nomal
+  rotate: true
+  xy: 371, 163
+  size: 89, 58
+  orig: 89, 58
+  offset: 0, 0
+  index: -1
+spine
+  rotate: true
+  xy: 227, 132
+  size: 108, 82
+  orig: 108, 82
+  offset: 0, 0
+  index: -1
+yinying
+  rotate: true
+  xy: 182, 90
+  size: 150, 43
+  orig: 150, 43
+  offset: 0, 0
+  index: -1

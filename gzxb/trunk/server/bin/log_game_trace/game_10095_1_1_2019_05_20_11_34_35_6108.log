@@ -1,0 +1,40 @@
+2019/05/20 11:34:35.299000 git.huoys.com/qp/common/hall_logic/launcher.OnStart 40 Warning: url.json:&{%!s(int32=10095) %!s(int32=1) %!s(int32=0) %!s(int32=1) %!s(int=4)}.
+2019/05/20 11:34:35.300000 git.huoys.com/qp/common/hall_logic/launcher.OnStart 42 Warning: Start Game(10095) Arena(1) Server(1) Sucess !
+2019/05/20 11:34:35.300000 git.huoys.com/qp/common/hall_message_s.RegisterGame 110 Info: RegisterGame:1,1.
+2019/05/20 11:34:35.307000 git.huoys.com/qp/common/hall_message_s.RegisterGame 126 Info: register game msgRecv.En: 0.
+2019/05/20 11:34:35.320000 git.huoys.com/qp/cells/module/web.(*webmodule).OnInit 44 Warning: http url:0.0.0.0:9011.
+2019/05/20 11:34:35.327000 git.huoys.com/qp/common/http_message.acceptHTTPRequest 80 Info: Http server listen at:0.0.0.0:9011
+2019/05/20 11:34:40.295000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:34:45.310000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:34:50.309000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:34:55.300000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:35:00.298000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:35:05.295000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:35:10.303000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:35:15.297000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:35:20.293000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:35:25.298000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:35:30.291000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:35:35.318000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:35:40.317000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:35:45.296000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:35:50.295000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:35:55.308000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:36:00.291000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:36:05.291000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:36:10.301000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:36:15.291000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:36:20.292000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:36:25.294000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:36:30.298000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:36:35.295000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:36:40.297000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:36:45.296000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:36:50.292000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:36:55.307000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:37:00.302000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:37:05.293000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:37:10.307000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:37:15.297000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:37:20.292000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/20 11:37:25.295000 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.

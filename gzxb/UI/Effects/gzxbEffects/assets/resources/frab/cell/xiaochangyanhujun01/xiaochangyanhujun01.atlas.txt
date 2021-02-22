@@ -1,0 +1,97 @@
+
+xiaochangyanhujun01.png
+size: 321,321
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0001
+  rotate: false
+  xy: 194, 221
+  size: 96, 41
+  orig: 96, 41
+  offset: 0, 0
+  index: -1
+L_arm
+  rotate: true
+  xy: 292, 218
+  size: 44, 26
+  orig: 44, 26
+  offset: 0, 0
+  index: -1
+L_foot
+  rotate: true
+  xy: 155, 84
+  size: 55, 37
+  orig: 55, 37
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: false
+  xy: 194, 78
+  size: 37, 27
+  orig: 37, 27
+  offset: 0, 0
+  index: -1
+L_leg
+  rotate: false
+  xy: 194, 143
+  size: 42, 38
+  orig: 42, 38
+  offset: 0, 0
+  index: -1
+L_upper
+  rotate: false
+  xy: 194, 107
+  size: 40, 34
+  orig: 40, 34
+  offset: 0, 0
+  index: -1
+R_arm
+  rotate: true
+  xy: 155, 24
+  size: 58, 28
+  orig: 58, 28
+  offset: 0, 0
+  index: -1
+R_foot
+  rotate: false
+  xy: 194, 183
+  size: 51, 36
+  orig: 51, 36
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: true
+  xy: 289, 185
+  size: 31, 26
+  orig: 31, 26
+  offset: 0, 0
+  index: -1
+R_leg
+  rotate: false
+  xy: 247, 184
+  size: 40, 35
+  orig: 40, 35
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 141
+  size: 190, 178
+  orig: 190, 178
+  offset: 0, 0
+  index: -1
+spine
+  rotate: false
+  xy: 2, 2
+  size: 151, 137
+  orig: 151, 137
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 194, 264
+  size: 124, 55
+  orig: 124, 55
+  offset: 0, 0
+  index: -1

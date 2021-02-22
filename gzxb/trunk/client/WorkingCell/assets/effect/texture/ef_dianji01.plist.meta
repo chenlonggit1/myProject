@@ -1,0 +1,56 @@
+{
+  "ver": "1.2.4",
+  "uuid": "6a24945e-47d0-475d-a268-dfdfe5771c82",
+  "rawTextureUuid": "42270f11-dcca-4179-9b22-192c26656b66",
+  "size": {
+    "width": 128,
+    "height": 256
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "ef_dianji_glow01_002.png": {
+      "ver": "1.0.3",
+      "uuid": "3a5df08e-70b5-4331-857f-afbcf4077524",
+      "rawTextureUuid": "42270f11-dcca-4179-9b22-192c26656b66",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 106,
+      "height": 106,
+      "rawWidth": 256,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    },
+    "ef_dianji_glow02_002.png": {
+      "ver": "1.0.3",
+      "uuid": "ca933521-6e93-4037-b388-03c6b2c18f18",
+      "rawTextureUuid": "42270f11-dcca-4179-9b22-192c26656b66",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 110,
+      "width": 96,
+      "height": 96,
+      "rawWidth": 256,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

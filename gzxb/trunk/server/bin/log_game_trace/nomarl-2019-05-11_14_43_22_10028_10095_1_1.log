@@ -1,0 +1,48 @@
+2019/05/11 14:43:22.296200 git.huoys.com/qp/cells/config.reloadGameConfig 370 Warning: Reload config......
+2019/05/11 14:43:24.303200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-11_14_43_24
+2019/05/11 14:43:27.315200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-11_14_43_27
+2019/05/11 14:43:32.204200 git.huoys.com/qp/cells/module/auth.(*authmodule).onConnect 74 Info: AUTH onConnect sid:1 addr:172.12.10.126:60596 StartTime:1557557012.....
+2019/05/11 14:43:32.314200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-11_14_43_32
+2019/05/11 14:43:33.115200 git.huoys.com/qp/cells/module/auth.(*authmodule).onLoginGameReq 162 Info: AUTH onLoginGameReq sid:1 uid:150015 amount:107220990 money:107220990 baseinfo:{"baseuserinfoget":{"Sex":"0","NickName":"QP_P150015E675E02B","Partner":[{}]}} keyvaluedata:{"KV_TableData":"{\"LastLogin\":1557482783,\"PollingSec\":1557556860,\"Ratio\":10,\"Heroes\":[200,201,202,201,201,201,201,201,201],\"Positions\":[201,0,0,0,0],\"KillCount\":222,\"AllergenData\":{\"TaxReturnPool\":1950,\"SettleReward\":200,\"SettleFlag\":true,\"LastTick\":1557547879}}"}
+2019/05/11 14:43:33.115200 git.huoys.com/qp/cells/module/user.(*usermodule).onJoinRoom 146 Info: USER onJoinRoom sid:1 uid:150015
+2019/05/11 14:43:33.116200 git.huoys.com/qp/cells/module/room.(*roommodule).OnUserEnter 118 Info: ROOM OnUserEnter uid:150015 table_id:1
+2019/05/11 14:43:34.315200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-11_14_43_34
+2019/05/11 14:43:37.315200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-11_14_43_37
+2019/05/11 14:43:42.315200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-11_14_43_42
+2019/05/11 14:43:44.029200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).OnOpenAllergen 146 Info: OnOpenAllergen uid:150015
+2019/05/11 14:43:44.315200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-11_14_43_44
+2019/05/11 14:43:47.315200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-11_14_43_47
+2019/05/11 14:43:52.314200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-11_14_43_52
+2019/05/11 14:43:54.315200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-11_14_43_54
+2019/05/11 14:43:56.259200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:200 single:200 combo:0 count:1
+2019/05/11 14:43:57.315200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-11_14_43_57
+2019/05/11 14:44:00.567200 git.huoys.com/qp/cells/module/auth.(*authmodule).onDisConnect 82 Info: AUTH onDisConnect sid:1 addr:172.12.10.126:60596 EndTime:1557557040.....
+2019/05/11 14:44:00.568200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUserLogout 82 Info: USER OnUserLogout uid:150015 sid:1 logout_type:1
+2019/05/11 14:44:00.568200 git.huoys.com/qp/cells/module/room.(*roommodule).OnUserExit 138 Info: ROOM OnUserExit uid:150015 table_id:1 exit_type:1
+2019/05/11 14:44:02.320200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-11_14_44_02
+2019/05/11 14:44:04.320200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-11_14_44_04
+2019/05/11 14:44:07.321200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-11_14_44_07
+2019/05/11 14:44:12.327200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-11_14_44_12
+2019/05/11 14:44:14.327200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-11_14_44_14
+2019/05/11 14:44:17.324200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-11_14_44_17
+2019/05/11 14:44:22.325200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-11_14_44_22
+2019/05/11 14:44:24.326200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-11_14_44_24
+2019/05/11 14:44:27.324200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-11_14_44_27
+2019/05/11 14:44:30.135200 git.huoys.com/qp/cells/module/auth.(*authmodule).onConnect 74 Info: AUTH onConnect sid:2 addr:172.12.10.126:60937 StartTime:1557557070.....
+2019/05/11 14:44:31.173200 git.huoys.com/qp/cells/module/auth.(*authmodule).onLoginGameReq 162 Info: AUTH onLoginGameReq sid:2 uid:150015 amount:107220830 money:107220830 baseinfo:{"baseuserinfoget":{"Sex":"0","NickName":"QP_P150015E675E02B","Partner":[{}]}} keyvaluedata:{"KV_TableData":"{\"LastLogin\":1557482783,\"PollingSec\":1557557013,\"Ratio\":10,\"Heroes\":[200,201,202,201,201,201,201,201,201],\"Positions\":[201,0,0,0,0],\"KillCount\":222,\"AllergenData\":{\"TaxReturnPool\":1950,\"SettleReward\":200,\"SettleFlag\":true,\"LastTick\":1557547879}}"}
+2019/05/11 14:44:31.173200 git.huoys.com/qp/cells/module/user.(*usermodule).onJoinRoom 146 Info: USER onJoinRoom sid:2 uid:150015
+2019/05/11 14:44:31.176200 git.huoys.com/qp/cells/module/room.(*roommodule).OnUserEnter 118 Info: ROOM OnUserEnter uid:150015 table_id:1
+2019/05/11 14:44:32.324200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-11_14_44_32
+2019/05/11 14:44:34.323200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-11_14_44_34
+2019/05/11 14:44:36.561200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).OnOpenAllergen 146 Info: OnOpenAllergen uid:150015
+2019/05/11 14:44:37.324200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-11_14_44_37
+2019/05/11 14:44:42.326200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-11_14_44_42
+2019/05/11 14:44:44.327200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-11_14_44_44
+2019/05/11 14:44:44.432200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:200 single:200 combo:0 count:1
+2019/05/11 14:44:46.624200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/11 14:44:47.323200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-11_14_44_47
+2019/05/11 14:44:48.423200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/11 14:44:50.160200 git.huoys.com/qp/cells/module/auth.(*authmodule).onDisConnect 82 Info: AUTH onDisConnect sid:2 addr:172.12.10.126:60937 EndTime:1557557090.....
+2019/05/11 14:44:50.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUserLogout 82 Info: USER OnUserLogout uid:150015 sid:2 logout_type:1
+2019/05/11 14:44:50.171200 git.huoys.com/qp/cells/module/room.(*roommodule).OnUserExit 138 Info: ROOM OnUserExit uid:150015 table_id:1 exit_type:1
+2019/05/11 14:44:52.323200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-11_14_44_52

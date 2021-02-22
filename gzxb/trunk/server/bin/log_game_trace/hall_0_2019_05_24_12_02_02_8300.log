@@ -1,0 +1,1750 @@
+2019/05/24 12:02:02.705000 main.main 70 Info: Hall start now ....
+2019/05/24 12:02:02.706000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 12:02:02.706000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 12:02:02.710000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 93 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_bpl&connection+timeout=30&log=63&encrypt=disable.
+2019/05/24 12:02:02.710000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 100 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_bpl&connection+timeout=30&log=63&encrypt=disable.
+2019/05/24 12:02:02.720000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 108 Info: DB game_qp_bpl (172.13.0.58:39000) connected.
+2019/05/24 12:02:02.721000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 93 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_dds&connection+timeout=30&log=63&encrypt=disable.
+2019/05/24 12:02:02.722000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 100 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_dds&connection+timeout=30&log=63&encrypt=disable.
+2019/05/24 12:02:02.734000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 108 Info: DB game_qp_dds (172.13.0.58:39000) connected.
+2019/05/24 12:02:02.736000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 93 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_config&connection+timeout=30&log=63&encrypt=disable.
+2019/05/24 12:02:02.737000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 100 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_config&connection+timeout=30&log=63&encrypt=disable.
+2019/05/24 12:02:02.743000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 108 Info: DB game_qp_config (172.13.0.58:39000) connected.
+2019/05/24 12:02:02.744000 git.huoys.com/qp/hall/sql.ConnectDB 106 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=Passport.
+2019/05/24 12:02:02.803000 git.huoys.com/qp/hall/sql.ConnectDB 120 Info: DB Passport (113.106.164.43:32960) connected.
+2019/05/24 12:02:02.804000 git.huoys.com/qp/hall/sql.ConnectDB 106 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=SY_Money.
+2019/05/24 12:02:02.833000 git.huoys.com/qp/hall/sql.ConnectDB 120 Info: DB SY_Money (113.106.164.43:32960) connected.
+2019/05/24 12:02:02.839000 git.huoys.com/qp/hall/sql.ConnectDB 106 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=CYMoney.
+2019/05/24 12:02:02.885000 git.huoys.com/qp/hall/sql.ConnectDB 120 Info: DB CYMoney (113.106.164.43:32960) connected.
+2019/05/24 12:02:02.886000 git.huoys.com/qp/hall/sql.ConnectDB 106 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=SY_GameCenter.
+2019/05/24 12:02:02.907000 git.huoys.com/qp/hall/sql.ConnectDB 120 Info: DB SY_GameCenter (113.106.164.43:32960) connected.
+2019/05/24 12:02:02.908000 main.main 87 Warning: start Hall sucess !
+2019/05/24 12:02:02.909000 git.huoys.com/qp/hall/http.Startup 41 Warning: http url:0.0.0.0:8000.
+2019/05/24 12:02:02.909000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.acceptHTTPRequest 80 Info: Http server listen at:0.0.0.0:8000
+2019/05/24 12:02:16.210000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 12:02:16.211000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 12:03:01.441000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 12:03:01.442000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 12:03:58.130000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 12:03:58.131000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 12:04:32.929000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 12:04:32.931000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 12:12:03.795000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 12:22:03.810000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 12:25:50.810000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 12:25:50.812000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 12:26:40.880000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 12:26:40.881000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 12:27:34.881000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 12:27:34.884000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 12:28:30.242000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 12:28:30.243000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 12:29:00.424000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 12:29:00.425000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 12:29:24.192000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 12:29:24.195000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 12:29:49.704000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 12:29:49.705000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 12:30:22.921000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 12:30:22.922000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 12:32:04.369000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 12:42:04.379000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 12:52:04.384000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 12:53:18.648000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 12:53:18.648000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 13:02:04.708000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 13:12:04.713000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 13:22:04.758000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 13:32:04.807000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 13:42:04.807000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 13:52:04.809000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 14:02:04.812000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 14:12:04.829000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 14:22:04.832000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 14:32:04.835000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 14:37:07.890000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 14:37:07.891000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 14:38:54.160000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 14:38:54.160000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 14:39:29.394000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 14:39:29.394000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 14:40:01.793000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 14:40:01.794000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 14:40:51.592000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 14:40:51.593000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 14:42:05.526000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 14:42:45.758000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 14:42:45.759000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 14:44:58.008000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 14:44:58.009000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 14:47:04.455000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 14:47:04.456000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 14:52:05.776000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 14:59:18.578000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 14:59:18.579000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:02:05.918000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 15:02:44.841000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:02:44.841000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:03:16.463000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:03:16.464000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:04:32.935000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:04:32.935000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:05:06.404000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:05:06.412000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:05:48.750000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:05:48.751000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:06:47.878000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:06:47.878000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:12:06.477000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 15:12:23.135000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:12:23.135000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:14:06.906000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:14:06.907000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:15:20.585000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:15:20.586000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:22:06.598000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 15:29:32.578000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:29:32.578000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:30:07.161000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:30:07.162000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:32:06.945000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 15:33:18.403000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:33:18.404000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:34:35.200000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:34:35.201000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:35:29.394000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:35:29.395000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:36:25.153000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:36:25.154000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:38:47.692000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:38:47.695000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:39:06.602000 git.huoys.com/qp/hall/sql.GetPassportID 186 Error: PrPub_UserInfo_CheckLogin database Scan SQL.Failed:read tcp 172.12.10.126:59687->113.106.164.43:32960: wsarecv: An established connection was aborted by the software in your host machine., dbResult(0),dbMsg().
+2019/05/24 15:39:08.106000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:39:08.125000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:41:06.855000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:41:06.855000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:42:08.114000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 15:42:45.820000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:42:45.821000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:43:13.585000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:43:13.585000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:44:58.304000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 15:44:58.304000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 15:52:08.254000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 16:01:39.269000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 16:01:39.270000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 16:01:39.270000 git.huoys.com/qp/hall/sql.GetPassportID 186 Error: PrPub_UserInfo_CheckLogin database Scan SQL.Failed:failed to send SQL Batch: write tcp 172.12.10.126:53435->113.106.164.43:32960: wsasend: An existing connection was forcibly closed by the remote host., dbResult(0),dbMsg().
+2019/05/24 16:01:53.600000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 16:01:53.625000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 16:02:07.637000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 16:02:07.637000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb2';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 16:02:08.550000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 16:02:45.896000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 16:02:45.897000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb2';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 16:03:19.249000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 16:03:19.249000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb2';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 16:03:51.247000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 16:03:51.247000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb2';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 16:05:12.975000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 16:05:12.976000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb2';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 16:12:08.720000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 16:22:08.727000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 16:24:35.530000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 16:24:35.530000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb2';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 16:28:09.319000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 16:28:09.320000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb2';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 16:32:08.755000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 16:42:08.757000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 16:46:37.328000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 16:46:37.328000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 16:52:09.087000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 17:02:09.089000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 17:05:09.985000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 17:05:09.985000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb2';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 17:12:09.105000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 17:22:09.115000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 17:32:09.189000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 17:42:09.216000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 17:52:09.240000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 17:57:38.207000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 17:57:38.207000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb2';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 17:58:05.767000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 17:58:05.767000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb2';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 18:00:05.047000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/24 18:00:05.047000 git.huoys.com/qp/hall/sql.GetPassportID 167 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/24 18:02:09.403000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 18:12:09.415000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 18:22:09.417000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 18:32:09.417000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 18:42:09.419000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 18:52:09.420000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 19:02:09.419000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 19:12:09.420000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 19:22:09.420000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 19:32:09.428000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 19:42:09.428000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 19:52:09.432000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 20:02:09.432000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 20:12:09.434000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 20:22:09.436000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 20:32:09.438000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 20:42:09.439000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 20:52:09.439000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 21:02:09.445000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 21:12:09.446000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 21:22:09.454000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 21:32:09.451000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 21:42:09.454000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 21:52:09.457000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 22:02:09.465000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 22:12:09.470000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 22:22:09.471000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 22:32:09.472000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 22:42:09.474000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 22:52:09.478000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 23:02:09.478000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 23:12:09.484000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 23:22:09.491000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 23:32:09.493000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 23:42:09.493000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/24 23:52:09.495000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/25 00:02:09.494000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)

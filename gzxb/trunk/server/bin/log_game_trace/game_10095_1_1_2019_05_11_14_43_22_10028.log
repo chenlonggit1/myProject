@@ -1,0 +1,33 @@
+2019/05/11 14:43:22.344200 git.huoys.com/qp/common/hall_logic/launcher.OnStart 40 Warning: url.json:&{%!s(int32=10095) %!s(int32=1) %!s(int32=0) %!s(int32=1) %!s(int=4)}.
+2019/05/11 14:43:22.352200 git.huoys.com/qp/common/hall_logic/launcher.OnStart 42 Warning: Start Game(10095) Arena(1) Server(1) Sucess !
+2019/05/11 14:43:22.376200 git.huoys.com/qp/common/hall_message_s.RegisterGame 110 Info: RegisterGame:1,1.
+2019/05/11 14:43:22.435200 git.huoys.com/qp/common/hall_message_s.RegisterGame 126 Info: register game msgRecv.En: 0.
+2019/05/11 14:43:22.541200 git.huoys.com/qp/cells/module/web.(*webmodule).OnInit 44 Warning: http url:0.0.0.0:9011.
+2019/05/11 14:43:22.672200 git.huoys.com/qp/common/http_message.acceptHTTPRequest 80 Info: Http server listen at:0.0.0.0:9011
+2019/05/11 14:43:27.333200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:43:32.318200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:43:33.115200 git.huoys.com/qp/common/hall_logic/player_base.(*stHallData).Serialize 68 Warning: baseuserinfoget:{"baseuserinfoget":{"Sex":"0","NickName":"QP_P150015E675E02B","Partner":[{}]}},name:QP_P150015E675E02B,nickName:QP_P150015E675E02B,weChatName:.
+2019/05/11 14:43:37.321200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:43:42.319200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:43:47.325200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:43:52.324200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:43:57.323200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:44:00.598200 git.huoys.com/qp/common/hall_message_s.UpdateKeyValues 238 Info: UpdateKeyValues msgRecv.En: 0.
+2019/05/11 14:44:00.604200 git.huoys.com/qp/common/hall_logic/player_base.(*PlayerBase).LogoutGame 79 Warning: LogoutGame playerId(150015),money(107220830),detal(-160),vipPointValue(0),1557557013,1557557040,27.
+2019/05/11 14:44:00.614200 git.huoys.com/qp/common/hall_logic/player_base.(*PlayerBase).LogoutGame 95 Info: LogoutGame SaveVipPoint(150015) end.
+2019/05/11 14:44:00.661200 git.huoys.com/qp/common/hall_logic/player_base.(*PlayerBase).LogoutGame 124 Info: LogoutGame LeaveRoom(150015) end .
+2019/05/11 14:44:02.328200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:44:07.338200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:44:12.340200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:44:17.335200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:44:22.334200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:44:27.334200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:44:31.171200 git.huoys.com/qp/common/hall_logic/player_base.(*stHallData).Serialize 68 Warning: baseuserinfoget:{"baseuserinfoget":{"Sex":"0","NickName":"QP_P150015E675E02B","Partner":[{}]}},name:QP_P150015E675E02B,nickName:QP_P150015E675E02B,weChatName:.
+2019/05/11 14:44:32.330200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:44:37.335200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:44:42.331200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:44:47.331200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/11 14:44:50.205200 git.huoys.com/qp/common/hall_message_s.UpdateKeyValues 238 Info: UpdateKeyValues msgRecv.En: 0.
+2019/05/11 14:44:50.218200 git.huoys.com/qp/common/hall_logic/player_base.(*PlayerBase).LogoutGame 79 Warning: LogoutGame playerId(150015),money(107221080),detal(250),vipPointValue(0),1557557071,1557557090,19.
+2019/05/11 14:44:50.233200 git.huoys.com/qp/common/hall_logic/player_base.(*PlayerBase).LogoutGame 95 Info: LogoutGame SaveVipPoint(150015) end.
+2019/05/11 14:44:50.302200 git.huoys.com/qp/common/hall_logic/player_base.(*PlayerBase).LogoutGame 124 Info: LogoutGame LeaveRoom(150015) end .

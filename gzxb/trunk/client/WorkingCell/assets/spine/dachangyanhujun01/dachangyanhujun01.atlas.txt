@@ -1,0 +1,139 @@
+
+dachangyanhujun01.png
+size: 534,534
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L
+  rotate: false
+  xy: 2, 3
+  size: 120, 94
+  orig: 120, 94
+  offset: 0, 0
+  index: -1
+L_ear
+  rotate: true
+  xy: 103, 183
+  size: 171, 144
+  orig: 171, 144
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: true
+  xy: 249, 189
+  size: 70, 131
+  orig: 70, 131
+  offset: 0, 0
+  index: -1
+R
+  rotate: true
+  xy: 244, 33
+  size: 20, 74
+  orig: 20, 74
+  offset: 0, 0
+  index: -1
+R_ear
+  rotate: true
+  xy: 124, 20
+  size: 92, 118
+  orig: 92, 118
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: false
+  xy: 249, 261
+  size: 106, 115
+  orig: 106, 115
+  offset: 0, 0
+  index: -1
+attack
+  rotate: false
+  xy: 382, 132
+  size: 105, 68
+  orig: 105, 68
+  offset: 0, 0
+  index: -1
+attack mouth
+  rotate: true
+  xy: 356, 38
+  size: 92, 93
+  orig: 92, 93
+  offset: 0, 0
+  index: -1
+close
+  rotate: false
+  xy: 249, 122
+  size: 105, 65
+  orig: 105, 65
+  offset: 0, 0
+  index: -1
+die
+  rotate: true
+  xy: 413, 366
+  size: 166, 116
+  orig: 166, 116
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 236, 378
+  size: 175, 154
+  orig: 175, 154
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 103, 114
+  size: 141, 67
+  orig: 141, 67
+  offset: 0, 0
+  index: -1
+mouth1
+  rotate: true
+  xy: 451, 38
+  size: 92, 60
+  orig: 92, 60
+  offset: 0, 0
+  index: -1
+nomal
+  rotate: false
+  xy: 246, 55
+  size: 105, 65
+  orig: 105, 65
+  offset: 0, 0
+  index: -1
+spine
+  rotate: false
+  xy: 2, 356
+  size: 232, 176
+  orig: 232, 176
+  offset: 0, 0
+  index: -1
+spine1
+  rotate: true
+  xy: 2, 99
+  size: 255, 99
+  orig: 255, 99
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 357, 272
+  size: 133, 47
+  orig: 133, 47
+  offset: 0, 0
+  index: -1
+tongue
+  rotate: true
+  xy: 382, 202
+  size: 68, 135
+  orig: 68, 135
+  offset: 0, 0
+  index: -1
+yinying
+  rotate: false
+  xy: 382, 321
+  size: 150, 43
+  orig: 150, 43
+  offset: 0, 0
+  index: -1

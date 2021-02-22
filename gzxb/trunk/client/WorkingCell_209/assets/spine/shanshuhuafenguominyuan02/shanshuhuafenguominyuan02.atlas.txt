@@ -1,0 +1,83 @@
+
+shanshuhuafenguominyuan02.png
+size: 384,384
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0001
+  rotate: true
+  xy: 172, 15
+  size: 96, 41
+  orig: 96, 41
+  offset: 0, 0
+  index: -1
+L_foot
+  rotate: false
+  xy: 84, 120
+  size: 57, 67
+  orig: 57, 67
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: true
+  xy: 2, 115
+  size: 72, 80
+  orig: 72, 80
+  offset: 0, 0
+  index: -1
+R_foot
+  rotate: false
+  xy: 143, 113
+  size: 63, 74
+  orig: 63, 74
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: true
+  xy: 299, 36
+  size: 77, 83
+  orig: 77, 83
+  offset: 0, 0
+  index: -1
+attack
+  rotate: true
+  xy: 86, 8
+  size: 103, 84
+  orig: 103, 84
+  offset: 0, 0
+  index: -1
+close
+  rotate: true
+  xy: 2, 5
+  size: 108, 82
+  orig: 108, 82
+  offset: 0, 0
+  index: -1
+die
+  rotate: false
+  xy: 216, 115
+  size: 148, 125
+  orig: 148, 125
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 216, 242
+  size: 161, 140
+  orig: 161, 140
+  offset: 0, 0
+  index: -1
+nomal
+  rotate: true
+  xy: 215, 29
+  size: 84, 82
+  orig: 84, 82
+  offset: 0, 0
+  index: -1
+spine
+  rotate: false
+  xy: 2, 189
+  size: 212, 193
+  orig: 212, 193
+  offset: 0, 0
+  index: -1

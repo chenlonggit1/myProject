@@ -1,0 +1,13 @@
+2019/05/20 11:34:31.981000 main.main 70 Info: Hall start now ....
+2019/05/20 11:34:31.998000 git.huoys.com/qp/hall/sql.ConnectDB 106 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=Passport.
+2019/05/20 11:34:32.031000 git.huoys.com/qp/hall/sql.ConnectDB 120 Info: DB Passport (113.106.164.43:32960) connected.
+2019/05/20 11:34:32.031000 git.huoys.com/qp/hall/sql.ConnectDB 106 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=SY_Money.
+2019/05/20 11:34:32.064000 git.huoys.com/qp/hall/sql.ConnectDB 120 Info: DB SY_Money (113.106.164.43:32960) connected.
+2019/05/20 11:34:32.064000 git.huoys.com/qp/hall/sql.ConnectDB 106 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=CYMoney.
+2019/05/20 11:34:32.099000 git.huoys.com/qp/hall/sql.ConnectDB 120 Info: DB CYMoney (113.106.164.43:32960) connected.
+2019/05/20 11:34:32.100000 git.huoys.com/qp/hall/sql.ConnectDB 106 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=SY_GameCenter.
+2019/05/20 11:34:32.142000 git.huoys.com/qp/hall/sql.ConnectDB 120 Info: DB SY_GameCenter (113.106.164.43:32960) connected.
+2019/05/20 11:34:32.142000 main.main 84 Warning: start Hall sucess !
+2019/05/20 11:34:32.143000 main.main 89 Warning: start Hall sucess ! signature:31b412bae7910963d8d772defdd777b2f8df60cb
+2019/05/20 11:34:32.143000 git.huoys.com/qp/hall/http.Startup 42 Warning: http url:0.0.0.0:8000.
+2019/05/20 11:34:32.143000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.acceptHTTPRequest 80 Info: Http server listen at:0.0.0.0:8000

@@ -1,0 +1,16 @@
+2019/06/03 18:35:58.622000 git.huoys.com/qp/gs/vendor/git.huoys.com/game/common/config.PrintfGlst 211 Info: url.json config:1
+ 
+ - GameId(10095),len(1)
+ GroupId(1)
+ ServerId(1) RoomId(9) NginxTcp(127.0.0.1:10211) 
+ ServerId(2) RoomId(10) NginxTcp(127.0.0.1:10212) 
+ ServerId(3) RoomId(11) NginxTcp(127.0.0.1:10213) 
+ ServerId(4) RoomId(12) NginxTcp(127.0.0.1:10214) 
+2019/06/03 18:35:58.622000 main.main 90 Info: GS start now ....
+2019/06/03 18:35:58.623000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 93 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_cells&connection+timeout=30&log=63&encrypt=disable.
+2019/06/03 18:35:58.626000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 100 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_cells&connection+timeout=30&log=63&encrypt=disable.
+2019/06/03 18:35:58.638000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 108 Info: DB game_qp_cells (172.13.0.58:39000) connected.
+2019/06/03 18:35:58.638000 main.main 97 Warning: start gs sucess !
+2019/06/03 18:35:58.639000 git.huoys.com/qp/gs/http.Startup 44 Warning: http url:0.0.0.0:9210.
+2019/06/03 18:35:58.645000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.acceptHTTPRequest 119 Info: Http server listen at:0.0.0.0:9210
+2019/06/03 18:35:58.646000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.acceptHTTPRequest 122 Error: Http server ListenAndServe 0.0.0.0:9210 failed:listen tcp 0.0.0.0:9210: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.

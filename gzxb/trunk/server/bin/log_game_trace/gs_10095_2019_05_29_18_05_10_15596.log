@@ -1,0 +1,422 @@
+2019/05/29 18:05:10.473000 git.huoys.com/qp/gs/vendor/git.huoys.com/game/common/config.PrintfGlst 211 Info: url.json config:1
+ 
+ - GameId(10095),len(1)
+ GroupId(1)
+ ServerId(1) RoomId(9) NginxTcp(127.0.0.1:10211) 
+ ServerId(2) RoomId(10) NginxTcp(127.0.0.1:10212) 
+ ServerId(3) RoomId(11) NginxTcp(127.0.0.1:10213) 
+ ServerId(4) RoomId(12) NginxTcp(127.0.0.1:10214) 
+2019/05/29 18:05:10.473000 main.main 90 Info: GS start now ....
+2019/05/29 18:05:10.473000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 93 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_cells&connection+timeout=30&log=63&encrypt=disable.
+2019/05/29 18:05:10.473000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 100 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_cells&connection+timeout=30&log=63&encrypt=disable.
+2019/05/29 18:05:10.483000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 108 Info: DB game_qp_cells (172.13.0.58:39000) connected.
+2019/05/29 18:05:10.483000 main.main 97 Warning: start gs sucess !
+2019/05/29 18:05:10.484000 git.huoys.com/qp/gs/http.Startup 44 Warning: http url:0.0.0.0:9210.
+2019/05/29 18:05:10.484000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.acceptHTTPRequest 119 Info: Http server listen at:0.0.0.0:9210
+2019/05/29 18:05:13.745000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:13.751000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (6). playerId:0 ip:127.0.0.1 values:map[ops:[6]]
+2019/05/29 18:05:13.765000 git.huoys.com/qp/gs/http.OnGameRegister 149 Info: OnGameRegister ------------------ game register gid:1, sid:1
+2019/05/29 18:05:13.814000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:13.815000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (6). playerId:0 ip:127.0.0.1 values:map[ops:[6]]
+2019/05/29 18:05:13.827000 git.huoys.com/qp/gs/http.OnGameRegister 149 Info: OnGameRegister ------------------ game register gid:1, sid:2
+2019/05/29 18:05:13.843000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:13.844000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (6). playerId:0 ip:127.0.0.1 values:map[ops:[6]]
+2019/05/29 18:05:13.844000 git.huoys.com/qp/gs/http.OnGameRegister 149 Info: OnGameRegister ------------------ game register gid:1, sid:4
+2019/05/29 18:05:13.847000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:13.847000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (6). playerId:0 ip:127.0.0.1 values:map[ops:[6]]
+2019/05/29 18:05:13.848000 git.huoys.com/qp/gs/http.OnGameRegister 149 Info: OnGameRegister ------------------ game register gid:1, sid:3
+2019/05/29 18:05:19.773000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:19.774000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:19.774000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(0).
+2019/05/29 18:05:19.778000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(0).
+2019/05/29 18:05:19.781000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:19.782000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:19.784000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:05:19.784000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:05:19.888000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:19.895000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:19.902000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:05:19.903000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:05:19.910000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:19.911000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:19.913000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:05:19.934000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:05:24.768000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:24.770000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:24.772000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(0).
+2019/05/29 18:05:24.775000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(0).
+2019/05/29 18:05:24.813000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:24.814000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:24.815000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:05:24.815000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:05:24.882000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:24.882000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:24.883000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:05:24.883000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:05:24.902000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:24.903000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:24.903000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:05:24.904000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:05:25.401000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:25.403000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (12). playerId:0 ip:127.0.0.1 values:map[ops:[12]]
+2019/05/29 18:05:25.404000 git.huoys.com/qp/gs/http.OnLoadValues 170 Info: OnLoadValues ------------------ load values:0!
+2019/05/29 18:05:25.405000 git.huoys.com/qp/gs/sql.OnLoadValues 68 Info: query:select Value from MKeyValue where Id='150016';.
+2019/05/29 18:05:25.424000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:getplayerip.
+2019/05/29 18:05:25.425000 git.huoys.com/qp/gs/http.OnGetPlayerIP 62 Info: http OnGetPlayerIP playerId:%!d(string=150016) ip:
+2019/05/29 18:05:29.763000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:29.764000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:29.765000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:05:29.765000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:05:29.814000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:29.816000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:29.817000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:05:29.817000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:05:29.852000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:29.852000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:29.854000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:05:29.854000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:05:29.883000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:29.883000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:29.884000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:05:29.884000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:05:34.756000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:34.756000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:34.756000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:05:34.757000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:05:34.807000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:34.807000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:34.808000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:05:34.808000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:05:34.847000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:34.848000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:34.849000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:05:34.849000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:05:34.878000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:34.878000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:34.879000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:05:34.880000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:05:39.761000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:39.762000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:39.763000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:05:39.764000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:05:39.810000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:39.811000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:39.812000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:05:39.813000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:05:39.849000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:39.850000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:39.850000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:05:39.850000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:05:39.881000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:39.882000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:39.882000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:05:39.883000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:05:44.763000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:44.764000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:44.764000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:05:44.764000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:05:44.811000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:44.812000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:44.813000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:05:44.813000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:05:44.849000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:44.850000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:44.850000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:05:44.851000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:05:44.882000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:44.882000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:44.883000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:05:44.883000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:05:49.763000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:49.764000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:49.765000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:05:49.765000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:05:49.806000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:49.807000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:49.807000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:05:49.807000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:05:49.848000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:49.849000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:49.850000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:05:49.850000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:05:49.883000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:49.884000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:49.884000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:05:49.885000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:05:54.755000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:54.756000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:54.756000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:05:54.756000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:05:54.815000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:54.815000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:54.816000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:05:54.816000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:05:54.867000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:54.867000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:54.867000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:05:54.868000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:05:54.886000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:54.886000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:54.886000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:05:54.886000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:05:59.760000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:59.761000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:59.761000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:05:59.762000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:05:59.810000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:59.812000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:59.812000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:05:59.814000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:05:59.853000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:59.854000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:59.854000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:05:59.855000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:05:59.881000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:05:59.882000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:05:59.883000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:05:59.883000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:06:04.753000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:04.754000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:04.754000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:06:04.755000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:06:04.819000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:04.820000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:04.822000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:06:04.823000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:06:04.854000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:04.855000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:04.855000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:06:04.855000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:06:04.885000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:04.886000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:04.886000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:06:04.886000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:06:09.752000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:09.753000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:09.753000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:06:09.753000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:06:09.817000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:09.818000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:09.820000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:06:09.821000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:06:09.852000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:09.853000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:09.853000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:06:09.853000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:06:09.871000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:09.872000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:09.872000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:06:09.873000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:06:14.766000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:14.767000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:14.768000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:06:14.768000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:06:14.816000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:14.817000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:14.817000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:06:14.817000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:06:14.855000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:14.855000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:14.856000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:06:14.856000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:06:14.873000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:14.874000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:14.874000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:06:14.874000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:06:19.755000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:19.755000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:19.755000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:06:19.755000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:06:19.806000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:19.806000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:19.806000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:06:19.806000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:06:19.857000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:19.858000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:19.858000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:06:19.858000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:06:19.876000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:19.876000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:19.876000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:06:19.877000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:06:24.752000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:24.752000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:24.752000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:06:24.753000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:06:24.813000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:24.814000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:24.814000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:06:24.815000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:06:24.852000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:24.853000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:24.853000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:06:24.853000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:06:24.872000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:24.872000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:24.872000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:06:24.872000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:06:29.750000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:29.751000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:29.751000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:06:29.751000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:06:29.801000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:29.801000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:29.801000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:06:29.801000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:06:29.853000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:29.854000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:29.854000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:06:29.854000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:06:29.870000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:29.870000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:29.870000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:06:29.871000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:06:34.755000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:34.755000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:34.756000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:06:34.756000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:06:34.815000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:34.816000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:34.816000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:06:34.816000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:06:34.855000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:34.855000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:34.855000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:06:34.856000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:06:34.877000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:34.877000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:34.877000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:06:34.878000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:06:39.754000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:39.754000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:39.755000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:06:39.755000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:06:39.805000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:39.806000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:39.806000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:06:39.807000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:06:39.855000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:39.856000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:39.856000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:06:39.857000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:06:39.887000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:39.888000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:39.888000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:06:39.889000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:06:44.753000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:44.754000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:44.754000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:06:44.754000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:06:44.808000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:44.809000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:44.810000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:06:44.811000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:06:44.859000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:44.860000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:44.861000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:06:44.861000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:06:44.878000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:44.878000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:44.879000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:06:44.879000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:06:49.758000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:49.760000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:49.761000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:06:49.762000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:06:49.812000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:49.813000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:49.814000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:06:49.815000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:06:49.854000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:49.854000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:49.855000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:06:49.855000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:06:49.881000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:49.882000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:49.883000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:06:49.884000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:06:54.758000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:54.759000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:54.759000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:06:54.759000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:06:54.811000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:54.811000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:54.812000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:06:54.812000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:06:54.857000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:54.858000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:54.859000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:06:54.859000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:06:54.878000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:54.878000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:54.879000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:06:54.879000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:06:59.763000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:59.764000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:59.765000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:06:59.767000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:06:59.815000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:59.816000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:59.817000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:06:59.818000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:06:59.863000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:59.864000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:59.864000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:06:59.865000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:06:59.881000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:06:59.882000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:06:59.883000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:06:59.883000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:07:04.752000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:07:04.753000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:07:04.753000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:07:04.753000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:07:04.802000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:07:04.802000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:07:04.802000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:07:04.803000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:07:04.854000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:07:04.854000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:07:04.854000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:07:04.855000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:07:04.872000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:07:04.872000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:07:04.873000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:07:04.873000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:07:09.757000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:07:09.758000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:07:09.758000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:07:09.759000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:07:09.816000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:07:09.816000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:07:09.817000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:07:09.817000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:07:09.860000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:07:09.860000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:07:09.861000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:07:09.861000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:07:09.877000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:07:09.878000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:07:09.879000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:07:09.879000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).
+2019/05/29 18:07:11.000000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:removeplayerip.
+2019/05/29 18:07:12.057000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:07:12.057000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 163 Info: http onDispatch playerId:150016 ops:11 ip:127.0.0.1
+2019/05/29 18:07:12.057000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (11). playerId:150016 ip:127.0.0.1 values:map[ops:[11] playerid:[150016]]
+2019/05/29 18:07:12.057000 git.huoys.com/qp/gs/http.OnUpdateKeyValues 155 Info: OnUpdateKeyValues ------------------ update values id:150016!
+2019/05/29 18:07:14.767000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:07:14.768000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:07:14.769000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(1), cnt(1).
+2019/05/29 18:07:14.770000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(1), s.cnt(1).
+2019/05/29 18:07:14.816000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:07:14.816000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:07:14.817000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(2), cnt(0).
+2019/05/29 18:07:14.817000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(2), s.cnt(0).
+2019/05/29 18:07:14.859000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:07:14.860000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:07:14.860000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(3), cnt(0).
+2019/05/29 18:07:14.861000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(3), s.cnt(0).
+2019/05/29 18:07:14.875000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 136 Info: requestPath:/.
+2019/05/29 18:07:14.876000 git.huoys.com/qp/gs/vendor/git.huoys.com/qp/common/http_message.onDispatch 177 Info: ops (7). playerId:0 ip:127.0.0.1 values:map[ops:[7]]
+2019/05/29 18:07:14.877000 git.huoys.com/qp/gs/schedule.(*GroupMgr).Update 57 Info: Update groupId(1), serviceId(4), cnt(0).
+2019/05/29 18:07:14.877000 git.huoys.com/qp/gs/schedule.(*Service).Update 53 Info: s.Update s.groupId(1), s.serviceId(4), s.cnt(0).

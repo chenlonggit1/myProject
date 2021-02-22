@@ -1,0 +1,29 @@
+20190416
+发布git第一个编译版本
+https://git.huoys.com/qp/hall.git 分支:cells-testing SHA:08eb1699e510039f7ff85ddaf7253a93eeb0aa46
+https://git.huoys.com/qp/gs.git 分支:cells-testing SHA:ab489f85f5582d3d2519493abfed3190bc708f5e
+https://git.huoys.com/qp/world.git 分支:cells-testing SHA:a7177ed9d32cc446eb5c3451dee69291c9b4f3fc
+https://git.huoys.com/qp/cells.git 分支:testing SHA:ab489f85f5582d3d2519493abfed3190bc708f5e
+
+
+
+https://git.huoys.com/qp/gs.git 分支:cells-testing SHA:ab489f85f5582d3d2519493abfed3190bc708f5e
+https://git.huoys.com/qp/cells.git 分支:testing SHA:7965fb74cc98f84a6f6a136fb77a6886b786e144
+更新内容:负载均衡bug修复
+更新文件:gs.exe cells.exe game/cells/basic.json
+
+
+
+
+20190514
+依赖
+https://git.huoys.com/qp/common.git 分支:cells-testing sha:59d7375238b33ee8fbe5ecb0b1819f3765355201
+https://git.huoys.com/game/common.git 分支:cells-testing sha:f0aedeb8128f79b83ec2eea8e5e7056f1d8291c1
+
+亲朋战斗细胞服务器版本
+https://git.huoys.com/qp/cells.git 分支:testing sha:bb60f9fe23d88dffde1d2dc34e2f81233733888d
+
+更新内容 过敏原剧情功能
+更新文件 cells.exe basic.json story.json
+
+@钟城 李轩

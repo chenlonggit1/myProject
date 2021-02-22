@@ -1,0 +1,1029 @@
+2019/05/13 10:02:51.134200 git.huoys.com/qp/cells/config.reloadGameConfig 370 Warning: Reload config......
+2019/05/13 10:02:53.138200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_02_53
+2019/05/13 10:02:56.157200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_02_56
+2019/05/13 10:02:58.205200 git.huoys.com/qp/cells/module/auth.(*authmodule).onConnect 74 Info: AUTH onConnect sid:1 addr:172.12.10.126:59205 StartTime:1557712978.....
+2019/05/13 10:02:59.079200 git.huoys.com/qp/cells/module/auth.(*authmodule).onLoginGameReq 162 Info: AUTH onLoginGameReq sid:1 uid:150015 amount:107213550 money:107213550 baseinfo:{"baseuserinfoget":{"Sex":"0","NickName":"QP_P150015E675E02B","Partner":[{}]}} keyvaluedata:{"KV_TableData":"{\"LastLogin\":1557482783,\"PollingSec\":1557712730,\"Ratio\":10,\"Heroes\":[200,201,202,201,201,201,201,201,201],\"Positions\":[201,0,0,0,0],\"KillCount\":333,\"AllergenData\":{\"TaxReturnPool\":1950,\"SettleReward\":200,\"SettleFlag\":true,\"LastTick\":1557710305}}"}
+2019/05/13 10:02:59.080200 git.huoys.com/qp/cells/module/user.(*usermodule).onJoinRoom 146 Info: USER onJoinRoom sid:1 uid:150015
+2019/05/13 10:02:59.080200 git.huoys.com/qp/cells/module/room.(*roommodule).OnUserEnter 118 Info: ROOM OnUserEnter uid:150015 table_id:1
+2019/05/13 10:03:01.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_03_01
+2019/05/13 10:03:03.152200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_03_03
+2019/05/13 10:03:06.149200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_03_06
+2019/05/13 10:03:06.424200 git.huoys.com/qp/cells/module/auth.(*authmodule).onDisConnect 82 Info: AUTH onDisConnect sid:1 addr:172.12.10.126:59205 EndTime:1557712986.....
+2019/05/13 10:03:06.427200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUserLogout 82 Info: USER OnUserLogout uid:150015 sid:1 logout_type:1
+2019/05/13 10:03:06.428200 git.huoys.com/qp/cells/module/room.(*roommodule).OnUserExit 138 Info: ROOM OnUserExit uid:150015 table_id:1 exit_type:1
+2019/05/13 10:03:11.149200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_03_11
+2019/05/13 10:03:13.149200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_03_13
+2019/05/13 10:03:16.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_03_16
+2019/05/13 10:03:21.152200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_03_21
+2019/05/13 10:03:23.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_03_23
+2019/05/13 10:03:26.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_03_26
+2019/05/13 10:03:31.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_03_31
+2019/05/13 10:03:33.153200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_03_33
+2019/05/13 10:03:36.149200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_03_36
+2019/05/13 10:03:41.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_03_41
+2019/05/13 10:03:43.152200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_03_43
+2019/05/13 10:03:46.149200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_03_46
+2019/05/13 10:03:51.152200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_03_51
+2019/05/13 10:03:53.152200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_03_53
+2019/05/13 10:03:56.152200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_03_56
+2019/05/13 10:04:01.153200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_04_01
+2019/05/13 10:04:03.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_04_03
+2019/05/13 10:04:06.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_04_06
+2019/05/13 10:04:11.149200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_04_11
+2019/05/13 10:04:13.152200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_04_13
+2019/05/13 10:04:16.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_04_16
+2019/05/13 10:04:21.153200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_04_21
+2019/05/13 10:04:23.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_04_23
+2019/05/13 10:04:26.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_04_26
+2019/05/13 10:04:31.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_04_31
+2019/05/13 10:04:33.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_04_33
+2019/05/13 10:04:36.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_04_36
+2019/05/13 10:04:41.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_04_41
+2019/05/13 10:04:43.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_04_43
+2019/05/13 10:04:46.154200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_04_46
+2019/05/13 10:04:51.149200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_04_51
+2019/05/13 10:04:53.157200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_04_53
+2019/05/13 10:04:56.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_04_56
+2019/05/13 10:05:01.152200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_05_01
+2019/05/13 10:05:03.153200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_05_03
+2019/05/13 10:05:06.152200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_05_06
+2019/05/13 10:05:11.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_05_11
+2019/05/13 10:05:13.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_05_13
+2019/05/13 10:05:16.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_05_16
+2019/05/13 10:05:21.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_05_21
+2019/05/13 10:05:23.152200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_05_23
+2019/05/13 10:05:26.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_05_26
+2019/05/13 10:05:31.152200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_05_31
+2019/05/13 10:05:33.152200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_05_33
+2019/05/13 10:05:36.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_05_36
+2019/05/13 10:05:41.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_05_41
+2019/05/13 10:05:43.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_05_43
+2019/05/13 10:05:46.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_05_46
+2019/05/13 10:05:51.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_05_51
+2019/05/13 10:05:53.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_05_53
+2019/05/13 10:05:56.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_05_56
+2019/05/13 10:06:01.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_06_01
+2019/05/13 10:06:03.154200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_06_03
+2019/05/13 10:06:06.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_06_06
+2019/05/13 10:06:11.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_06_11
+2019/05/13 10:06:13.152200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_06_13
+2019/05/13 10:06:16.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_06_16
+2019/05/13 10:06:21.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_06_21
+2019/05/13 10:06:23.152200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_06_23
+2019/05/13 10:06:26.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_06_26
+2019/05/13 10:06:31.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_06_31
+2019/05/13 10:06:33.152200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_06_33
+2019/05/13 10:06:36.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_06_36
+2019/05/13 10:06:41.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_06_41
+2019/05/13 10:06:43.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_06_43
+2019/05/13 10:06:46.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_06_46
+2019/05/13 10:06:51.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_06_51
+2019/05/13 10:06:53.153200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_06_53
+2019/05/13 10:06:56.152200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_06_56
+2019/05/13 10:07:01.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_07_01
+2019/05/13 10:07:03.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_07_03
+2019/05/13 10:07:06.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_07_06
+2019/05/13 10:07:11.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_07_11
+2019/05/13 10:07:13.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_07_13
+2019/05/13 10:07:16.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_07_16
+2019/05/13 10:07:21.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_07_21
+2019/05/13 10:07:23.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_07_23
+2019/05/13 10:07:26.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_07_26
+2019/05/13 10:07:31.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_07_31
+2019/05/13 10:07:33.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_07_33
+2019/05/13 10:07:36.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_07_36
+2019/05/13 10:07:41.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_07_41
+2019/05/13 10:07:43.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_07_43
+2019/05/13 10:07:46.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_07_46
+2019/05/13 10:07:51.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_07_51
+2019/05/13 10:07:52.152200 git.huoys.com/qp/cells/config.reloadGameConfig 370 Warning: Reload config......
+2019/05/13 10:07:53.152200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_07_53
+2019/05/13 10:07:56.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_07_56
+2019/05/13 10:08:01.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_08_01
+2019/05/13 10:08:03.150200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_08_03
+2019/05/13 10:08:06.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_08_06
+2019/05/13 10:08:11.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_08_11
+2019/05/13 10:08:13.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_08_13
+2019/05/13 10:08:16.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_08_16
+2019/05/13 10:08:21.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_08_21
+2019/05/13 10:08:23.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_08_23
+2019/05/13 10:08:26.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_08_26
+2019/05/13 10:08:31.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_08_31
+2019/05/13 10:08:33.150200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_08_33
+2019/05/13 10:08:36.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_08_36
+2019/05/13 10:08:41.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_08_41
+2019/05/13 10:08:43.150200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_08_43
+2019/05/13 10:08:46.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_08_46
+2019/05/13 10:08:51.151200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_08_51
+2019/05/13 10:08:53.150200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_08_53
+2019/05/13 10:08:56.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_08_56
+2019/05/13 10:09:01.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_09_01
+2019/05/13 10:09:03.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_09_03
+2019/05/13 10:09:06.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_09_06
+2019/05/13 10:09:11.150200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_09_11
+2019/05/13 10:09:13.151200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_09_13
+2019/05/13 10:09:16.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_09_16
+2019/05/13 10:09:21.154200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_09_21
+2019/05/13 10:09:23.155200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_09_23
+2019/05/13 10:09:26.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_09_26
+2019/05/13 10:09:31.154200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_09_31
+2019/05/13 10:09:33.154200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_09_33
+2019/05/13 10:09:36.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_09_36
+2019/05/13 10:09:41.154200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_09_41
+2019/05/13 10:09:43.155200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_09_43
+2019/05/13 10:09:46.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_09_46
+2019/05/13 10:09:51.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_09_51
+2019/05/13 10:09:53.156200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_09_53
+2019/05/13 10:09:56.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_09_56
+2019/05/13 10:10:01.154200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_10_01
+2019/05/13 10:10:03.154200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_10_03
+2019/05/13 10:10:06.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_10_06
+2019/05/13 10:10:11.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_10_11
+2019/05/13 10:10:13.155200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_10_13
+2019/05/13 10:10:16.154200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_10_16
+2019/05/13 10:10:21.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_10_21
+2019/05/13 10:10:23.154200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_10_23
+2019/05/13 10:10:26.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_10_26
+2019/05/13 10:10:31.154200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_10_31
+2019/05/13 10:10:33.155200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_10_33
+2019/05/13 10:10:36.154200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_10_36
+2019/05/13 10:10:41.154200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_10_41
+2019/05/13 10:10:43.155200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_10_43
+2019/05/13 10:10:46.154200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_10_46
+2019/05/13 10:10:51.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_10_51
+2019/05/13 10:10:53.155200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_10_53
+2019/05/13 10:10:56.154200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_10_56
+2019/05/13 10:11:01.154200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_11_01
+2019/05/13 10:11:03.155200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_11_03
+2019/05/13 10:11:06.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_11_06
+2019/05/13 10:11:11.154200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_11_11
+2019/05/13 10:11:13.155200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_11_13
+2019/05/13 10:11:16.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_11_16
+2019/05/13 10:11:21.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_11_21
+2019/05/13 10:11:23.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_11_23
+2019/05/13 10:11:26.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_11_26
+2019/05/13 10:11:31.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_11_31
+2019/05/13 10:11:33.159200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_11_33
+2019/05/13 10:11:36.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_11_36
+2019/05/13 10:11:41.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_11_41
+2019/05/13 10:11:43.156200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_11_43
+2019/05/13 10:11:46.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_11_46
+2019/05/13 10:11:51.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_11_51
+2019/05/13 10:11:53.159200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_11_53
+2019/05/13 10:11:56.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_11_56
+2019/05/13 10:12:01.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_12_01
+2019/05/13 10:12:03.156200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_12_03
+2019/05/13 10:12:06.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_12_06
+2019/05/13 10:12:11.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_12_11
+2019/05/13 10:12:13.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_12_13
+2019/05/13 10:12:16.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_12_16
+2019/05/13 10:12:21.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_12_21
+2019/05/13 10:12:23.156200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_12_23
+2019/05/13 10:12:26.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_12_26
+2019/05/13 10:12:31.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_12_31
+2019/05/13 10:12:33.156200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_12_33
+2019/05/13 10:12:36.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_12_36
+2019/05/13 10:12:41.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_12_41
+2019/05/13 10:12:43.157200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_12_43
+2019/05/13 10:12:46.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_12_46
+2019/05/13 10:12:51.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_12_51
+2019/05/13 10:12:52.158200 git.huoys.com/qp/cells/config.reloadGameConfig 370 Warning: Reload config......
+2019/05/13 10:12:53.159200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_12_53
+2019/05/13 10:12:56.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_12_56
+2019/05/13 10:13:01.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_13_01
+2019/05/13 10:13:03.157200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_13_03
+2019/05/13 10:13:06.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_13_06
+2019/05/13 10:13:11.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_13_11
+2019/05/13 10:13:13.155200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_13_13
+2019/05/13 10:13:16.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_13_16
+2019/05/13 10:13:21.157200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_13_21
+2019/05/13 10:13:23.155200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_13_23
+2019/05/13 10:13:26.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_13_26
+2019/05/13 10:13:31.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_13_31
+2019/05/13 10:13:33.155200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_13_33
+2019/05/13 10:13:36.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_13_36
+2019/05/13 10:13:41.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_13_41
+2019/05/13 10:13:43.156200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_13_43
+2019/05/13 10:13:46.155200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_13_46
+2019/05/13 10:13:51.157200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_13_51
+2019/05/13 10:13:53.155200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_13_53
+2019/05/13 10:13:56.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_13_56
+2019/05/13 10:14:01.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_14_01
+2019/05/13 10:14:03.156200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_14_03
+2019/05/13 10:14:06.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_14_06
+2019/05/13 10:14:11.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_14_11
+2019/05/13 10:14:13.156200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_14_13
+2019/05/13 10:14:16.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_14_16
+2019/05/13 10:14:21.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_14_21
+2019/05/13 10:14:23.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_14_23
+2019/05/13 10:14:26.157200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_14_26
+2019/05/13 10:14:31.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_14_31
+2019/05/13 10:14:33.156200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_14_33
+2019/05/13 10:14:36.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_14_36
+2019/05/13 10:14:41.157200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_14_41
+2019/05/13 10:14:43.157200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_14_43
+2019/05/13 10:14:46.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_14_46
+2019/05/13 10:14:51.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_14_51
+2019/05/13 10:14:53.156200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_14_53
+2019/05/13 10:14:56.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_14_56
+2019/05/13 10:15:01.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_15_01
+2019/05/13 10:15:03.157200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_15_03
+2019/05/13 10:15:06.156200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_15_06
+2019/05/13 10:15:11.157200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_15_11
+2019/05/13 10:15:13.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_15_13
+2019/05/13 10:15:16.157200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_15_16
+2019/05/13 10:15:21.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_15_21
+2019/05/13 10:15:23.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_15_23
+2019/05/13 10:15:26.157200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_15_26
+2019/05/13 10:15:31.157200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_15_31
+2019/05/13 10:15:33.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_15_33
+2019/05/13 10:15:36.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_15_36
+2019/05/13 10:15:41.157200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_15_41
+2019/05/13 10:15:43.157200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_15_43
+2019/05/13 10:15:46.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_15_46
+2019/05/13 10:15:51.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_15_51
+2019/05/13 10:15:53.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_15_53
+2019/05/13 10:15:56.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_15_56
+2019/05/13 10:16:01.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_16_01
+2019/05/13 10:16:03.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_16_03
+2019/05/13 10:16:06.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_16_06
+2019/05/13 10:16:11.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_16_11
+2019/05/13 10:16:13.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_16_13
+2019/05/13 10:16:16.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_16_16
+2019/05/13 10:16:21.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_16_21
+2019/05/13 10:16:23.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_16_23
+2019/05/13 10:16:26.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_16_26
+2019/05/13 10:16:31.157200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_16_31
+2019/05/13 10:16:33.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_16_33
+2019/05/13 10:16:36.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_16_36
+2019/05/13 10:16:41.157200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_16_41
+2019/05/13 10:16:43.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_16_43
+2019/05/13 10:16:46.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_16_46
+2019/05/13 10:16:51.157200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_16_51
+2019/05/13 10:16:53.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_16_53
+2019/05/13 10:16:56.157200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_16_56
+2019/05/13 10:17:01.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_17_01
+2019/05/13 10:17:03.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_17_03
+2019/05/13 10:17:06.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_17_06
+2019/05/13 10:17:11.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_17_11
+2019/05/13 10:17:13.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_17_13
+2019/05/13 10:17:16.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_17_16
+2019/05/13 10:17:21.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_17_21
+2019/05/13 10:17:23.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_17_23
+2019/05/13 10:17:26.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_17_26
+2019/05/13 10:17:31.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_17_31
+2019/05/13 10:17:33.159200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_17_33
+2019/05/13 10:17:36.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_17_36
+2019/05/13 10:17:41.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_17_41
+2019/05/13 10:17:43.159200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_17_43
+2019/05/13 10:17:46.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_17_46
+2019/05/13 10:17:51.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_17_51
+2019/05/13 10:17:52.166200 git.huoys.com/qp/cells/config.reloadGameConfig 370 Warning: Reload config......
+2019/05/13 10:17:53.160200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_17_53
+2019/05/13 10:17:56.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_17_56
+2019/05/13 10:18:01.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_18_01
+2019/05/13 10:18:03.160200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_18_03
+2019/05/13 10:18:06.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_18_06
+2019/05/13 10:18:11.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_18_11
+2019/05/13 10:18:13.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_18_13
+2019/05/13 10:18:16.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_18_16
+2019/05/13 10:18:21.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_18_21
+2019/05/13 10:18:23.160200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_18_23
+2019/05/13 10:18:26.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_18_26
+2019/05/13 10:18:31.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_18_31
+2019/05/13 10:18:33.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_18_33
+2019/05/13 10:18:36.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_18_36
+2019/05/13 10:18:41.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_18_41
+2019/05/13 10:18:43.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_18_43
+2019/05/13 10:18:46.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_18_46
+2019/05/13 10:18:51.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_18_51
+2019/05/13 10:18:53.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_18_53
+2019/05/13 10:18:56.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_18_56
+2019/05/13 10:19:01.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_19_01
+2019/05/13 10:19:03.159200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_19_03
+2019/05/13 10:19:06.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_19_06
+2019/05/13 10:19:11.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_19_11
+2019/05/13 10:19:13.160200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_19_13
+2019/05/13 10:19:16.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_19_16
+2019/05/13 10:19:21.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_19_21
+2019/05/13 10:19:23.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_19_23
+2019/05/13 10:19:26.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_19_26
+2019/05/13 10:19:31.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_19_31
+2019/05/13 10:19:33.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_19_33
+2019/05/13 10:19:36.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_19_36
+2019/05/13 10:19:41.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_19_41
+2019/05/13 10:19:43.160200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_19_43
+2019/05/13 10:19:46.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_19_46
+2019/05/13 10:19:51.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_19_51
+2019/05/13 10:19:53.159200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_19_53
+2019/05/13 10:19:56.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_19_56
+2019/05/13 10:20:01.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_20_01
+2019/05/13 10:20:03.160200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_20_03
+2019/05/13 10:20:06.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_20_06
+2019/05/13 10:20:11.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_20_11
+2019/05/13 10:20:13.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_20_13
+2019/05/13 10:20:16.158200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_20_16
+2019/05/13 10:20:21.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_20_21
+2019/05/13 10:20:23.158200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_20_23
+2019/05/13 10:20:26.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_20_26
+2019/05/13 10:20:31.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_20_31
+2019/05/13 10:20:33.159200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_20_33
+2019/05/13 10:20:36.164200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_20_36
+2019/05/13 10:20:41.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_20_41
+2019/05/13 10:20:43.160200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_20_43
+2019/05/13 10:20:46.159200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_20_46
+2019/05/13 10:20:51.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_20_51
+2019/05/13 10:20:53.160200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_20_53
+2019/05/13 10:20:56.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_20_56
+2019/05/13 10:21:01.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_21_01
+2019/05/13 10:21:03.160200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_21_03
+2019/05/13 10:21:06.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_21_06
+2019/05/13 10:21:11.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_21_11
+2019/05/13 10:21:13.160200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_21_13
+2019/05/13 10:21:16.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_21_16
+2019/05/13 10:21:21.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_21_21
+2019/05/13 10:21:23.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_21_23
+2019/05/13 10:21:26.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_21_26
+2019/05/13 10:21:31.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_21_31
+2019/05/13 10:21:33.160200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_21_33
+2019/05/13 10:21:36.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_21_36
+2019/05/13 10:21:41.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_21_41
+2019/05/13 10:21:43.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_21_43
+2019/05/13 10:21:46.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_21_46
+2019/05/13 10:21:51.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_21_51
+2019/05/13 10:21:53.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_21_53
+2019/05/13 10:21:56.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_21_56
+2019/05/13 10:22:01.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_22_01
+2019/05/13 10:22:03.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_22_03
+2019/05/13 10:22:06.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_22_06
+2019/05/13 10:22:11.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_22_11
+2019/05/13 10:22:13.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_22_13
+2019/05/13 10:22:16.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_22_16
+2019/05/13 10:22:21.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_22_21
+2019/05/13 10:22:23.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_22_23
+2019/05/13 10:22:26.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_22_26
+2019/05/13 10:22:31.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_22_31
+2019/05/13 10:22:33.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_22_33
+2019/05/13 10:22:36.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_22_36
+2019/05/13 10:22:41.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_22_41
+2019/05/13 10:22:43.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_22_43
+2019/05/13 10:22:46.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_22_46
+2019/05/13 10:22:51.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_22_51
+2019/05/13 10:22:52.161200 git.huoys.com/qp/cells/config.reloadGameConfig 370 Warning: Reload config......
+2019/05/13 10:22:53.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_22_53
+2019/05/13 10:22:56.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_22_56
+2019/05/13 10:23:01.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_23_01
+2019/05/13 10:23:03.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_23_03
+2019/05/13 10:23:06.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_23_06
+2019/05/13 10:23:11.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_23_11
+2019/05/13 10:23:13.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_23_13
+2019/05/13 10:23:16.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_23_16
+2019/05/13 10:23:21.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_23_21
+2019/05/13 10:23:23.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_23_23
+2019/05/13 10:23:26.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_23_26
+2019/05/13 10:23:31.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_23_31
+2019/05/13 10:23:33.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_23_33
+2019/05/13 10:23:36.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_23_36
+2019/05/13 10:23:41.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_23_41
+2019/05/13 10:23:43.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_23_43
+2019/05/13 10:23:46.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_23_46
+2019/05/13 10:23:51.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_23_51
+2019/05/13 10:23:53.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_23_53
+2019/05/13 10:23:56.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_23_56
+2019/05/13 10:24:01.160200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_24_01
+2019/05/13 10:24:03.161200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_24_03
+2019/05/13 10:24:06.161200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_24_06
+2019/05/13 10:24:11.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_24_11
+2019/05/13 10:24:13.163200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_24_13
+2019/05/13 10:24:16.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_24_16
+2019/05/13 10:24:21.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_24_21
+2019/05/13 10:24:23.163200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_24_23
+2019/05/13 10:24:26.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_24_26
+2019/05/13 10:24:31.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_24_31
+2019/05/13 10:24:33.163200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_24_33
+2019/05/13 10:24:36.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_24_36
+2019/05/13 10:24:41.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_24_41
+2019/05/13 10:24:43.164200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_24_43
+2019/05/13 10:24:46.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_24_46
+2019/05/13 10:24:51.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_24_51
+2019/05/13 10:24:53.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_24_53
+2019/05/13 10:24:56.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_24_56
+2019/05/13 10:25:01.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_25_01
+2019/05/13 10:25:03.163200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_25_03
+2019/05/13 10:25:06.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_25_06
+2019/05/13 10:25:11.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_25_11
+2019/05/13 10:25:13.164200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_25_13
+2019/05/13 10:25:16.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_25_16
+2019/05/13 10:25:21.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_25_21
+2019/05/13 10:25:23.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_25_23
+2019/05/13 10:25:26.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_25_26
+2019/05/13 10:25:31.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_25_31
+2019/05/13 10:25:33.163200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_25_33
+2019/05/13 10:25:36.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_25_36
+2019/05/13 10:25:41.164200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_25_41
+2019/05/13 10:25:43.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_25_43
+2019/05/13 10:25:46.173200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_25_46
+2019/05/13 10:25:51.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_25_51
+2019/05/13 10:25:53.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_25_53
+2019/05/13 10:25:56.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_25_56
+2019/05/13 10:26:01.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_26_01
+2019/05/13 10:26:03.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_26_03
+2019/05/13 10:26:06.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_26_06
+2019/05/13 10:26:11.164200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_26_11
+2019/05/13 10:26:13.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_26_13
+2019/05/13 10:26:16.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_26_16
+2019/05/13 10:26:21.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_26_21
+2019/05/13 10:26:23.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_26_23
+2019/05/13 10:26:26.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_26_26
+2019/05/13 10:26:31.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_26_31
+2019/05/13 10:26:33.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_26_33
+2019/05/13 10:26:36.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_26_36
+2019/05/13 10:26:41.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_26_41
+2019/05/13 10:26:43.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_26_43
+2019/05/13 10:26:46.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_26_46
+2019/05/13 10:26:51.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_26_51
+2019/05/13 10:26:53.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_26_53
+2019/05/13 10:26:56.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_26_56
+2019/05/13 10:27:01.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_27_01
+2019/05/13 10:27:03.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_27_03
+2019/05/13 10:27:06.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_27_06
+2019/05/13 10:27:11.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_27_11
+2019/05/13 10:27:13.163200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_27_13
+2019/05/13 10:27:16.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_27_16
+2019/05/13 10:27:21.164200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_27_21
+2019/05/13 10:27:23.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_27_23
+2019/05/13 10:27:26.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_27_26
+2019/05/13 10:27:31.165200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_27_31
+2019/05/13 10:27:33.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_27_33
+2019/05/13 10:27:36.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_27_36
+2019/05/13 10:27:41.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_27_41
+2019/05/13 10:27:43.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_27_43
+2019/05/13 10:27:46.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_27_46
+2019/05/13 10:27:51.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_27_51
+2019/05/13 10:27:52.164200 git.huoys.com/qp/cells/config.reloadGameConfig 370 Warning: Reload config......
+2019/05/13 10:27:53.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_27_53
+2019/05/13 10:27:56.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_27_56
+2019/05/13 10:28:01.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_28_01
+2019/05/13 10:28:03.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_28_03
+2019/05/13 10:28:06.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_28_06
+2019/05/13 10:28:11.166200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_28_11
+2019/05/13 10:28:13.163200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_28_13
+2019/05/13 10:28:16.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_28_16
+2019/05/13 10:28:21.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_28_21
+2019/05/13 10:28:23.163200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_28_23
+2019/05/13 10:28:26.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_28_26
+2019/05/13 10:28:31.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_28_31
+2019/05/13 10:28:33.163200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_28_33
+2019/05/13 10:28:36.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_28_36
+2019/05/13 10:28:41.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_28_41
+2019/05/13 10:28:43.163200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_28_43
+2019/05/13 10:28:46.166200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_28_46
+2019/05/13 10:28:51.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_28_51
+2019/05/13 10:28:53.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_28_53
+2019/05/13 10:28:56.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_28_56
+2019/05/13 10:29:01.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_29_01
+2019/05/13 10:29:03.163200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_29_03
+2019/05/13 10:29:06.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_29_06
+2019/05/13 10:29:11.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_29_11
+2019/05/13 10:29:13.163200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_29_13
+2019/05/13 10:29:16.165200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_29_16
+2019/05/13 10:29:21.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_29_21
+2019/05/13 10:29:23.162200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_29_23
+2019/05/13 10:29:26.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_29_26
+2019/05/13 10:29:31.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_29_31
+2019/05/13 10:29:33.163200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_29_33
+2019/05/13 10:29:36.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_29_36
+2019/05/13 10:29:41.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_29_41
+2019/05/13 10:29:43.163200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_29_43
+2019/05/13 10:29:46.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_29_46
+2019/05/13 10:29:51.162200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_29_51
+2019/05/13 10:29:53.164200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_29_53
+2019/05/13 10:29:56.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_29_56
+2019/05/13 10:30:01.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_30_01
+2019/05/13 10:30:03.163200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_30_03
+2019/05/13 10:30:06.164200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_30_06
+2019/05/13 10:30:11.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_30_11
+2019/05/13 10:30:13.164200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_30_13
+2019/05/13 10:30:16.164200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_30_16
+2019/05/13 10:30:21.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_30_21
+2019/05/13 10:30:23.165200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_30_23
+2019/05/13 10:30:26.163200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_30_26
+2019/05/13 10:30:31.165200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_30_31
+2019/05/13 10:30:33.165200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_30_33
+2019/05/13 10:30:36.165200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_30_36
+2019/05/13 10:30:41.165200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_30_41
+2019/05/13 10:30:43.166200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_30_43
+2019/05/13 10:30:46.165200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_30_46
+2019/05/13 10:30:51.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_30_51
+2019/05/13 10:30:53.166200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_30_53
+2019/05/13 10:30:56.165200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_30_56
+2019/05/13 10:31:01.165200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_31_01
+2019/05/13 10:31:03.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_31_03
+2019/05/13 10:31:06.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_31_06
+2019/05/13 10:31:11.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_31_11
+2019/05/13 10:31:13.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_31_13
+2019/05/13 10:31:16.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_31_16
+2019/05/13 10:31:21.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_31_21
+2019/05/13 10:31:23.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_31_23
+2019/05/13 10:31:26.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_31_26
+2019/05/13 10:31:31.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_31_31
+2019/05/13 10:31:33.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_31_33
+2019/05/13 10:31:36.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_31_36
+2019/05/13 10:31:41.171200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_31_41
+2019/05/13 10:31:43.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_31_43
+2019/05/13 10:31:46.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_31_46
+2019/05/13 10:31:51.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_31_51
+2019/05/13 10:31:53.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_31_53
+2019/05/13 10:31:56.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_31_56
+2019/05/13 10:32:01.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_32_01
+2019/05/13 10:32:03.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_32_03
+2019/05/13 10:32:06.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_32_06
+2019/05/13 10:32:11.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_32_11
+2019/05/13 10:32:13.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_32_13
+2019/05/13 10:32:16.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_32_16
+2019/05/13 10:32:21.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_32_21
+2019/05/13 10:32:23.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_32_23
+2019/05/13 10:32:26.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_32_26
+2019/05/13 10:32:31.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_32_31
+2019/05/13 10:32:33.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_32_33
+2019/05/13 10:32:36.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_32_36
+2019/05/13 10:32:41.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_32_41
+2019/05/13 10:32:43.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_32_43
+2019/05/13 10:32:46.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_32_46
+2019/05/13 10:32:51.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_32_51
+2019/05/13 10:32:52.169200 git.huoys.com/qp/cells/config.reloadGameConfig 370 Warning: Reload config......
+2019/05/13 10:32:53.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_32_53
+2019/05/13 10:32:56.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_32_56
+2019/05/13 10:33:01.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_33_01
+2019/05/13 10:33:03.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_33_03
+2019/05/13 10:33:06.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_33_06
+2019/05/13 10:33:11.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_33_11
+2019/05/13 10:33:13.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_33_13
+2019/05/13 10:33:16.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_33_16
+2019/05/13 10:33:21.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_33_21
+2019/05/13 10:33:23.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_33_23
+2019/05/13 10:33:26.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_33_26
+2019/05/13 10:33:31.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_33_31
+2019/05/13 10:33:33.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_33_33
+2019/05/13 10:33:36.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_33_36
+2019/05/13 10:33:41.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_33_41
+2019/05/13 10:33:43.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_33_43
+2019/05/13 10:33:46.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_33_46
+2019/05/13 10:33:51.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_33_51
+2019/05/13 10:33:53.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_33_53
+2019/05/13 10:33:56.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_33_56
+2019/05/13 10:34:01.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_34_01
+2019/05/13 10:34:03.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_34_03
+2019/05/13 10:34:06.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_34_06
+2019/05/13 10:34:11.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_34_11
+2019/05/13 10:34:13.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_34_13
+2019/05/13 10:34:16.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_34_16
+2019/05/13 10:34:21.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_34_21
+2019/05/13 10:34:23.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_34_23
+2019/05/13 10:34:26.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_34_26
+2019/05/13 10:34:31.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_34_31
+2019/05/13 10:34:33.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_34_33
+2019/05/13 10:34:36.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_34_36
+2019/05/13 10:34:41.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_34_41
+2019/05/13 10:34:43.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_34_43
+2019/05/13 10:34:46.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_34_46
+2019/05/13 10:34:51.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_34_51
+2019/05/13 10:34:53.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_34_53
+2019/05/13 10:34:56.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_34_56
+2019/05/13 10:35:01.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_35_01
+2019/05/13 10:35:03.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_35_03
+2019/05/13 10:35:06.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_35_06
+2019/05/13 10:35:11.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_35_11
+2019/05/13 10:35:13.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_35_13
+2019/05/13 10:35:16.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_35_16
+2019/05/13 10:35:21.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_35_21
+2019/05/13 10:35:23.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_35_23
+2019/05/13 10:35:26.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_35_26
+2019/05/13 10:35:31.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_35_31
+2019/05/13 10:35:33.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_35_33
+2019/05/13 10:35:36.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_35_36
+2019/05/13 10:35:41.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_35_41
+2019/05/13 10:35:43.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_35_43
+2019/05/13 10:35:46.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_35_46
+2019/05/13 10:35:51.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_35_51
+2019/05/13 10:35:53.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_35_53
+2019/05/13 10:35:56.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_35_56
+2019/05/13 10:36:01.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_36_01
+2019/05/13 10:36:03.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_36_03
+2019/05/13 10:36:06.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_36_06
+2019/05/13 10:36:11.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_36_11
+2019/05/13 10:36:13.171200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_36_13
+2019/05/13 10:36:16.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_36_16
+2019/05/13 10:36:21.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_36_21
+2019/05/13 10:36:23.169200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_36_23
+2019/05/13 10:36:26.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_36_26
+2019/05/13 10:36:31.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_36_31
+2019/05/13 10:36:33.169200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_36_33
+2019/05/13 10:36:36.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_36_36
+2019/05/13 10:36:41.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_36_41
+2019/05/13 10:36:43.171200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_36_43
+2019/05/13 10:36:46.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_36_46
+2019/05/13 10:36:51.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_36_51
+2019/05/13 10:36:53.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_36_53
+2019/05/13 10:36:56.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_36_56
+2019/05/13 10:37:01.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_37_01
+2019/05/13 10:37:03.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_37_03
+2019/05/13 10:37:06.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_37_06
+2019/05/13 10:37:11.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_37_11
+2019/05/13 10:37:13.171200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_37_13
+2019/05/13 10:37:16.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_37_16
+2019/05/13 10:37:21.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_37_21
+2019/05/13 10:37:23.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_37_23
+2019/05/13 10:37:26.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_37_26
+2019/05/13 10:37:31.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_37_31
+2019/05/13 10:37:33.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_37_33
+2019/05/13 10:37:36.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_37_36
+2019/05/13 10:37:41.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_37_41
+2019/05/13 10:37:43.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_37_43
+2019/05/13 10:37:46.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_37_46
+2019/05/13 10:37:51.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_37_51
+2019/05/13 10:37:52.170200 git.huoys.com/qp/cells/config.reloadGameConfig 370 Warning: Reload config......
+2019/05/13 10:37:53.173200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_37_53
+2019/05/13 10:37:56.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_37_56
+2019/05/13 10:38:01.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_38_01
+2019/05/13 10:38:03.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_38_03
+2019/05/13 10:38:06.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_38_06
+2019/05/13 10:38:11.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_38_11
+2019/05/13 10:38:13.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_38_13
+2019/05/13 10:38:16.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_38_16
+2019/05/13 10:38:21.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_38_21
+2019/05/13 10:38:23.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_38_23
+2019/05/13 10:38:26.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_38_26
+2019/05/13 10:38:31.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_38_31
+2019/05/13 10:38:33.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_38_33
+2019/05/13 10:38:36.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_38_36
+2019/05/13 10:38:41.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_38_41
+2019/05/13 10:38:43.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_38_43
+2019/05/13 10:38:46.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_38_46
+2019/05/13 10:38:51.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_38_51
+2019/05/13 10:38:53.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_38_53
+2019/05/13 10:38:54.337200 git.huoys.com/qp/cells/module/auth.(*authmodule).onConnect 74 Info: AUTH onConnect sid:2 addr:172.12.10.126:53690 StartTime:1557715134.....
+2019/05/13 10:38:56.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_38_56
+2019/05/13 10:38:58.551200 git.huoys.com/qp/cells/module/auth.(*authmodule).onLoginGameReq 162 Info: AUTH onLoginGameReq sid:2 uid:150015 amount:107213800 money:107213800 baseinfo:{"baseuserinfoget":{"Sex":"0","NickName":"QP_P150015E675E02B","Partner":[{}]}} keyvaluedata:{"KV_TableData":"{\"LastLogin\":1557482783,\"PollingSec\":1557714936,\"Ratio\":10,\"Heroes\":[200,201,202,201,201,201,201,201,201],\"Positions\":[201,0,0,0,0],\"KillCount\":347,\"AllergenData\":{\"TaxReturnPool\":1950,\"SettleReward\":400,\"SettleFlag\":true,\"LastTick\":1557714756}}"}
+2019/05/13 10:38:58.551200 git.huoys.com/qp/cells/module/user.(*usermodule).onJoinRoom 146 Info: USER onJoinRoom sid:2 uid:150015
+2019/05/13 10:38:58.551200 git.huoys.com/qp/cells/module/room.(*roommodule).OnUserEnter 118 Info: ROOM OnUserEnter uid:150015 table_id:1
+2019/05/13 10:39:01.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_39_01
+2019/05/13 10:39:03.167200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_39_03
+2019/05/13 10:39:06.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_39_06
+2019/05/13 10:39:11.167200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_39_11
+2019/05/13 10:39:13.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_39_13
+2019/05/13 10:39:16.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_39_16
+2019/05/13 10:39:21.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_39_21
+2019/05/13 10:39:23.169200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_39_23
+2019/05/13 10:39:26.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_39_26
+2019/05/13 10:39:31.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_39_31
+2019/05/13 10:39:33.169200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_39_33
+2019/05/13 10:39:36.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_39_36
+2019/05/13 10:39:41.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_39_41
+2019/05/13 10:39:43.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_39_43
+2019/05/13 10:39:46.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_39_46
+2019/05/13 10:39:51.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_39_51
+2019/05/13 10:39:53.169200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_39_53
+2019/05/13 10:39:56.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_39_56
+2019/05/13 10:40:01.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_40_01
+2019/05/13 10:40:03.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_40_03
+2019/05/13 10:40:06.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_40_06
+2019/05/13 10:40:08.104200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).OnOpenAllergen 146 Info: OnOpenAllergen uid:150015
+2019/05/13 10:40:11.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_40_11
+2019/05/13 10:40:13.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_40_13
+2019/05/13 10:40:16.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_40_16
+2019/05/13 10:40:21.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_40_21
+2019/05/13 10:40:23.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_40_23
+2019/05/13 10:40:26.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_40_26
+2019/05/13 10:40:29.789200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:200 single:200 combo:0 count:1
+2019/05/13 10:40:31.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_40_31
+2019/05/13 10:40:31.790200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:40:33.169200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_40_33
+2019/05/13 10:40:33.822200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:40:36.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_40_36
+2019/05/13 10:40:37.822200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:40:39.854200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:200 combo:0 count:1
+2019/05/13 10:40:41.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_40_41
+2019/05/13 10:40:43.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_40_43
+2019/05/13 10:40:46.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_40_46
+2019/05/13 10:40:51.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_40_51
+2019/05/13 10:40:53.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_40_53
+2019/05/13 10:40:56.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_40_56
+2019/05/13 10:41:01.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_41_01
+2019/05/13 10:41:03.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_41_03
+2019/05/13 10:41:06.053200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).KillEntity 618 Warning: BATTLE_SYS KillEntity entity:204307 not find
+2019/05/13 10:41:06.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_41_06
+2019/05/13 10:41:11.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_41_11
+2019/05/13 10:41:13.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_41_13
+2019/05/13 10:41:16.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_41_16
+2019/05/13 10:41:21.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_41_21
+2019/05/13 10:41:23.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_41_23
+2019/05/13 10:41:26.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_41_26
+2019/05/13 10:41:28.822200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).OnOpenAllergen 146 Info: OnOpenAllergen uid:150015
+2019/05/13 10:41:29.656200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:41:30.055200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:41:30.625200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:41:31.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_41_31
+2019/05/13 10:41:33.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_41_33
+2019/05/13 10:41:36.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_41_36
+2019/05/13 10:41:41.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_41_41
+2019/05/13 10:41:43.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_41_43
+2019/05/13 10:41:46.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_41_46
+2019/05/13 10:41:51.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_41_51
+2019/05/13 10:41:53.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_41_53
+2019/05/13 10:41:54.504200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:200 single:200 combo:0 count:1
+2019/05/13 10:41:56.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_41_56
+2019/05/13 10:41:58.540200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:42:01.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_42_01
+2019/05/13 10:42:03.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_42_03
+2019/05/13 10:42:06.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_42_06
+2019/05/13 10:42:06.571200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:200 combo:0 count:1
+2019/05/13 10:42:08.572200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:200 combo:300 count:2
+2019/05/13 10:42:10.588200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:200 combo:500 count:3
+2019/05/13 10:42:11.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_42_11
+2019/05/13 10:42:13.169200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_42_13
+2019/05/13 10:42:16.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_42_16
+2019/05/13 10:42:21.168200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_42_21
+2019/05/13 10:42:23.168200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_42_23
+2019/05/13 10:42:26.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_42_26
+2019/05/13 10:42:31.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_42_31
+2019/05/13 10:42:33.169200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_42_33
+2019/05/13 10:42:33.188200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).OnOpenAllergen 146 Info: OnOpenAllergen uid:150015
+2019/05/13 10:42:33.621200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:42:33.688200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:42:33.688200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:42:34.121200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:42:36.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_42_36
+2019/05/13 10:42:36.238200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:42:36.703200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:42:36.770200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:42:41.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_42_41
+2019/05/13 10:42:43.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_42_43
+2019/05/13 10:42:46.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_42_46
+2019/05/13 10:42:51.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_42_51
+2019/05/13 10:42:52.171200 git.huoys.com/qp/cells/config.reloadGameConfig 370 Warning: Reload config......
+2019/05/13 10:42:53.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_42_53
+2019/05/13 10:42:56.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_42_56
+2019/05/13 10:42:58.870200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:200 single:200 combo:0 count:1
+2019/05/13 10:43:01.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_43_01
+2019/05/13 10:43:02.903200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:43:03.171200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_43_03
+2019/05/13 10:43:06.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_43_06
+2019/05/13 10:43:06.904200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:43:10.938200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:43:11.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_43_11
+2019/05/13 10:43:12.938200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:200 combo:0 count:1
+2019/05/13 10:43:13.171200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_43_13
+2019/05/13 10:43:16.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_43_16
+2019/05/13 10:43:21.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_43_21
+2019/05/13 10:43:23.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_43_23
+2019/05/13 10:43:26.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_43_26
+2019/05/13 10:43:31.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_43_31
+2019/05/13 10:43:33.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_43_33
+2019/05/13 10:43:35.203200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).OnOpenAllergen 146 Info: OnOpenAllergen uid:150015
+2019/05/13 10:43:35.437200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:43:36.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_43_36
+2019/05/13 10:43:36.938200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:43:41.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_43_41
+2019/05/13 10:43:43.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_43_43
+2019/05/13 10:43:46.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_43_46
+2019/05/13 10:43:51.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_43_51
+2019/05/13 10:43:53.169200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_43_53
+2019/05/13 10:43:56.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_43_56
+2019/05/13 10:43:56.821200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:200 single:200 combo:0 count:1
+2019/05/13 10:43:58.854200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:200 combo:300 count:2
+2019/05/13 10:44:00.856200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:44:01.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_44_01
+2019/05/13 10:44:02.889200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:44:03.169200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_44_03
+2019/05/13 10:44:06.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_44_06
+2019/05/13 10:44:08.938200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:44:11.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_44_11
+2019/05/13 10:44:13.169200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_44_13
+2019/05/13 10:44:16.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_44_16
+2019/05/13 10:44:21.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_44_21
+2019/05/13 10:44:23.169200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_44_23
+2019/05/13 10:44:26.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_44_26
+2019/05/13 10:44:31.169200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_44_31
+2019/05/13 10:44:33.169200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_44_33
+2019/05/13 10:44:34.571200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).OnOpenAllergen 146 Info: OnOpenAllergen uid:150015
+2019/05/13 10:44:34.572200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).OpenCard 786 Warning: CARD_SYS OpenCard uid:150015 game not start
+2019/05/13 10:44:36.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_44_36
+2019/05/13 10:44:37.637200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:44:38.154200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:44:41.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_44_41
+2019/05/13 10:44:43.171200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_44_43
+2019/05/13 10:44:46.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_44_46
+2019/05/13 10:44:51.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_44_51
+2019/05/13 10:44:53.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_44_53
+2019/05/13 10:44:56.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_44_56
+2019/05/13 10:45:01.171200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_45_01
+2019/05/13 10:45:02.322200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:200 single:200 combo:0 count:1
+2019/05/13 10:45:03.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_45_03
+2019/05/13 10:45:04.321200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:45:06.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_45_06
+2019/05/13 10:45:10.374200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:45:11.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_45_11
+2019/05/13 10:45:13.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_45_13
+2019/05/13 10:45:16.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_45_16
+2019/05/13 10:45:16.455200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:45:18.458200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:45:21.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_45_21
+2019/05/13 10:45:23.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_45_23
+2019/05/13 10:45:26.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_45_26
+2019/05/13 10:45:31.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_45_31
+2019/05/13 10:45:33.171200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_45_33
+2019/05/13 10:45:36.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_45_36
+2019/05/13 10:45:37.955200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).AttackEntity 515 Warning: BATTLE_SYS AttackEntity uid:150015 beattacker_entity:207306 not find
+2019/05/13 10:45:38.988200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).KillEntity 618 Warning: BATTLE_SYS KillEntity entity:213301 not find
+2019/05/13 10:45:41.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_45_41
+2019/05/13 10:45:43.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_45_43
+2019/05/13 10:45:46.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_45_46
+2019/05/13 10:45:47.171200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).OnOpenAllergen 146 Info: OnOpenAllergen uid:150015
+2019/05/13 10:45:47.221200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onAttackEntityReq 249 Warning: BATTLE_SYS onAttackEntityReq uid:150015 game not start
+2019/05/13 10:45:48.138200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:45:48.622200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:45:51.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_45_51
+2019/05/13 10:45:53.171200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_45_53
+2019/05/13 10:45:56.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_45_56
+2019/05/13 10:46:01.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_46_01
+2019/05/13 10:46:03.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_46_03
+2019/05/13 10:46:06.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_46_06
+2019/05/13 10:46:08.804200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:200 single:200 combo:0 count:1
+2019/05/13 10:46:11.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_46_11
+2019/05/13 10:46:13.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_46_13
+2019/05/13 10:46:16.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_46_16
+2019/05/13 10:46:18.889200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:200 combo:300 count:2
+2019/05/13 10:46:21.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_46_21
+2019/05/13 10:46:23.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_46_23
+2019/05/13 10:46:26.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_46_26
+2019/05/13 10:46:26.993200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:200 combo:500 count:3
+2019/05/13 10:46:31.005200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:200 combo:1000 count:4
+2019/05/13 10:46:31.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_46_31
+2019/05/13 10:46:33.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_46_33
+2019/05/13 10:46:35.006200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:200 combo:2000 count:5
+2019/05/13 10:46:36.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_46_36
+2019/05/13 10:46:41.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_46_41
+2019/05/13 10:46:43.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_46_43
+2019/05/13 10:46:46.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_46_46
+2019/05/13 10:46:51.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_46_51
+2019/05/13 10:46:53.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_46_53
+2019/05/13 10:46:56.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_46_56
+2019/05/13 10:46:59.555200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).OnOpenAllergen 146 Info: OnOpenAllergen uid:150015
+2019/05/13 10:46:59.588200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:47:00.023200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:47:00.554200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:47:01.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_47_01
+2019/05/13 10:47:02.088200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:47:03.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_47_03
+2019/05/13 10:47:06.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_47_06
+2019/05/13 10:47:11.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_47_11
+2019/05/13 10:47:13.171200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_47_13
+2019/05/13 10:47:16.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_47_16
+2019/05/13 10:47:21.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_47_21
+2019/05/13 10:47:23.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_47_23
+2019/05/13 10:47:23.255200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:47:25.259200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:47:26.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_47_26
+2019/05/13 10:47:29.304200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:47:31.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_47_31
+2019/05/13 10:47:33.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_47_33
+2019/05/13 10:47:35.338200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:200 combo:0 count:1
+2019/05/13 10:47:36.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_47_36
+2019/05/13 10:47:41.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_47_41
+2019/05/13 10:47:43.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_47_43
+2019/05/13 10:47:46.171200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_47_46
+2019/05/13 10:47:51.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_47_51
+2019/05/13 10:47:51.406200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:47:52.181200 git.huoys.com/qp/cells/config.reloadGameConfig 370 Warning: Reload config......
+2019/05/13 10:47:53.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_47_53
+2019/05/13 10:47:56.171200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_47_56
+2019/05/13 10:48:01.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_48_01
+2019/05/13 10:48:03.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_48_03
+2019/05/13 10:48:06.171200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_48_06
+2019/05/13 10:48:11.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_48_11
+2019/05/13 10:48:13.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_48_13
+2019/05/13 10:48:16.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_48_16
+2019/05/13 10:48:18.571200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).OnOpenAllergen 146 Info: OnOpenAllergen uid:150015
+2019/05/13 10:48:18.587200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:48:18.605200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onAttackEntityReq 249 Warning: BATTLE_SYS onAttackEntityReq uid:150015 game not start
+2019/05/13 10:48:18.821200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:48:19.071200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:48:21.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_48_21
+2019/05/13 10:48:21.589200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:48:21.604200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:48:22.104200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:48:22.138200 git.huoys.com/qp/cells/module/room/logic/battlesys.(*battlesys).onKillEntityReq 268 Warning: BATTLE_SYS onKillEntityReq uid:150015 game not start
+2019/05/13 10:48:23.171200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_48_23
+2019/05/13 10:48:26.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_48_26
+2019/05/13 10:48:31.171200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_48_31
+2019/05/13 10:48:33.171200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_48_33
+2019/05/13 10:48:36.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_48_36
+2019/05/13 10:48:40.205200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:48:41.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_48_41
+2019/05/13 10:48:43.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_48_43
+2019/05/13 10:48:46.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_48_46
+2019/05/13 10:48:46.238200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:48:51.173200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_48_51
+2019/05/13 10:48:52.255200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:0 combo:0 count:0
+2019/05/13 10:48:53.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_48_53
+2019/05/13 10:48:56.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_48_56
+2019/05/13 10:48:58.321200 git.huoys.com/qp/cells/module/room/logic/storysys.(*storysys).onAllergenAttackReq 177 Info: AllergenAttack uid:150015 ok:%!d(bool=true) first:0 single:200 combo:0 count:1
+2019/05/13 10:49:01.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_49_01
+2019/05/13 10:49:03.198200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_49_03
+2019/05/13 10:49:06.171200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_49_06
+2019/05/13 10:49:11.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_49_11
+2019/05/13 10:49:13.171200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_49_13
+2019/05/13 10:49:14.170200 git.huoys.com/qp/cells/module/auth.(*authmodule).onCheckSession 222 Info: AUTH onCheckSession timeout for ping kick sid:2 now:1557715754
+2019/05/13 10:49:14.171200 git.huoys.com/qp/cells/module/auth.(*authmodule).onDisConnect 82 Info: AUTH onDisConnect sid:2 addr:172.12.10.126:53690 EndTime:1557715754.....
+2019/05/13 10:49:14.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUserLogout 82 Info: USER OnUserLogout uid:150015 sid:2 logout_type:1
+2019/05/13 10:49:14.172200 git.huoys.com/qp/cells/module/room.(*roommodule).OnUserExit 138 Info: ROOM OnUserExit uid:150015 table_id:1 exit_type:1
+2019/05/13 10:49:16.171200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_49_16
+2019/05/13 10:49:21.171200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_49_21
+2019/05/13 10:49:23.171200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_49_23
+2019/05/13 10:49:26.171200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_49_26
+2019/05/13 10:49:31.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_49_31
+2019/05/13 10:49:33.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_49_33
+2019/05/13 10:49:36.171200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_49_36
+2019/05/13 10:49:41.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_49_41
+2019/05/13 10:49:43.170200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_49_43
+2019/05/13 10:49:46.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_49_46
+2019/05/13 10:49:51.170200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_49_51
+2019/05/13 10:49:53.173200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_49_53
+2019/05/13 10:49:56.173200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_49_56
+2019/05/13 10:50:01.171200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_50_01
+2019/05/13 10:50:03.173200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_50_03
+2019/05/13 10:50:06.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_50_06
+2019/05/13 10:50:11.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_50_11
+2019/05/13 10:50:13.173200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_50_13
+2019/05/13 10:50:16.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_50_16
+2019/05/13 10:50:21.171200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_50_21
+2019/05/13 10:50:23.175200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_50_23
+2019/05/13 10:50:26.173200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_50_26
+2019/05/13 10:50:31.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_50_31
+2019/05/13 10:50:33.172200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_50_33
+2019/05/13 10:50:36.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_50_36
+2019/05/13 10:50:41.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_50_41
+2019/05/13 10:50:43.172200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_50_43
+2019/05/13 10:50:46.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_50_46
+2019/05/13 10:50:51.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_50_51
+2019/05/13 10:50:53.172200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_50_53
+2019/05/13 10:50:56.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_50_56
+2019/05/13 10:51:01.174200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_51_01
+2019/05/13 10:51:03.172200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_51_03
+2019/05/13 10:51:06.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_51_06
+2019/05/13 10:51:11.173200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_51_11
+2019/05/13 10:51:13.172200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_51_13
+2019/05/13 10:51:16.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_51_16
+2019/05/13 10:51:21.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_51_21
+2019/05/13 10:51:23.173200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_51_23
+2019/05/13 10:51:26.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_51_26
+2019/05/13 10:51:31.174200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_51_31
+2019/05/13 10:51:33.172200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_51_33
+2019/05/13 10:51:36.174200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_51_36
+2019/05/13 10:51:41.173200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_51_41
+2019/05/13 10:51:43.172200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_51_43
+2019/05/13 10:51:46.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_51_46
+2019/05/13 10:51:51.173200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_51_51
+2019/05/13 10:51:53.173200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_51_53
+2019/05/13 10:51:56.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_51_56
+2019/05/13 10:52:01.173200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_52_01
+2019/05/13 10:52:03.172200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_52_03
+2019/05/13 10:52:06.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_52_06
+2019/05/13 10:52:11.173200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_52_11
+2019/05/13 10:52:13.172200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_52_13
+2019/05/13 10:52:16.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_52_16
+2019/05/13 10:52:21.174200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_52_21
+2019/05/13 10:52:23.173200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_52_23
+2019/05/13 10:52:26.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_52_26
+2019/05/13 10:52:31.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_52_31
+2019/05/13 10:52:33.173200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_52_33
+2019/05/13 10:52:36.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_52_36
+2019/05/13 10:52:41.173200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_52_41
+2019/05/13 10:52:43.189200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_52_43
+2019/05/13 10:52:46.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_52_46
+2019/05/13 10:52:51.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_52_51
+2019/05/13 10:52:52.173200 git.huoys.com/qp/cells/config.reloadGameConfig 370 Warning: Reload config......
+2019/05/13 10:52:53.172200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_52_53
+2019/05/13 10:52:56.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_52_56
+2019/05/13 10:53:01.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_53_01
+2019/05/13 10:53:03.172200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_53_03
+2019/05/13 10:53:06.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_53_06
+2019/05/13 10:53:11.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_53_11
+2019/05/13 10:53:13.172200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_53_13
+2019/05/13 10:53:16.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_53_16
+2019/05/13 10:53:21.173200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_53_21
+2019/05/13 10:53:23.172200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_53_23
+2019/05/13 10:53:26.173200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_53_26
+2019/05/13 10:53:31.173200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_53_31
+2019/05/13 10:53:33.173200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_53_33
+2019/05/13 10:53:36.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_53_36
+2019/05/13 10:53:41.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_53_41
+2019/05/13 10:53:43.172200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_53_43
+2019/05/13 10:53:46.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_53_46
+2019/05/13 10:53:51.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_53_51
+2019/05/13 10:53:53.173200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_53_53
+2019/05/13 10:53:56.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_53_56
+2019/05/13 10:54:01.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_54_01
+2019/05/13 10:54:03.173200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_54_03
+2019/05/13 10:54:06.172200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:0 writetime:2019-05-13_10_54_06

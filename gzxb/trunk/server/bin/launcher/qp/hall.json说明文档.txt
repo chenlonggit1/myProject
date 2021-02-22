@@ -1,0 +1,23 @@
+{
+	"WorldUrl": "http://localhost:8100",	//世界服的url
+
+	"Match": {
+		"Info": [{		
+			"BHour": 10,		//比赛的时间
+			"BMin": 0,
+			"EHour": 11,
+			"EMin": 0
+		}
+		//.....],
+		"SignUpMoney": [0, 3000, 3000, 3000, 3000, 3000], //累计报名的费用
+		"HitRatio": [0, 0.1, 0.2, 0.3, 0.4, 0.5], //累计的命中系数
+		"MaxMatchTimes": 6, //最多可以参与的次数
+		"LastSignUpTime": 180, //比赛时间最后3分钟，不允许报名
+
+		"Reward": [{		//奖励
+			"LRankIdx": 1,	//排名的范围
+			"RRankIdx": 1,
+			"Money": 300000	//奖励的金币
+		}]
+	}
+}

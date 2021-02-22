@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "aa73fffd-4cf0-419a-8086-cc03a8c5c355",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "ef_guaitaopao": {
+      "ver": "1.0.3",
+      "uuid": "c5355e84-2bc6-4c9d-b07f-887d42353d29",
+      "rawTextureUuid": "aa73fffd-4cf0-419a-8086-cc03a8c5c355",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -6,
+      "offsetY": 4,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 240,
+      "height": 116,
+      "rawWidth": 256,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,12 @@
+[
+{"Id":1,"Type":1,"Name":"成本池","Description":"成本池","Stackable":true,"Statable":true,"Exclusive":false,"EffectiveDays":-1,"EffectId":0,"AutoUse":false},
+{"Id":2,"Type":1,"Name":"体验场筹码","Description":"体验场筹码","Stackable":true,"Statable":true,"Exclusive":false,"EffectiveDays":-1,"EffectId":0,"AutoUse":false},
+{"Id":3,"Type":1,"Name":"体验场的成本池","Description":"体验场的成本池","Stackable":true,"Statable":true,"Exclusive":false,"EffectiveDays":-1,"EffectId":0,"AutoUse":false},
+{"Id":4,"Type":1,"Name":"获取免费次数的次数","Description":"获取免费次数的次数","Stackable":true,"Statable":true,"Exclusive":false,"EffectiveDays":-1,"EffectId":0,"AutoUse":false},
+{"Id":5,"Type":1,"Name":"是否进入过体验场次数","Description":"是否进入过体验场次数","Stackable":true,"Statable":true,"Exclusive":false,"EffectiveDays":-1,"EffectId":0,"AutoUse":false},
+{"Id":6,"Type":1,"Name":"进入游戏的次数","Description":"进入游戏的次数","Stackable":true,"Statable":true,"Exclusive":false,"EffectiveDays":-1,"EffectId":0,"AutoUse":false},
+{"Id":7,"Type":1,"Name":"秤砣","Description":"秤砣","Stackable":true,"Statable":true,"Exclusive":false,"EffectiveDays":-1,"EffectId":0,"AutoUse":false},
+{"Id":8,"Type":1,"Name":"体验场的秤砣","Description":"体验场的秤砣","Stackable":true,"Statable":true,"Exclusive":false,"EffectiveDays":-1,"EffectId":0,"AutoUse":false},
+{"Id":9,"Type":1,"Name":"微信秤砣","Description":"微信秤砣","Stackable":true,"Statable":true,"Exclusive":false,"EffectiveDays":-1,"EffectId":0,"AutoUse":false},
+{"Id":10,"Type":1,"Name":"体验场微信秤砣","Description":"体验场微信秤砣","Stackable":true,"Statable":true,"Exclusive":false,"EffectiveDays":-1,"EffectId":0,"AutoUse":false}
+]

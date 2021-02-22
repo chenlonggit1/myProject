@@ -1,0 +1,174 @@
+
+huanongxinglianqiujun01.png
+size: 399,399
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm
+  rotate: true
+  xy: 349, 270
+  size: 46, 39
+  orig: 46, 39
+  offset: 0, 0
+  index: -1
+L_calf
+  rotate: false
+  xy: 362, 241
+  size: 23, 27
+  orig: 23, 27
+  offset: 0, 0
+  index: -1
+L_foot
+  rotate: false
+  xy: 30, 12
+  size: 39, 20
+  orig: 39, 20
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: false
+  xy: 311, 62
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+L_leg
+  rotate: false
+  xy: 2, 2
+  size: 26, 30
+  orig: 26, 30
+  offset: 0, 0
+  index: -1
+L_upper
+  rotate: false
+  xy: 268, 53
+  size: 41, 52
+  orig: 41, 52
+  offset: 0, 0
+  index: -1
+R_arm
+  rotate: false
+  xy: 314, 226
+  size: 46, 31
+  orig: 46, 31
+  offset: 0, 0
+  index: -1
+R_calf
+  rotate: false
+  xy: 362, 216
+  size: 25, 23
+  orig: 25, 23
+  offset: 0, 0
+  index: -1
+R_foot
+  rotate: false
+  xy: 71, 16
+  size: 42, 16
+  orig: 42, 16
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: true
+  xy: 314, 259
+  size: 55, 33
+  orig: 55, 33
+  offset: 0, 0
+  index: -1
+R_leg
+  rotate: true
+  xy: 115, 9
+  size: 23, 31
+  orig: 23, 31
+  offset: 0, 0
+  index: -1
+R_upper
+  rotate: true
+  xy: 268, 25
+  size: 26, 41
+  orig: 26, 41
+  offset: 0, 0
+  index: -1
+attack
+  rotate: false
+  xy: 331, 355
+  size: 62, 42
+  orig: 62, 42
+  offset: 0, 0
+  index: -1
+close
+  rotate: true
+  xy: 311, 2
+  size: 58, 35
+  orig: 58, 35
+  offset: 0, 0
+  index: -1
+die
+  rotate: false
+  xy: 2, 79
+  size: 146, 143
+  orig: 146, 143
+  offset: 0, 0
+  index: -1
+hair1
+  rotate: false
+  xy: 150, 118
+  size: 118, 101
+  orig: 118, 101
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: true
+  xy: 189, 221
+  size: 93, 123
+  orig: 93, 123
+  offset: 0, 0
+  index: -1
+hair3
+  rotate: true
+  xy: 154, 21
+  size: 95, 112
+  orig: 95, 112
+  offset: 0, 0
+  index: -1
+hair4
+  rotate: false
+  xy: 189, 316
+  size: 140, 81
+  orig: 140, 81
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 224
+  size: 185, 173
+  orig: 185, 173
+  offset: 0, 0
+  index: -1
+nomal
+  rotate: false
+  xy: 331, 318
+  size: 59, 35
+  orig: 59, 35
+  offset: 0, 0
+  index: -1
+spine
+  rotate: true
+  xy: 270, 107
+  size: 112, 89
+  orig: 112, 89
+  offset: 0, 0
+  index: -1
+spine1
+  rotate: true
+  xy: 348, 17
+  size: 43, 38
+  orig: 43, 38
+  offset: 0, 0
+  index: -1
+yinying
+  rotate: false
+  xy: 2, 34
+  size: 150, 43
+  orig: 150, 43
+  offset: 0, 0
+  index: -1

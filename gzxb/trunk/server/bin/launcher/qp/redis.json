@@ -1,0 +1,17 @@
+{
+  "SqlConnectionString": "Data Source=172.13.0.58,39000;Database=game_qp_bpl;User ID=sa;Password=hy7961pl.NET",
+  "SqlConnectionPoolCapacity": 20,
+  "Redis": {
+    "Persistant": "172.13.0.37:6001",
+    "Temporary": "172.13.0.37:6001"
+  },
+  "LandingRule": {
+    "Changes": [
+      10,
+      5,
+      1
+    ],
+    "Interval": 300000,
+    "RedisEnabled": false
+  }
+}

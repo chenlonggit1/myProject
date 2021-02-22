@@ -1,0 +1,11 @@
+2019/05/13 10:01:59.512200 git.huoys.com/qp/cells/config.reloadGameConfig 370 Warning: Reload config......
+2019/05/13 10:02:01.514200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:0 writetime:2019-05-13_10_02_01
+2019/05/13 10:02:03.107200 git.huoys.com/qp/cells/module/auth.(*authmodule).onConnect 74 Info: AUTH onConnect sid:1 addr:172.12.10.126:58880 StartTime:1557712923.....
+2019/05/13 10:02:04.259200 git.huoys.com/qp/cells/module/auth.(*authmodule).onLoginGameReq 162 Info: AUTH onLoginGameReq sid:1 uid:150015 amount:107213550 money:107213550 baseinfo:{"baseuserinfoget":{"Sex":"0","NickName":"QP_P150015E675E02B","Partner":[{}]}} keyvaluedata:{"KV_TableData":"{\"LastLogin\":1557482783,\"PollingSec\":1557712730,\"Ratio\":10,\"Heroes\":[200,201,202,201,201,201,201,201,201],\"Positions\":[201,0,0,0,0],\"KillCount\":333,\"AllergenData\":{\"TaxReturnPool\":1950,\"SettleReward\":200,\"SettleFlag\":true,\"LastTick\":1557710305}}"}
+2019/05/13 10:02:04.259200 git.huoys.com/qp/cells/module/user.(*usermodule).onJoinRoom 146 Info: USER onJoinRoom sid:1 uid:150015
+2019/05/13 10:02:04.260200 git.huoys.com/qp/cells/module/room.(*roommodule).OnUserEnter 118 Info: ROOM OnUserEnter uid:150015 table_id:1
+2019/05/13 10:02:04.513200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_02_04
+2019/05/13 10:02:09.513200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_02_09
+2019/05/13 10:02:11.514200 git.huoys.com/qp/cells/module/room.(*TableMgr).OnUpdate 81 Info: TABLE OnlineTableCount total:200 valid:1 writetime:2019-05-13_10_02_11
+2019/05/13 10:02:14.513200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_02_14
+2019/05/13 10:02:19.514200 git.huoys.com/qp/cells/module/user.(*usermodule).OnUpdate 155 Info: USER OnlineCount:1 writetime:2019-05-13_10_02_19

@@ -1,0 +1,47 @@
+2019/06/03 19:05:36.353000 main.main 70 Info: Hall start now ....
+2019/06/03 19:05:36.363000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 19:05:36.365000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 19:05:36.368000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 93 Info: connectionString:sqlserver://SY_GameServer1:cd24fb0d6963f7d2.NET@192.168.217.146:39000?database=game_qp_cells&connection+timeout=30&log=63&encrypt=disable.
+2019/06/03 19:05:36.369000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 100 Info: connectionString:sqlserver://SY_GameServer1:cd24fb0d6963f7d2.NET@192.168.217.146:39000?database=game_qp_cells&connection+timeout=30&log=63&encrypt=disable.
+2019/06/03 19:05:51.371000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 103 Error: Cannot ping: Unable to open tcp connection with host '192.168.217.146:39000': dial tcp 192.168.217.146:39000: i/o timeout.
+2019/06/03 19:05:51.372000 git.huoys.com/qp/hall/sql.ConnectDB 108 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=Passport.
+2019/06/03 19:05:51.582000 git.huoys.com/qp/hall/sql.ConnectDB 122 Info: DB Passport (113.106.164.43:32960) connected.
+2019/06/03 19:05:51.584000 git.huoys.com/qp/hall/sql.ConnectDB 108 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=SY_Money.
+2019/06/03 19:05:51.684000 git.huoys.com/qp/hall/sql.ConnectDB 122 Info: DB SY_Money (113.106.164.43:32960) connected.
+2019/06/03 19:05:51.684000 git.huoys.com/qp/hall/sql.ConnectDB 108 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=CYMoney.
+2019/06/03 19:05:51.705000 git.huoys.com/qp/hall/sql.ConnectDB 122 Info: DB CYMoney (113.106.164.43:32960) connected.
+2019/06/03 19:05:51.706000 git.huoys.com/qp/hall/sql.ConnectDB 108 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=SY_GameCenter.
+2019/06/03 19:05:51.774000 git.huoys.com/qp/hall/sql.ConnectDB 122 Info: DB SY_GameCenter (113.106.164.43:32960) connected.
+2019/06/03 19:05:51.775000 main.main 87 Warning: start Hall sucess !
+2019/06/03 19:05:51.775000 git.huoys.com/qp/hall/http.Startup 41 Warning: http url:0.0.0.0:8000.
+2019/06/03 19:05:51.776000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.acceptHTTPRequest 80 Info: Http server listen at:0.0.0.0:8000
+2019/06/03 19:15:37.367000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 19:25:37.368000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 19:35:37.373000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 19:45:37.377000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 19:55:37.370000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 20:05:37.386000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 20:15:37.378000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 20:25:37.378000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 20:35:37.388000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 20:45:37.388000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 20:55:37.388000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 21:05:37.385000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 21:15:37.400000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 21:25:37.392000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 21:35:37.404000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 21:45:37.401000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 21:55:37.410000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 22:05:37.411000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 22:15:37.414000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 22:25:37.412000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 22:35:37.416000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 22:45:37.415000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 22:55:37.412000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 23:05:37.415000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 23:15:37.438000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 23:25:37.430000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 23:35:37.432000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 23:45:37.440000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/03 23:55:37.432000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/06/04 00:05:37.443000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)

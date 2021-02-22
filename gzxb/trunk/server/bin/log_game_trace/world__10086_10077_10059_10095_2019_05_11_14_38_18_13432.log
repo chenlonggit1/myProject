@@ -1,0 +1,1365 @@
+2019/05/11 14:38:18.334200 git.huoys.com/qp/world/sql/casino.ConnectDB 107 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=30&database=SY_Money.
+2019/05/11 14:38:18.337200 git.huoys.com/qp/world/web.acceptHTTPSRequest 101 Info: Https server listen at:0.0.0.0:8200
+2019/05/11 14:38:18.364200 git.huoys.com/qp/world/sql/casino.ConnectDB 121 Info: DB SY_Money (113.106.164.43:32960) connected.
+2019/05/11 14:38:18.365200 git.huoys.com/qp/world/sql/casino.ConnectDB 107 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=30&database=CYMoney.
+2019/05/11 14:38:18.381200 git.huoys.com/qp/world/sql/casino.ConnectDB 121 Info: DB CYMoney (113.106.164.43:32960) connected.
+2019/05/11 14:38:18.381200 git.huoys.com/qp/world/sql/casino.ConnectDB 107 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=30&database=Passport.
+2019/05/11 14:38:18.398200 git.huoys.com/qp/world/sql/casino.ConnectDB 121 Info: DB Passport (113.106.164.43:32960) connected.
+2019/05/11 14:38:18.398200 git.huoys.com/qp/world/sql/casino.ConnectDB 107 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=30&database=sy_gamecenter.
+2019/05/11 14:38:18.416200 git.huoys.com/qp/world/sql/casino.ConnectDB 121 Info: DB sy_gamecenter (113.106.164.43:32960) connected.
+2019/05/11 14:38:18.416200 git.huoys.com/qp/world/sql/casino.ConnectDB 107 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=30&database=gamecenter.
+2019/05/11 14:38:18.436200 git.huoys.com/qp/world/sql/casino.ConnectDB 121 Info: DB gamecenter (113.106.164.43:32960) connected.
+2019/05/11 14:38:18.438200 git.huoys.com/qp/world/sql/casino.ConnectDB 107 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=30&database=sy_recpergame.
+2019/05/11 14:38:18.456200 git.huoys.com/qp/world/sql/casino.ConnectDB 121 Info: DB sy_recpergame (113.106.164.43:32960) connected.
+2019/05/11 14:38:18.460200 git.huoys.com/qp/world/sql/casino.ConnectDB 107 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=30&database=SY_AgentSystem.
+2019/05/11 14:38:18.480200 git.huoys.com/qp/world/sql/casino.ConnectDB 121 Info: DB SY_AgentSystem (113.106.164.43:32960) connected.
+2019/05/11 14:38:18.491200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10086;
+	set @IV_siPositionID=10541;
+	set @IV_sServerName='Room_10086_10541_1_1';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.498200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10086)(1)(1)(585) sucess.
+2019/05/11 14:38:18.512200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10077;
+	set @IV_siPositionID=10361;
+	set @IV_sServerName='Room_10077_10361_1_1';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.518200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10077)(1)(1)(579) sucess.
+2019/05/11 14:38:18.525200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10077;
+	set @IV_siPositionID=10361;
+	set @IV_sServerName='Room_10077_10361_2_2';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.534200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10077)(2)(2)(583) sucess.
+2019/05/11 14:38:18.541200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10077;
+	set @IV_siPositionID=10361;
+	set @IV_sServerName='Room_10077_10361_3_3';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.548200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10077)(3)(3)(609) sucess.
+2019/05/11 14:38:18.556200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10077;
+	set @IV_siPositionID=10361;
+	set @IV_sServerName='Room_10077_10361_4_4';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.563200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10077)(4)(4)(613) sucess.
+2019/05/11 14:38:18.569200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10059;
+	set @IV_siPositionID=10271;
+	set @IV_sServerName='Room_10059_10271_2_1';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.576200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10059)(2)(1)(566) sucess.
+2019/05/11 14:38:18.585200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10059;
+	set @IV_siPositionID=10271;
+	set @IV_sServerName='Room_10059_10271_2_2';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.597200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10059)(2)(2)(567) sucess.
+2019/05/11 14:38:18.603200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10059;
+	set @IV_siPositionID=10271;
+	set @IV_sServerName='Room_10059_10271_2_3';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.608200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10059)(2)(3)(568) sucess.
+2019/05/11 14:38:18.616200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10059;
+	set @IV_siPositionID=10271;
+	set @IV_sServerName='Room_10059_10271_3_1';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.623200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10059)(3)(1)(569) sucess.
+2019/05/11 14:38:18.630200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10059;
+	set @IV_siPositionID=10271;
+	set @IV_sServerName='Room_10059_10271_3_2';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.636200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10059)(3)(2)(570) sucess.
+2019/05/11 14:38:18.646200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10059;
+	set @IV_siPositionID=10271;
+	set @IV_sServerName='Room_10059_10271_3_3';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.652200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10059)(3)(3)(571) sucess.
+2019/05/11 14:38:18.661200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10059;
+	set @IV_siPositionID=10271;
+	set @IV_sServerName='Room_10059_10271_4_1';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.667200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10059)(4)(1)(572) sucess.
+2019/05/11 14:38:18.674200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10059;
+	set @IV_siPositionID=10271;
+	set @IV_sServerName='Room_10059_10271_4_2';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.684200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10059)(4)(2)(573) sucess.
+2019/05/11 14:38:18.691200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10059;
+	set @IV_siPositionID=10271;
+	set @IV_sServerName='Room_10059_10271_4_3';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.701200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10059)(4)(3)(574) sucess.
+2019/05/11 14:38:18.708200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10095;
+	set @IV_siPositionID=10561;
+	set @IV_sServerName='Room_10095_10561_1_1';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.714200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10095)(1)(1)(586) sucess.
+2019/05/11 14:38:18.722200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10095;
+	set @IV_siPositionID=10561;
+	set @IV_sServerName='Room_10095_10561_1_2';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.728200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10095)(1)(2)(587) sucess.
+2019/05/11 14:38:18.735200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10095;
+	set @IV_siPositionID=10561;
+	set @IV_sServerName='Room_10095_10561_1_3';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.744200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10095)(1)(3)(824) sucess.
+2019/05/11 14:38:18.751200 git.huoys.com/qp/world/sql/qp.startRoom 163 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	INT;
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_sServerName	varchar(64);
+	declare @IV_sServerIP	varchar(15);
+	declare @IV_sConfig	varchar(2048);
+	declare @OV_bIsCreate	BIT;
+	declare @OV_siServerID	SMALLINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_TableFee	VARCHAR(100);
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10095;
+	set @IV_siPositionID=10561;
+	set @IV_sServerName='Room_10095_10561_1_4';
+	set @IV_sServerIP='172.12.10.126';
+	set @IV_sConfig='';
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	
+	exec @OV_sResult = PrPs_ServerInfo_StartServer
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_sServerName,
+	 @IV_sServerIP,
+	 @IV_sConfig,
+	 @OV_bIsCreate out,
+	 @OV_siServerID out,
+	 @OV_sReturnMsg out,
+	 @OV_TableFee out;
+
+	select @OV_sResult,@OV_siServerID, @OV_sReturnMsg;
+	
+2019/05/11 14:38:18.758200 git.huoys.com/qp/world/sql/qp.startRoom 190 Info: database start room(10095)(1)(4)(825) sucess.
+2019/05/11 14:38:18.759200 git.huoys.com/qp/world/sql/qp.StartRoom 67 Error: games == nil....
+2019/05/11 14:38:18.760200 git.huoys.com/qp/world/sql/qp.StartRoom 67 Error: games == nil....
+2019/05/11 14:38:18.760200 git.huoys.com/qp/world/sql/qp.StartRoom 67 Error: games == nil....
+2019/05/11 14:38:18.761200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(0),g(10086),a(1),s(1),dbs(585),dba(10541).
+2019/05/11 14:38:18.762200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(1),g(10077),a(1),s(1),dbs(579),dba(10361).
+2019/05/11 14:38:18.762200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(2),g(10077),a(2),s(2),dbs(583),dba(10361).
+2019/05/11 14:38:18.763200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(3),g(10077),a(3),s(3),dbs(609),dba(10361).
+2019/05/11 14:38:18.763200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(4),g(10077),a(4),s(4),dbs(613),dba(10361).
+2019/05/11 14:38:18.764200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(5),g(10059),a(2),s(1),dbs(566),dba(10271).
+2019/05/11 14:38:18.764200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(6),g(10059),a(2),s(2),dbs(567),dba(10271).
+2019/05/11 14:38:18.764200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(7),g(10059),a(2),s(3),dbs(568),dba(10271).
+2019/05/11 14:38:18.766200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(8),g(10059),a(3),s(1),dbs(569),dba(10271).
+2019/05/11 14:38:18.767200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(9),g(10059),a(3),s(2),dbs(570),dba(10271).
+2019/05/11 14:38:18.767200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(10),g(10059),a(3),s(3),dbs(571),dba(10271).
+2019/05/11 14:38:18.769200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(11),g(10059),a(4),s(1),dbs(572),dba(10271).
+2019/05/11 14:38:18.770200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(12),g(10059),a(4),s(2),dbs(573),dba(10271).
+2019/05/11 14:38:18.771200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(13),g(10059),a(4),s(3),dbs(574),dba(10271).
+2019/05/11 14:38:18.771200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(14),g(10095),a(1),s(1),dbs(586),dba(10561).
+2019/05/11 14:38:18.771200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(15),g(10095),a(1),s(2),dbs(587),dba(10561).
+2019/05/11 14:38:18.772200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(16),g(10095),a(1),s(3),dbs(824),dba(10561).
+2019/05/11 14:38:18.772200 git.huoys.com/qp/world/sql/qp.StartRoom 86 Info: ====== WorldConfig.ParamsGameList idx(17),g(10095),a(1),s(4),dbs(825),dba(10561).
+2019/05/11 14:38:18.773200 git.huoys.com/qp/world/sql/qp.StartRoom 92 Info: >>>>>>>>>>>> WorldConfig.Params.GameList idx(0),g(10086),a(1).
+2019/05/11 14:38:18.773200 git.huoys.com/qp/world/sql/qp.StartRoom 92 Info: >>>>>>>>>>>> WorldConfig.Params.GameList idx(1),g(10077),a(1).
+2019/05/11 14:38:18.773200 git.huoys.com/qp/world/sql/qp.StartRoom 92 Info: >>>>>>>>>>>> WorldConfig.Params.GameList idx(2),g(10077),a(2).
+2019/05/11 14:38:18.774200 git.huoys.com/qp/world/sql/qp.StartRoom 92 Info: >>>>>>>>>>>> WorldConfig.Params.GameList idx(3),g(10077),a(3).
+2019/05/11 14:38:18.774200 git.huoys.com/qp/world/sql/qp.StartRoom 92 Info: >>>>>>>>>>>> WorldConfig.Params.GameList idx(4),g(10077),a(4).
+2019/05/11 14:38:18.774200 git.huoys.com/qp/world/sql/qp.StartRoom 92 Info: >>>>>>>>>>>> WorldConfig.Params.GameList idx(5),g(10059),a(2).
+2019/05/11 14:38:18.775200 git.huoys.com/qp/world/sql/qp.StartRoom 92 Info: >>>>>>>>>>>> WorldConfig.Params.GameList idx(6),g(10059),a(3).
+2019/05/11 14:38:18.775200 git.huoys.com/qp/world/sql/qp.StartRoom 92 Info: >>>>>>>>>>>> WorldConfig.Params.GameList idx(7),g(10059),a(4).
+2019/05/11 14:38:18.776200 git.huoys.com/qp/world/sql/qp.StartRoom 92 Info: >>>>>>>>>>>> WorldConfig.Params.GameList idx(8),g(10095),a(1).
+2019/05/11 14:38:18.776200 git.huoys.com/qp/world/sql/qp.StartRoom 92 Info: >>>>>>>>>>>> WorldConfig.Params.GameList idx(9),g(10095),a(2).
+2019/05/11 14:38:18.776200 git.huoys.com/qp/world/sql/qp.StartRoom 92 Info: >>>>>>>>>>>> WorldConfig.Params.GameList idx(10),g(10095),a(3).
+2019/05/11 14:38:18.777200 git.huoys.com/qp/world/sql/qp.StartRoom 92 Info: >>>>>>>>>>>> WorldConfig.Params.GameList idx(11),g(10095),a(3).
+2019/05/11 14:38:18.777200 git.huoys.com/qp/world/sql/casino.ConnectGameDB 75 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_bpl&connection+timeout=30&log=63&encrypt=disable.
+2019/05/11 14:38:18.787200 git.huoys.com/qp/world/sql/casino.ConnectGameDB 83 Info: DB game_qp_bpl (172.13.0.58:39000) connected.
+2019/05/11 14:38:18.788200 git.huoys.com/qp/world/sql/casino.ConnectGameDB 75 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_dds&connection+timeout=30&log=63&encrypt=disable.
+2019/05/11 14:38:18.794200 git.huoys.com/qp/world/sql/casino.ConnectGameDB 83 Info: DB game_qp_dds (172.13.0.58:39000) connected.
+2019/05/11 14:38:18.795200 git.huoys.com/qp/world/sql/casino.ConnectGameDB 75 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_aby&connection+timeout=30&log=63&encrypt=disable.
+2019/05/11 14:38:18.800200 git.huoys.com/qp/world/sql/casino.ConnectGameDB 83 Info: DB game_qp_aby (172.13.0.58:39000) connected.
+2019/05/11 14:38:21.461200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:38:21.466200 git.huoys.com/qp/world/sql/qp.UpdatePreventCheatData 66 Info: UpdatePreventCheatData query:
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_GameId	INT;
+	declare @IV_GoldNUM	BIGINT;
+	declare @IV_ServerID  INT;
+	declare @OV_GoldNum	BIGINT;
+	declare @OV_DefaultGoldNum	BIGINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_sResult INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_GameId=10095;
+	set @IV_GoldNUM=0;
+	set @IV_ServerID=586;
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	set @OV_DefaultGoldNum=0;
+	set @OV_GoldNum=0;
+
+	exec @OV_sResult = PrPs_BaseGoldPool_Update
+	 @IV_sProcPassword,
+	 @IV_GameId,
+	 @IV_GoldNUM,
+	 @IV_ServerID,
+	 @OV_GoldNum out,
+	 @OV_DefaultGoldNum out,
+	 @OV_sReturnMsg out;
+
+	select @OV_sResult, @OV_sReturnMsg, @OV_DefaultGoldNum, @OV_GoldNum;
+	.
+2019/05/11 14:38:21.471200 git.huoys.com/qp/world/web/get.OnUpdatePreventCheat 54 Info: UpdatePreventCheat goldNum(4826681080) sucess
+2019/05/11 14:38:21.503200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:38:21.509200 git.huoys.com/qp/world/sql/qp.UpdatePreventCheatData 66 Info: UpdatePreventCheatData query:
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_GameId	INT;
+	declare @IV_GoldNUM	BIGINT;
+	declare @IV_ServerID  INT;
+	declare @OV_GoldNum	BIGINT;
+	declare @OV_DefaultGoldNum	BIGINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_sResult INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_GameId=10095;
+	set @IV_GoldNUM=0;
+	set @IV_ServerID=587;
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	set @OV_DefaultGoldNum=0;
+	set @OV_GoldNum=0;
+
+	exec @OV_sResult = PrPs_BaseGoldPool_Update
+	 @IV_sProcPassword,
+	 @IV_GameId,
+	 @IV_GoldNUM,
+	 @IV_ServerID,
+	 @OV_GoldNum out,
+	 @OV_DefaultGoldNum out,
+	 @OV_sReturnMsg out;
+
+	select @OV_sResult, @OV_sReturnMsg, @OV_DefaultGoldNum, @OV_GoldNum;
+	.
+2019/05/11 14:38:21.509200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:38:21.519200 git.huoys.com/qp/world/sql/qp.UpdatePreventCheatData 66 Info: UpdatePreventCheatData query:
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_GameId	INT;
+	declare @IV_GoldNUM	BIGINT;
+	declare @IV_ServerID  INT;
+	declare @OV_GoldNum	BIGINT;
+	declare @OV_DefaultGoldNum	BIGINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_sResult INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_GameId=10095;
+	set @IV_GoldNUM=0;
+	set @IV_ServerID=825;
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	set @OV_DefaultGoldNum=0;
+	set @OV_GoldNum=0;
+
+	exec @OV_sResult = PrPs_BaseGoldPool_Update
+	 @IV_sProcPassword,
+	 @IV_GameId,
+	 @IV_GoldNUM,
+	 @IV_ServerID,
+	 @OV_GoldNum out,
+	 @OV_DefaultGoldNum out,
+	 @OV_sReturnMsg out;
+
+	select @OV_sResult, @OV_sReturnMsg, @OV_DefaultGoldNum, @OV_GoldNum;
+	.
+2019/05/11 14:38:21.519200 git.huoys.com/qp/world/web/get.OnUpdatePreventCheat 54 Info: UpdatePreventCheat goldNum(4826681080) sucess
+2019/05/11 14:38:21.525200 git.huoys.com/qp/world/web/get.OnUpdatePreventCheat 54 Info: UpdatePreventCheat goldNum(4826681080) sucess
+2019/05/11 14:38:21.526200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:38:21.542200 git.huoys.com/qp/world/sql/qp.UpdatePreventCheatData 66 Info: UpdatePreventCheatData query:
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_GameId	INT;
+	declare @IV_GoldNUM	BIGINT;
+	declare @IV_ServerID  INT;
+	declare @OV_GoldNum	BIGINT;
+	declare @OV_DefaultGoldNum	BIGINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_sResult INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_GameId=10095;
+	set @IV_GoldNUM=0;
+	set @IV_ServerID=824;
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	set @OV_DefaultGoldNum=0;
+	set @OV_GoldNum=0;
+
+	exec @OV_sResult = PrPs_BaseGoldPool_Update
+	 @IV_sProcPassword,
+	 @IV_GameId,
+	 @IV_GoldNUM,
+	 @IV_ServerID,
+	 @OV_GoldNum out,
+	 @OV_DefaultGoldNum out,
+	 @OV_sReturnMsg out;
+
+	select @OV_sResult, @OV_sReturnMsg, @OV_DefaultGoldNum, @OV_GoldNum;
+	.
+2019/05/11 14:38:21.548200 git.huoys.com/qp/world/web/get.OnUpdatePreventCheat 54 Info: UpdatePreventCheat goldNum(4826681080) sucess
+2019/05/11 14:38:26.419200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:38:26.474200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:38:26.478200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:38:26.496200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:38:29.832200 git.huoys.com/qp/world/sql/qp.EnterRoom 74 Info: EnterRoom playerID(150015) query:
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_iUserID	INT;
+	declare @IV_siServerID	SMALLINT;
+	declare @OV_siExistsServerID	SMALLINT;
+	declare @OV_biAmount	BIGINT;
+	declare @OV_sReturnMsg	VARCHAR(128);
+	declare @OV_iErrorCode INT;
+	declare @IV_tiSysType TINYINT;
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_iUserID=150015;
+	set @IV_siServerID=586;
+	set @IV_tiSysType=0;
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+	set @OV_iErrorCode=0;
+	set @OV_biAmount=0;
+	set @OV_siExistsServerID=0;
+
+	exec @OV_sResult = PrPs_UserLogin_EnterCoinRoom
+	 @IV_sProcPassword,
+	 @IV_iUserID,
+	 @IV_siServerID,
+	 @OV_siExistsServerID out,
+	 @OV_biAmount out,
+	 @OV_sReturnMsg out,
+	 @OV_iErrorCode out,
+	 @IV_tiSysType;
+
+	select @OV_sResult, @OV_sReturnMsg, @OV_iErrorCode, @OV_biAmount, @OV_siExistsServerID;
+	.
+2019/05/11 14:38:29.839200 git.huoys.com/qp/world/web/get.OnEnterRoom 72 Info: EnterRoom sucess res({"res":"sucess", "error":0, "amount":107220990}).
+2019/05/11 14:38:29.842200 git.huoys.com/qp/world/sql/qp.BaseUserInfoGet 479 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_iUserID	INT;
+	declare @OV_sUserInfo NVARCHAR(2048);
+	declare @OV_sResult	INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_iUserID=150015;
+
+	set @OV_sResult=-1;
+	set @OV_sUserInfo='';
+
+	exec @OV_sResult = dbo.PrPs_UserInfo_BaseUserInfo_Get
+	 @chvProcPassword,
+	 @IV_iUserID,
+	 @OV_sUserInfo out;
+
+	 select @OV_sResult, @OV_sUserInfo;
+	
+2019/05/11 14:38:31.419200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(1)
+2019/05/11 14:38:31.472200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:38:31.476200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:38:31.494200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:38:31.873200 git.huoys.com/qp/world/sql/qp.EveryGameLog 468 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siGameID	SMALLINT;
+	declare @IV_siPositionID SMALLINT;
+	declare @IV_siServerID	SMALLINT;
+	declare @IV_siTableID TINYINT;
+	declare @IV_iUserID INT;
+	declare @IV_biScore BIGINT;
+	declare @IV_biGameNo BIGINT;
+	declare @IV_tiChairNo TINYINT;
+	declare @IV_biTax BIGINT;
+	declare @IV_biBalance BIGINT;
+	declare @IV_bIsCoinGame VARCHAR(32);
+	declare @IV_dtLeaveTime DATETIME;
+	declare @IV_bIsTrusteeship BIT;
+	declare @OV_sResult INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siGameID=10095;
+	set @IV_siPositionID=10561;
+	set @IV_siServerID=586;
+	set @IV_siTableID=0;
+	set @IV_iUserID=150015;
+	set @IV_biScore=0;
+	set @IV_biGameNo=0;
+	set @IV_tiChairNo=0;
+	set @IV_biTax=0;
+	set @IV_biBalance=107220990;
+	set @IV_bIsCoinGame=1;
+	set @IV_dtLeaveTime='2019-05-11';
+	set @IV_bIsTrusteeship=0;
+
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = PrPs_AddEveryGameLog
+	 @IV_sProcPassword,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_siServerID,
+	 @IV_siTableID,
+	 @IV_iUserID,
+	 @IV_biScore,
+	 @IV_biGameNo,
+	 @IV_tiChairNo,
+	 @IV_biTax,
+	 @IV_biBalance,
+	 @IV_bIsCoinGame,
+	 @IV_dtLeaveTime,
+	 @IV_bIsTrusteeship;
+
+	 select @OV_sResult;
+	
+2019/05/11 14:38:31.894200 git.huoys.com/qp/world/web/get.OnEveryGameLog 336 Info: Every Game Log log msg(success).
+2019/05/11 14:38:32.011200 git.huoys.com/qp/world/sql/qp.SaveVipPoint 813 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_iUserID	INT;
+	declare @IV_ServerID SMALLINT;
+	declare @IV_Score BIGINT;
+	declare @IV_IP varchar(15);
+	declare @OV_CurrentVIPGrade SMALLINT;
+	declare @OV_sResult	INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_iUserID=150015;
+	set @IV_ServerID=586;
+	set @IV_Score=0;
+	set @IV_IP='172.12.10.126:58899';
+
+	set @OV_sResult=-1;
+	set @OV_CurrentVIPGrade=0;
+
+	exec @OV_sResult = dbo.PrPs_GameInfo_FrequenterScore_LeaveRoomUpdate_SY
+	 @chvProcPassword,
+	 @IV_iUserID,
+	 @IV_ServerID,
+	 @IV_Score,
+	 @IV_IP,
+	 @OV_CurrentVIPGrade out;
+
+	 select @OV_sResult;
+	
+2019/05/11 14:38:32.032200 git.huoys.com/qp/world/sql/qp.LeaveRoom 200 Info: LeaveRoom playerID(150015), query=
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_iUserID	INT;
+	declare @IV_siServerID	SMALLINT;
+	declare @IV_sIP VARCHAR(15);
+	declare @IV_biLoginMoney BIGINT;
+	declare @IV_biWantedMoney BIGINT;
+	declare @IV_biTax BIGINT;
+	declare @IV_tiSysType TINYINT;
+	declare @IV_iFlag INT;
+	declare @IV_sRemark varchar(128);
+	declare @IV_iTicket INT;
+	declare @OV_biCurrentAmount BIGINT;
+	declare @OV_sReturnMsg varchar(128);
+	declare @OV_sLastMoney	varchar(256);
+	declare @IV_sExtendAmount varchar(256);
+	declare @OV_sResult	INT;	
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_iUserID=150015;
+	set @IV_siServerID=586;
+	set @IV_sIP='172.12.10.126:58899';
+	set @IV_biLoginMoney=107220990;
+	set @IV_biWantedMoney=0;
+	set @IV_biTax=0;
+	set @IV_tiSysType=0;
+	set @IV_iFlag=-1516416420;
+	set @IV_iTicket=0;	
+	set @IV_sRemark='';
+	set @IV_sExtendAmount='';
+
+	set @OV_sResult=-1;
+	set @OV_biCurrentAmount=0;
+	set @OV_sReturnMsg='';
+
+	exec @OV_sResult = PrPs_UserLogout_LeaveExtendCoinRoom
+	 @IV_sProcPassword,
+	 @IV_iUserID,
+	 @IV_siServerID,
+	 @IV_sIP,
+	 @IV_biLoginMoney,
+	 @IV_biWantedMoney,
+	 @IV_biTax,
+	 @OV_biCurrentAmount out,
+	 @OV_sReturnMsg out, 
+	 @IV_tiSysType,
+	 @IV_iFlag,
+	 @IV_iTicket,
+	 @IV_sExtendAmount,
+	 @OV_sLastMoney out,
+	 @IV_sRemark;
+
+	 select @OV_sResult, @OV_biCurrentAmount, @OV_sReturnMsg;
+	.
+2019/05/11 14:38:32.050200 git.huoys.com/qp/world/sql/qp.removeUserLastMoney 246 Info: RemoveUserLastMoney playerID(150015), query=
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_iUserID	INT;
+	declare @OV_sResult	INT;	
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_iUserID=150015;
+
+	exec @OV_sResult = PrPs_RemoveUserLastMoney
+	 @IV_sProcPassword,
+	 @IV_iUserID;
+	.
+2019/05/11 14:38:32.067200 git.huoys.com/qp/world/sql/qp.LeaveRoomLog 358 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_iUserID	INT;
+	declare @IV_siGameID SMALLINT;
+	declare @IV_siPositionID SMALLINT;
+	declare @IV_siServerID	SMALLINT;
+	declare @IV_sIP VARCHAR(15);
+	declare @IV_iWinCount INT;
+	declare @IV_iLoseCount INT;
+	declare @IV_iDrawCount INT;
+	declare @IV_iFleeCount INT;
+	declare @IV_biScore BIGINT;
+	declare @IV_dtLoginTime DATETIME;
+	declare @IV_iGameTime INT;
+	declare @IV_bIsTrusteeship BIT;
+	declare @OV_sResult	INT;
+	declare  @OV_sReturnMsg VARCHAR(128);
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_iUserID=150015;
+	set @IV_siGameID=10095;
+	set @IV_siPositionID=10561;
+	set @IV_siServerID=586;
+	set @IV_sIP='172.12.10.126:58899';
+	set @IV_iWinCount=0;
+	set @IV_iLoseCount=0;
+	set @IV_iDrawCount=0;
+	set @IV_iFleeCount=0;
+	set @IV_biScore=0;
+	set @IV_dtLoginTime='2019-05-11 02:38:29 PM';
+	set @IV_iGameTime=2;
+	set @IV_bIsTrusteeship=0;
+
+	set @OV_sResult=-1;
+	set @OV_sReturnMsg='';
+
+	exec @OV_sResult = PrPs_UserLogout_UserLeaveRoom
+	 @IV_sProcPassword,
+	 @IV_iUserID,
+	 @IV_siGameID,
+	 @IV_siPositionID,
+	 @IV_siServerID,
+	 @IV_sIP,
+	 @IV_iWinCount,
+	 @IV_iLoseCount,
+	 @IV_iDrawCount,
+	 @IV_iFleeCount,
+	 @IV_biScore,
+	 @IV_dtLoginTime,
+	 @IV_iGameTime,
+	 @OV_sReturnMsg out,
+	 @IV_bIsTrusteeship;
+
+	 select @OV_sResult, @OV_sReturnMsg;
+	
+2019/05/11 14:38:32.071200 git.huoys.com/qp/world/web/get.OnLeaveRoomLog 243 Info: leave room log msg(success).
+2019/05/11 14:38:36.424200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:38:36.479200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:38:36.480200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:38:36.493200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:38:41.419200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:38:41.472200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:38:41.477200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:38:41.492200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:38:46.421200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:38:46.479200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:38:46.483200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:38:46.497200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:38:51.420200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:38:51.472200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:38:51.477200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:38:51.497200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:38:56.423200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:38:56.480200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:38:56.485200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:38:56.498200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:39:01.421200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:39:01.477200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:39:01.482200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:39:01.499200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:39:06.420200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:39:06.473200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:39:06.477200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:39:06.492200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:39:11.421200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:39:11.478200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:39:11.482200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:39:11.495200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:39:16.422200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:39:16.477200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:39:16.481200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:39:16.495200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:39:19.333200 git.huoys.com/qp/world/sql/qp.CountPlayer 57 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_iUserCount INT;
+	declare @IV_iVisitorCount INT;
+	declare @IV_iLimitCount INT;
+	declare @IV_UseTable INT;
+	declare @IV_FreeTable INT;
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siPositionID=10561;
+	set @IV_iUserCount=0;
+	set @IV_iVisitorCount=0;
+	set @IV_iLimitCount=0;
+	set @IV_UseTable=0;
+	set @IV_FreeTable=0;
+
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPs_OnLine_HallOnLineLog_Add
+	 @IV_sProcPassword,
+	 @IV_siPositionID,
+	 @IV_iUserCount,
+	 @IV_iVisitorCount,
+     @IV_iLimitCount,
+     @IV_UseTable,
+	 @IV_FreeTable;
+
+	 select @OV_sResult;
+	
+2019/05/11 14:39:19.338200 git.huoys.com/qp/world/sql/qp.CountPlayer 63 Info: CountPlayer: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_iUserCount INT;
+	declare @IV_iVisitorCount INT;
+	declare @IV_iLimitCount INT;
+	declare @IV_UseTable INT;
+	declare @IV_FreeTable INT;
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siPositionID=10561;
+	set @IV_iUserCount=0;
+	set @IV_iVisitorCount=0;
+	set @IV_iLimitCount=0;
+	set @IV_UseTable=0;
+	set @IV_FreeTable=0;
+
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPs_OnLine_HallOnLineLog_Add
+	 @IV_sProcPassword,
+	 @IV_siPositionID,
+	 @IV_iUserCount,
+	 @IV_iVisitorCount,
+     @IV_iLimitCount,
+     @IV_UseTable,
+	 @IV_FreeTable;
+
+	 select @OV_sResult;
+	.
+2019/05/11 14:39:19.344200 git.huoys.com/qp/world/web/get.polling 75 Info: count player(0), gameid(10095), dbarenaid(10561).
+2019/05/11 14:39:21.422200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:39:21.475200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:39:21.484200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:39:21.494200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:39:26.419200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:39:26.477200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:39:26.481200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:39:26.496200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:39:31.418200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:39:31.475200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:39:31.485200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:39:31.497200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:39:36.424200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:39:36.477200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:39:36.481200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:39:36.494200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:39:41.422200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:39:41.472200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:39:41.479200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:39:41.494200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:39:46.425200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:39:46.478200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:39:46.483200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:39:46.499200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:39:51.425200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:39:51.477200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:39:51.484200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:39:51.495200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:39:56.422200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:39:56.475200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:39:56.481200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:39:56.494200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:40:01.422200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:40:01.476200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:40:01.481200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:40:01.500200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:40:06.422200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:40:06.473200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:40:06.478200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:40:06.492200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:40:11.427200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:40:11.479200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:40:11.497200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:40:11.503200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:40:16.423200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:40:16.475200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:40:16.483200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:40:16.499200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:40:19.333200 git.huoys.com/qp/world/sql/qp.CountPlayer 57 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_iUserCount INT;
+	declare @IV_iVisitorCount INT;
+	declare @IV_iLimitCount INT;
+	declare @IV_UseTable INT;
+	declare @IV_FreeTable INT;
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siPositionID=10561;
+	set @IV_iUserCount=0;
+	set @IV_iVisitorCount=0;
+	set @IV_iLimitCount=0;
+	set @IV_UseTable=0;
+	set @IV_FreeTable=0;
+
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPs_OnLine_HallOnLineLog_Add
+	 @IV_sProcPassword,
+	 @IV_siPositionID,
+	 @IV_iUserCount,
+	 @IV_iVisitorCount,
+     @IV_iLimitCount,
+     @IV_UseTable,
+	 @IV_FreeTable;
+
+	 select @OV_sResult;
+	
+2019/05/11 14:40:19.335200 git.huoys.com/qp/world/sql/qp.CountPlayer 63 Info: CountPlayer: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_siPositionID	SMALLINT;
+	declare @IV_iUserCount INT;
+	declare @IV_iVisitorCount INT;
+	declare @IV_iLimitCount INT;
+	declare @IV_UseTable INT;
+	declare @IV_FreeTable INT;
+	declare @OV_sResult	INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_siPositionID=10561;
+	set @IV_iUserCount=0;
+	set @IV_iVisitorCount=0;
+	set @IV_iLimitCount=0;
+	set @IV_UseTable=0;
+	set @IV_FreeTable=0;
+
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPs_OnLine_HallOnLineLog_Add
+	 @IV_sProcPassword,
+	 @IV_siPositionID,
+	 @IV_iUserCount,
+	 @IV_iVisitorCount,
+     @IV_iLimitCount,
+     @IV_UseTable,
+	 @IV_FreeTable;
+
+	 select @OV_sResult;
+	.
+2019/05/11 14:40:19.340200 git.huoys.com/qp/world/web/get.polling 75 Info: count player(0), gameid(10095), dbarenaid(10561).
+2019/05/11 14:40:21.422200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:40:21.473200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:40:21.480200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:40:21.496200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:40:26.423200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:40:26.474200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:40:26.479200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:40:26.493200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:40:31.419200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:40:31.473200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:40:31.483200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:40:31.497200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:40:36.423200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:40:36.474200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:40:36.480200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:40:36.502200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)
+2019/05/11 14:40:41.419200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(1),num(0)
+2019/05/11 14:40:41.472200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(2),num(0)
+2019/05/11 14:40:41.477200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(4),num(0)
+2019/05/11 14:40:41.497200 git.huoys.com/qp/world/web/get.recordPlayerNum 53 Warning: recordPlayerNum:gameID(10095),arenaID(1),serverID(3),num(0)

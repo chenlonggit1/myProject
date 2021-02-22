@@ -1,0 +1,1014 @@
+2019/05/22 12:31:42.193000 main.main 70 Info: Hall start now ....
+2019/05/22 12:31:42.194000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 12:31:42.194000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 12:31:42.199000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 93 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_bpl&connection+timeout=30&log=63&encrypt=disable.
+2019/05/22 12:31:42.199000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 100 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_bpl&connection+timeout=30&log=63&encrypt=disable.
+2019/05/22 12:31:42.205000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 108 Info: DB game_qp_bpl (172.13.0.58:39000) connected.
+2019/05/22 12:31:42.206000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 93 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_dds&connection+timeout=30&log=63&encrypt=disable.
+2019/05/22 12:31:42.206000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 100 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_dds&connection+timeout=30&log=63&encrypt=disable.
+2019/05/22 12:31:42.210000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 108 Info: DB game_qp_dds (172.13.0.58:39000) connected.
+2019/05/22 12:31:42.210000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 93 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_config&connection+timeout=30&log=63&encrypt=disable.
+2019/05/22 12:31:42.211000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 100 Info: connectionString:sqlserver://sa:hy7961pl.NET@172.13.0.58:39000?database=game_qp_config&connection+timeout=30&log=63&encrypt=disable.
+2019/05/22 12:31:42.214000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/mssql.ConnectGameDB 108 Info: DB game_qp_config (172.13.0.58:39000) connected.
+2019/05/22 12:31:42.214000 git.huoys.com/qp/hall/sql.ConnectDB 106 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=Passport.
+2019/05/22 12:31:42.289000 git.huoys.com/qp/hall/sql.ConnectDB 120 Info: DB Passport (113.106.164.43:32960) connected.
+2019/05/22 12:31:42.291000 git.huoys.com/qp/hall/sql.ConnectDB 106 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=SY_Money.
+2019/05/22 12:31:42.316000 git.huoys.com/qp/hall/sql.ConnectDB 120 Info: DB SY_Money (113.106.164.43:32960) connected.
+2019/05/22 12:31:42.316000 git.huoys.com/qp/hall/sql.ConnectDB 106 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=CYMoney.
+2019/05/22 12:31:42.338000 git.huoys.com/qp/hall/sql.ConnectDB 120 Info: DB CYMoney (113.106.164.43:32960) connected.
+2019/05/22 12:31:42.338000 git.huoys.com/qp/hall/sql.ConnectDB 106 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=SY_GameCenter.
+2019/05/22 12:31:42.376000 git.huoys.com/qp/hall/sql.ConnectDB 120 Info: DB SY_GameCenter (113.106.164.43:32960) connected.
+2019/05/22 12:31:42.377000 main.main 87 Warning: start Hall sucess !
+2019/05/22 12:31:42.378000 git.huoys.com/qp/hall/http.Startup 41 Warning: http url:0.0.0.0:8000.
+2019/05/22 12:31:42.378000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.acceptHTTPRequest 80 Info: Http server listen at:0.0.0.0:8000
+2019/05/22 12:31:59.840000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:31:59.841000 git.huoys.com/qp/hall/http.onWechatSign 55 Info: WechatSignReq start.
+2019/05/22 12:32:00.204000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:32:00.206000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 103 Info: onPartnerUserLoginReqs start.
+2019/05/22 12:32:00.207000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 123 Info: onPartnerUserLoginReqs PartnerUserLoginReq start.
+2019/05/22 12:32:00.213000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 524 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_iPartnerID			INT;
+	declare @IV_sUnionID		VARCHAR(40);
+	declare @IV_sNickName		NVARCHAR(64);
+	declare @IV_sIconURL		VARCHAR(160);
+	declare @OV_sReturnMsg		varchar(128);
+	declare @OV_iErrorCode		INT;
+	declare @OV_sAuthCode		VARCHAR(32);
+	declare @IV_sClientName		VARCHAR(1024);
+	declare @IV_iGameID			INT;
+	declare @IV_iMediaID		INT;
+	declare @IV_sIP				VARCHAR(15);
+	declare @IV_sVersion		VARCHAR(8);
+	declare @IV_HallId		INT;
+	declare @IV_Sex         INT;
+	declare @IV_siPort		INT;
+	declare @OV_sResult		INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_iPartnerID=1;
+	set @IV_sUnionID='oxAC5wVL2FZM6PiXm27aKs3pdADc';
+	set @IV_sNickName='蛋定';
+	set @IV_sIconURL='http://thirdwx.qlogo.cn/mmopen/vi_32/WnsycmeFbcibM4m2OrsUaJcd3VibttibCHTrBhJsic4F9eCJYOYPFHJYfao7Yl5hGjFyXLzAYHXV8dYsunx1pzibLHQ/132';
+	set @IV_sClientName='';
+	set @IV_iGameID=10095;
+	set @IV_iMediaID=1;
+	set @IV_sIP='172.12.10.126:65012';
+	set @IV_sVersion=1;
+	set @IV_HallId=10095;
+	set @IV_Sex=0;
+	set @IV_siPort=0;
+	set @OV_sAuthCode=0;
+
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = PrPsWeb_UserInfo_PartnerUser_Login
+	 	@IV_sProcPassword,
+		@IV_iPartnerID,
+		@IV_sUnionID,
+		@IV_sNickName,
+		@IV_sIconURL,
+		@OV_sReturnMsg out,
+		@OV_iErrorCode out,
+		@OV_sAuthCode out,
+		@IV_sClientName,
+		@IV_iGameID,
+		@IV_iMediaID,
+		@IV_sIP,
+		@IV_sVersion,
+		@IV_HallId,
+		@IV_Sex,
+		@IV_siPort;
+													  
+		select @OV_sResult, @OV_sReturnMsg, @OV_iErrorCode, @OV_sAuthCode;
+	
+2019/05/22 12:32:00.246000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 557 Info: PrPsWeb_UserInfo_PartnerUser_Login &dbRes.Userid(472680), &dbRes.Nickname(QPM386365), &dbRes.PhoneNo(), &dbRes.Email(), &dbRes.WXUnionID(oxAC5wVL2FZM6PiXm27aKs3pdADc), &dbRes.LoginName(QPM3863652454).
+2019/05/22 12:32:00.247000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 582 Info: PrPsWeb_UserInfo_PartnerUser_Login Success. &dbResult(1), &dbMsg(), &dbRes.ErrorCode(0), &dbRes.Authcode().
+2019/05/22 12:32:00.248000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 148 Info: onPartnerUserLoginReqs Getcertification start.
+2019/05/22 12:32:00.250000 git.huoys.com/qp/hall/sql.Getcertification 691 Info: 
+		declare @chvProcPassword VARCHAR(32);
+		declare @IV_iUserID INT;
+		declare @OV_sCert VARCHAR(32);
+		declare @IV_siGameID			SMALLINT;
+		declare @IV_iMediaID			INT;
+		declare @IV_sVersion			VARCHAR(8);
+		declare @IV_siPort			int;
+		declare @OV_sResult int;
+		declare @IV_sIP VARCHAR(15);
+
+		set @chvProcPassword='!43$a#@28Foi000C';
+		set @IV_sIP='172.12.10.126:65012';
+		set @IV_siGameID=10095;
+		set @IV_iMediaID=1;
+		set @IV_sVersion='1';
+		set @IV_iUserID=472680;
+
+		set @IV_siPort = 0;
+
+		set @OV_sResult= -1;
+
+		exec @OV_sResult = PrPs_Certification_CreateCertification
+		@chvProcPassword,
+		@IV_iUserID,
+		@IV_siPort,
+		@OV_sCert out,
+		@IV_siGameID,
+		@IV_iMediaID,
+		@IV_sVersion,
+		@IV_siPort;
+
+		select @OV_sResult, @OV_sCert;
+	
+2019/05/22 12:32:00.260000 git.huoys.com/qp/hall/sql.Getcertification 721 Info: PrPs_Certification_CreateCertification dbCert(7EDC5FD73C0B46389203405B41FC4E4C).
+2019/05/22 12:32:00.260000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 154 Info: {"res": "sucess","userid":472680,"nickname":"QPM386365","authcode":"","errorcode":0,"extramessage":"","phoneno":"","email":"","wxunionid":"oxAC5wVL2FZM6PiXm27aKs3pdADc","loginname":"QPM3863652454","cert":"7EDC5FD73C0B46389203405B41FC4E4C","certres":"sucess"}
+2019/05/22 12:32:00.276000 git.huoys.com/qp/hall/http.onWechatSign 90 Info: ticket:HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q,noncestr:XVlBzgbaiCMRAjWw,signature:jsapi_ticket=HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q&noncestr=XVlBzgbaiCMRAjWw&timestamp=1558499520&url=http://qpzdxb.vk51.com/.
+2019/05/22 12:32:00.277000 git.huoys.com/qp/hall/http.onWechatSign 94 Info: onGetWechatSign sucess resmsg={"res": "sucess","appId":"wx6f114a06c3483d72","timestamp":1558499520,"noncestr":"XVlBzgbaiCMRAjWw","signature":"fee098186c421d2417c525ef1065d0cf1468953f"}.
+2019/05/22 12:32:07.486000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:32:07.486000 git.huoys.com/qp/hall/http.onWechatSign 55 Info: WechatSignReq start.
+2019/05/22 12:32:07.550000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:32:07.550000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 103 Info: onPartnerUserLoginReqs start.
+2019/05/22 12:32:07.551000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 123 Info: onPartnerUserLoginReqs PartnerUserLoginReq start.
+2019/05/22 12:32:07.553000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 524 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_iPartnerID			INT;
+	declare @IV_sUnionID		VARCHAR(40);
+	declare @IV_sNickName		NVARCHAR(64);
+	declare @IV_sIconURL		VARCHAR(160);
+	declare @OV_sReturnMsg		varchar(128);
+	declare @OV_iErrorCode		INT;
+	declare @OV_sAuthCode		VARCHAR(32);
+	declare @IV_sClientName		VARCHAR(1024);
+	declare @IV_iGameID			INT;
+	declare @IV_iMediaID		INT;
+	declare @IV_sIP				VARCHAR(15);
+	declare @IV_sVersion		VARCHAR(8);
+	declare @IV_HallId		INT;
+	declare @IV_Sex         INT;
+	declare @IV_siPort		INT;
+	declare @OV_sResult		INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_iPartnerID=1;
+	set @IV_sUnionID='oxAC5wVL2FZM6PiXm27aKs3pdADc';
+	set @IV_sNickName='蛋定';
+	set @IV_sIconURL='http://thirdwx.qlogo.cn/mmopen/vi_32/WnsycmeFbcibM4m2OrsUaJcd3VibttibCHTrBhJsic4F9eCJYOYPFHJYfao7Yl5hGjFyXLzAYHXV8dYsunx1pzibLHQ/132';
+	set @IV_sClientName='';
+	set @IV_iGameID=10095;
+	set @IV_iMediaID=1;
+	set @IV_sIP='172.12.10.126:65012';
+	set @IV_sVersion=1;
+	set @IV_HallId=10095;
+	set @IV_Sex=0;
+	set @IV_siPort=0;
+	set @OV_sAuthCode=0;
+
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = PrPsWeb_UserInfo_PartnerUser_Login
+	 	@IV_sProcPassword,
+		@IV_iPartnerID,
+		@IV_sUnionID,
+		@IV_sNickName,
+		@IV_sIconURL,
+		@OV_sReturnMsg out,
+		@OV_iErrorCode out,
+		@OV_sAuthCode out,
+		@IV_sClientName,
+		@IV_iGameID,
+		@IV_iMediaID,
+		@IV_sIP,
+		@IV_sVersion,
+		@IV_HallId,
+		@IV_Sex,
+		@IV_siPort;
+													  
+		select @OV_sResult, @OV_sReturnMsg, @OV_iErrorCode, @OV_sAuthCode;
+	
+2019/05/22 12:32:07.567000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 557 Info: PrPsWeb_UserInfo_PartnerUser_Login &dbRes.Userid(472680), &dbRes.Nickname(QPM386365), &dbRes.PhoneNo(), &dbRes.Email(), &dbRes.WXUnionID(oxAC5wVL2FZM6PiXm27aKs3pdADc), &dbRes.LoginName(QPM3863652454).
+2019/05/22 12:32:07.568000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 582 Info: PrPsWeb_UserInfo_PartnerUser_Login Success. &dbResult(1), &dbMsg(), &dbRes.ErrorCode(0), &dbRes.Authcode().
+2019/05/22 12:32:07.569000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 148 Info: onPartnerUserLoginReqs Getcertification start.
+2019/05/22 12:32:07.571000 git.huoys.com/qp/hall/sql.Getcertification 691 Info: 
+		declare @chvProcPassword VARCHAR(32);
+		declare @IV_iUserID INT;
+		declare @OV_sCert VARCHAR(32);
+		declare @IV_siGameID			SMALLINT;
+		declare @IV_iMediaID			INT;
+		declare @IV_sVersion			VARCHAR(8);
+		declare @IV_siPort			int;
+		declare @OV_sResult int;
+		declare @IV_sIP VARCHAR(15);
+
+		set @chvProcPassword='!43$a#@28Foi000C';
+		set @IV_sIP='172.12.10.126:65012';
+		set @IV_siGameID=10095;
+		set @IV_iMediaID=1;
+		set @IV_sVersion='1';
+		set @IV_iUserID=472680;
+
+		set @IV_siPort = 0;
+
+		set @OV_sResult= -1;
+
+		exec @OV_sResult = PrPs_Certification_CreateCertification
+		@chvProcPassword,
+		@IV_iUserID,
+		@IV_siPort,
+		@OV_sCert out,
+		@IV_siGameID,
+		@IV_iMediaID,
+		@IV_sVersion,
+		@IV_siPort;
+
+		select @OV_sResult, @OV_sCert;
+	
+2019/05/22 12:32:07.582000 git.huoys.com/qp/hall/sql.Getcertification 721 Info: PrPs_Certification_CreateCertification dbCert(F1981B204B23433EA53C2A632455ABFA).
+2019/05/22 12:32:07.583000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 154 Info: {"res": "sucess","userid":472680,"nickname":"QPM386365","authcode":"","errorcode":0,"extramessage":"","phoneno":"","email":"","wxunionid":"oxAC5wVL2FZM6PiXm27aKs3pdADc","loginname":"QPM3863652454","cert":"F1981B204B23433EA53C2A632455ABFA","certres":"sucess"}
+2019/05/22 12:32:07.879000 git.huoys.com/qp/hall/http.onWechatSign 90 Info: ticket:HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q,noncestr:hTHctcuAxhxKQFDa,signature:jsapi_ticket=HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q&noncestr=hTHctcuAxhxKQFDa&timestamp=1558499527&url=http://qpzdxb.vk51.com/.
+2019/05/22 12:32:07.881000 git.huoys.com/qp/hall/http.onWechatSign 94 Info: onGetWechatSign sucess resmsg={"res": "sucess","appId":"wx6f114a06c3483d72","timestamp":1558499527,"noncestr":"hTHctcuAxhxKQFDa","signature":"f5750bc46895341e490b9694e6b71587e5c2e739"}.
+2019/05/22 12:32:12.932000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:32:12.932000 git.huoys.com/qp/hall/http.onWechatSign 55 Info: WechatSignReq start.
+2019/05/22 12:32:13.232000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:32:13.233000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 103 Info: onPartnerUserLoginReqs start.
+2019/05/22 12:32:13.234000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 123 Info: onPartnerUserLoginReqs PartnerUserLoginReq start.
+2019/05/22 12:32:13.241000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 524 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_iPartnerID			INT;
+	declare @IV_sUnionID		VARCHAR(40);
+	declare @IV_sNickName		NVARCHAR(64);
+	declare @IV_sIconURL		VARCHAR(160);
+	declare @OV_sReturnMsg		varchar(128);
+	declare @OV_iErrorCode		INT;
+	declare @OV_sAuthCode		VARCHAR(32);
+	declare @IV_sClientName		VARCHAR(1024);
+	declare @IV_iGameID			INT;
+	declare @IV_iMediaID		INT;
+	declare @IV_sIP				VARCHAR(15);
+	declare @IV_sVersion		VARCHAR(8);
+	declare @IV_HallId		INT;
+	declare @IV_Sex         INT;
+	declare @IV_siPort		INT;
+	declare @OV_sResult		INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_iPartnerID=1;
+	set @IV_sUnionID='oxAC5wVL2FZM6PiXm27aKs3pdADc';
+	set @IV_sNickName='蛋定';
+	set @IV_sIconURL='http://thirdwx.qlogo.cn/mmopen/vi_32/WnsycmeFbcibM4m2OrsUaJcd3VibttibCHTrBhJsic4F9eCJYOYPFHJYfao7Yl5hGjFyXLzAYHXV8dYsunx1pzibLHQ/132';
+	set @IV_sClientName='';
+	set @IV_iGameID=10095;
+	set @IV_iMediaID=1;
+	set @IV_sIP='172.12.10.126:65012';
+	set @IV_sVersion=1;
+	set @IV_HallId=10095;
+	set @IV_Sex=0;
+	set @IV_siPort=0;
+	set @OV_sAuthCode=0;
+
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = PrPsWeb_UserInfo_PartnerUser_Login
+	 	@IV_sProcPassword,
+		@IV_iPartnerID,
+		@IV_sUnionID,
+		@IV_sNickName,
+		@IV_sIconURL,
+		@OV_sReturnMsg out,
+		@OV_iErrorCode out,
+		@OV_sAuthCode out,
+		@IV_sClientName,
+		@IV_iGameID,
+		@IV_iMediaID,
+		@IV_sIP,
+		@IV_sVersion,
+		@IV_HallId,
+		@IV_Sex,
+		@IV_siPort;
+													  
+		select @OV_sResult, @OV_sReturnMsg, @OV_iErrorCode, @OV_sAuthCode;
+	
+2019/05/22 12:32:13.286000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 557 Info: PrPsWeb_UserInfo_PartnerUser_Login &dbRes.Userid(472680), &dbRes.Nickname(QPM386365), &dbRes.PhoneNo(), &dbRes.Email(), &dbRes.WXUnionID(oxAC5wVL2FZM6PiXm27aKs3pdADc), &dbRes.LoginName(QPM3863652454).
+2019/05/22 12:32:13.286000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 582 Info: PrPsWeb_UserInfo_PartnerUser_Login Success. &dbResult(1), &dbMsg(), &dbRes.ErrorCode(0), &dbRes.Authcode().
+2019/05/22 12:32:13.287000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 148 Info: onPartnerUserLoginReqs Getcertification start.
+2019/05/22 12:32:13.291000 git.huoys.com/qp/hall/sql.Getcertification 691 Info: 
+		declare @chvProcPassword VARCHAR(32);
+		declare @IV_iUserID INT;
+		declare @OV_sCert VARCHAR(32);
+		declare @IV_siGameID			SMALLINT;
+		declare @IV_iMediaID			INT;
+		declare @IV_sVersion			VARCHAR(8);
+		declare @IV_siPort			int;
+		declare @OV_sResult int;
+		declare @IV_sIP VARCHAR(15);
+
+		set @chvProcPassword='!43$a#@28Foi000C';
+		set @IV_sIP='172.12.10.126:65012';
+		set @IV_siGameID=10095;
+		set @IV_iMediaID=1;
+		set @IV_sVersion='1';
+		set @IV_iUserID=472680;
+
+		set @IV_siPort = 0;
+
+		set @OV_sResult= -1;
+
+		exec @OV_sResult = PrPs_Certification_CreateCertification
+		@chvProcPassword,
+		@IV_iUserID,
+		@IV_siPort,
+		@OV_sCert out,
+		@IV_siGameID,
+		@IV_iMediaID,
+		@IV_sVersion,
+		@IV_siPort;
+
+		select @OV_sResult, @OV_sCert;
+	
+2019/05/22 12:32:13.300000 git.huoys.com/qp/hall/sql.Getcertification 721 Info: PrPs_Certification_CreateCertification dbCert(EC86662690B445D6B55D3E64CBC03E8C).
+2019/05/22 12:32:13.303000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 154 Info: {"res": "sucess","userid":472680,"nickname":"QPM386365","authcode":"","errorcode":0,"extramessage":"","phoneno":"","email":"","wxunionid":"oxAC5wVL2FZM6PiXm27aKs3pdADc","loginname":"QPM3863652454","cert":"EC86662690B445D6B55D3E64CBC03E8C","certres":"sucess"}
+2019/05/22 12:32:13.317000 git.huoys.com/qp/hall/http.onWechatSign 90 Info: ticket:HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q,noncestr:FpLSjFbcXoEFfRsW,signature:jsapi_ticket=HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q&noncestr=FpLSjFbcXoEFfRsW&timestamp=1558499533&url=http://qpzdxb.vk51.com/.
+2019/05/22 12:32:13.319000 git.huoys.com/qp/hall/http.onWechatSign 94 Info: onGetWechatSign sucess resmsg={"res": "sucess","appId":"wx6f114a06c3483d72","timestamp":1558499533,"noncestr":"FpLSjFbcXoEFfRsW","signature":"94886f5f2d8ff815ce63e12968b4f9520a91e9ac"}.
+2019/05/22 12:32:21.642000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:32:21.643000 git.huoys.com/qp/hall/http.onWechatSign 55 Info: WechatSignReq start.
+2019/05/22 12:32:21.719000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:32:21.719000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 103 Info: onPartnerUserLoginReqs start.
+2019/05/22 12:32:21.719000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 123 Info: onPartnerUserLoginReqs PartnerUserLoginReq start.
+2019/05/22 12:32:21.721000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 524 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_iPartnerID			INT;
+	declare @IV_sUnionID		VARCHAR(40);
+	declare @IV_sNickName		NVARCHAR(64);
+	declare @IV_sIconURL		VARCHAR(160);
+	declare @OV_sReturnMsg		varchar(128);
+	declare @OV_iErrorCode		INT;
+	declare @OV_sAuthCode		VARCHAR(32);
+	declare @IV_sClientName		VARCHAR(1024);
+	declare @IV_iGameID			INT;
+	declare @IV_iMediaID		INT;
+	declare @IV_sIP				VARCHAR(15);
+	declare @IV_sVersion		VARCHAR(8);
+	declare @IV_HallId		INT;
+	declare @IV_Sex         INT;
+	declare @IV_siPort		INT;
+	declare @OV_sResult		INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_iPartnerID=1;
+	set @IV_sUnionID='oxAC5wVL2FZM6PiXm27aKs3pdADc';
+	set @IV_sNickName='蛋定';
+	set @IV_sIconURL='http://thirdwx.qlogo.cn/mmopen/vi_32/WnsycmeFbcibM4m2OrsUaJcd3VibttibCHTrBhJsic4F9eCJYOYPFHJYfao7Yl5hGjFyXLzAYHXV8dYsunx1pzibLHQ/132';
+	set @IV_sClientName='';
+	set @IV_iGameID=10095;
+	set @IV_iMediaID=1;
+	set @IV_sIP='172.12.10.126:65012';
+	set @IV_sVersion=1;
+	set @IV_HallId=10095;
+	set @IV_Sex=0;
+	set @IV_siPort=0;
+	set @OV_sAuthCode=0;
+
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = PrPsWeb_UserInfo_PartnerUser_Login
+	 	@IV_sProcPassword,
+		@IV_iPartnerID,
+		@IV_sUnionID,
+		@IV_sNickName,
+		@IV_sIconURL,
+		@OV_sReturnMsg out,
+		@OV_iErrorCode out,
+		@OV_sAuthCode out,
+		@IV_sClientName,
+		@IV_iGameID,
+		@IV_iMediaID,
+		@IV_sIP,
+		@IV_sVersion,
+		@IV_HallId,
+		@IV_Sex,
+		@IV_siPort;
+													  
+		select @OV_sResult, @OV_sReturnMsg, @OV_iErrorCode, @OV_sAuthCode;
+	
+2019/05/22 12:32:21.768000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 557 Info: PrPsWeb_UserInfo_PartnerUser_Login &dbRes.Userid(472680), &dbRes.Nickname(QPM386365), &dbRes.PhoneNo(), &dbRes.Email(), &dbRes.WXUnionID(oxAC5wVL2FZM6PiXm27aKs3pdADc), &dbRes.LoginName(QPM3863652454).
+2019/05/22 12:32:21.769000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 582 Info: PrPsWeb_UserInfo_PartnerUser_Login Success. &dbResult(1), &dbMsg(), &dbRes.ErrorCode(0), &dbRes.Authcode().
+2019/05/22 12:32:21.769000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 148 Info: onPartnerUserLoginReqs Getcertification start.
+2019/05/22 12:32:21.770000 git.huoys.com/qp/hall/sql.Getcertification 691 Info: 
+		declare @chvProcPassword VARCHAR(32);
+		declare @IV_iUserID INT;
+		declare @OV_sCert VARCHAR(32);
+		declare @IV_siGameID			SMALLINT;
+		declare @IV_iMediaID			INT;
+		declare @IV_sVersion			VARCHAR(8);
+		declare @IV_siPort			int;
+		declare @OV_sResult int;
+		declare @IV_sIP VARCHAR(15);
+
+		set @chvProcPassword='!43$a#@28Foi000C';
+		set @IV_sIP='172.12.10.126:65012';
+		set @IV_siGameID=10095;
+		set @IV_iMediaID=1;
+		set @IV_sVersion='1';
+		set @IV_iUserID=472680;
+
+		set @IV_siPort = 0;
+
+		set @OV_sResult= -1;
+
+		exec @OV_sResult = PrPs_Certification_CreateCertification
+		@chvProcPassword,
+		@IV_iUserID,
+		@IV_siPort,
+		@OV_sCert out,
+		@IV_siGameID,
+		@IV_iMediaID,
+		@IV_sVersion,
+		@IV_siPort;
+
+		select @OV_sResult, @OV_sCert;
+	
+2019/05/22 12:32:21.779000 git.huoys.com/qp/hall/sql.Getcertification 721 Info: PrPs_Certification_CreateCertification dbCert(C2AC0655C42A477FBBC2E3E3FF8E65B0).
+2019/05/22 12:32:21.780000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 154 Info: {"res": "sucess","userid":472680,"nickname":"QPM386365","authcode":"","errorcode":0,"extramessage":"","phoneno":"","email":"","wxunionid":"oxAC5wVL2FZM6PiXm27aKs3pdADc","loginname":"QPM3863652454","cert":"C2AC0655C42A477FBBC2E3E3FF8E65B0","certres":"sucess"}
+2019/05/22 12:32:22.032000 git.huoys.com/qp/hall/http.onWechatSign 90 Info: ticket:HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q,noncestr:xPLDnJObCsNVlgTe,signature:jsapi_ticket=HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q&noncestr=xPLDnJObCsNVlgTe&timestamp=1558499542&url=http://qpzdxb.vk51.com/.
+2019/05/22 12:32:22.032000 git.huoys.com/qp/hall/http.onWechatSign 94 Info: onGetWechatSign sucess resmsg={"res": "sucess","appId":"wx6f114a06c3483d72","timestamp":1558499542,"noncestr":"xPLDnJObCsNVlgTe","signature":"15898575beb8b0388eea9634b5f06c475aec74a2"}.
+2019/05/22 12:32:33.391000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:32:33.392000 git.huoys.com/qp/hall/http.onWechatSign 55 Info: WechatSignReq start.
+2019/05/22 12:32:33.464000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:32:33.465000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 103 Info: onPartnerUserLoginReqs start.
+2019/05/22 12:32:33.465000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 123 Info: onPartnerUserLoginReqs PartnerUserLoginReq start.
+2019/05/22 12:32:33.466000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 524 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_iPartnerID			INT;
+	declare @IV_sUnionID		VARCHAR(40);
+	declare @IV_sNickName		NVARCHAR(64);
+	declare @IV_sIconURL		VARCHAR(160);
+	declare @OV_sReturnMsg		varchar(128);
+	declare @OV_iErrorCode		INT;
+	declare @OV_sAuthCode		VARCHAR(32);
+	declare @IV_sClientName		VARCHAR(1024);
+	declare @IV_iGameID			INT;
+	declare @IV_iMediaID		INT;
+	declare @IV_sIP				VARCHAR(15);
+	declare @IV_sVersion		VARCHAR(8);
+	declare @IV_HallId		INT;
+	declare @IV_Sex         INT;
+	declare @IV_siPort		INT;
+	declare @OV_sResult		INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_iPartnerID=1;
+	set @IV_sUnionID='oxAC5wVL2FZM6PiXm27aKs3pdADc';
+	set @IV_sNickName='蛋定';
+	set @IV_sIconURL='http://thirdwx.qlogo.cn/mmopen/vi_32/WnsycmeFbcibM4m2OrsUaJcd3VibttibCHTrBhJsic4F9eCJYOYPFHJYfao7Yl5hGjFyXLzAYHXV8dYsunx1pzibLHQ/132';
+	set @IV_sClientName='';
+	set @IV_iGameID=10095;
+	set @IV_iMediaID=1;
+	set @IV_sIP='172.12.10.126:65012';
+	set @IV_sVersion=1;
+	set @IV_HallId=10095;
+	set @IV_Sex=0;
+	set @IV_siPort=0;
+	set @OV_sAuthCode=0;
+
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = PrPsWeb_UserInfo_PartnerUser_Login
+	 	@IV_sProcPassword,
+		@IV_iPartnerID,
+		@IV_sUnionID,
+		@IV_sNickName,
+		@IV_sIconURL,
+		@OV_sReturnMsg out,
+		@OV_iErrorCode out,
+		@OV_sAuthCode out,
+		@IV_sClientName,
+		@IV_iGameID,
+		@IV_iMediaID,
+		@IV_sIP,
+		@IV_sVersion,
+		@IV_HallId,
+		@IV_Sex,
+		@IV_siPort;
+													  
+		select @OV_sResult, @OV_sReturnMsg, @OV_iErrorCode, @OV_sAuthCode;
+	
+2019/05/22 12:32:33.487000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 557 Info: PrPsWeb_UserInfo_PartnerUser_Login &dbRes.Userid(472680), &dbRes.Nickname(QPM386365), &dbRes.PhoneNo(), &dbRes.Email(), &dbRes.WXUnionID(oxAC5wVL2FZM6PiXm27aKs3pdADc), &dbRes.LoginName(QPM3863652454).
+2019/05/22 12:32:33.488000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 582 Info: PrPsWeb_UserInfo_PartnerUser_Login Success. &dbResult(1), &dbMsg(), &dbRes.ErrorCode(0), &dbRes.Authcode().
+2019/05/22 12:32:33.488000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 148 Info: onPartnerUserLoginReqs Getcertification start.
+2019/05/22 12:32:33.489000 git.huoys.com/qp/hall/sql.Getcertification 691 Info: 
+		declare @chvProcPassword VARCHAR(32);
+		declare @IV_iUserID INT;
+		declare @OV_sCert VARCHAR(32);
+		declare @IV_siGameID			SMALLINT;
+		declare @IV_iMediaID			INT;
+		declare @IV_sVersion			VARCHAR(8);
+		declare @IV_siPort			int;
+		declare @OV_sResult int;
+		declare @IV_sIP VARCHAR(15);
+
+		set @chvProcPassword='!43$a#@28Foi000C';
+		set @IV_sIP='172.12.10.126:65012';
+		set @IV_siGameID=10095;
+		set @IV_iMediaID=1;
+		set @IV_sVersion='1';
+		set @IV_iUserID=472680;
+
+		set @IV_siPort = 0;
+
+		set @OV_sResult= -1;
+
+		exec @OV_sResult = PrPs_Certification_CreateCertification
+		@chvProcPassword,
+		@IV_iUserID,
+		@IV_siPort,
+		@OV_sCert out,
+		@IV_siGameID,
+		@IV_iMediaID,
+		@IV_sVersion,
+		@IV_siPort;
+
+		select @OV_sResult, @OV_sCert;
+	
+2019/05/22 12:32:33.497000 git.huoys.com/qp/hall/sql.Getcertification 721 Info: PrPs_Certification_CreateCertification dbCert(D58CB572701F427598CDB5EAC0956797).
+2019/05/22 12:32:33.498000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 154 Info: {"res": "sucess","userid":472680,"nickname":"QPM386365","authcode":"","errorcode":0,"extramessage":"","phoneno":"","email":"","wxunionid":"oxAC5wVL2FZM6PiXm27aKs3pdADc","loginname":"QPM3863652454","cert":"D58CB572701F427598CDB5EAC0956797","certres":"sucess"}
+2019/05/22 12:32:33.772000 git.huoys.com/qp/hall/http.onWechatSign 90 Info: ticket:HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q,noncestr:MaPEZQleQYhYzRyW,signature:jsapi_ticket=HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q&noncestr=MaPEZQleQYhYzRyW&timestamp=1558499553&url=http://qpzdxb.vk51.com/.
+2019/05/22 12:32:33.773000 git.huoys.com/qp/hall/http.onWechatSign 94 Info: onGetWechatSign sucess resmsg={"res": "sucess","appId":"wx6f114a06c3483d72","timestamp":1558499553,"noncestr":"MaPEZQleQYhYzRyW","signature":"c7f0d4a877aae748911509bf44e1e7b02c13b852"}.
+2019/05/22 12:32:44.510000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:32:44.510000 git.huoys.com/qp/hall/http.onWechatSign 55 Info: WechatSignReq start.
+2019/05/22 12:32:44.597000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:32:44.597000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 103 Info: onPartnerUserLoginReqs start.
+2019/05/22 12:32:44.598000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 123 Info: onPartnerUserLoginReqs PartnerUserLoginReq start.
+2019/05/22 12:32:44.602000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 524 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_iPartnerID			INT;
+	declare @IV_sUnionID		VARCHAR(40);
+	declare @IV_sNickName		NVARCHAR(64);
+	declare @IV_sIconURL		VARCHAR(160);
+	declare @OV_sReturnMsg		varchar(128);
+	declare @OV_iErrorCode		INT;
+	declare @OV_sAuthCode		VARCHAR(32);
+	declare @IV_sClientName		VARCHAR(1024);
+	declare @IV_iGameID			INT;
+	declare @IV_iMediaID		INT;
+	declare @IV_sIP				VARCHAR(15);
+	declare @IV_sVersion		VARCHAR(8);
+	declare @IV_HallId		INT;
+	declare @IV_Sex         INT;
+	declare @IV_siPort		INT;
+	declare @OV_sResult		INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_iPartnerID=1;
+	set @IV_sUnionID='oxAC5wVL2FZM6PiXm27aKs3pdADc';
+	set @IV_sNickName='蛋定';
+	set @IV_sIconURL='http://thirdwx.qlogo.cn/mmopen/vi_32/WnsycmeFbcibM4m2OrsUaJcd3VibttibCHTrBhJsic4F9eCJYOYPFHJYfao7Yl5hGjFyXLzAYHXV8dYsunx1pzibLHQ/132';
+	set @IV_sClientName='';
+	set @IV_iGameID=10095;
+	set @IV_iMediaID=1;
+	set @IV_sIP='172.12.10.126:65012';
+	set @IV_sVersion=1;
+	set @IV_HallId=10095;
+	set @IV_Sex=0;
+	set @IV_siPort=0;
+	set @OV_sAuthCode=0;
+
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = PrPsWeb_UserInfo_PartnerUser_Login
+	 	@IV_sProcPassword,
+		@IV_iPartnerID,
+		@IV_sUnionID,
+		@IV_sNickName,
+		@IV_sIconURL,
+		@OV_sReturnMsg out,
+		@OV_iErrorCode out,
+		@OV_sAuthCode out,
+		@IV_sClientName,
+		@IV_iGameID,
+		@IV_iMediaID,
+		@IV_sIP,
+		@IV_sVersion,
+		@IV_HallId,
+		@IV_Sex,
+		@IV_siPort;
+													  
+		select @OV_sResult, @OV_sReturnMsg, @OV_iErrorCode, @OV_sAuthCode;
+	
+2019/05/22 12:32:44.615000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 557 Info: PrPsWeb_UserInfo_PartnerUser_Login &dbRes.Userid(472680), &dbRes.Nickname(QPM386365), &dbRes.PhoneNo(), &dbRes.Email(), &dbRes.WXUnionID(oxAC5wVL2FZM6PiXm27aKs3pdADc), &dbRes.LoginName(QPM3863652454).
+2019/05/22 12:32:44.616000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 582 Info: PrPsWeb_UserInfo_PartnerUser_Login Success. &dbResult(1), &dbMsg(), &dbRes.ErrorCode(0), &dbRes.Authcode().
+2019/05/22 12:32:44.616000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 148 Info: onPartnerUserLoginReqs Getcertification start.
+2019/05/22 12:32:44.617000 git.huoys.com/qp/hall/sql.Getcertification 691 Info: 
+		declare @chvProcPassword VARCHAR(32);
+		declare @IV_iUserID INT;
+		declare @OV_sCert VARCHAR(32);
+		declare @IV_siGameID			SMALLINT;
+		declare @IV_iMediaID			INT;
+		declare @IV_sVersion			VARCHAR(8);
+		declare @IV_siPort			int;
+		declare @OV_sResult int;
+		declare @IV_sIP VARCHAR(15);
+
+		set @chvProcPassword='!43$a#@28Foi000C';
+		set @IV_sIP='172.12.10.126:65012';
+		set @IV_siGameID=10095;
+		set @IV_iMediaID=1;
+		set @IV_sVersion='1';
+		set @IV_iUserID=472680;
+
+		set @IV_siPort = 0;
+
+		set @OV_sResult= -1;
+
+		exec @OV_sResult = PrPs_Certification_CreateCertification
+		@chvProcPassword,
+		@IV_iUserID,
+		@IV_siPort,
+		@OV_sCert out,
+		@IV_siGameID,
+		@IV_iMediaID,
+		@IV_sVersion,
+		@IV_siPort;
+
+		select @OV_sResult, @OV_sCert;
+	
+2019/05/22 12:32:44.625000 git.huoys.com/qp/hall/sql.Getcertification 721 Info: PrPs_Certification_CreateCertification dbCert(908C2A3C22104BF0A592A05F0FB6D02E).
+2019/05/22 12:32:44.626000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 154 Info: {"res": "sucess","userid":472680,"nickname":"QPM386365","authcode":"","errorcode":0,"extramessage":"","phoneno":"","email":"","wxunionid":"oxAC5wVL2FZM6PiXm27aKs3pdADc","loginname":"QPM3863652454","cert":"908C2A3C22104BF0A592A05F0FB6D02E","certres":"sucess"}
+2019/05/22 12:32:44.899000 git.huoys.com/qp/hall/http.onWechatSign 90 Info: ticket:HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q,noncestr:JjPjzpfRFEgmotaF,signature:jsapi_ticket=HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q&noncestr=JjPjzpfRFEgmotaF&timestamp=1558499564&url=http://qpzdxb.vk51.com/.
+2019/05/22 12:32:44.901000 git.huoys.com/qp/hall/http.onWechatSign 94 Info: onGetWechatSign sucess resmsg={"res": "sucess","appId":"wx6f114a06c3483d72","timestamp":1558499564,"noncestr":"JjPjzpfRFEgmotaF","signature":"6510467e74ac841278d2ad2bb19995215234de34"}.
+2019/05/22 12:33:03.090000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:33:03.091000 git.huoys.com/qp/hall/http.onWechatSign 55 Info: WechatSignReq start.
+2019/05/22 12:33:03.152000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:33:03.153000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 103 Info: onPartnerUserLoginReqs start.
+2019/05/22 12:33:03.153000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 123 Info: onPartnerUserLoginReqs PartnerUserLoginReq start.
+2019/05/22 12:33:03.155000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 524 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_iPartnerID			INT;
+	declare @IV_sUnionID		VARCHAR(40);
+	declare @IV_sNickName		NVARCHAR(64);
+	declare @IV_sIconURL		VARCHAR(160);
+	declare @OV_sReturnMsg		varchar(128);
+	declare @OV_iErrorCode		INT;
+	declare @OV_sAuthCode		VARCHAR(32);
+	declare @IV_sClientName		VARCHAR(1024);
+	declare @IV_iGameID			INT;
+	declare @IV_iMediaID		INT;
+	declare @IV_sIP				VARCHAR(15);
+	declare @IV_sVersion		VARCHAR(8);
+	declare @IV_HallId		INT;
+	declare @IV_Sex         INT;
+	declare @IV_siPort		INT;
+	declare @OV_sResult		INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_iPartnerID=1;
+	set @IV_sUnionID='oxAC5wVL2FZM6PiXm27aKs3pdADc';
+	set @IV_sNickName='蛋定';
+	set @IV_sIconURL='http://thirdwx.qlogo.cn/mmopen/vi_32/WnsycmeFbcibM4m2OrsUaJcd3VibttibCHTrBhJsic4F9eCJYOYPFHJYfao7Yl5hGjFyXLzAYHXV8dYsunx1pzibLHQ/132';
+	set @IV_sClientName='';
+	set @IV_iGameID=10095;
+	set @IV_iMediaID=1;
+	set @IV_sIP='172.12.10.126:65012';
+	set @IV_sVersion=1;
+	set @IV_HallId=10095;
+	set @IV_Sex=0;
+	set @IV_siPort=0;
+	set @OV_sAuthCode=0;
+
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = PrPsWeb_UserInfo_PartnerUser_Login
+	 	@IV_sProcPassword,
+		@IV_iPartnerID,
+		@IV_sUnionID,
+		@IV_sNickName,
+		@IV_sIconURL,
+		@OV_sReturnMsg out,
+		@OV_iErrorCode out,
+		@OV_sAuthCode out,
+		@IV_sClientName,
+		@IV_iGameID,
+		@IV_iMediaID,
+		@IV_sIP,
+		@IV_sVersion,
+		@IV_HallId,
+		@IV_Sex,
+		@IV_siPort;
+													  
+		select @OV_sResult, @OV_sReturnMsg, @OV_iErrorCode, @OV_sAuthCode;
+	
+2019/05/22 12:33:03.185000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 557 Info: PrPsWeb_UserInfo_PartnerUser_Login &dbRes.Userid(472680), &dbRes.Nickname(QPM386365), &dbRes.PhoneNo(), &dbRes.Email(), &dbRes.WXUnionID(oxAC5wVL2FZM6PiXm27aKs3pdADc), &dbRes.LoginName(QPM3863652454).
+2019/05/22 12:33:03.186000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 582 Info: PrPsWeb_UserInfo_PartnerUser_Login Success. &dbResult(1), &dbMsg(), &dbRes.ErrorCode(0), &dbRes.Authcode().
+2019/05/22 12:33:03.186000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 148 Info: onPartnerUserLoginReqs Getcertification start.
+2019/05/22 12:33:03.187000 git.huoys.com/qp/hall/sql.Getcertification 691 Info: 
+		declare @chvProcPassword VARCHAR(32);
+		declare @IV_iUserID INT;
+		declare @OV_sCert VARCHAR(32);
+		declare @IV_siGameID			SMALLINT;
+		declare @IV_iMediaID			INT;
+		declare @IV_sVersion			VARCHAR(8);
+		declare @IV_siPort			int;
+		declare @OV_sResult int;
+		declare @IV_sIP VARCHAR(15);
+
+		set @chvProcPassword='!43$a#@28Foi000C';
+		set @IV_sIP='172.12.10.126:65012';
+		set @IV_siGameID=10095;
+		set @IV_iMediaID=1;
+		set @IV_sVersion='1';
+		set @IV_iUserID=472680;
+
+		set @IV_siPort = 0;
+
+		set @OV_sResult= -1;
+
+		exec @OV_sResult = PrPs_Certification_CreateCertification
+		@chvProcPassword,
+		@IV_iUserID,
+		@IV_siPort,
+		@OV_sCert out,
+		@IV_siGameID,
+		@IV_iMediaID,
+		@IV_sVersion,
+		@IV_siPort;
+
+		select @OV_sResult, @OV_sCert;
+	
+2019/05/22 12:33:03.200000 git.huoys.com/qp/hall/sql.Getcertification 721 Info: PrPs_Certification_CreateCertification dbCert(06A308A13F0E4F5EBB80ACAA4AC6C4F8).
+2019/05/22 12:33:03.200000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 154 Info: {"res": "sucess","userid":472680,"nickname":"QPM386365","authcode":"","errorcode":0,"extramessage":"","phoneno":"","email":"","wxunionid":"oxAC5wVL2FZM6PiXm27aKs3pdADc","loginname":"QPM3863652454","cert":"06A308A13F0E4F5EBB80ACAA4AC6C4F8","certres":"sucess"}
+2019/05/22 12:33:03.454000 git.huoys.com/qp/hall/http.onWechatSign 90 Info: ticket:HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q,noncestr:etHsbZRjxAwnwekr,signature:jsapi_ticket=HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q&noncestr=etHsbZRjxAwnwekr&timestamp=1558499583&url=http://qpzdxb.vk51.com/.
+2019/05/22 12:33:03.455000 git.huoys.com/qp/hall/http.onWechatSign 94 Info: onGetWechatSign sucess resmsg={"res": "sucess","appId":"wx6f114a06c3483d72","timestamp":1558499583,"noncestr":"etHsbZRjxAwnwekr","signature":"08adbba3f783a5f339d273d000fbe56b353d0c8b"}.
+2019/05/22 12:33:35.306000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:33:35.307000 git.huoys.com/qp/hall/http.onWechatSign 55 Info: WechatSignReq start.
+2019/05/22 12:33:35.378000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:33:35.379000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 103 Info: onPartnerUserLoginReqs start.
+2019/05/22 12:33:35.379000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 123 Info: onPartnerUserLoginReqs PartnerUserLoginReq start.
+2019/05/22 12:33:35.380000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 524 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_iPartnerID			INT;
+	declare @IV_sUnionID		VARCHAR(40);
+	declare @IV_sNickName		NVARCHAR(64);
+	declare @IV_sIconURL		VARCHAR(160);
+	declare @OV_sReturnMsg		varchar(128);
+	declare @OV_iErrorCode		INT;
+	declare @OV_sAuthCode		VARCHAR(32);
+	declare @IV_sClientName		VARCHAR(1024);
+	declare @IV_iGameID			INT;
+	declare @IV_iMediaID		INT;
+	declare @IV_sIP				VARCHAR(15);
+	declare @IV_sVersion		VARCHAR(8);
+	declare @IV_HallId		INT;
+	declare @IV_Sex         INT;
+	declare @IV_siPort		INT;
+	declare @OV_sResult		INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_iPartnerID=1;
+	set @IV_sUnionID='oxAC5wVL2FZM6PiXm27aKs3pdADc';
+	set @IV_sNickName='蛋定';
+	set @IV_sIconURL='http://thirdwx.qlogo.cn/mmopen/vi_32/WnsycmeFbcibM4m2OrsUaJcd3VibttibCHTrBhJsic4F9eCJYOYPFHJYfao7Yl5hGjFyXLzAYHXV8dYsunx1pzibLHQ/132';
+	set @IV_sClientName='';
+	set @IV_iGameID=10095;
+	set @IV_iMediaID=1;
+	set @IV_sIP='172.12.10.126:65012';
+	set @IV_sVersion=1;
+	set @IV_HallId=10095;
+	set @IV_Sex=0;
+	set @IV_siPort=0;
+	set @OV_sAuthCode=0;
+
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = PrPsWeb_UserInfo_PartnerUser_Login
+	 	@IV_sProcPassword,
+		@IV_iPartnerID,
+		@IV_sUnionID,
+		@IV_sNickName,
+		@IV_sIconURL,
+		@OV_sReturnMsg out,
+		@OV_iErrorCode out,
+		@OV_sAuthCode out,
+		@IV_sClientName,
+		@IV_iGameID,
+		@IV_iMediaID,
+		@IV_sIP,
+		@IV_sVersion,
+		@IV_HallId,
+		@IV_Sex,
+		@IV_siPort;
+													  
+		select @OV_sResult, @OV_sReturnMsg, @OV_iErrorCode, @OV_sAuthCode;
+	
+2019/05/22 12:33:35.444000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 557 Info: PrPsWeb_UserInfo_PartnerUser_Login &dbRes.Userid(472680), &dbRes.Nickname(QPM386365), &dbRes.PhoneNo(), &dbRes.Email(), &dbRes.WXUnionID(oxAC5wVL2FZM6PiXm27aKs3pdADc), &dbRes.LoginName(QPM3863652454).
+2019/05/22 12:33:35.444000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 582 Info: PrPsWeb_UserInfo_PartnerUser_Login Success. &dbResult(1), &dbMsg(), &dbRes.ErrorCode(0), &dbRes.Authcode().
+2019/05/22 12:33:35.444000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 148 Info: onPartnerUserLoginReqs Getcertification start.
+2019/05/22 12:33:35.446000 git.huoys.com/qp/hall/sql.Getcertification 691 Info: 
+		declare @chvProcPassword VARCHAR(32);
+		declare @IV_iUserID INT;
+		declare @OV_sCert VARCHAR(32);
+		declare @IV_siGameID			SMALLINT;
+		declare @IV_iMediaID			INT;
+		declare @IV_sVersion			VARCHAR(8);
+		declare @IV_siPort			int;
+		declare @OV_sResult int;
+		declare @IV_sIP VARCHAR(15);
+
+		set @chvProcPassword='!43$a#@28Foi000C';
+		set @IV_sIP='172.12.10.126:65012';
+		set @IV_siGameID=10095;
+		set @IV_iMediaID=1;
+		set @IV_sVersion='1';
+		set @IV_iUserID=472680;
+
+		set @IV_siPort = 0;
+
+		set @OV_sResult= -1;
+
+		exec @OV_sResult = PrPs_Certification_CreateCertification
+		@chvProcPassword,
+		@IV_iUserID,
+		@IV_siPort,
+		@OV_sCert out,
+		@IV_siGameID,
+		@IV_iMediaID,
+		@IV_sVersion,
+		@IV_siPort;
+
+		select @OV_sResult, @OV_sCert;
+	
+2019/05/22 12:33:35.457000 git.huoys.com/qp/hall/sql.Getcertification 721 Info: PrPs_Certification_CreateCertification dbCert(41225F8779064F67A043065288BB0B43).
+2019/05/22 12:33:35.457000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 154 Info: {"res": "sucess","userid":472680,"nickname":"QPM386365","authcode":"","errorcode":0,"extramessage":"","phoneno":"","email":"","wxunionid":"oxAC5wVL2FZM6PiXm27aKs3pdADc","loginname":"QPM3863652454","cert":"41225F8779064F67A043065288BB0B43","certres":"sucess"}
+2019/05/22 12:33:35.692000 git.huoys.com/qp/hall/http.onWechatSign 90 Info: ticket:HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q,noncestr:BEmfdzdcEkXBAkjQ,signature:jsapi_ticket=HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q&noncestr=BEmfdzdcEkXBAkjQ&timestamp=1558499615&url=http://qpzdxb.vk51.com/.
+2019/05/22 12:33:35.693000 git.huoys.com/qp/hall/http.onWechatSign 94 Info: onGetWechatSign sucess resmsg={"res": "sucess","appId":"wx6f114a06c3483d72","timestamp":1558499615,"noncestr":"BEmfdzdcEkXBAkjQ","signature":"61205fe24c06abc0b5fa74ec7fea0bbb3fd24bfd"}.
+2019/05/22 12:34:51.022000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:34:51.023000 git.huoys.com/qp/hall/http.onWechatSign 55 Info: WechatSignReq start.
+2019/05/22 12:34:51.098000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:/.
+2019/05/22 12:34:51.099000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 103 Info: onPartnerUserLoginReqs start.
+2019/05/22 12:34:51.099000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 123 Info: onPartnerUserLoginReqs PartnerUserLoginReq start.
+2019/05/22 12:34:51.104000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 524 Info: 
+	declare @IV_sProcPassword VARCHAR(32);
+	declare @IV_iPartnerID			INT;
+	declare @IV_sUnionID		VARCHAR(40);
+	declare @IV_sNickName		NVARCHAR(64);
+	declare @IV_sIconURL		VARCHAR(160);
+	declare @OV_sReturnMsg		varchar(128);
+	declare @OV_iErrorCode		INT;
+	declare @OV_sAuthCode		VARCHAR(32);
+	declare @IV_sClientName		VARCHAR(1024);
+	declare @IV_iGameID			INT;
+	declare @IV_iMediaID		INT;
+	declare @IV_sIP				VARCHAR(15);
+	declare @IV_sVersion		VARCHAR(8);
+	declare @IV_HallId		INT;
+	declare @IV_Sex         INT;
+	declare @IV_siPort		INT;
+	declare @OV_sResult		INT;
+
+	set @IV_sProcPassword='!43$a#@28Foi000C';
+	set @IV_iPartnerID=1;
+	set @IV_sUnionID='oxAC5wVL2FZM6PiXm27aKs3pdADc';
+	set @IV_sNickName='蛋定';
+	set @IV_sIconURL='http://thirdwx.qlogo.cn/mmopen/vi_32/WnsycmeFbcibM4m2OrsUaJcd3VibttibCHTrBhJsic4F9eCJYOYPFHJYfao7Yl5hGjFyXLzAYHXV8dYsunx1pzibLHQ/132';
+	set @IV_sClientName='';
+	set @IV_iGameID=10095;
+	set @IV_iMediaID=1;
+	set @IV_sIP='172.12.10.126:65012';
+	set @IV_sVersion=1;
+	set @IV_HallId=10095;
+	set @IV_Sex=0;
+	set @IV_siPort=0;
+	set @OV_sAuthCode=0;
+
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = PrPsWeb_UserInfo_PartnerUser_Login
+	 	@IV_sProcPassword,
+		@IV_iPartnerID,
+		@IV_sUnionID,
+		@IV_sNickName,
+		@IV_sIconURL,
+		@OV_sReturnMsg out,
+		@OV_iErrorCode out,
+		@OV_sAuthCode out,
+		@IV_sClientName,
+		@IV_iGameID,
+		@IV_iMediaID,
+		@IV_sIP,
+		@IV_sVersion,
+		@IV_HallId,
+		@IV_Sex,
+		@IV_siPort;
+													  
+		select @OV_sResult, @OV_sReturnMsg, @OV_iErrorCode, @OV_sAuthCode;
+	
+2019/05/22 12:34:51.131000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 557 Info: PrPsWeb_UserInfo_PartnerUser_Login &dbRes.Userid(472680), &dbRes.Nickname(QPM386365), &dbRes.PhoneNo(), &dbRes.Email(), &dbRes.WXUnionID(oxAC5wVL2FZM6PiXm27aKs3pdADc), &dbRes.LoginName(QPM3863652454).
+2019/05/22 12:34:51.132000 git.huoys.com/qp/hall/sql.PartnerUserLoginReq 582 Info: PrPsWeb_UserInfo_PartnerUser_Login Success. &dbResult(1), &dbMsg(), &dbRes.ErrorCode(0), &dbRes.Authcode().
+2019/05/22 12:34:51.133000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 148 Info: onPartnerUserLoginReqs Getcertification start.
+2019/05/22 12:34:51.136000 git.huoys.com/qp/hall/sql.Getcertification 691 Info: 
+		declare @chvProcPassword VARCHAR(32);
+		declare @IV_iUserID INT;
+		declare @OV_sCert VARCHAR(32);
+		declare @IV_siGameID			SMALLINT;
+		declare @IV_iMediaID			INT;
+		declare @IV_sVersion			VARCHAR(8);
+		declare @IV_siPort			int;
+		declare @OV_sResult int;
+		declare @IV_sIP VARCHAR(15);
+
+		set @chvProcPassword='!43$a#@28Foi000C';
+		set @IV_sIP='172.12.10.126:65012';
+		set @IV_siGameID=10095;
+		set @IV_iMediaID=1;
+		set @IV_sVersion='1';
+		set @IV_iUserID=472680;
+
+		set @IV_siPort = 0;
+
+		set @OV_sResult= -1;
+
+		exec @OV_sResult = PrPs_Certification_CreateCertification
+		@chvProcPassword,
+		@IV_iUserID,
+		@IV_siPort,
+		@OV_sCert out,
+		@IV_siGameID,
+		@IV_iMediaID,
+		@IV_sVersion,
+		@IV_siPort;
+
+		select @OV_sResult, @OV_sCert;
+	
+2019/05/22 12:34:51.148000 git.huoys.com/qp/hall/sql.Getcertification 721 Info: PrPs_Certification_CreateCertification dbCert(853DAD8962DA4B6C9173186613716EB2).
+2019/05/22 12:34:51.149000 git.huoys.com/qp/hall/http.onPartnerUserLoginReqs 154 Info: {"res": "sucess","userid":472680,"nickname":"QPM386365","authcode":"","errorcode":0,"extramessage":"","phoneno":"","email":"","wxunionid":"oxAC5wVL2FZM6PiXm27aKs3pdADc","loginname":"QPM3863652454","cert":"853DAD8962DA4B6C9173186613716EB2","certres":"sucess"}
+2019/05/22 12:34:51.412000 git.huoys.com/qp/hall/http.onWechatSign 90 Info: ticket:HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q,noncestr:ZLCtTMtTCoaNatyy,signature:jsapi_ticket=HoagFKDcsGMVCIY2vOjf9vPz9aZ0RE0ZhJ9rctJiYASVjBmbSYNUuItm3qCK5PSD_Nn-xoh_8uGVwCf42p2d6Q&noncestr=ZLCtTMtTCoaNatyy&timestamp=1558499691&url=http://qpzdxb.vk51.com/.
+2019/05/22 12:34:51.413000 git.huoys.com/qp/hall/http.onWechatSign 94 Info: onGetWechatSign sucess resmsg={"res": "sucess","appId":"wx6f114a06c3483d72","timestamp":1558499691,"noncestr":"ZLCtTMtTCoaNatyy","signature":"35b5d4cf92a97e17e85e5a38947eaa82885683a8"}.
+2019/05/22 12:34:53.451000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getmodifyflag.
+2019/05/22 12:34:53.452000 git.huoys.com/qp/hall/sql.GetModifyFlag 235 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_iUserID INT;
+	declare @OV_biFlag BIGINT;
+	declare @OV_sResult INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_iUserID='472680';
+
+	set @OV_sResult= -1;
+
+	exec @OV_sResult = dbo.PrWeb_UserInfo_GetModifyFlag
+	@chvProcPassword,
+	@IV_iUserID,
+	@OV_biFlag out;
+
+	select @OV_sResult, @OV_biFlag;
+	
+2019/05/22 12:34:53.459000 git.huoys.com/qp/hall/sql.GetModifyFlag 255 Info: PrWeb_UserInfo_GetModifyFlag dbFlag(0).
+2019/05/22 12:34:53.483000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getUserTicket.
+2019/05/22 12:34:53.484000 git.huoys.com/qp/hall/sql.GetUserTicket 618 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @lngUserID BIGINT;
+	declare @lngAmount BIGINT;
+	declare @OV_sResult INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @lngUserID=472680;
+
+	set @OV_sResult= -1;
+
+	exec @OV_sResult = Pr_Coin_GetUserMoney
+	@chvProcPassword,
+	@lngUserID,
+	@lngAmount out;
+
+	select @OV_sResult, @lngAmount;
+	
+2019/05/22 12:34:53.491000 git.huoys.com/qp/hall/sql.GetUserTicket 642 Info: Pr_Coin_GetUserMoney amount(0).
+2019/05/22 12:34:53.492000 git.huoys.com/qp/hall/http.onGetUserTicket 234 Info: web onGetUserTicket sucess
+2019/05/22 12:41:43.197000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 12:51:43.197000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 13:01:43.196000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 13:11:43.205000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 13:21:43.211000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 13:31:43.213000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 13:41:43.212000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 13:51:43.215000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 14:01:43.213000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 14:11:43.213000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 14:21:43.213000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 14:31:43.219000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 14:41:43.221000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 14:51:43.220000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 15:01:43.222000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 15:11:43.222000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 15:21:43.224000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 15:31:43.225000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 15:41:43.230000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 15:43:12.860000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:report.
+2019/05/22 15:43:12.861000 git.huoys.com/qp/hall/http.onReport 252 Error: report res:HttpGetError*nickname=*url=http://qpzdxb.vk51.com/config/config.json.
+2019/05/22 15:43:29.789000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:report.
+2019/05/22 15:43:29.790000 git.huoys.com/qp/hall/http.onReport 252 Error: report res:HttpGetError*nickname=*url=http://qpzdxb.vk51.com/config/config.json.
+2019/05/22 15:43:46.084000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:report.
+2019/05/22 15:43:46.085000 git.huoys.com/qp/hall/http.onReport 252 Error: report res:HttpGetError*nickname=*url=http://qpzdxb.vk51.com/config/config.json.
+2019/05/22 15:43:51.498000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:report.
+2019/05/22 15:43:51.499000 git.huoys.com/qp/hall/http.onReport 252 Error: report res:HttpGetError*nickname=*url=http://qpzdxb.vk51.com/config/config.json.
+2019/05/22 15:51:43.237000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 16:01:43.239000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 16:11:43.241000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 16:21:43.278000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)
+2019/05/22 16:31:43.461000 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/config.loadConfig 50 Error: failed to open config file:%!(EXTRA string=)

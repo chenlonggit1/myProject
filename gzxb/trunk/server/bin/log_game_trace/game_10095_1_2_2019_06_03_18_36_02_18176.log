@@ -1,0 +1,6 @@
+2019/06/03 18:36:02.437000 git.huoys.com/qp/common/hall_logic/launcher.OnStart 40 Warning: url.json:&{%!s(int32=10095) %!s(int32=1) %!s(int32=0) %!s(int32=2) %!s(int=4)}.
+2019/06/03 18:36:02.437000 git.huoys.com/qp/common/hall_logic/launcher.OnStart 42 Warning: Start Game(10095) Arena(1) Server(2) Sucess !
+2019/06/03 18:36:02.437000 git.huoys.com/qp/common/hall_message_s.RegisterGame 110 Info: RegisterGame:1,2.
+2019/06/03 18:36:03.443000 git.huoys.com/qp/common/hall_message_s.httpPostByte 36 Error: http post Bytes Post http://0.0.0.0:9210/?ops=6: dial tcp 0.0.0.0:9210: connectex: No connection could be made because the target machine actively refused it. failed, ,ops(6),url(http://0.0.0.0:9210/).
+2019/06/03 18:36:03.444000 git.huoys.com/qp/common/hall_message_s.RegisterGame 119 Error: httpPostByte msgRecv == nil,url(http://0.0.0.0:9210/).
+2019/06/03 18:36:03.444000 git.huoys.com/qp/common/hall_logic/launcher.OnStart 49 Error: Register Game(10095) failed.

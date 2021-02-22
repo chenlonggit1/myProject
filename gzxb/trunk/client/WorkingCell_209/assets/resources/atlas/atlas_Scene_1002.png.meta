@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "1c15d0a5-69e9-4c8e-9f9e-09062415e28f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "atlas_Scene_1002": {
+      "ver": "1.0.3",
+      "uuid": "3b11c5be-e052-4131-bceb-5c5dc47cdc02",
+      "rawTextureUuid": "1c15d0a5-69e9-4c8e-9f9e-09062415e28f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 960,
+      "height": 1845,
+      "rawWidth": 960,
+      "rawHeight": 1845,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

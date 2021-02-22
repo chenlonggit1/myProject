@@ -1,0 +1,70 @@
+2019/05/13 10:02:47.994200 main.main 68 Info: Hall start now ....
+2019/05/13 10:02:48.008200 git.huoys.com/qp/hall/sql.ConnectDB 105 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=Passport.
+2019/05/13 10:02:48.298200 git.huoys.com/qp/hall/sql.ConnectDB 119 Info: DB Passport (113.106.164.43:32960) connected.
+2019/05/13 10:02:48.298200 git.huoys.com/qp/hall/sql.ConnectDB 105 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=SY_Money.
+2019/05/13 10:02:48.543200 git.huoys.com/qp/hall/sql.ConnectDB 119 Info: DB SY_Money (113.106.164.43:32960) connected.
+2019/05/13 10:02:48.543200 git.huoys.com/qp/hall/sql.ConnectDB 105 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=CYMoney.
+2019/05/13 10:02:48.854200 git.huoys.com/qp/hall/sql.ConnectDB 119 Info: DB CYMoney (113.106.164.43:32960) connected.
+2019/05/13 10:02:48.855200 git.huoys.com/qp/hall/sql.ConnectDB 105 Info: connectionString:sqlserver://SYGameServer:QP%21&%2532456%40@113.106.164.43:32960?connection+timeout=60&database=SY_GameCenter.
+2019/05/13 10:02:48.926200 git.huoys.com/qp/hall/sql.ConnectDB 119 Info: DB SY_GameCenter (113.106.164.43:32960) connected.
+2019/05/13 10:02:48.926200 main.main 77 Warning: start Hall sucess !
+2019/05/13 10:02:48.927200 git.huoys.com/qp/hall/http.Startup 42 Warning: http url:0.0.0.0:8000.
+2019/05/13 10:02:48.928200 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.acceptHTTPRequest 80 Info: Http server listen at:0.0.0.0:8000
+2019/05/13 10:02:58.985200 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/13 10:02:58.988200 git.huoys.com/qp/hall/sql.GetPassportID 166 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	
+2019/05/13 10:38:58.476200 git.huoys.com/qp/hall/vendor/git.huoys.com/qp/common/http_message.(*httpHandler).ServeHTTP 97 Info: requestPath:getaccountid.
+2019/05/13 10:38:58.478200 git.huoys.com/qp/hall/sql.GetPassportID 166 Info: 
+	declare @chvProcPassword VARCHAR(32);
+	declare @IV_sLoginName	VARCHAR(32);
+	declare @IV_sPassword CHAR(32);
+	declare @OV_sResult INT;
+
+	declare @OV_biPassPortID BIGINT;
+	declare @OV_sReturnMsg VARCHAR(128);
+	declare @OV_iRegType INT;
+
+	set @chvProcPassword='!43$a#@28Foi000C';
+	set @IV_sLoginName='sjb1';
+	set @IV_sPassword='58bc55137ad85422546b70033e27b8d2';
+
+	set @OV_biPassPortID=0;
+	set @OV_sReturnMsg='';
+	set @OV_sResult=-1;
+
+	exec @OV_sResult = dbo.PrPub_UserInfo_CheckLogin
+	 @chvProcPassword,
+	 @IV_sLoginName,
+	 @IV_sPassword,
+	 @OV_biPassPortID out,
+	 @OV_sReturnMsg out,
+	 @OV_iRegType out;
+
+	 select @OV_sResult, @OV_biPassPortID, @OV_sReturnMsg;
+	

@@ -1,0 +1,6 @@
+2019/05/22 11:20:38.313200 git.huoys.com/qp/cells/vendor/git.huoys.com/qp/common/hall_logic/launcher.OnStart 40 Warning: url.json:&{%!s(int32=10095) %!s(int32=1) %!s(int32=0) %!s(int32=4) %!s(int=4)}.
+2019/05/22 11:20:38.314200 git.huoys.com/qp/cells/vendor/git.huoys.com/qp/common/hall_logic/launcher.OnStart 42 Warning: Start Game(10095) Arena(1) Server(4) Sucess !
+2019/05/22 11:20:38.316200 git.huoys.com/qp/cells/vendor/git.huoys.com/qp/common/hall_message_s.RegisterGame 110 Info: RegisterGame:1,4.
+2019/05/22 11:20:38.320200 git.huoys.com/qp/cells/vendor/git.huoys.com/qp/common/hall_message_s.RegisterGame 126 Info: register game msgRecv.En: 0.
+2019/05/22 11:20:40.354200 git.huoys.com/qp/cells/module/web.(*webmodule).OnInit 44 Warning: http url:0.0.0.0:9214.
+2019/05/22 11:20:40.367200 git.huoys.com/qp/cells/vendor/git.huoys.com/qp/common/http_message.acceptHTTPRequest 118 Info: Http server listen at:0.0.0.0:9214

@@ -1,0 +1,46 @@
+{
+  "MonitorEnabled": false,
+  "Log4NetConfigPath": "log4net.config",
+  "LoggerName": "GameService",
+  "Http": "0.0.0.0:9210",
+  "Tcp": "",
+  "GameId": 10095,
+  "JackpotConfig": {
+    "Items": [
+      {
+        "GroupId": 1,
+        "Min": 8000000,
+        "Max": 16000000,
+        "RefreshDuration": 300000
+      },
+      {
+        "GroupId": 2,
+        "Min": 80000000,
+        "Max": 160000000,
+        "RefreshDuration": 300000
+      },
+      {
+        "GroupId": 3,
+        "Min": 400000000,
+        "Max": 800000000,
+        "RefreshDuration": 300000
+      },
+      {
+        "GroupId": 4,
+        "Min": 1400000000,
+        "Max": 2800000000,
+        "RefreshDuration": 300000
+      },
+      {
+        "GroupId": 5,
+        "Min": 500000000,
+        "Max": 1000000000,
+        "RefreshDuration": 300000
+      }
+    ]
+  },
+  "DistributeMode": 1,
+  "Capacity": 1000,
+  "AliveCheckDuration": 60000,
+  "ConfigPath": "game/cells"
+}

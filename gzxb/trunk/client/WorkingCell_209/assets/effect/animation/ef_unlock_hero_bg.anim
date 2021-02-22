@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "ef_unlock_hero_bg",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "1": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1.5,
+              "value": 360
+            }
+          ]
+        }
+      },
+      "2": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 30
+            },
+            {
+              "frame": 1.5,
+              "value": 390
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

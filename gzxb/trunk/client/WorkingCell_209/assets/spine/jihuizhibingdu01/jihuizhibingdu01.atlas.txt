@@ -1,0 +1,90 @@
+
+jihuizhibingdu01.png
+size: 500,500
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_ear
+  rotate: true
+  xy: 293, 53
+  size: 69, 87
+  orig: 69, 87
+  offset: 0, 0
+  index: -1
+L_foot
+  rotate: false
+  xy: 417, 395
+  size: 79, 103
+  orig: 79, 103
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: false
+  xy: 382, 45
+  size: 82, 93
+  orig: 82, 93
+  offset: 0, 0
+  index: -1
+R_ear
+  rotate: false
+  xy: 378, 140
+  size: 65, 102
+  orig: 65, 102
+  offset: 0, 0
+  index: -1
+R_foot
+  rotate: false
+  xy: 293, 124
+  size: 83, 118
+  orig: 83, 118
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: true
+  xy: 406, 280
+  size: 83, 92
+  orig: 83, 92
+  offset: 0, 0
+  index: -1
+attack
+  rotate: false
+  xy: 246, 365
+  size: 169, 133
+  orig: 169, 133
+  offset: 0, 0
+  index: -1
+close
+  rotate: false
+  xy: 246, 244
+  size: 158, 119
+  orig: 158, 119
+  offset: 0, 0
+  index: -1
+die
+  rotate: false
+  xy: 2, 66
+  size: 168, 141
+  orig: 168, 141
+  offset: 0, 0
+  index: -1
+nomal
+  rotate: true
+  xy: 172, 53
+  size: 154, 119
+  orig: 154, 119
+  offset: 0, 0
+  index: -1
+spine
+  rotate: false
+  xy: 2, 209
+  size: 242, 289
+  orig: 242, 289
+  offset: 0, 0
+  index: -1
+yinying
+  rotate: false
+  xy: 2, 21
+  size: 150, 43
+  orig: 150, 43
+  offset: 0, 0
+  index: -1

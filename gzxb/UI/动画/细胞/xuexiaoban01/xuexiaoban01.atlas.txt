@@ -1,0 +1,139 @@
+
+xuexiaoban01.png
+size: 356,356
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0001
+  rotate: true
+  xy: 308, 117
+  size: 96, 41
+  orig: 96, 41
+  offset: 0, 0
+  index: -1
+L_arm
+  rotate: true
+  xy: 276, 13
+  size: 48, 35
+  orig: 48, 35
+  offset: 0, 0
+  index: -1
+L_foot
+  rotate: true
+  xy: 243, 17
+  size: 34, 31
+  orig: 34, 31
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: true
+  xy: 144, 3
+  size: 40, 43
+  orig: 40, 43
+  offset: 0, 0
+  index: -1
+L_leg
+  rotate: false
+  xy: 145, 87
+  size: 27, 39
+  orig: 27, 39
+  offset: 0, 0
+  index: -1
+L_upper
+  rotate: true
+  xy: 92, 4
+  size: 39, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+R_foot
+  rotate: true
+  xy: 276, 87
+  size: 37, 30
+  orig: 37, 30
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: true
+  xy: 308, 63
+  size: 52, 46
+  orig: 52, 46
+  offset: 0, 0
+  index: -1
+R_leg
+  rotate: true
+  xy: 313, 29
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+R_upper
+  rotate: true
+  xy: 189, 4
+  size: 42, 52
+  orig: 42, 52
+  offset: 0, 0
+  index: -1
+attack
+  rotate: true
+  xy: 224, 53
+  size: 71, 50
+  orig: 71, 50
+  offset: 0, 0
+  index: -1
+bag
+  rotate: false
+  xy: 2, 29
+  size: 88, 84
+  orig: 88, 84
+  offset: 0, 0
+  index: -1
+close
+  rotate: true
+  xy: 95, 45
+  size: 81, 48
+  orig: 81, 48
+  offset: 0, 0
+  index: -1
+die
+  rotate: false
+  xy: 176, 126
+  size: 130, 87
+  orig: 130, 87
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 176, 215
+  size: 139, 161
+  orig: 139, 161
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 204
+  size: 172, 150
+  orig: 172, 150
+  offset: 0, 0
+  index: -1
+nomal
+  rotate: true
+  xy: 174, 48
+  size: 76, 48
+  orig: 76, 48
+  offset: 0, 0
+  index: -1
+spine
+  rotate: false
+  xy: 95, 128
+  size: 79, 74
+  orig: 79, 74
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: true
+  xy: 2, 115
+  size: 87, 91
+  orig: 87, 91
+  offset: 0, 0
+  index: -1

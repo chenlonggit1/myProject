@@ -1,0 +1,508 @@
+2019/05/31 17:42:15.638000 git.huoys.com/qp/cells/game_trace.polling 600 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 小丑剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 总输赢:0 总消耗:-0 总收益:+0 总免伤次数:0 总免伤:0 返回率:0.000000 时间:2019-05-31_17_42_15
+2019/05/31 17:43:16.416000 git.huoys.com/qp/cells/game_trace.LogSettle 507 Info: 	 单局结算 uid:150016 剩余金币:103119380 消耗:20 收益:0 写分增量:-20 阵容变化:[201,200,202,],[201,200,202,],[201,200,202,], 
+2019/05/31 17:43:17.450000 git.huoys.com/qp/cells/game_trace.LeaveGame 492 Info: 
+Enter=>ID:150016 Money:103119400 '2019-05-31 17:43:10'
+Match=>ID :150016 玩家消耗金额:-20 玩家赢取金额:+0 返还率:0.000000 单个最高的结算金额:0 从进入到退出之间的最大余额:103119400
+Leave=>ID:150016 Money:103119380 '2019-05-31 17:43:17'
+	ID:150016 翻牌统计: 攻击次数:1,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:1,Boss怪次数:0,消耗:20 收益:0 返回率:0.000000;
+	ID:150016 BOXID:102	攻击次数:1,击杀次数:0,免伤次数:0,消耗:20,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150016 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+	ID:150016 小丑剧情 消耗:0,收益:0,返回率:0.000000;
+2019/05/31 18:12:16.660000 git.huoys.com/qp/cells/game_trace.polling 600 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:1,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:1,Boss怪次数:0,消耗:20 收益:0 返回率:0.000000;
+	全局统计 BOXID:102	攻击次数:1,击杀次数:0,免伤次数:0,消耗:20,收益:0,单次最大盈利:0 单次时间:2019-05-31 18:12:16;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 小丑剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 总输赢:-20 总消耗:-20 总收益:+0 总免伤次数:0 总免伤:0 返回率:0.000000 时间:2019-05-31_18_12_16
+2019/05/31 18:42:16.739000 git.huoys.com/qp/cells/game_trace.polling 600 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	全局统计 BOXID:102	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 18:42:16;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 小丑剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 总输赢:0 总消耗:-0 总收益:+0 总免伤次数:0 总免伤:0 返回率:0.000000 时间:2019-05-31_18_42_16
+2019/05/31 19:12:16.769000 git.huoys.com/qp/cells/game_trace.polling 600 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	全局统计 BOXID:102	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 19:12:16;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 小丑剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 总输赢:0 总消耗:-0 总收益:+0 总免伤次数:0 总免伤:0 返回率:0.000000 时间:2019-05-31_19_12_16
+2019/05/31 19:42:16.774000 git.huoys.com/qp/cells/game_trace.polling 600 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	全局统计 BOXID:102	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 19:42:16;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 小丑剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 总输赢:0 总消耗:-0 总收益:+0 总免伤次数:0 总免伤:0 返回率:0.000000 时间:2019-05-31_19_42_16
+2019/05/31 19:48:00.913000 git.huoys.com/qp/cells/module/room/logic/storysys/clown.(*Clown).CalcSettle 346 Info: CLOWN Settle uid:150016  reward:730 levemoney:103118740 2019-05-31_19_48_00 force:true fixed:3 give:2 max:5 roundarr:[[{0 3 false 10 true} {1 3 false 10 true} {2 3 false 10 true} {3 1 false 0 true} {4 3 false 10 true} {5 3 false 10 true} {6 1 false 0 true} {7 3 false 20 true} {8 1 false 0 true} {9 1 false 0 true} {10 1 false 0 true} {11 3 false 10 true} {12 3 false 10 true} {13 1 false 0 true} {14 1 false 0 true} {15 1 false 0 true}] [{0 3 false 0 false} {1 3 false 0 false} {2 2 false 0 false} {3 3 false 0 false} {4 3 false 0 false} {5 3 false 0 false} {6 4 false 0 false} {7 4 false 0 false} {8 4 false 0 false} {9 3 true 0 false} {10 3 false 0 false} {11 3 false 0 false} {12 4 false 0 false} {13 4 false 0 false} {14 3 false 0 false} {15 4 false 0 false}] [{0 4 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 3 false 0 false} {5 4 true 0 false} {6 4 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 3 false 0 false} {10 3 false 0 false} {11 4 false 0 false} {12 4 false 0 false} {13 3 false 0 false} {14 2 false 0 false} {15 4 false 0 false}] [{0 4 false 0 false} {1 4 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 3 false 0 false} {5 3 false 0 false} {6 4 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 4 false 0 false} {10 4 false 0 false} {11 3 false 0 false} {12 4 false 0 false} {13 3 false 0 false} {14 4 false 0 false} {15 3 false 0 false}] [{0 3 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 4 false 0 false} {4 3 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 4 false 0 false} {9 4 false 0 false} {10 4 false 0 false} {11 3 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 3 false 0 false}]]
+2019/05/31 19:48:00.917000 git.huoys.com/qp/cells/game_trace.LogSettle 507 Info: 	 单局结算 uid:150016 剩余金币:103118740 消耗:2740 收益:2100 写分增量:-640 阵容变化:[201,200,202,],[201,200,202,],[201,200,202,], 
+2019/05/31 19:48:01.955000 git.huoys.com/qp/cells/game_trace.LeaveGame 492 Info: 
+Enter=>ID:150016 Money:103119380 '2019-05-31 19:47:24'
+Match=>ID :150016 玩家消耗金额:-2740 玩家赢取金额:+2100 返还率:0.766423 单个最高的结算金额:640 从进入到退出之间的最大余额:103119580
+Leave=>ID:150016 Money:103118740 '2019-05-31 19:48:01'
+	ID:150016 翻牌统计: 攻击次数:46,击杀次数:0,免伤次数:0,空卡次数:8,宝箱次数:5,普通怪次数:33,Boss怪次数:0,消耗:920 收益:880 返回率:0.956522;
+	ID:150016 BOXID:100	攻击次数:18,击杀次数:3,免伤次数:0,消耗:360,收益:430,单次最大盈利:200 单次时间:2019-05-31 19:47:34;
+	ID:150016 BOXID:101	攻击次数:23,击杀次数:2,免伤次数:0,消耗:460,收益:450,单次最大盈利:230 单次时间:2019-05-31 19:47:47;
+	ID:150016 BOXID:102	攻击次数:5,击杀次数:0,免伤次数:0,消耗:100,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 MONSTERID:300	攻击次数:3,免伤次数:0,击杀次数:2,消耗:60,收益:80,单次最大盈利:40 单次时间:2019-05-31 19:47:40;
+	ID:150016 MONSTERID:302	攻击次数:5,免伤次数:0,击杀次数:2,消耗:100,收益:110,单次最大盈利:60 单次时间:2019-05-31 19:47:39;
+	ID:150016 MONSTERID:303	攻击次数:4,免伤次数:0,击杀次数:2,消耗:80,收益:90,单次最大盈利:60 单次时间:2019-05-31 19:47:36;
+	ID:150016 MONSTERID:304	攻击次数:5,免伤次数:0,击杀次数:1,消耗:100,收益:100,单次最大盈利:100 单次时间:2019-05-31 19:47:38;
+	ID:150016 MONSTERID:305	攻击次数:4,免伤次数:0,击杀次数:0,消耗:80,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 MONSTERID:306	攻击次数:19,免伤次数:0,击杀次数:1,消耗:380,收益:110,单次最大盈利:110 单次时间:2019-05-31 19:47:34;
+	ID:150016 MONSTERID:402	攻击次数:47,免伤次数:0,击杀次数:1,消耗:940,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 ALLMONSTERID 消耗:1740,收益:490,返回率:0.281609;
+	ID:150016 过敏源剧情 消耗:80,收益:0,返回率:0.000000;
+	ID:150016 小丑剧情 消耗:940,收益:730,返回率:0.776596;
+2019/05/31 19:49:40.750000 git.huoys.com/qp/cells/module/room/logic/storysys/clown.(*Clown).CalcSettle 346 Info: CLOWN Settle uid:150016  reward:2020 levemoney:103119010 2019-05-31_19_49_40 force:true fixed:3 give:8 max:14 roundarr:[[{0 3 false 20 true} {1 3 false 10 true} {2 1 false 0 true} {3 1 false 0 true} {4 3 false 10 true} {5 1 false 0 true} {6 3 false 10 true} {7 3 false 10 true} {8 3 false 10 true} {9 1 false 0 true} {10 2 false 0 true} {11 1 false 0 true} {12 1 false 0 true} {13 2 true 0 true} {14 3 false 20 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 1 false 0 true} {2 3 false 10 true} {3 3 false 20 true} {4 3 false 10 true} {5 1 false 0 true} {6 3 false 20 true} {7 1 false 0 true} {8 3 false 30 true} {9 3 false 20 true} {10 3 false 20 true} {11 2 false 0 true} {12 3 false 10 true} {13 3 false 10 true} {14 3 false 10 true} {15 3 false 10 true}] [{0 3 true 20 true} {1 1 false 0 true} {2 1 false 0 true} {3 3 false 10 true} {4 3 false 10 true} {5 1 false 0 true} {6 1 false 0 true} {7 1 false 0 true} {8 3 false 10 true} {9 2 false 0 true} {10 1 false 0 true} {11 1 false 0 true} {12 3 false 10 true} {13 3 false 10 true} {14 2 false 0 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 2 false 0 true} {2 1 false 0 true} {3 3 false 10 true} {4 1 false 0 true} {5 1 false 0 true} {6 3 false 10 true} {7 3 false 10 true} {8 1 false 0 true} {9 1 false 0 true} {10 1 false 0 true} {11 3 false 10 true} {12 3 false 10 true} {13 3 false 10 true} {14 3 true 10 true} {15 3 false 20 true}] [{0 3 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 4 false 0 false} {4 3 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 4 false 0 false} {8 3 false 0 false} {9 3 false 0 false} {10 4 false 0 false} {11 3 false 0 false} {12 3 false 0 false} {13 4 false 0 false} {14 4 false 0 false} {15 3 false 0 false}] [{0 4 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 4 false 0 false} {5 3 false 0 false} {6 4 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 3 true 0 false} {10 2 false 0 false} {11 4 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 4 false 0 false} {15 4 false 0 false}] [{0 3 true 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 4 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 2 false 0 false} {8 3 false 0 false} {9 4 false 0 false} {10 3 false 0 false} {11 4 false 0 false} {12 4 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 3 false 0 false}] [{0 4 false 0 false} {1 2 false 0 false} {2 3 false 0 false} {3 4 true 0 false} {4 4 false 0 false} {5 3 false 0 false} {6 4 false 0 false} {7 3 false 0 false} {8 4 false 0 false} {9 3 false 0 false} {10 3 false 0 false} {11 3 false 0 false} {12 3 false 0 false} {13 4 false 0 false} {14 3 false 0 false} {15 3 false 0 false}] [{0 3 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 4 false 0 false} {5 4 false 0 false} {6 3 true 0 false} {7 2 false 0 false} {8 3 false 0 false} {9 4 false 0 false} {10 3 false 0 false} {11 3 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 3 false 0 false}] [{0 3 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 4 false 0 false} {5 2 false 0 false} {6 4 false 0 false} {7 4 true 0 false} {8 4 false 0 false} {9 3 false 0 false} {10 3 false 0 false} {11 4 false 0 false} {12 4 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 3 false 0 false}] [{0 4 false 0 false} {1 4 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 3 false 0 false} {5 4 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 3 false 0 false} {10 4 false 0 false} {11 3 false 0 false} {12 4 false 0 false} {13 3 false 0 false} {14 4 false 0 false} {15 3 false 0 false}] [{0 3 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 4 false 0 false} {4 4 false 0 false} {5 3 false 0 false} {6 4 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 4 false 0 false} {10 4 false 0 false} {11 4 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 3 false 0 false}] [{0 4 false 0 false} {1 4 false 0 false} {2 4 false 0 false} {3 4 false 0 false} {4 4 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 4 false 0 false} {8 4 false 0 false} {9 3 false 0 false} {10 3 false 0 false} {11 4 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 3 false 0 false}] [{0 3 false 0 false} {1 4 false 0 false} {2 4 false 0 false} {3 3 false 0 false} {4 3 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 3 false 0 false} {10 4 false 0 false} {11 3 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 4 false 0 false} {15 3 false 0 false}]]
+2019/05/31 19:49:40.751000 git.huoys.com/qp/cells/game_trace.LogSettle 507 Info: 	 单局结算 uid:150016 剩余金币:103119010 消耗:3740 收益:4010 写分增量:270 阵容变化:[201,200,202,],[201,200,202,],[201,200,202,], 
+2019/05/31 19:49:41.837000 git.huoys.com/qp/cells/game_trace.LeaveGame 492 Info: 
+Enter=>ID:150016 Money:103118740 '2019-05-31 19:48:37'
+Match=>ID :150016 玩家消耗金额:-3740 玩家赢取金额:+4010 返还率:1.072193 单个最高的结算金额:1600 从进入到退出之间的最大余额:103119010
+Leave=>ID:150016 Money:103119010 '2019-05-31 19:49:41'
+	ID:150016 翻牌统计: 攻击次数:64,击杀次数:0,免伤次数:0,空卡次数:15,宝箱次数:4,普通怪次数:44,Boss怪次数:1,消耗:1280 收益:680 返回率:0.531250;
+	ID:150016 BOXID:100	攻击次数:33,击杀次数:3,免伤次数:0,消耗:660,收益:440,单次最大盈利:200 单次时间:2019-05-31 19:49:02;
+	ID:150016 BOXID:101	攻击次数:21,击杀次数:1,免伤次数:0,消耗:420,收益:240,单次最大盈利:240 单次时间:2019-05-31 19:48:52;
+	ID:150016 BOXID:102	攻击次数:10,击杀次数:0,免伤次数:0,消耗:200,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 MONSTERID:301	攻击次数:3,免伤次数:0,击杀次数:2,消耗:60,收益:70,单次最大盈利:40 单次时间:2019-05-31 19:48:57;
+	ID:150016 MONSTERID:302	攻击次数:8,免伤次数:0,击杀次数:3,消耗:160,收益:170,单次最大盈利:60 单次时间:2019-05-31 19:48:46;
+	ID:150016 MONSTERID:303	攻击次数:11,免伤次数:0,击杀次数:2,消耗:220,收益:120,单次最大盈利:60 单次时间:2019-05-31 19:49:03;
+	ID:150016 MONSTERID:304	攻击次数:2,免伤次数:0,击杀次数:1,消耗:40,收益:60,单次最大盈利:60 单次时间:2019-05-31 19:49:00;
+	ID:150016 MONSTERID:305	攻击次数:2,免伤次数:0,击杀次数:1,消耗:40,收益:100,单次最大盈利:100 单次时间:2019-05-31 19:48:45;
+	ID:150016 MONSTERID:306	攻击次数:2,免伤次数:0,击杀次数:1,消耗:40,收益:100,单次最大盈利:100 单次时间:2019-05-31 19:49:04;
+	ID:150016 MONSTERID:307	攻击次数:3,免伤次数:0,击杀次数:1,消耗:60,收益:140,单次最大盈利:140 单次时间:2019-05-31 19:48:48;
+	ID:150016 MONSTERID:315	攻击次数:35,免伤次数:0,击杀次数:1,消耗:700,收益:550,单次最大盈利:550 单次时间:2019-05-31 19:48:57;
+	ID:150016 MONSTERID:403	攻击次数:50,免伤次数:0,击杀次数:1,消耗:1000,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 ALLMONSTERID 消耗:2320,收益:1310,返回率:0.564655;
+	ID:150016 过敏源剧情 消耗:140,收益:0,返回率:0.000000;
+	ID:150016 小丑剧情 消耗:1000,收益:2020,返回率:2.020000;
+2019/05/31 19:50:57.055000 git.huoys.com/qp/cells/module/room/logic/storysys/clown.(*Clown).CalcSettle 346 Info: CLOWN Settle uid:150016  reward:630 levemoney:103118420 2019-05-31_19_50_57 force:true fixed:3 give:1 max:5 roundarr:[[{0 1 false 0 true} {1 3 false 10 true} {2 1 false 0 true} {3 1 false 0 true} {4 1 false 0 true} {5 2 false 0 true} {6 3 false 10 true} {7 3 false 20 true} {8 1 false 0 true} {9 1 false 0 true} {10 3 true 10 true} {11 1 false 0 true} {12 1 false 0 true} {13 1 false 0 true} {14 3 false 10 true} {15 3 false 10 true}] [{0 3 false 10 true} {1 1 false 0 true} {2 3 false 10 true} {3 1 false 0 true} {4 1 false 0 true} {5 3 false 10 true} {6 3 false 10 true} {7 3 false 10 true} {8 1 false 0 true} {9 3 false 10 true} {10 1 false 0 true} {11 2 false 0 true} {12 3 false 10 true} {13 1 false 0 true} {14 1 false 0 true} {15 3 false 10 true}] [{0 3 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 4 false 0 false} {5 4 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 3 false 0 false} {10 4 false 0 false} {11 3 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 4 false 0 false} {15 3 false 0 false}] [{0 4 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 3 false 0 false} {5 3 false 0 false} {6 4 false 0 false} {7 3 false 0 false} {8 4 false 0 false} {9 4 false 0 false} {10 4 false 0 false} {11 3 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 4 false 0 false}] [{0 3 false 0 false} {1 4 false 0 false} {2 3 false 0 false} {3 4 false 0 false} {4 3 false 0 false} {5 4 false 0 false} {6 3 false 0 false} {7 4 false 0 false} {8 3 false 0 false} {9 4 false 0 false} {10 4 false 0 false} {11 4 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 4 false 0 false} {15 4 false 0 false}]]
+2019/05/31 19:50:57.067000 git.huoys.com/qp/cells/game_trace.LogSettle 507 Info: 	 单局结算 uid:150016 剩余金币:103118420 消耗:1580 收益:990 写分增量:-590 阵容变化:[201,200,202,],[201,200,202,],[201,200,202,], 
+2019/05/31 19:50:58.091000 git.huoys.com/qp/cells/game_trace.LeaveGame 492 Info: 
+Enter=>ID:150016 Money:103119010 '2019-05-31 19:50:31'
+Match=>ID :150016 玩家消耗金额:-1580 玩家赢取金额:+990 返还率:0.626582 单个最高的结算金额:480 从进入到退出之间的最大余额:103119150
+Leave=>ID:150016 Money:103118420 '2019-05-31 19:50:58'
+	ID:150016 翻牌统计: 攻击次数:21,击杀次数:0,免伤次数:0,空卡次数:4,宝箱次数:2,普通怪次数:14,Boss怪次数:1,消耗:420 收益:360 返回率:0.857143;
+	ID:150016 BOXID:100	攻击次数:6,击杀次数:1,免伤次数:0,消耗:120,收益:160,单次最大盈利:160 单次时间:2019-05-31 19:50:34;
+	ID:150016 BOXID:101	攻击次数:12,击杀次数:1,免伤次数:0,消耗:240,收益:200,单次最大盈利:200 单次时间:2019-05-31 19:50:41;
+	ID:150016 BOXID:102	攻击次数:3,击杀次数:0,免伤次数:0,消耗:60,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 MONSTERID:311	攻击次数:3,免伤次数:0,击杀次数:0,消耗:60,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 MONSTERID:401	攻击次数:54,免伤次数:0,击杀次数:1,消耗:1080,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 ALLMONSTERID 消耗:1140,收益:0,返回率:0.000000;
+	ID:150016 过敏源剧情 消耗:20,收益:0,返回率:0.000000;
+	ID:150016 小丑剧情 消耗:1080,收益:630,返回率:0.583333;
+2019/05/31 19:53:06.144000 git.huoys.com/qp/cells/module/room/logic/storysys/clown.(*Clown).CalcSettle 346 Info: CLOWN Settle uid:150016  reward:800 levemoney:103117680 2019-05-31_19_53_06 force:true fixed:3 give:2 max:5 roundarr:[[{0 1 false 0 true} {1 3 false 10 true} {2 3 false 10 true} {3 3 false 10 true} {4 3 false 10 true} {5 1 false 0 true} {6 3 false 20 true} {7 1 false 0 true} {8 3 false 30 true} {9 3 false 30 true} {10 3 false 10 true} {11 3 false 20 true} {12 1 false 0 true} {13 3 false 10 true} {14 1 false 0 true} {15 1 false 0 true}] [{0 3 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 4 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 4 false 0 false} {8 3 false 0 false} {9 3 false 0 false} {10 4 false 0 false} {11 3 false 0 false} {12 4 false 0 false} {13 3 false 0 false} {14 4 false 0 false} {15 3 false 0 false}] [{0 3 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 4 false 0 false} {4 3 false 0 false} {5 4 false 0 false} {6 3 false 0 false} {7 4 false 0 false} {8 3 false 0 false} {9 4 true 0 false} {10 3 false 0 false} {11 2 false 0 false} {12 3 false 0 false} {13 4 false 0 false} {14 4 false 0 false} {15 4 false 0 false}] [{0 4 false 0 false} {1 4 false 0 false} {2 4 false 0 false} {3 3 false 0 false} {4 2 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 4 false 0 false} {10 3 false 0 false} {11 3 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 3 true 0 false} {15 3 false 0 false}] [{0 3 false 0 false} {1 3 false 0 false} {2 4 false 0 false} {3 3 false 0 false} {4 3 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 4 false 0 false} {10 3 false 0 false} {11 4 false 0 false} {12 4 false 0 false} {13 4 false 0 false} {14 3 false 0 false} {15 4 false 0 false}]]
+2019/05/31 19:53:06.146000 git.huoys.com/qp/cells/game_trace.LogSettle 507 Info: 	 单局结算 uid:150016 剩余金币:103117680 消耗:1880 收益:1140 写分增量:-740 阵容变化:[201,200,202,],[201,200,202,],[201,200,202,], 
+2019/05/31 19:53:07.227000 git.huoys.com/qp/cells/game_trace.LeaveGame 492 Info: 
+Enter=>ID:150016 Money:103118420 '2019-05-31 19:52:37'
+Match=>ID :150016 玩家消耗金额:-1880 玩家赢取金额:+1140 返还率:0.606383 单个最高的结算金额:640 从进入到退出之间的最大余额:103118420
+Leave=>ID:150016 Money:103117680 '2019-05-31 19:53:07'
+	ID:150016 翻牌统计: 攻击次数:22,击杀次数:0,免伤次数:0,空卡次数:3,宝箱次数:1,普通怪次数:18,Boss怪次数:0,消耗:440 收益:260 返回率:0.590909;
+	ID:150016 BOXID:100	攻击次数:6,击杀次数:0,免伤次数:0,消耗:120,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 BOXID:101	攻击次数:14,击杀次数:1,免伤次数:0,消耗:280,收益:260,单次最大盈利:260 单次时间:2019-05-31 19:52:48;
+	ID:150016 BOXID:102	攻击次数:2,击杀次数:0,免伤次数:0,消耗:40,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 MONSTERID:304	攻击次数:2,免伤次数:0,击杀次数:1,消耗:40,收益:80,单次最大盈利:80 单次时间:2019-05-31 19:52:44;
+	ID:150016 MONSTERID:305	攻击次数:6,免伤次数:0,击杀次数:0,消耗:120,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 MONSTERID:402	攻击次数:60,免伤次数:0,击杀次数:1,消耗:1200,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 ALLMONSTERID 消耗:1360,收益:80,返回率:0.058824;
+	ID:150016 过敏源剧情 消耗:80,收益:0,返回率:0.000000;
+	ID:150016 小丑剧情 消耗:1200,收益:800,返回率:0.666667;
+2019/05/31 19:55:55.374000 git.huoys.com/qp/cells/module/room/logic/storysys/clown.(*Clown).CalcSettle 346 Info: CLOWN Settle uid:150016  reward:730 levemoney:103117970 2019-05-31_19_55_55 force:true fixed:3 give:2 max:6 roundarr:[[{0 3 false 20 true} {1 1 false 0 true} {2 3 false 10 true} {3 3 false 10 true} {4 3 false 20 true} {5 3 false 10 true} {6 1 false 0 true} {7 1 false 0 true} {8 1 false 0 true} {9 1 false 0 true} {10 3 false 10 true} {11 1 false 0 true} {12 3 false 10 true} {13 3 false 20 true} {14 1 false 0 true} {15 3 false 10 true}] [{0 1 false 0 true} {1 1 false 0 true} {2 1 false 0 true} {3 3 false 20 true} {4 3 false 10 true} {5 3 false 10 true} {6 1 false 0 true} {7 1 false 0 true} {8 3 false 10 true} {9 3 false 20 true} {10 3 false 10 true} {11 3 false 10 true} {12 1 false 0 true} {13 1 false 0 true} {14 3 false 10 true} {15 1 false 0 true}] [{0 3 false 10 true} {1 1 false 0 true} {2 1 false 0 true} {3 3 false 10 true} {4 1 false 0 true} {5 1 false 0 true} {6 1 false 0 true} {7 1 false 0 true} {8 3 false 10 true} {9 3 false 10 true} {10 2 false 0 true} {11 3 false 10 true} {12 3 true 20 true} {13 1 false 0 true} {14 3 false 10 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 3 false 10 true} {2 3 true 10 true} {3 3 false 10 true} {4 3 false 10 true} {5 2 false 0 true} {6 3 false 10 true} {7 3 false 10 true} {8 3 false 10 true} {9 1 false 0 true} {10 3 false 10 true} {11 3 false 10 true} {12 1 false 0 true} {13 3 false 10 true} {14 3 false 10 true} {15 2 false 0 true}] [{0 4 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 4 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 3 false 0 false} {10 3 false 0 false} {11 4 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 4 false 0 false}] [{0 3 false 0 false} {1 3 false 0 false} {2 4 false 0 false} {3 3 false 0 false} {4 4 false 0 false} {5 4 false 0 false} {6 4 false 0 false} {7 4 false 0 false} {8 4 false 0 false} {9 3 false 0 false} {10 3 false 0 false} {11 3 false 0 false} {12 3 false 0 false} {13 4 false 0 false} {14 3 false 0 false} {15 3 false 0 false}]]
+2019/05/31 19:55:55.376000 git.huoys.com/qp/cells/game_trace.LogSettle 507 Info: 	 单局结算 uid:150016 剩余金币:103117970 消耗:4560 收益:4850 写分增量:290 阵容变化:[201,200,202,],[201,200,202,],[201,200,202,], 
+2019/05/31 19:55:56.463000 git.huoys.com/qp/cells/game_trace.LeaveGame 492 Info: 
+Enter=>ID:150016 Money:103117680 '2019-05-31 19:54:39'
+Match=>ID :150016 玩家消耗金额:-4560 玩家赢取金额:+4850 返还率:1.063596 单个最高的结算金额:830 从进入到退出之间的最大余额:103118050
+Leave=>ID:150016 Money:103117970 '2019-05-31 19:55:56'
+	ID:150016 翻牌统计: 攻击次数:86,击杀次数:0,免伤次数:0,空卡次数:15,宝箱次数:9,普通怪次数:61,Boss怪次数:1,消耗:1720 收益:1660 返回率:0.965116;
+	ID:150016 BOXID:100	攻击次数:38,击杀次数:6,免伤次数:0,消耗:760,收益:840,单次最大盈利:200 单次时间:2019-05-31 19:54:52;
+	ID:150016 BOXID:101	攻击次数:38,击杀次数:3,免伤次数:0,消耗:760,收益:820,单次最大盈利:280 单次时间:2019-05-31 19:54:55;
+	ID:150016 BOXID:102	攻击次数:10,击杀次数:0,免伤次数:0,消耗:200,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 MONSTERID:300	攻击次数:4,免伤次数:0,击杀次数:2,消耗:80,收益:70,单次最大盈利:40 单次时间:2019-05-31 19:55:06;
+	ID:150016 MONSTERID:301	攻击次数:6,免伤次数:0,击杀次数:3,消耗:120,收益:90,单次最大盈利:40 单次时间:2019-05-31 19:55:07;
+	ID:150016 MONSTERID:302	攻击次数:8,免伤次数:0,击杀次数:2,消耗:160,收益:40,单次最大盈利:20 单次时间:2019-05-31 19:54:54;
+	ID:150016 MONSTERID:303	攻击次数:5,免伤次数:0,击杀次数:3,消耗:100,收益:150,单次最大盈利:80 单次时间:2019-05-31 19:55:10;
+	ID:150016 MONSTERID:305	攻击次数:27,免伤次数:0,击杀次数:5,消耗:540,收益:310,单次最大盈利:80 单次时间:2019-05-31 19:55:26;
+	ID:150016 MONSTERID:306	攻击次数:18,免伤次数:0,击杀次数:2,消耗:360,收益:320,单次最大盈利:200 单次时间:2019-05-31 19:55:22;
+	ID:150016 MONSTERID:307	攻击次数:47,免伤次数:0,击杀次数:5,消耗:940,收益:650,单次最大盈利:150 单次时间:2019-05-31 19:54:56;
+	ID:150016 MONSTERID:312	攻击次数:4,免伤次数:0,击杀次数:1,消耗:80,收益:830,单次最大盈利:830 单次时间:2019-05-31 19:55:17;
+	ID:150016 MONSTERID:402	攻击次数:7,免伤次数:0,击杀次数:1,消耗:140,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 ALLMONSTERID 消耗:2520,收益:2460,返回率:0.976190;
+	ID:150016 过敏源剧情 消耗:320,收益:0,返回率:0.000000;
+	ID:150016 小丑剧情 消耗:140,收益:730,返回率:5.214286;
+2019/05/31 19:57:13.414000 git.huoys.com/qp/cells/module/room/logic/storysys/clown.(*Clown).CalcSettle 346 Info: CLOWN Settle uid:150016  reward:480 levemoney:103118160 2019-05-31_19_57_13 force:false fixed:3 give:2 max:5 roundarr:[[{0 3 false 10 true} {1 1 false 0 true} {2 1 true 0 true} {3 3 false 20 true} {4 1 false 0 true} {5 1 false 0 true} {6 3 false 10 true} {7 3 false 10 true} {8 1 false 0 true} {9 1 false 0 true} {10 1 false 0 true} {11 3 false 10 true} {12 3 false 10 true} {13 2 false 0 true} {14 3 false 10 true} {15 3 false 10 true}] [{0 3 false 10 true} {1 1 false 0 true} {2 1 false 0 true} {3 1 false 0 true} {4 1 false 0 true} {5 1 false 0 true} {6 1 false 0 true} {7 3 false 20 true} {8 1 false 0 true} {9 1 false 0 true} {10 1 false 0 true} {11 1 false 0 true} {12 1 false 0 true} {13 1 false 0 true} {14 3 false 10 true} {15 3 false 10 true}] [{0 3 false 20 true} {1 3 false 10 true} {2 3 false 10 true} {3 1 false 0 true} {4 1 false 0 true} {5 1 false 0 true} {6 3 false 10 true} {7 3 false 10 true} {8 3 false 10 true} {9 3 false 20 true} {10 3 false 10 true} {11 3 false 10 true} {12 3 false 10 true} {13 3 false 10 true} {14 1 false 0 true} {15 3 false 20 true}] [{0 1 false 0 true} {1 1 false 0 true} {2 3 false 10 true} {3 3 false 10 true} {4 1 false 0 true} {5 1 false 0 true} {6 1 false 0 true} {7 3 false 10 true} {8 2 false 0 true} {9 3 false 10 true} {10 1 false 0 true} {11 1 false 0 true} {12 3 false 10 true} {13 3 true 10 true} {14 3 false 20 true} {15 3 false 20 true}] [{0 1 false 0 true} {1 3 false 10 true} {2 3 false 10 true} {3 1 false 0 true} {4 3 false 10 true} {5 1 false 0 true} {6 3 false 10 true} {7 3 false 10 true} {8 1 false 0 true} {9 3 false 10 true} {10 3 false 10 true} {11 1 false 0 true} {12 3 false 10 true} {13 3 false 10 true} {14 1 false 0 true} {15 1 false 0 true}]]
+2019/05/31 19:58:16.915000 git.huoys.com/qp/cells/module/room/logic/storysys/allergen.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150016 entermoney:103117940 2019-05-31_19_58_12 lockratio:10 totaltimes:110 consume:20 groupindex:13 group:{Weight:20 Detail:[1 1 0 1 0] RewardTimes:110} attack: reward:1100 levemoney:103119040 2019-05-31_19_58_16 force:true
+2019/05/31 19:58:16.919000 git.huoys.com/qp/cells/game_trace.LogSettle 507 Info: 	 单局结算 uid:150016 剩余金币:103119040 消耗:7300 收益:8370 写分增量:1070 阵容变化:[201,200,202,],[201,200,202,],[201,200,202,],[201,200,202,],[201,200,202,],[201,200,202,], 
+2019/05/31 19:58:17.970000 git.huoys.com/qp/cells/game_trace.LeaveGame 492 Info: 
+Enter=>ID:150016 Money:103117970 '2019-05-31 19:56:22'
+Match=>ID :150016 玩家消耗金额:-7300 玩家赢取金额:+8370 返还率:1.146575 单个最高的结算金额:1100 从进入到退出之间的最大余额:103119040
+Leave=>ID:150016 Money:103119040 '2019-05-31 19:58:17'
+	ID:150016 翻牌统计: 攻击次数:132,击杀次数:0,免伤次数:0,空卡次数:24,宝箱次数:15,普通怪次数:90,Boss怪次数:3,消耗:2640 收益:2930 返回率:1.109848;
+	ID:150016 BOXID:100	攻击次数:59,击杀次数:10,免伤次数:0,消耗:1180,收益:1530,单次最大盈利:190 单次时间:2019-05-31 19:57:42;
+	ID:150016 BOXID:101	攻击次数:57,击杀次数:4,免伤次数:0,消耗:1140,收益:1100,单次最大盈利:290 单次时间:2019-05-31 19:57:55;
+	ID:150016 BOXID:102	攻击次数:16,击杀次数:1,免伤次数:0,消耗:320,收益:300,单次最大盈利:300 单次时间:2019-05-31 19:56:40;
+	ID:150016 MONSTERID:300	攻击次数:10,免伤次数:0,击杀次数:5,消耗:200,收益:140,单次最大盈利:40 单次时间:2019-05-31 19:58:00;
+	ID:150016 MONSTERID:301	攻击次数:9,免伤次数:0,击杀次数:7,消耗:180,收益:180,单次最大盈利:40 单次时间:2019-05-31 19:57:52;
+	ID:150016 MONSTERID:302	攻击次数:1,免伤次数:0,击杀次数:1,消耗:20,收益:50,单次最大盈利:50 单次时间:2019-05-31 19:58:12;
+	ID:150016 MONSTERID:303	攻击次数:8,免伤次数:0,击杀次数:4,消耗:160,收益:210,单次最大盈利:80 单次时间:2019-05-31 19:57:49;
+	ID:150016 MONSTERID:304	攻击次数:6,免伤次数:0,击杀次数:2,消耗:120,收益:150,单次最大盈利:80 单次时间:2019-05-31 19:57:35;
+	ID:150016 MONSTERID:305	攻击次数:18,免伤次数:0,击杀次数:3,消耗:360,收益:300,单次最大盈利:120 单次时间:2019-05-31 19:56:29;
+	ID:150016 MONSTERID:306	攻击次数:71,免伤次数:0,击杀次数:8,消耗:1420,收益:1190,单次最大盈利:200 单次时间:2019-05-31 19:57:33;
+	ID:150016 MONSTERID:307	攻击次数:21,免伤次数:0,击杀次数:4,消耗:420,收益:610,单次最大盈利:180 单次时间:2019-05-31 19:57:46;
+	ID:150016 MONSTERID:313	攻击次数:25,免伤次数:0,击杀次数:2,消耗:500,收益:1030,单次最大盈利:700 单次时间:2019-05-31 19:58:07;
+	ID:150016 MONSTERID:401	攻击次数:46,免伤次数:0,击杀次数:1,消耗:920,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 ALLMONSTERID 消耗:4300,收益:3860,返回率:0.897674;
+	ID:150016 过敏源剧情 消耗:360,收益:1100,返回率:3.055556;
+	ID:150016 小丑剧情 消耗:920,收益:480,返回率:0.521739;
+2019/05/31 19:59:39.853000 git.huoys.com/qp/cells/module/room/logic/storysys/clown.(*Clown).CalcSettle 346 Info: CLOWN Settle uid:150016  reward:1650 levemoney:103120180 2019-05-31_19_59_39 force:true fixed:3 give:8 max:11 roundarr:[[{0 1 false 0 true} {1 3 false 20 true} {2 3 false 10 true} {3 1 false 0 true} {4 1 false 0 true} {5 3 false 10 true} {6 1 false 0 true} {7 3 false 10 true} {8 3 false 10 true} {9 1 false 0 true} {10 3 false 10 true} {11 3 false 10 true} {12 3 false 20 true} {13 3 false 10 true} {14 3 false 10 true} {15 1 false 0 true}] [{0 3 false 10 true} {1 1 false 0 true} {2 3 true 10 true} {3 3 false 10 true} {4 1 false 0 true} {5 2 false 0 true} {6 1 false 0 true} {7 3 false 10 true} {8 1 false 0 true} {9 1 false 0 true} {10 3 false 10 true} {11 1 false 0 true} {12 3 false 10 true} {13 3 false 10 true} {14 3 false 10 true} {15 3 false 10 true}] [{0 3 false 0 false} {1 3 false 0 false} {2 4 false 0 false} {3 3 false 0 false} {4 3 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 4 true 0 false} {9 3 false 0 false} {10 4 false 0 false} {11 3 false 0 false} {12 3 false 0 false} {13 2 false 0 false} {14 3 false 0 false} {15 4 false 0 false}] [{0 3 false 0 false} {1 2 false 0 false} {2 3 false 0 false} {3 4 false 0 false} {4 3 false 0 false} {5 4 false 0 false} {6 4 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 3 false 0 false} {10 3 false 0 false} {11 4 false 0 false} {12 4 false 0 false} {13 3 false 0 false} {14 4 false 0 false} {15 4 true 0 false}] [{0 4 false 0 false} {1 4 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 3 false 0 false} {5 2 false 0 false} {6 3 false 0 false} {7 4 false 0 false} {8 3 false 0 false} {9 3 false 0 false} {10 4 true 0 false} {11 3 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 4 false 0 false}] [{0 3 false 0 false} {1 4 false 0 false} {2 4 false 0 false} {3 4 false 0 false} {4 4 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 4 false 0 false} {9 3 false 0 false} {10 4 false 0 false} {11 4 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 3 false 0 false}] [{0 4 false 0 false} {1 4 false 0 false} {2 3 false 0 false} {3 4 false 0 false} {4 3 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 4 false 0 false} {9 4 false 0 false} {10 3 false 0 false} {11 3 false 0 false} {12 4 false 0 false} {13 4 false 0 false} {14 3 true 0 false} {15 2 false 0 false}] [{0 3 false 0 false} {1 3 false 0 false} {2 4 true 0 false} {3 3 false 0 false} {4 3 false 0 false} {5 2 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 4 false 0 false} {9 4 false 0 false} {10 3 false 0 false} {11 3 false 0 false} {12 4 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 4 false 0 false}] [{0 3 false 0 false} {1 3 false 0 false} {2 4 false 0 false} {3 2 false 0 false} {4 4 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 4 true 0 false} {10 3 false 0 false} {11 4 false 0 false} {12 4 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 4 false 0 false}] [{0 4 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 2 false 0 false} {4 4 false 0 false} {5 4 false 0 false} {6 4 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 4 false 0 false} {10 3 false 0 false} {11 3 false 0 false} {12 4 false 0 false} {13 4 false 0 false} {14 4 false 0 false} {15 4 true 0 false}] [{0 4 false 0 false} {1 3 false 0 false} {2 4 false 0 false} {3 3 false 0 false} {4 4 false 0 false} {5 3 false 0 false} {6 4 false 0 false} {7 3 false 0 false} {8 4 false 0 false} {9 3 false 0 false} {10 4 false 0 false} {11 3 false 0 false} {12 4 false 0 false} {13 4 false 0 false} {14 4 false 0 false} {15 4 false 0 false}]]
+2019/05/31 19:59:39.857000 git.huoys.com/qp/cells/game_trace.LogSettle 507 Info: 	 单局结算 uid:150016 剩余金币:103120180 消耗:700 收益:1840 写分增量:1140 阵容变化:[201,200,202,],[201,200,202,],[201,200,202,], 
+2019/05/31 19:59:40.916000 git.huoys.com/qp/cells/game_trace.LeaveGame 492 Info: 
+Enter=>ID:150016 Money:103119040 '2019-05-31 19:59:05'
+Match=>ID :150016 玩家消耗金额:-700 玩家赢取金额:+1840 返还率:2.628571 单个最高的结算金额:1440 从进入到退出之间的最大余额:103120180
+Leave=>ID:150016 Money:103120180 '2019-05-31 19:59:40'
+	ID:150016 翻牌统计: 攻击次数:15,击杀次数:0,免伤次数:0,空卡次数:2,宝箱次数:1,普通怪次数:11,Boss怪次数:1,消耗:300 收益:190 返回率:0.633333;
+	ID:150016 BOXID:100	攻击次数:7,击杀次数:1,免伤次数:0,消耗:140,收益:190,单次最大盈利:190 单次时间:2019-05-31 19:59:22;
+	ID:150016 BOXID:101	攻击次数:5,击杀次数:0,免伤次数:0,消耗:100,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 BOXID:102	攻击次数:3,击杀次数:0,免伤次数:0,消耗:60,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 MONSTERID:403	攻击次数:20,免伤次数:0,击杀次数:1,消耗:400,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 ALLMONSTERID 消耗:400,收益:0,返回率:0.000000;
+	ID:150016 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+	ID:150016 小丑剧情 消耗:400,收益:1650,返回率:4.125000;
+2019/05/31 20:02:52.580000 git.huoys.com/qp/cells/module/room/logic/storysys/clown.(*Clown).CalcSettle 346 Info: CLOWN Settle uid:150016  reward:670 levemoney:103119000 2019-05-31_20_02_52 force:true fixed:3 give:0 max:5 roundarr:[[{0 1 false 0 true} {1 3 false 10 true} {2 1 false 0 true} {3 2 false 0 true} {4 1 false 0 true} {5 1 false 0 true} {6 1 false 0 true} {7 3 false 10 true} {8 3 false 10 true} {9 1 false 0 true} {10 3 false 10 true} {11 1 false 0 true} {12 3 false 10 true} {13 1 false 0 true} {14 3 false 10 true} {15 3 false 10 true}] [{0 1 false 0 true} {1 3 false 20 true} {2 1 false 0 true} {3 3 false 10 true} {4 1 false 0 true} {5 1 false 0 true} {6 3 false 10 true} {7 2 false 0 true} {8 1 false 0 true} {9 1 false 0 true} {10 1 false 0 true} {11 3 false 10 true} {12 3 false 30 true} {13 3 false 20 true} {14 1 false 0 true} {15 3 false 20 true}] [{0 3 false 0 false} {1 4 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 4 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 4 false 0 false} {10 4 false 0 false} {11 4 false 0 false} {12 4 false 0 false} {13 3 false 0 false} {14 4 false 0 false} {15 4 false 0 false}] [{0 4 false 0 false} {1 3 false 0 false} {2 4 false 0 false} {3 4 false 0 false} {4 3 false 0 false} {5 3 false 0 false} {6 4 false 0 false} {7 4 false 0 false} {8 3 false 0 false} {9 4 false 0 false} {10 3 false 0 false} {11 4 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 4 false 0 false}] [{0 3 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 4 false 0 false} {4 3 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 3 false 0 false} {10 3 false 0 false} {11 3 false 0 false} {12 3 false 0 false} {13 4 false 0 false} {14 4 false 0 false} {15 3 false 0 false}]]
+2019/05/31 20:02:52.581000 git.huoys.com/qp/cells/game_trace.LogSettle 507 Info: 	 单局结算 uid:150016 剩余金币:103119000 消耗:8360 收益:7180 写分增量:-1180 阵容变化:[201,200,202,],[201,200,202,],[201,200,202,], 
+2019/05/31 20:02:53.596000 git.huoys.com/qp/cells/game_trace.LeaveGame 492 Info: 
+Enter=>ID:150016 Money:103120180 '2019-05-31 20:01:09'
+Match=>ID :150016 玩家消耗金额:-8360 玩家赢取金额:+7180 返还率:0.858852 单个最高的结算金额:480 从进入到退出之间的最大余额:103120370
+Leave=>ID:150016 Money:103119000 '2019-05-31 20:02:53'
+	ID:150016 翻牌统计: 攻击次数:158,击杀次数:0,免伤次数:0,空卡次数:32,宝箱次数:17,普通怪次数:107,Boss怪次数:2,消耗:3160 收益:3590 返回率:1.136076;
+	ID:150016 BOXID:100	攻击次数:74,击杀次数:8,免伤次数:0,消耗:1480,收益:1280,单次最大盈利:200 单次时间:2019-05-31 20:01:31;
+	ID:150016 BOXID:101	攻击次数:69,击杀次数:9,免伤次数:0,消耗:1380,收益:2310,单次最大盈利:290 单次时间:2019-05-31 20:01:48;
+	ID:150016 BOXID:102	攻击次数:15,击杀次数:0,免伤次数:0,消耗:300,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 MONSTERID:300	攻击次数:4,免伤次数:0,击杀次数:4,消耗:80,收益:110,单次最大盈利:30 单次时间:2019-05-31 20:01:38;
+	ID:150016 MONSTERID:301	攻击次数:9,免伤次数:0,击杀次数:6,消耗:180,收益:170,单次最大盈利:40 单次时间:2019-05-31 20:01:34;
+	ID:150016 MONSTERID:302	攻击次数:17,免伤次数:0,击杀次数:8,消耗:340,收益:290,单次最大盈利:50 单次时间:2019-05-31 20:01:41;
+	ID:150016 MONSTERID:303	攻击次数:16,免伤次数:0,击杀次数:6,消耗:320,收益:320,单次最大盈利:80 单次时间:2019-05-31 20:01:32;
+	ID:150016 MONSTERID:304	攻击次数:12,免伤次数:0,击杀次数:5,消耗:240,收益:440,单次最大盈利:100 单次时间:2019-05-31 20:02:06;
+	ID:150016 MONSTERID:305	攻击次数:21,免伤次数:0,击杀次数:5,消耗:420,收益:340,单次最大盈利:110 单次时间:2019-05-31 20:02:20;
+	ID:150016 MONSTERID:306	攻击次数:21,免伤次数:0,击杀次数:3,消耗:420,收益:510,单次最大盈利:200 单次时间:2019-05-31 20:02:12;
+	ID:150016 MONSTERID:307	攻击次数:73,免伤次数:1,击杀次数:5,消耗:1460,收益:740,单次最大盈利:180 单次时间:2019-05-31 20:02:17;
+	ID:150016 MONSTERID:313	攻击次数:58,免伤次数:0,击杀次数:0,消耗:1160,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 MONSTERID:401	攻击次数:12,免伤次数:0,击杀次数:1,消耗:240,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 ALLMONSTERID 消耗:4860,收益:2920,返回率:0.600823;
+	ID:150016 过敏源剧情 消耗:340,收益:0,返回率:0.000000;
+	ID:150016 小丑剧情 消耗:240,收益:670,返回率:2.791667;
+2019/05/31 20:06:09.869000 git.huoys.com/qp/cells/game_trace.LogSettle 507 Info: 	 单局结算 uid:150016 剩余金币:103119820 消耗:9400 收益:10220 写分增量:820 阵容变化:[201,200,202,],[201,200,202,],[201,200,202,], 
+2019/05/31 20:06:20.925000 git.huoys.com/qp/cells/module/room/logic/storysys/clown.(*Clown).CalcSettle 346 Info: CLOWN Settle uid:150016  reward:900 levemoney:103120430 2019-05-31_20_06_20 force:true fixed:3 give:4 max:8 roundarr:[[{0 1 false 0 true} {1 3 false 10 true} {2 1 false 0 true} {3 1 false 0 true} {4 3 false 10 true} {5 1 false 0 true} {6 3 false 10 true} {7 3 false 20 true} {8 1 false 0 true} {9 1 false 0 true} {10 1 false 0 true} {11 1 false 0 true} {12 3 false 10 true} {13 3 false 10 true} {14 3 false 10 true} {15 1 false 0 true}] [{0 3 false 10 true} {1 3 false 10 true} {2 3 false 10 true} {3 3 false 10 true} {4 3 false 10 true} {5 1 false 0 true} {6 3 false 20 true} {7 3 false 20 true} {8 1 false 0 true} {9 3 false 10 true} {10 1 false 0 true} {11 1 false 0 true} {12 1 false 0 true} {13 2 false 0 true} {14 3 false 20 true} {15 1 true 0 true}] [{0 1 false 0 true} {1 3 false 10 true} {2 3 false 10 true} {3 3 false 10 true} {4 1 false 0 true} {5 2 false 0 true} {6 3 false 10 true} {7 3 false 10 true} {8 1 false 0 true} {9 1 false 0 true} {10 3 false 10 true} {11 2 false 0 true} {12 1 true 0 true} {13 1 false 0 true} {14 3 false 10 true} {15 3 false 20 true}] [{0 1 false 0 true} {1 3 false 10 true} {2 1 false 0 true} {3 3 false 10 true} {4 2 false 0 true} {5 3 false 10 true} {6 1 false 0 true} {7 1 false 0 true} {8 1 false 0 true} {9 1 false 0 true} {10 3 false 10 true} {11 3 false 10 true} {12 1 true 0 true} {13 1 false 0 true} {14 1 false 0 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 3 false 10 true} {2 3 false 10 true} {3 1 true 0 true} {4 1 false 0 true} {5 3 false 10 true} {6 1 false 0 true} {7 3 false 10 true} {8 2 false 0 true} {9 1 false 0 true} {10 1 false 0 true} {11 1 false 0 true} {12 3 false 10 true} {13 3 false 10 true} {14 3 false 10 true} {15 3 false 10 true}] [{0 3 false 0 false} {1 4 false 0 false} {2 4 false 0 false} {3 3 false 0 false} {4 3 false 0 false} {5 4 false 0 false} {6 4 false 0 false} {7 4 false 0 false} {8 4 false 0 false} {9 4 false 0 false} {10 3 false 0 false} {11 4 false 0 false} {12 4 false 0 false} {13 3 false 0 false} {14 4 false 0 false} {15 3 false 0 false}] [{0 4 false 0 false} {1 3 false 0 false} {2 4 false 0 false} {3 4 false 0 false} {4 3 false 0 false} {5 4 false 0 false} {6 4 false 0 false} {7 4 false 0 false} {8 3 false 0 false} {9 3 false 0 false} {10 3 false 0 false} {11 3 false 0 false} {12 3 false 0 false} {13 4 false 0 false} {14 4 false 0 false} {15 3 false 0 false}] [{0 4 false 0 false} {1 4 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 3 false 0 false} {5 4 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 3 false 0 false} {10 3 false 0 false} {11 3 false 0 false} {12 3 false 0 false} {13 4 false 0 false} {14 3 false 0 false} {15 3 false 0 false}]]
+2019/05/31 20:06:20.932000 git.huoys.com/qp/cells/game_trace.LogSettle 507 Info: 	 单局结算 uid:150016 剩余金币:103120430 消耗:0 收益:610 写分增量:610 阵容变化:[201,200,202,], 
+2019/05/31 20:06:21.956000 git.huoys.com/qp/cells/game_trace.LeaveGame 492 Info: 
+Enter=>ID:150016 Money:103119000 '2019-05-31 20:04:06'
+Match=>ID :150016 玩家消耗金额:-9400 玩家赢取金额:+10830 返还率:1.152128 单个最高的结算金额:970 从进入到退出之间的最大余额:103121460
+Leave=>ID:150016 Money:103120430 '2019-05-31 20:06:21'
+	ID:150016 翻牌统计: 攻击次数:200,击杀次数:0,免伤次数:0,空卡次数:33,宝箱次数:20,普通怪次数:145,Boss怪次数:2,消耗:4000 收益:4170 返回率:1.042500;
+	ID:150016 BOXID:100	攻击次数:97,击杀次数:12,免伤次数:0,消耗:1940,收益:1910,单次最大盈利:200 单次时间:2019-05-31 20:04:15;
+	ID:150016 BOXID:101	攻击次数:78,击杀次数:7,免伤次数:0,消耗:1560,收益:1710,单次最大盈利:290 单次时间:2019-05-31 20:04:28;
+	ID:150016 BOXID:102	攻击次数:25,击杀次数:1,免伤次数:0,消耗:500,收益:550,单次最大盈利:550 单次时间:2019-05-31 20:04:19;
+	ID:150016 MONSTERID:300	攻击次数:17,免伤次数:0,击杀次数:11,消耗:340,收益:310,单次最大盈利:40 单次时间:2019-05-31 20:05:34;
+	ID:150016 MONSTERID:301	攻击次数:22,免伤次数:0,击杀次数:11,消耗:440,收益:350,单次最大盈利:40 单次时间:2019-05-31 20:04:44;
+	ID:150016 MONSTERID:302	攻击次数:24,免伤次数:0,击杀次数:13,消耗:480,收益:480,单次最大盈利:50 单次时间:2019-05-31 20:04:33;
+	ID:150016 MONSTERID:303	攻击次数:21,免伤次数:0,击杀次数:11,消耗:420,收益:430,单次最大盈利:60 单次时间:2019-05-31 20:04:34;
+	ID:150016 MONSTERID:304	攻击次数:46,免伤次数:0,击杀次数:11,消耗:920,收益:810,单次最大盈利:100 单次时间:2019-05-31 20:04:14;
+	ID:150016 MONSTERID:305	攻击次数:28,免伤次数:0,击杀次数:8,消耗:560,收益:580,单次最大盈利:110 单次时间:2019-05-31 20:05:27;
+	ID:150016 MONSTERID:306	攻击次数:53,免伤次数:0,击杀次数:9,消耗:1060,收益:1350,单次最大盈利:190 单次时间:2019-05-31 20:04:21;
+	ID:150016 MONSTERID:307	攻击次数:18,免伤次数:0,击杀次数:4,消耗:360,收益:480,单次最大盈利:140 单次时间:2019-05-31 20:05:23;
+	ID:150016 MONSTERID:312	攻击次数:3,免伤次数:0,击杀次数:1,消耗:60,收益:970,单次最大盈利:970 单次时间:2019-05-31 20:04:38;
+	ID:150016 MONSTERID:402	攻击次数:21,免伤次数:0,击杀次数:1,消耗:420,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 ALLMONSTERID 消耗:5060,收益:5760,返回率:1.138340;
+	ID:150016 过敏源剧情 消耗:340,收益:0,返回率:0.000000;
+	ID:150016 小丑剧情 消耗:420,收益:900,返回率:2.142857;
+2019/05/31 20:12:02.288000 git.huoys.com/qp/cells/module/room/logic/storysys/clown.(*Clown).CalcSettle 346 Info: CLOWN Settle uid:150016  reward:1170 levemoney:103121770 2019-05-31_20_12_02 force:true fixed:3 give:4 max:9 roundarr:[[{0 3 false 10 true} {1 1 false 0 true} {2 3 false 20 true} {3 3 false 10 true} {4 1 false 0 true} {5 1 false 0 true} {6 3 false 10 true} {7 3 false 10 true} {8 1 false 0 true} {9 1 false 0 true} {10 2 false 0 true} {11 1 false 0 true} {12 1 false 0 true} {13 1 true 0 true} {14 3 false 20 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 3 false 10 true} {2 3 false 10 true} {3 1 false 0 true} {4 3 false 10 true} {5 3 false 10 true} {6 3 false 10 true} {7 3 false 10 true} {8 3 false 10 true} {9 3 false 10 true} {10 1 false 0 true} {11 3 false 10 true} {12 3 false 10 true} {13 1 false 0 true} {14 3 false 10 true} {15 3 false 10 true}] [{0 3 false 20 true} {1 2 false 0 true} {2 1 false 0 true} {3 3 false 20 true} {4 1 false 0 true} {5 3 false 10 true} {6 2 false 0 true} {7 1 false 0 true} {8 3 true 20 true} {9 1 false 0 true} {10 2 false 0 true} {11 3 false 20 true} {12 1 false 0 true} {13 1 false 0 true} {14 1 false 0 true} {15 3 false 10 true}] [{0 1 false 0 true} {1 1 false 0 true} {2 1 false 0 true} {3 1 false 0 true} {4 3 false 10 true} {5 1 false 0 true} {6 1 false 0 true} {7 3 false 10 true} {8 1 false 0 true} {9 3 false 10 true} {10 1 false 0 true} {11 1 false 0 true} {12 3 false 10 true} {13 3 false 20 true} {14 3 false 10 true} {15 1 false 0 true}] [{0 4 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 4 false 0 false} {5 4 true 0 false} {6 3 false 0 false} {7 4 false 0 false} {8 3 false 0 false} {9 3 false 0 false} {10 3 false 0 false} {11 3 false 0 false} {12 3 false 0 false} {13 2 false 0 false} {14 3 false 0 false} {15 3 false 0 false}] [{0 3 false 0 false} {1 4 false 0 false} {2 3 false 0 false} {3 3 true 0 false} {4 3 false 0 false} {5 4 false 0 false} {6 4 false 0 false} {7 3 false 0 false} {8 3 false 0 false} {9 3 false 0 false} {10 3 false 0 false} {11 3 false 0 false} {12 4 false 0 false} {13 4 false 0 false} {14 4 false 0 false} {15 2 false 0 false}] [{0 3 false 0 false} {1 4 false 0 false} {2 4 false 0 false} {3 4 false 0 false} {4 3 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 4 false 0 false} {9 4 false 0 false} {10 4 false 0 false} {11 4 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 4 false 0 false}] [{0 3 false 0 false} {1 3 false 0 false} {2 4 false 0 false} {3 3 false 0 false} {4 3 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 4 false 0 false} {9 4 false 0 false} {10 4 false 0 false} {11 4 false 0 false} {12 4 false 0 false} {13 4 false 0 false} {14 3 false 0 false} {15 3 false 0 false}] [{0 3 false 0 false} {1 4 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 3 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 3 false 0 false} {8 4 false 0 false} {9 3 false 0 false} {10 4 false 0 false} {11 4 false 0 false} {12 3 false 0 false} {13 4 false 0 false} {14 3 false 0 false} {15 3 false 0 false}]]
+2019/05/31 20:12:02.295000 git.huoys.com/qp/cells/game_trace.LogSettle 507 Info: 	 单局结算 uid:150016 剩余金币:103121770 消耗:4220 收益:5560 写分增量:1340 阵容变化:[201,200,202,],[201,200,202,],[201,200,202,], 
+2019/05/31 20:12:03.343000 git.huoys.com/qp/cells/game_trace.LeaveGame 492 Info: 
+Enter=>ID:150016 Money:103120430 '2019-05-31 20:10:53'
+Match=>ID :150016 玩家消耗金额:-4220 玩家赢取金额:+5560 返还率:1.317536 单个最高的结算金额:800 从进入到退出之间的最大余额:103121770
+Leave=>ID:150016 Money:103121770 '2019-05-31 20:12:03'
+	ID:150016 翻牌统计: 攻击次数:88,击杀次数:0,免伤次数:0,空卡次数:13,宝箱次数:15,普通怪次数:59,Boss怪次数:1,消耗:1760 收益:2890 返回率:1.642045;
+	ID:150016 BOXID:100	攻击次数:37,击杀次数:9,免伤次数:0,消耗:740,收益:1470,单次最大盈利:200 单次时间:2019-05-31 20:10:57;
+	ID:150016 BOXID:101	攻击次数:42,击杀次数:6,免伤次数:0,消耗:840,收益:1420,单次最大盈利:290 单次时间:2019-05-31 20:11:15;
+	ID:150016 BOXID:102	攻击次数:9,击杀次数:0,免伤次数:0,消耗:180,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 MONSTERID:300	攻击次数:7,免伤次数:0,击杀次数:5,消耗:140,收益:140,单次最大盈利:40 单次时间:2019-05-31 20:11:05;
+	ID:150016 MONSTERID:301	攻击次数:7,免伤次数:0,击杀次数:4,消耗:140,收益:130,单次最大盈利:40 单次时间:2019-05-31 20:11:07;
+	ID:150016 MONSTERID:302	攻击次数:9,免伤次数:0,击杀次数:5,消耗:180,收益:210,单次最大盈利:60 单次时间:2019-05-31 20:11:32;
+	ID:150016 MONSTERID:303	攻击次数:15,免伤次数:0,击杀次数:5,消耗:300,收益:190,单次最大盈利:70 单次时间:2019-05-31 20:11:13;
+	ID:150016 MONSTERID:304	攻击次数:11,免伤次数:0,击杀次数:2,消耗:220,收益:110,单次最大盈利:70 单次时间:2019-05-31 20:11:02;
+	ID:150016 MONSTERID:305	攻击次数:20,免伤次数:0,击杀次数:5,消耗:400,收益:390,单次最大盈利:120 单次时间:2019-05-31 20:11:05;
+	ID:150016 MONSTERID:306	攻击次数:15,免伤次数:0,击杀次数:0,消耗:300,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 MONSTERID:307	攻击次数:18,免伤次数:0,击杀次数:2,消耗:360,收益:330,单次最大盈利:200 单次时间:2019-05-31 20:11:23;
+	ID:150016 MONSTERID:402	攻击次数:12,免伤次数:0,击杀次数:1,消耗:240,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 ALLMONSTERID 消耗:2280,收益:1500,返回率:0.657895;
+	ID:150016 过敏源剧情 消耗:180,收益:0,返回率:0.000000;
+	ID:150016 小丑剧情 消耗:240,收益:1170,返回率:4.875000;
+2019/05/31 20:12:16.879000 git.huoys.com/qp/cells/game_trace.polling 600 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:832,击杀次数:0,免伤次数:0,空卡次数:149,宝箱次数:89,普通怪次数:582,Boss怪次数:12,消耗:16640 收益:17610 返回率:1.058293;
+	全局统计 BOXID:100	攻击次数:375,击杀次数:53,免伤次数:0,消耗:7500,收益:8250,单次最大盈利:200 单次时间:2019-05-31 20:12:16;
+	全局统计 BOXID:101	攻击次数:359,击杀次数:34,免伤次数:0,消耗:7180,收益:8510,单次最大盈利:290 单次时间:2019-05-31 20:12:16;
+	全局统计 BOXID:102	攻击次数:98,击杀次数:2,免伤次数:0,消耗:1960,收益:850,单次最大盈利:550 单次时间:2019-05-31 20:12:16;
+	全局统计 MONSTERID:300	攻击次数:45,免伤次数:0,击杀次数:29,消耗:900,收益:850,单次最大盈利:40 单次时间:2019-05-31 20:12:16;
+	全局统计 MONSTERID:301	攻击次数:56,免伤次数:0,击杀次数:33,消耗:1120,收益:990,单次最大盈利:40 单次时间:2019-05-31 20:12:16;
+	全局统计 MONSTERID:302	攻击次数:72,免伤次数:0,击杀次数:34,消耗:1440,收益:1350,单次最大盈利:60 单次时间:2019-05-31 20:12:16;
+	全局统计 MONSTERID:303	攻击次数:80,免伤次数:0,击杀次数:33,消耗:1600,收益:1510,单次最大盈利:80 单次时间:2019-05-31 20:12:16;
+	全局统计 MONSTERID:304	攻击次数:84,免伤次数:0,击杀次数:23,消耗:1680,收益:1750,单次最大盈利:100 单次时间:2019-05-31 20:12:16;
+	全局统计 MONSTERID:305	攻击次数:126,免伤次数:0,击杀次数:27,消耗:2520,收益:2020,单次最大盈利:120 单次时间:2019-05-31 20:12:16;
+	全局统计 MONSTERID:306	攻击次数:199,免伤次数:0,击杀次数:24,消耗:3980,收益:3580,单次最大盈利:200 单次时间:2019-05-31 20:12:16;
+	全局统计 MONSTERID:307	攻击次数:180,免伤次数:1,击杀次数:21,消耗:3600,收益:2950,单次最大盈利:200 单次时间:2019-05-31 20:12:16;
+	全局统计 MONSTERID:311	攻击次数:3,免伤次数:0,击杀次数:0,消耗:60,收益:0,单次最大盈利:0 单次时间:2019-05-31 20:12:16;
+	全局统计 MONSTERID:312	攻击次数:7,免伤次数:0,击杀次数:2,消耗:140,收益:1800,单次最大盈利:970 单次时间:2019-05-31 20:12:16;
+	全局统计 MONSTERID:313	攻击次数:83,免伤次数:0,击杀次数:2,消耗:1660,收益:1030,单次最大盈利:700 单次时间:2019-05-31 20:12:16;
+	全局统计 MONSTERID:315	攻击次数:35,免伤次数:0,击杀次数:1,消耗:700,收益:550,单次最大盈利:550 单次时间:2019-05-31 20:12:16;
+	全局统计 MONSTERID:401	攻击次数:112,免伤次数:0,击杀次数:3,消耗:2240,收益:0,单次最大盈利:0 单次时间:2019-05-31 20:12:16;
+	全局统计 MONSTERID:402	攻击次数:147,免伤次数:0,击杀次数:5,消耗:2940,收益:0,单次最大盈利:0 单次时间:2019-05-31 20:12:16;
+	全局统计 MONSTERID:403	攻击次数:70,免伤次数:0,击杀次数:2,消耗:1400,收益:0,单次最大盈利:0 单次时间:2019-05-31 20:12:16;
+	全局统计 ALLMONSTERID 消耗:25980,收益:18380,返回率:0.707467;
+	全局统计 过敏源剧情 消耗:1860,收益:1100,返回率:0.591398;
+	全局统计 小丑剧情 消耗:6580,收益:9780,返回率:1.486322;
+	全局统计 总输赢:2390 总消耗:-44480 总收益:+46870 总免伤次数:1 总免伤:20 返回率:1.053732 时间:2019-05-31_20_12_16
+2019/05/31 20:14:40.867000 git.huoys.com/qp/cells/module/room/logic/storysys/clown.(*Clown).CalcSettle 346 Info: CLOWN Settle uid:150016  reward:710 levemoney:103122580 2019-05-31_20_14_40 force:true fixed:3 give:0 max:6 roundarr:[[{0 3 false 10 true} {1 1 false 0 true} {2 2 false 0 true} {3 3 false 10 true} {4 3 false 20 true} {5 3 false 10 true} {6 1 false 0 true} {7 1 false 0 true} {8 1 false 0 true} {9 1 false 0 true} {10 1 false 0 true} {11 1 false 0 true} {12 1 false 0 true} {13 3 false 20 true} {14 1 false 0 true} {15 3 false 20 true}] [{0 3 false 10 true} {1 3 false 10 true} {2 1 false 0 true} {3 3 false 10 true} {4 3 false 20 true} {5 3 false 10 true} {6 1 false 0 true} {7 3 false 10 true} {8 3 false 10 true} {9 3 false 10 true} {10 1 false 0 true} {11 3 false 10 true} {12 1 false 0 true} {13 1 false 0 true} {14 3 false 10 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 3 false 10 true} {2 3 false 10 true} {3 1 false 0 true} {4 3 false 10 true} {5 3 false 10 true} {6 1 false 0 true} {7 3 false 10 true} {8 1 false 0 true} {9 3 false 20 true} {10 1 false 0 true} {11 2 false 0 true} {12 3 false 10 true} {13 2 false 0 true} {14 3 false 10 true} {15 1 false 0 true}] [{0 3 false 10 true} {1 1 false 0 true} {2 1 false 0 true} {3 1 false 0 true} {4 1 false 0 true} {5 3 false 10 true} {6 3 false 10 true} {7 3 false 10 true} {8 3 false 20 true} {9 3 false 10 true} {10 3 false 10 true} {11 3 false 10 true} {12 1 false 0 true} {13 1 false 0 true} {14 1 false 0 true} {15 3 false 10 true}] [{0 4 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 3 false 0 false} {5 3 false 0 false} {6 4 false 0 false} {7 3 false 0 false} {8 4 false 0 false} {9 4 false 0 false} {10 3 false 0 false} {11 4 false 0 false} {12 4 false 0 false} {13 4 false 0 false} {14 3 false 0 false} {15 3 false 0 false}] [{0 3 false 0 false} {1 3 false 0 false} {2 4 false 0 false} {3 4 false 0 false} {4 3 false 0 false} {5 3 false 0 false} {6 4 false 0 false} {7 4 false 0 false} {8 3 false 0 false} {9 4 false 0 false} {10 4 false 0 false} {11 4 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 4 false 0 false}]]
+2019/05/31 20:14:40.867000 git.huoys.com/qp/cells/game_trace.LogSettle 507 Info: 	 单局结算 uid:150016 剩余金币:103122580 消耗:3640 收益:4450 写分增量:810 阵容变化:[201,200,202,],[201,200,202,],[201,200,202,], 
+2019/05/31 20:14:41.933000 git.huoys.com/qp/cells/game_trace.LeaveGame 492 Info: 
+Enter=>ID:150016 Money:103121770 '2019-05-31 20:13:29'
+Match=>ID :150016 玩家消耗金额:-3640 玩家赢取金额:+4450 返还率:1.222527 单个最高的结算金额:540 从进入到退出之间的最大余额:103122800
+Leave=>ID:150016 Money:103122580 '2019-05-31 20:14:41'
+	ID:150016 翻牌统计: 攻击次数:64,击杀次数:0,免伤次数:0,空卡次数:10,宝箱次数:9,普通怪次数:43,Boss怪次数:2,消耗:1280 收益:2780 返回率:2.171875;
+	ID:150016 BOXID:100	攻击次数:25,击杀次数:4,免伤次数:0,消耗:500,收益:710,单次最大盈利:200 单次时间:2019-05-31 20:13:32;
+	ID:150016 BOXID:101	攻击次数:29,击杀次数:2,免伤次数:0,消耗:580,收益:490,单次最大盈利:280 单次时间:2019-05-31 20:14:02;
+	ID:150016 BOXID:102	攻击次数:10,击杀次数:3,免伤次数:0,消耗:200,收益:1580,单次最大盈利:540 单次时间:2019-05-31 20:13:45;
+	ID:150016 MONSTERID:300	攻击次数:2,免伤次数:0,击杀次数:1,消耗:40,收益:30,单次最大盈利:30 单次时间:2019-05-31 20:13:40;
+	ID:150016 MONSTERID:301	攻击次数:1,免伤次数:0,击杀次数:1,消耗:20,收益:20,单次最大盈利:20 单次时间:2019-05-31 20:13:38;
+	ID:150016 MONSTERID:302	攻击次数:9,免伤次数:0,击杀次数:3,消耗:180,收益:100,单次最大盈利:40 单次时间:2019-05-31 20:13:47;
+	ID:150016 MONSTERID:303	攻击次数:9,免伤次数:0,击杀次数:4,消耗:180,收益:210,单次最大盈利:80 单次时间:2019-05-31 20:13:40;
+	ID:150016 MONSTERID:304	攻击次数:13,免伤次数:0,击杀次数:1,消耗:260,收益:60,单次最大盈利:60 单次时间:2019-05-31 20:13:36;
+	ID:150016 MONSTERID:305	攻击次数:18,免伤次数:0,击杀次数:3,消耗:360,收益:230,单次最大盈利:90 单次时间:2019-05-31 20:13:53;
+	ID:150016 MONSTERID:307	攻击次数:25,免伤次数:0,击杀次数:2,消耗:500,收益:310,单次最大盈利:160 单次时间:2019-05-31 20:13:46;
+	ID:150016 MONSTERID:401	攻击次数:27,免伤次数:0,击杀次数:1,消耗:540,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 ALLMONSTERID 消耗:2080,收益:960,返回率:0.461538;
+	ID:150016 过敏源剧情 消耗:280,收益:0,返回率:0.000000;
+	ID:150016 小丑剧情 消耗:540,收益:710,返回率:1.314815;
+2019/05/31 20:19:57.864000 git.huoys.com/qp/cells/module/room/logic/storysys/clown.(*Clown).CalcSettle 346 Info: CLOWN Settle uid:150016  reward:1620 levemoney:103123530 2019-05-31_20_19_57 force:false fixed:3 give:7 max:16 roundarr:[[{0 1 false 0 true} {1 1 false 0 true} {2 1 false 0 true} {3 1 false 0 true} {4 3 false 10 true} {5 1 false 0 true} {6 1 false 0 true} {7 3 false 10 true} {8 1 false 0 true} {9 3 false 20 true} {10 2 false 0 true} {11 1 false 0 true} {12 3 false 10 true} {13 1 false 0 true} {14 3 false 20 true} {15 3 false 10 true}] [{0 3 false 10 true} {1 3 false 10 true} {2 1 false 0 true} {3 1 false 0 true} {4 1 true 0 true} {5 3 false 10 true} {6 1 false 0 true} {7 1 false 0 true} {8 1 false 0 true} {9 1 false 0 true} {10 1 false 0 true} {11 3 false 10 true} {12 1 false 0 true} {13 1 false 0 true} {14 1 false 0 true} {15 2 false 0 true}] [{0 1 false 0 true} {1 1 false 0 true} {2 1 false 0 true} {3 3 false 10 true} {4 1 false 0 true} {5 3 false 10 true} {6 1 false 0 true} {7 1 false 0 true} {8 1 false 0 true} {9 3 false 30 true} {10 3 false 10 true} {11 3 false 10 true} {12 1 false 0 true} {13 3 false 30 true} {14 1 false 0 true} {15 3 false 20 true}] [{0 3 false 10 true} {1 1 false 0 true} {2 3 false 10 true} {3 1 false 0 true} {4 3 false 10 true} {5 1 false 0 true} {6 2 false 0 true} {7 1 false 0 true} {8 3 false 20 true} {9 1 true 0 true} {10 3 false 10 true} {11 1 false 0 true} {12 1 false 0 true} {13 3 false 10 true} {14 1 false 0 true} {15 3 false 10 true}] [{0 3 false 10 true} {1 1 false 0 true} {2 3 false 10 true} {3 3 false 20 true} {4 1 false 0 true} {5 1 false 0 true} {6 1 false 0 true} {7 1 false 0 true} {8 3 false 10 true} {9 3 false 20 true} {10 2 false 0 true} {11 1 true 0 true} {12 1 false 0 true} {13 3 false 10 true} {14 3 false 10 true} {15 3 false 20 true}] [{0 1 false 0 true} {1 2 false 0 true} {2 1 false 0 true} {3 1 false 0 true} {4 1 false 0 true} {5 1 false 0 true} {6 1 false 0 true} {7 2 false 0 true} {8 1 false 0 true} {9 2 false 0 true} {10 1 false 0 true} {11 3 true 20 true} {12 3 false 20 true} {13 3 false 10 true} {14 1 false 0 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 1 false 0 true} {2 3 true 10 true} {3 2 false 0 true} {4 3 false 10 true} {5 3 false 10 true} {6 3 false 10 true} {7 3 false 10 true} {8 1 false 0 true} {9 3 false 10 true} {10 3 false 20 true} {11 1 false 0 true} {12 1 false 0 true} {13 2 false 0 true} {14 1 false 0 true} {15 1 false 0 true}] [{0 3 false 10 true} {1 1 false 0 true} {2 3 false 30 true} {3 3 false 10 true} {4 2 false 0 true} {5 3 false 10 true} {6 2 false 0 true} {7 3 false 30 true} {8 3 false 20 true} {9 3 false 20 true} {10 1 true 0 true} {11 1 false 0 true} {12 3 false 30 true} {13 1 false 0 true} {14 1 false 0 true} {15 2 false 0 true}] [{0 1 false 0 true} {1 1 false 0 true} {2 1 false 0 true} {3 3 false 10 true} {4 1 false 0 true} {5 1 false 0 true} {6 3 false 10 true} {7 3 false 20 true} {8 3 false 20 true} {9 3 false 10 true} {10 2 false 0 true} {11 1 false 0 true} {12 3 false 10 true} {13 1 true 0 true} {14 1 false 0 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 1 false 0 true} {2 3 false 10 true} {3 3 false 10 true} {4 3 false 20 true} {5 1 false 0 true} {6 3 false 20 true} {7 1 false 0 true} {8 1 false 0 true} {9 1 false 0 true} {10 1 false 0 true} {11 1 false 0 true} {12 3 false 20 true} {13 1 false 0 true} {14 3 false 10 true} {15 3 false 10 true}] [{0 3 false 10 true} {1 3 false 10 true} {2 3 false 10 true} {3 3 false 20 true} {4 3 false 10 true} {5 1 false 0 true} {6 1 false 0 true} {7 3 false 10 true} {8 1 false 0 true} {9 1 false 0 true} {10 3 false 10 true} {11 3 false 10 true} {12 1 false 0 true} {13 1 false 0 true} {14 1 false 0 true} {15 3 false 10 true}] [{0 3 false 10 true} {1 1 false 0 true} {2 3 false 10 true} {3 3 false 10 true} {4 3 false 10 true} {5 1 false 0 true} {6 1 false 0 true} {7 1 false 0 true} {8 3 false 10 true} {9 3 false 30 true} {10 3 false 10 true} {11 3 false 20 true} {12 1 false 0 true} {13 3 false 10 true} {14 3 false 10 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 3 false 10 true} {2 3 false 10 true} {3 3 false 10 true} {4 3 false 10 true} {5 3 false 10 true} {6 1 false 0 true} {7 1 false 0 true} {8 1 false 0 true} {9 3 false 10 true} {10 3 false 20 true} {11 1 false 0 true} {12 3 false 10 true} {13 3 false 20 true} {14 1 false 0 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 3 false 10 true} {2 3 false 10 true} {3 3 false 10 true} {4 1 false 0 true} {5 3 false 20 true} {6 1 false 0 true} {7 3 false 20 true} {8 1 false 0 true} {9 1 false 0 true} {10 3 false 20 true} {11 3 false 30 true} {12 1 false 0 true} {13 3 false 20 true} {14 1 false 0 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 3 false 10 true} {2 3 false 20 true} {3 1 false 0 true} {4 1 false 0 true} {5 1 false 0 true} {6 3 false 10 true} {7 3 false 10 true} {8 3 false 10 true} {9 3 false 10 true} {10 3 false 10 true} {11 3 false 10 true} {12 3 false 10 true} {13 3 false 10 true} {14 3 false 10 true} {15 1 false 0 true}] [{0 3 false 10 true} {1 3 false 10 true} {2 1 false 0 true} {3 3 false 10 true} {4 3 false 10 true} {5 1 false 0 true} {6 3 false 20 true} {7 3 false 10 true} {8 3 false 10 true} {9 1 false 0 true} {10 3 false 10 true} {11 3 false 10 true} {12 1 false 0 true} {13 1 false 0 true} {14 3 false 10 true} {15 3 false 10 true}]]
+2019/05/31 20:20:20.884000 git.huoys.com/qp/cells/game_trace.LogSettle 507 Info: 	 单局结算 uid:150016 剩余金币:103123530 消耗:2780 收益:3730 写分增量:950 阵容变化:[201,200,202,],[201,200,202,],[201,200,202,],[201,200,202,],[201,200,202,],[201,200,202,], 
+2019/05/31 20:20:53.088000 git.huoys.com/qp/cells/module/room/logic/storysys/clown.(*Clown).CalcSettle 346 Info: CLOWN Settle uid:150016  reward:660 levemoney:103124170 2019-05-31_20_20_53 force:true fixed:3 give:1 max:5 roundarr:[[{0 3 false 10 true} {1 1 false 0 true} {2 3 false 10 true} {3 1 false 0 true} {4 3 false 10 true} {5 3 false 10 true} {6 1 false 0 true} {7 1 false 0 true} {8 3 false 10 true} {9 3 false 30 true} {10 1 false 0 true} {11 1 false 0 true} {12 1 false 0 true} {13 3 false 10 true} {14 3 false 10 true} {15 3 false 10 true}] [{0 1 false 0 true} {1 3 false 10 true} {2 1 false 0 true} {3 3 false 10 true} {4 1 false 0 true} {5 3 false 20 true} {6 3 false 20 true} {7 3 false 10 true} {8 2 false 0 true} {9 1 false 0 true} {10 1 false 0 true} {11 1 false 0 true} {12 3 false 10 true} {13 1 false 0 true} {14 3 false 10 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 3 false 10 true} {2 1 false 0 true} {3 1 false 0 true} {4 3 false 10 true} {5 3 false 10 true} {6 3 false 20 true} {7 1 false 0 true} {8 3 false 20 true} {9 3 false 10 true} {10 3 false 20 true} {11 3 false 10 true} {12 2 false 0 true} {13 1 true 0 true} {14 3 false 10 true} {15 3 false 20 true}] [{0 4 false 0 false} {1 3 false 0 false} {2 3 false 0 false} {3 3 false 0 false} {4 4 false 0 false} {5 4 false 0 false} {6 3 false 0 false} {7 4 false 0 false} {8 3 false 0 false} {9 4 false 0 false} {10 3 false 0 false} {11 3 false 0 false} {12 4 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 3 false 0 false}] [{0 4 false 0 false} {1 4 false 0 false} {2 4 false 0 false} {3 3 false 0 false} {4 4 false 0 false} {5 3 false 0 false} {6 3 false 0 false} {7 4 false 0 false} {8 4 false 0 false} {9 3 false 0 false} {10 3 false 0 false} {11 4 false 0 false} {12 3 false 0 false} {13 3 false 0 false} {14 3 false 0 false} {15 4 false 0 false}]]
+2019/05/31 20:20:53.088000 git.huoys.com/qp/cells/game_trace.LogSettle 507 Info: 	 单局结算 uid:150016 剩余金币:103124170 消耗:1520 收益:2160 写分增量:640 阵容变化:[201,200,202,], 
+2019/05/31 20:20:54.096000 git.huoys.com/qp/cells/game_trace.LeaveGame 492 Info: 
+Enter=>ID:150016 Money:103122580 '2019-05-31 20:18:17'
+Match=>ID :150016 玩家消耗金额:-4300 玩家赢取金额:+5890 返还率:1.369767 单个最高的结算金额:630 从进入到退出之间的最大余额:103124170
+Leave=>ID:150016 Money:103124170 '2019-05-31 20:20:54'
+	ID:150016 翻牌统计: 攻击次数:90,击杀次数:0,免伤次数:0,空卡次数:22,宝箱次数:7,普通怪次数:58,Boss怪次数:3,消耗:1800 收益:1600 返回率:0.888889;
+	ID:150016 BOXID:100	攻击次数:36,击杀次数:2,免伤次数:0,消耗:720,收益:240,单次最大盈利:130 单次时间:2019-05-31 20:20:21;
+	ID:150016 BOXID:101	攻击次数:43,击杀次数:5,免伤次数:0,消耗:860,收益:1360,单次最大盈利:300 单次时间:2019-05-31 20:20:22;
+	ID:150016 BOXID:102	攻击次数:11,击杀次数:0,免伤次数:0,消耗:220,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 MONSTERID:300	攻击次数:7,免伤次数:0,击杀次数:6,消耗:140,收益:160,单次最大盈利:40 单次时间:2019-05-31 20:20:12;
+	ID:150016 MONSTERID:301	攻击次数:3,免伤次数:0,击杀次数:2,消耗:60,收益:70,单次最大盈利:40 单次时间:2019-05-31 20:20:26;
+	ID:150016 MONSTERID:302	攻击次数:1,免伤次数:0,击杀次数:1,消耗:20,收益:60,单次最大盈利:60 单次时间:2019-05-31 20:18:21;
+	ID:150016 MONSTERID:303	攻击次数:8,免伤次数:0,击杀次数:4,消耗:160,收益:150,单次最大盈利:70 单次时间:2019-05-31 20:18:24;
+	ID:150016 MONSTERID:304	攻击次数:12,免伤次数:0,击杀次数:3,消耗:240,收益:190,单次最大盈利:80 单次时间:2019-05-31 20:20:09;
+	ID:150016 MONSTERID:305	攻击次数:3,免伤次数:0,击杀次数:2,消耗:60,收益:190,单次最大盈利:120 单次时间:2019-05-31 20:18:25;
+	ID:150016 MONSTERID:306	攻击次数:20,免伤次数:0,击杀次数:3,消耗:400,收益:460,单次最大盈利:190 单次时间:2019-05-31 20:20:31;
+	ID:150016 MONSTERID:307	攻击次数:12,免伤次数:0,击杀次数:1,消耗:240,收益:100,单次最大盈利:100 单次时间:2019-05-31 20:18:29;
+	ID:150016 MONSTERID:315	攻击次数:31,免伤次数:0,击杀次数:1,消耗:620,收益:630,单次最大盈利:630 单次时间:2019-05-31 20:20:20;
+	ID:150016 MONSTERID:401	攻击次数:10,免伤次数:0,击杀次数:1,消耗:200,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 MONSTERID:403	攻击次数:10,免伤次数:0,击杀次数:1,消耗:200,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 ALLMONSTERID 消耗:2340,收益:2010,返回率:0.858974;
+	ID:150016 过敏源剧情 消耗:160,收益:0,返回率:0.000000;
+	ID:150016 小丑剧情 消耗:400,收益:2280,返回率:5.700000;
+2019/05/31 20:22:25.297000 git.huoys.com/qp/cells/module/room/logic/storysys/clown.(*Clown).CalcSettle 346 Info: CLOWN Settle uid:150016  reward:330 levemoney:103124180 2019-05-31_20_22_25 force:false fixed:3 give:0 max:4 roundarr:[[{0 3 false 10 true} {1 3 false 10 true} {2 3 false 10 true} {3 1 false 0 true} {4 3 false 20 true} {5 1 false 0 true} {6 1 false 0 true} {7 1 false 0 true} {8 1 false 0 true} {9 3 false 10 true} {10 2 false 0 true} {11 3 false 20 true} {12 1 false 0 true} {13 3 false 10 true} {14 1 false 0 true} {15 1 false 0 true}] [{0 3 false 20 true} {1 1 false 0 true} {2 3 false 10 true} {3 1 false 0 true} {4 1 false 0 true} {5 1 false 0 true} {6 3 false 10 true} {7 1 false 0 true} {8 1 false 0 true} {9 3 false 10 true} {10 3 false 10 true} {11 1 false 0 true} {12 1 false 0 true} {13 3 false 10 true} {14 3 false 10 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 1 false 0 true} {2 3 false 30 true} {3 1 false 0 true} {4 3 false 10 true} {5 3 false 10 true} {6 1 false 0 true} {7 3 false 10 true} {8 3 false 10 true} {9 1 false 0 true} {10 3 false 20 true} {11 3 false 10 true} {12 1 false 0 true} {13 1 false 0 true} {14 3 false 10 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 1 false 0 true} {2 1 false 0 true} {3 1 false 0 true} {4 1 false 0 true} {5 3 false 10 true} {6 3 false 10 true} {7 1 false 0 true} {8 1 false 0 true} {9 1 false 0 true} {10 1 false 0 true} {11 3 false 10 true} {12 1 false 0 true} {13 1 false 0 true} {14 3 false 10 true} {15 3 false 10 true}]]
+2019/05/31 20:23:30.415000 git.huoys.com/qp/cells/module/room/logic/storysys/clown.(*Clown).CalcSettle 346 Info: CLOWN Settle uid:150016  reward:920 levemoney:103125190 2019-05-31_20_23_30 force:false fixed:3 give:0 max:10 roundarr:[[{0 1 false 0 true} {1 1 false 0 true} {2 2 false 0 true} {3 1 false 0 true} {4 1 false 0 true} {5 3 false 10 true} {6 1 false 0 true} {7 3 false 10 true} {8 3 false 20 true} {9 3 false 10 true} {10 1 false 0 true} {11 3 false 10 true} {12 3 false 10 true} {13 1 false 0 true} {14 1 false 0 true} {15 3 false 20 true}] [{0 3 false 30 true} {1 3 false 10 true} {2 3 false 10 true} {3 3 false 10 true} {4 3 false 30 true} {5 1 false 0 true} {6 3 false 10 true} {7 3 false 10 true} {8 1 false 0 true} {9 3 false 10 true} {10 1 false 0 true} {11 3 false 30 true} {12 2 false 0 true} {13 1 false 0 true} {14 2 false 0 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 1 false 0 true} {2 3 false 10 true} {3 3 false 10 true} {4 3 false 10 true} {5 3 false 30 true} {6 3 false 10 true} {7 3 false 10 true} {8 3 false 10 true} {9 3 false 10 true} {10 3 false 20 true} {11 3 false 10 true} {12 3 false 10 true} {13 1 false 0 true} {14 1 false 0 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 1 false 0 true} {2 1 false 0 true} {3 1 false 0 true} {4 1 false 0 true} {5 3 false 10 true} {6 1 false 0 true} {7 1 false 0 true} {8 3 false 10 true} {9 3 false 10 true} {10 1 false 0 true} {11 3 false 10 true} {12 3 false 10 true} {13 1 false 0 true} {14 3 false 10 true} {15 1 false 0 true}] [{0 3 false 10 true} {1 1 false 0 true} {2 3 false 20 true} {3 3 false 10 true} {4 1 false 0 true} {5 1 false 0 true} {6 3 false 10 true} {7 3 false 10 true} {8 1 false 0 true} {9 1 false 0 true} {10 1 false 0 true} {11 2 false 0 true} {12 1 false 0 true} {13 1 false 0 true} {14 3 false 10 true} {15 3 false 10 true}] [{0 3 false 10 true} {1 1 false 0 true} {2 1 false 0 true} {3 3 false 10 true} {4 3 false 10 true} {5 1 false 0 true} {6 3 false 10 true} {7 1 false 0 true} {8 3 false 20 true} {9 3 false 10 true} {10 1 false 0 true} {11 1 false 0 true} {12 1 false 0 true} {13 1 false 0 true} {14 2 false 0 true} {15 1 false 0 true}] [{0 1 false 0 true} {1 3 false 20 true} {2 3 false 10 true} {3 1 false 0 true} {4 3 false 10 true} {5 1 false 0 true} {6 1 false 0 true} {7 3 false 10 true} {8 1 false 0 true} {9 1 false 0 true} {10 3 false 20 true} {11 2 false 0 true} {12 1 false 0 true} {13 3 false 10 true} {14 1 false 0 true} {15 1 false 0 true}] [{0 3 false 10 true} {1 3 false 10 true} {2 3 false 10 true} {3 3 false 10 true} {4 1 false 0 true} {5 3 false 10 true} {6 3 false 10 true} {7 1 false 0 true} {8 1 false 0 true} {9 3 false 20 true} {10 1 false 0 true} {11 1 false 0 true} {12 1 false 0 true} {13 1 false 0 true} {14 1 false 0 true} {15 1 false 0 true}] [{0 3 false 10 true} {1 3 false 10 true} {2 1 false 0 true} {3 1 false 0 true} {4 1 false 0 true} {5 1 false 0 true} {6 1 false 0 true} {7 2 false 0 true} {8 3 false 10 true} {9 1 false 0 true} {10 1 false 0 true} {11 1 false 0 true} {12 1 false 0 true} {13 3 false 10 true} {14 3 false 10 true} {15 1 false 0 true}] [{0 3 false 20 true} {1 1 false 0 true} {2 1 false 0 true} {3 3 false 10 true} {4 1 false 0 true} {5 1 false 0 true} {6 1 false 0 true} {7 3 false 20 true} {8 3 false 30 true} {9 3 false 20 true} {10 1 false 0 true} {11 1 false 0 true} {12 3 false 10 true} {13 1 false 0 true} {14 1 false 0 true} {15 3 false 10 true}]]
+2019/05/31 20:23:40.149000 git.huoys.com/qp/cells/game_trace.LogSettle 507 Info: 	 单局结算 uid:150016 剩余金币:103125190 消耗:2380 收益:3400 写分增量:1020 阵容变化:[201,200,202,],[201,200,202,],[201,200,202,],[201,200,202,],[201,200,202,],[201,200,202,],[201,200,202,],[201,200,202,],[201,200,202,], 
+2019/05/31 20:23:41.187000 git.huoys.com/qp/cells/game_trace.LeaveGame 492 Info: 
+Enter=>ID:150016 Money:103124170 '2019-05-31 20:21:39'
+Match=>ID :150016 玩家消耗金额:-2380 玩家赢取金额:+3400 返还率:1.428571 单个最高的结算金额:560 从进入到退出之间的最大余额:103125190
+Leave=>ID:150016 Money:103125190 '2019-05-31 20:23:41'
+	ID:150016 翻牌统计: 攻击次数:53,击杀次数:0,免伤次数:0,空卡次数:11,宝箱次数:5,普通怪次数:36,Boss怪次数:1,消耗:1060 收益:980 返回率:0.924528;
+	ID:150016 BOXID:100	攻击次数:22,击杀次数:3,免伤次数:0,消耗:440,收益:490,单次最大盈利:190 单次时间:2019-05-31 20:21:48;
+	ID:150016 BOXID:101	攻击次数:25,击杀次数:2,免伤次数:0,消耗:500,收益:490,单次最大盈利:270 单次时间:2019-05-31 20:21:45;
+	ID:150016 BOXID:102	攻击次数:6,击杀次数:0,免伤次数:0,消耗:120,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 MONSTERID:300	攻击次数:1,免伤次数:0,击杀次数:1,消耗:20,收益:20,单次最大盈利:20 单次时间:2019-05-31 20:21:46;
+	ID:150016 MONSTERID:301	攻击次数:2,免伤次数:0,击杀次数:1,消耗:40,收益:30,单次最大盈利:30 单次时间:2019-05-31 20:21:55;
+	ID:150016 MONSTERID:302	攻击次数:4,免伤次数:0,击杀次数:2,消耗:80,收益:80,单次最大盈利:50 单次时间:2019-05-31 20:21:45;
+	ID:150016 MONSTERID:304	攻击次数:5,免伤次数:0,击杀次数:2,消耗:100,收益:110,单次最大盈利:70 单次时间:2019-05-31 20:21:53;
+	ID:150016 MONSTERID:305	攻击次数:9,免伤次数:0,击杀次数:2,消耗:180,收益:140,单次最大盈利:70 单次时间:2019-05-31 20:21:47;
+	ID:150016 MONSTERID:306	攻击次数:5,免伤次数:0,击杀次数:1,消耗:100,收益:130,单次最大盈利:130 单次时间:2019-05-31 20:21:48;
+	ID:150016 MONSTERID:307	攻击次数:15,免伤次数:0,击杀次数:1,消耗:300,收益:100,单次最大盈利:100 单次时间:2019-05-31 20:22:00;
+	ID:150016 MONSTERID:311	攻击次数:9,免伤次数:0,击杀次数:1,消耗:180,收益:560,单次最大盈利:560 单次时间:2019-05-31 20:21:52;
+	ID:150016 MONSTERID:401	攻击次数:12,免伤次数:0,击杀次数:2,消耗:240,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150016 ALLMONSTERID 消耗:1240,收益:1170,返回率:0.943548;
+	ID:150016 过敏源剧情 消耗:80,收益:0,返回率:0.000000;
+	ID:150016 小丑剧情 消耗:240,收益:1250,返回率:5.208333;
+2019/05/31 20:42:16.889000 git.huoys.com/qp/cells/game_trace.polling 600 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:207,击杀次数:0,免伤次数:0,空卡次数:43,宝箱次数:21,普通怪次数:137,Boss怪次数:6,消耗:4140 收益:5360 返回率:1.294686;
+	全局统计 BOXID:100	攻击次数:83,击杀次数:9,免伤次数:0,消耗:1660,收益:1440,单次最大盈利:200 单次时间:2019-05-31 20:42:16;
+	全局统计 BOXID:101	攻击次数:97,击杀次数:9,免伤次数:0,消耗:1940,收益:2340,单次最大盈利:300 单次时间:2019-05-31 20:42:16;
+	全局统计 BOXID:102	攻击次数:27,击杀次数:3,免伤次数:0,消耗:540,收益:1580,单次最大盈利:540 单次时间:2019-05-31 20:42:16;
+	全局统计 MONSTERID:300	攻击次数:10,免伤次数:0,击杀次数:8,消耗:200,收益:210,单次最大盈利:40 单次时间:2019-05-31 20:42:16;
+	全局统计 MONSTERID:301	攻击次数:6,免伤次数:0,击杀次数:4,消耗:120,收益:120,单次最大盈利:40 单次时间:2019-05-31 20:42:16;
+	全局统计 MONSTERID:302	攻击次数:14,免伤次数:0,击杀次数:6,消耗:280,收益:240,单次最大盈利:60 单次时间:2019-05-31 20:42:16;
+	全局统计 MONSTERID:303	攻击次数:17,免伤次数:0,击杀次数:8,消耗:340,收益:360,单次最大盈利:80 单次时间:2019-05-31 20:42:16;
+	全局统计 MONSTERID:304	攻击次数:30,免伤次数:0,击杀次数:6,消耗:600,收益:360,单次最大盈利:80 单次时间:2019-05-31 20:42:16;
+	全局统计 MONSTERID:305	攻击次数:30,免伤次数:0,击杀次数:7,消耗:600,收益:560,单次最大盈利:120 单次时间:2019-05-31 20:42:16;
+	全局统计 MONSTERID:306	攻击次数:25,免伤次数:0,击杀次数:4,消耗:500,收益:590,单次最大盈利:190 单次时间:2019-05-31 20:42:16;
+	全局统计 MONSTERID:307	攻击次数:52,免伤次数:0,击杀次数:4,消耗:1040,收益:510,单次最大盈利:160 单次时间:2019-05-31 20:42:16;
+	全局统计 MONSTERID:311	攻击次数:9,免伤次数:0,击杀次数:1,消耗:180,收益:560,单次最大盈利:560 单次时间:2019-05-31 20:42:16;
+	全局统计 MONSTERID:312	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 20:42:16;
+	全局统计 MONSTERID:313	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 20:42:16;
+	全局统计 MONSTERID:315	攻击次数:31,免伤次数:0,击杀次数:1,消耗:620,收益:630,单次最大盈利:630 单次时间:2019-05-31 20:42:16;
+	全局统计 MONSTERID:401	攻击次数:49,免伤次数:0,击杀次数:4,消耗:980,收益:0,单次最大盈利:0 单次时间:2019-05-31 20:42:16;
+	全局统计 MONSTERID:402	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 20:42:16;
+	全局统计 MONSTERID:403	攻击次数:10,免伤次数:0,击杀次数:1,消耗:200,收益:0,单次最大盈利:0 单次时间:2019-05-31 20:42:16;
+	全局统计 ALLMONSTERID 消耗:5660,收益:4140,返回率:0.731449;
+	全局统计 过敏源剧情 消耗:520,收益:0,返回率:0.000000;
+	全局统计 小丑剧情 消耗:1180,收益:4240,返回率:3.593220;
+	全局统计 总输赢:3420 总消耗:-10320 总收益:+13740 总免伤次数:0 总免伤:0 返回率:1.331395 时间:2019-05-31_20_42_16
+2019/05/31 21:12:16.944000 git.huoys.com/qp/cells/game_trace.polling 600 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	全局统计 BOXID:100	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 BOXID:101	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 BOXID:102	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 MONSTERID:300	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 MONSTERID:301	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 MONSTERID:302	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 MONSTERID:303	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 MONSTERID:304	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 MONSTERID:305	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 MONSTERID:306	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 MONSTERID:307	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 MONSTERID:311	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 MONSTERID:312	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 MONSTERID:313	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 MONSTERID:315	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 MONSTERID:401	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 MONSTERID:402	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 MONSTERID:403	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:12:16;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 小丑剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 总输赢:0 总消耗:-0 总收益:+0 总免伤次数:0 总免伤:0 返回率:0.000000 时间:2019-05-31_21_12_16
+2019/05/31 21:42:16.955000 git.huoys.com/qp/cells/game_trace.polling 600 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	全局统计 BOXID:100	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 BOXID:101	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 BOXID:102	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 MONSTERID:300	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 MONSTERID:301	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 MONSTERID:302	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 MONSTERID:303	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 MONSTERID:304	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 MONSTERID:305	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 MONSTERID:306	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 MONSTERID:307	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 MONSTERID:311	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 MONSTERID:312	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 MONSTERID:313	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 MONSTERID:315	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 MONSTERID:401	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 MONSTERID:402	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 MONSTERID:403	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 21:42:16;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 小丑剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 总输赢:0 总消耗:-0 总收益:+0 总免伤次数:0 总免伤:0 返回率:0.000000 时间:2019-05-31_21_42_16
+2019/05/31 22:12:16.986000 git.huoys.com/qp/cells/game_trace.polling 600 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	全局统计 BOXID:100	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 BOXID:101	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 BOXID:102	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 MONSTERID:300	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 MONSTERID:301	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 MONSTERID:302	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 MONSTERID:303	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 MONSTERID:304	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 MONSTERID:305	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 MONSTERID:306	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 MONSTERID:307	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 MONSTERID:311	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 MONSTERID:312	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 MONSTERID:313	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 MONSTERID:315	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 MONSTERID:401	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 MONSTERID:402	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 MONSTERID:403	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:12:16;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 小丑剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 总输赢:0 总消耗:-0 总收益:+0 总免伤次数:0 总免伤:0 返回率:0.000000 时间:2019-05-31_22_12_16
+2019/05/31 22:42:17.013000 git.huoys.com/qp/cells/game_trace.polling 600 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	全局统计 BOXID:100	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 BOXID:101	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 BOXID:102	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 MONSTERID:300	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 MONSTERID:301	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 MONSTERID:302	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 MONSTERID:303	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 MONSTERID:304	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 MONSTERID:305	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 MONSTERID:306	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 MONSTERID:307	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 MONSTERID:311	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 MONSTERID:312	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 MONSTERID:313	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 MONSTERID:315	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 MONSTERID:401	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 MONSTERID:402	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 MONSTERID:403	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 22:42:17;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 小丑剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 总输赢:0 总消耗:-0 总收益:+0 总免伤次数:0 总免伤:0 返回率:0.000000 时间:2019-05-31_22_42_17
+2019/05/31 23:12:17.024000 git.huoys.com/qp/cells/game_trace.polling 600 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	全局统计 BOXID:100	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 BOXID:101	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 BOXID:102	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 MONSTERID:300	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 MONSTERID:301	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 MONSTERID:302	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 MONSTERID:303	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 MONSTERID:304	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 MONSTERID:305	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 MONSTERID:306	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 MONSTERID:307	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 MONSTERID:311	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 MONSTERID:312	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 MONSTERID:313	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 MONSTERID:315	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 MONSTERID:401	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 MONSTERID:402	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 MONSTERID:403	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:12:17;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 小丑剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 总输赢:0 总消耗:-0 总收益:+0 总免伤次数:0 总免伤:0 返回率:0.000000 时间:2019-05-31_23_12_17
+2019/05/31 23:42:17.072000 git.huoys.com/qp/cells/game_trace.polling 600 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	全局统计 BOXID:100	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 BOXID:101	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 BOXID:102	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 MONSTERID:300	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 MONSTERID:301	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 MONSTERID:302	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 MONSTERID:303	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 MONSTERID:304	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 MONSTERID:305	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 MONSTERID:306	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 MONSTERID:307	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 MONSTERID:311	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 MONSTERID:312	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 MONSTERID:313	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 MONSTERID:315	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 MONSTERID:401	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 MONSTERID:402	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 MONSTERID:403	攻击次数:0,免伤次数:0,击杀次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-31 23:42:17;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 小丑剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 总输赢:0 总消耗:-0 总收益:+0 总免伤次数:0 总免伤:0 返回率:0.000000 时间:2019-05-31_23_42_17

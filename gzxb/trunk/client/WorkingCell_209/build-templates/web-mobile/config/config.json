@@ -1,0 +1,8 @@
+﻿{
+    "HallAddress": "http://zdxbhall.qianz.com",
+    "HostAddress": "http://h5game-wx.qpgame.com/WeiXin/H5GameLoginEnter?gameid=10095",
+    "ShareAddress": "http://wx.qpgame.com/WeiXin/H5GameLoginEnter?gameid=10095",
+    "ShareIconAddress": "http://qpzdxb.vk51.com/config/share.png",
+    "GetGameGsAddress": "http://games.bpl.qp.qianz.com/API/GameServerFilter.aspx?gid=%s&ggid=%s&sid=%s&ts=%s&sign=%s",
+    "GetPlayerIDInWeChatWithPostAddress": "http://zdxbhall.qianz.com:8000/?ops=16&playerid=0"
+}

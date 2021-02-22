@@ -1,0 +1,1414 @@
+{
+    "datas": [
+        {
+            "ID": 0,
+            "SpriteName": "xb_manhua1_1",
+            "AtlasName": "atlas_Atlas_Cartoon_1",
+            "Type": 1
+        },
+        {
+            "ID": 1,
+            "SpriteName": "xb_manhua1_2",
+            "AtlasName": "atlas_Atlas_Cartoon_1",
+            "Type": 1
+        },
+        {
+            "ID": 2,
+            "SpriteName": "xb_manhua1_3",
+            "AtlasName": "atlas_Atlas_Cartoon_1",
+            "Type": 1
+        },
+        {
+            "ID": 3,
+            "SpriteName": "xb_wenzi1_1",
+            "AtlasName": "atlas_Atlas_Cartoon_1",
+            "Type": 1
+        },
+        {
+            "ID": 4,
+            "SpriteName": "xb_wenzi1_2",
+            "AtlasName": "atlas_Atlas_Cartoon_1",
+            "Type": 1
+        },
+        {
+            "ID": 5,
+            "SpriteName": "xb_wenzi1_3",
+            "AtlasName": "atlas_Atlas_Cartoon_1",
+            "Type": 1
+        },
+        {
+            "ID": 6,
+            "SpriteName": "xb_wenzi1_4",
+            "AtlasName": "atlas_Atlas_Cartoon_1",
+            "Type": 1
+        },
+        {
+            "ID": 7,
+            "SpriteName": "xb_manhua2_1",
+            "AtlasName": "atlas_Atlas_Cartoon_2",
+            "Type": 1
+        },
+        {
+            "ID": 8,
+            "SpriteName": "xb_manhua2_2",
+            "AtlasName": "atlas_Atlas_Cartoon_2",
+            "Type": 1
+        },
+        {
+            "ID": 9,
+            "SpriteName": "xb_manhua2_3",
+            "AtlasName": "atlas_Atlas_Cartoon_2",
+            "Type": 1
+        },
+        {
+            "ID": 10,
+            "SpriteName": "xb_wenzi2_1",
+            "AtlasName": "atlas_Atlas_Cartoon_2",
+            "Type": 1
+        },
+        {
+            "ID": 11,
+            "SpriteName": "xb_wenzi2_2",
+            "AtlasName": "atlas_Atlas_Cartoon_2",
+            "Type": 1
+        },
+        {
+            "ID": 12,
+            "SpriteName": "xb_wenzi2_3",
+            "AtlasName": "atlas_Atlas_Cartoon_2",
+            "Type": 1
+        },
+        {
+            "ID": 13,
+            "SpriteName": "xb_wenzi2_4",
+            "AtlasName": "atlas_Atlas_Cartoon_2",
+            "Type": 1
+        },
+        {
+            "ID": 14,
+            "SpriteName": "xb_wenzi2_5",
+            "AtlasName": "atlas_Atlas_Cartoon_2",
+            "Type": 1
+        },
+        {
+            "ID": 15,
+            "SpriteName": "xb_wenzi2_6",
+            "AtlasName": "atlas_Atlas_Cartoon_2",
+            "Type": 1
+        },
+        {
+            "ID": 16,
+            "SpriteName": "xb_wenzi2_7",
+            "AtlasName": "atlas_Atlas_Cartoon_2",
+            "Type": 1
+        },
+        {
+            "ID": 17,
+            "SpriteName": "xb_yx_bxb",
+            "AtlasName": "atlas_Cell",
+            "Type": 1
+        },
+        {
+            "ID": 18,
+            "SpriteName": "xb_yx_bxb2",
+            "AtlasName": "atlas_Cell",
+            "Type": 1
+        },
+        {
+            "ID": 19,
+            "SpriteName": "xb_yx_bxbtou",
+            "AtlasName": "atlas_Cell",
+            "Type": 1
+        },
+        {
+            "ID": 20,
+            "SpriteName": "xb_yx_bzd",
+            "AtlasName": "atlas_Cell",
+            "Type": 1
+        },
+        {
+            "ID": 21,
+            "SpriteName": "xb_yx_bzd2",
+            "AtlasName": "atlas_Cell",
+            "Type": 1
+        },
+        {
+            "ID": 22,
+            "SpriteName": "xb_yx_hxb",
+            "AtlasName": "atlas_Cell",
+            "Type": 1
+        },
+        {
+            "ID": 23,
+            "SpriteName": "xb_yx_hxb2",
+            "AtlasName": "atlas_Cell",
+            "Type": 1
+        },
+        {
+            "ID": 24,
+            "SpriteName": "xb_yx_hxbtou",
+            "AtlasName": "atlas_Cell",
+            "Type": 1
+        },
+        {
+            "ID": 25,
+            "SpriteName": "xb_yx_txb",
+            "AtlasName": "atlas_Cell",
+            "Type": 1
+        },
+        {
+            "ID": 26,
+            "SpriteName": "xb_yx_txb2",
+            "AtlasName": "atlas_Cell",
+            "Type": 1
+        },
+        {
+            "ID": 27,
+            "SpriteName": "xb_yx_txbtou",
+            "AtlasName": "atlas_Cell",
+            "Type": 1
+        },
+        {
+            "ID": 28,
+            "SpriteName": "xb_yx_wmtou",
+            "AtlasName": "atlas_Cell",
+            "Type": 1
+        },
+        {
+            "ID": 29,
+            "SpriteName": "xb_yx_xxb",
+            "AtlasName": "atlas_Cell",
+            "Type": 1
+        },
+        {
+            "ID": 30,
+            "SpriteName": "xb_yx_xxb2",
+            "AtlasName": "atlas_Cell",
+            "Type": 1
+        },
+        {
+            "ID": 31,
+            "SpriteName": "xb_yx_xxbtou",
+            "AtlasName": "atlas_Cell",
+            "Type": 1
+        },
+        {
+            "ID": 32,
+            "SpriteName": "100104",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 33,
+            "SpriteName": "xb_bangding",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 34,
+            "SpriteName": "xb_bd-xxdk",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 35,
+            "SpriteName": "xb_beilvkuang2",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 36,
+            "SpriteName": "xb_beilvkuang3",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 37,
+            "SpriteName": "xb_cz_dikuang1",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 38,
+            "SpriteName": "xb_cz_dikuang2",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 39,
+            "SpriteName": "xb_cz_dikuang3",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 40,
+            "SpriteName": "xb_cz_gouk",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 41,
+            "SpriteName": "xb_dianjihou",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 42,
+            "SpriteName": "xb_guanbi",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 43,
+            "SpriteName": "xb_jbkuang1",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 44,
+            "SpriteName": "xb_jiahao",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 45,
+            "SpriteName": "xb_jinbi",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 46,
+            "SpriteName": "xb_jn_jindu1",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 47,
+            "SpriteName": "xb_jn_jindu2",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 48,
+            "SpriteName": "xb_miaozhun",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 49,
+            "SpriteName": "xb_shuaxindx",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 50,
+            "SpriteName": "xb_shuaxintu",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 51,
+            "SpriteName": "xb_ts_anniu1",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 52,
+            "SpriteName": "xb_ts_anniu2",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 53,
+            "SpriteName": "xb_ty_tips",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 54,
+            "SpriteName": "xb_weidianji",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 55,
+            "SpriteName": "xb_wusheng",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 56,
+            "SpriteName": "xb_xiazhu_jiantou",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 57,
+            "SpriteName": "xb_yingxiongtu",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 58,
+            "SpriteName": "xb_yousheng",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 59,
+            "SpriteName": "xb_yx_kuang1",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 60,
+            "SpriteName": "xb_yx_kuang2",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 61,
+            "SpriteName": "xb_zd_xuanzhong3",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 62,
+            "SpriteName": "xb_zidongtu",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 63,
+            "SpriteName": "xb_zjm_boss_cm",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 64,
+            "SpriteName": "xb_zjm_boss_cm1",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 65,
+            "SpriteName": "xb_zjm_gzjs",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 66,
+            "SpriteName": "xb_zjm_gzjs1",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 67,
+            "SpriteName": "xb_zjm_gzjs2",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 68,
+            "SpriteName": "xb_zjm_kkk2",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 69,
+            "SpriteName": "xb_zjm_kkk3",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 70,
+            "SpriteName": "xb_zjm_kkk4",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 71,
+            "SpriteName": "xb_zjm_wenhao",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 72,
+            "SpriteName": "xb_zjm_wenhaok",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 73,
+            "SpriteName": "xb_zjm_zjsz",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 74,
+            "SpriteName": "xb_z_xiakuang",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 75,
+            "SpriteName": "xb_z_xiaxian",
+            "AtlasName": "atlas_Common",
+            "Type": 1
+        },
+        {
+            "ID": 76,
+            "SpriteName": "100104",
+            "AtlasName": "atlas_Common_Load",
+            "Type": 1
+        },
+        {
+            "ID": 77,
+            "SpriteName": "xb_zjm_kkk2",
+            "AtlasName": "atlas_Common_Load",
+            "Type": 1
+        },
+        {
+            "ID": 78,
+            "SpriteName": "xb_zjm_kkk3",
+            "AtlasName": "atlas_Common_Load",
+            "Type": 1
+        },
+        {
+            "ID": 79,
+            "SpriteName": "daguai311",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 80,
+            "SpriteName": "daguai312",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 81,
+            "SpriteName": "daguai313",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 82,
+            "SpriteName": "daguai314",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 83,
+            "SpriteName": "daguai315",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 84,
+            "SpriteName": "daguai400",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 85,
+            "SpriteName": "daguai401",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 86,
+            "SpriteName": "daguai404",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 87,
+            "SpriteName": "xb_fp_g300",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 88,
+            "SpriteName": "xb_fp_g301",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 89,
+            "SpriteName": "xb_fp_g302",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 90,
+            "SpriteName": "xb_fp_g303",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 91,
+            "SpriteName": "xb_fp_g304",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 92,
+            "SpriteName": "xb_fp_g305",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 93,
+            "SpriteName": "xb_fp_g306",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 94,
+            "SpriteName": "xb_fp_g307",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 95,
+            "SpriteName": "xb_fp_g311",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 96,
+            "SpriteName": "xb_fp_g312",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 97,
+            "SpriteName": "xb_fp_g313",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 98,
+            "SpriteName": "xb_fp_g314",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 99,
+            "SpriteName": "xb_fp_g315",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 100,
+            "SpriteName": "xb_fp_g401",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 101,
+            "SpriteName": "xb_fp_g402",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 102,
+            "SpriteName": "xb_fp_g403",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 103,
+            "SpriteName": "xb_fp_g404",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 104,
+            "SpriteName": "xiaoguai300",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 105,
+            "SpriteName": "xiaoguai301",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 106,
+            "SpriteName": "xiaoguai302",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 107,
+            "SpriteName": "xiaoguai303",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 108,
+            "SpriteName": "xiaoguai304",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 109,
+            "SpriteName": "xiaoguai305",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 110,
+            "SpriteName": "xiaoguai306",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 111,
+            "SpriteName": "xiaoguai307",
+            "AtlasName": "atlas_Germ",
+            "Type": 1
+        },
+        {
+            "ID": 112,
+            "SpriteName": "xb_kuang333",
+            "AtlasName": "atlas_HeroInfo",
+            "Type": 1
+        },
+        {
+            "ID": 113,
+            "SpriteName": "xb_suo",
+            "AtlasName": "atlas_HeroInfo",
+            "Type": 1
+        },
+        {
+            "ID": 114,
+            "SpriteName": "xb_yx_fangkuang11",
+            "AtlasName": "atlas_HeroInfo",
+            "Type": 1
+        },
+        {
+            "ID": 115,
+            "SpriteName": "xb_yx_fangkuang22",
+            "AtlasName": "atlas_HeroInfo",
+            "Type": 1
+        },
+        {
+            "ID": 116,
+            "SpriteName": "xb_yx_jiantou",
+            "AtlasName": "atlas_HeroInfo",
+            "Type": 1
+        },
+        {
+            "ID": 117,
+            "SpriteName": "xb_yx_kuang111",
+            "AtlasName": "atlas_HeroInfo",
+            "Type": 1
+        },
+        {
+            "ID": 118,
+            "SpriteName": "xb_yx_kuang22",
+            "AtlasName": "atlas_HeroInfo",
+            "Type": 1
+        },
+        {
+            "ID": 119,
+            "SpriteName": "xb_yx_tianjia",
+            "AtlasName": "atlas_HeroInfo",
+            "Type": 1
+        },
+        {
+            "ID": 120,
+            "SpriteName": "xb_yx_yuanquan1",
+            "AtlasName": "atlas_HeroInfo",
+            "Type": 1
+        },
+        {
+            "ID": 121,
+            "SpriteName": "xb_yx_yuanquan2",
+            "AtlasName": "atlas_HeroInfo",
+            "Type": 1
+        },
+        {
+            "ID": 122,
+            "SpriteName": "xb_yx_zhezhao2",
+            "AtlasName": "atlas_HeroInfo",
+            "Type": 1
+        },
+        {
+            "ID": 123,
+            "SpriteName": "xb_mfcs_csd1",
+            "AtlasName": "atlas_Joker",
+            "Type": 1
+        },
+        {
+            "ID": 124,
+            "SpriteName": "xb_mfcs_csd2",
+            "AtlasName": "atlas_Joker",
+            "Type": 1
+        },
+        {
+            "ID": 125,
+            "SpriteName": "xb_mfcs_xcd",
+            "AtlasName": "atlas_Joker",
+            "Type": 1
+        },
+        {
+            "ID": 126,
+            "SpriteName": "xb_mfcs_xcgxhd",
+            "AtlasName": "atlas_Joker",
+            "Type": 1
+        },
+        {
+            "ID": 127,
+            "SpriteName": "xb_mfcs_xcmfcs",
+            "AtlasName": "atlas_Joker",
+            "Type": 1
+        },
+        {
+            "ID": 128,
+            "SpriteName": "xb_mfcs_xcxw",
+            "AtlasName": "atlas_Joker",
+            "Type": 1
+        },
+        {
+            "ID": 129,
+            "SpriteName": "xb_mfcs_xcxx",
+            "AtlasName": "atlas_Joker",
+            "Type": 1
+        },
+        {
+            "ID": 130,
+            "SpriteName": "xb_dl_anniu",
+            "AtlasName": "atlas_Loading",
+            "Type": 1
+        },
+        {
+            "ID": 131,
+            "SpriteName": "xb_dl_jz1",
+            "AtlasName": "atlas_Loading",
+            "Type": 1
+        },
+        {
+            "ID": 132,
+            "SpriteName": "xb_dl_jz2",
+            "AtlasName": "atlas_Loading",
+            "Type": 1
+        },
+        {
+            "ID": 133,
+            "SpriteName": "xb_dl_srkuang",
+            "AtlasName": "atlas_Loading",
+            "Type": 1
+        },
+        {
+            "ID": 134,
+            "SpriteName": "Atlas_Pay",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 135,
+            "SpriteName": "xb_cz_anniu",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 136,
+            "SpriteName": "xb_cz_dikuang1",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 137,
+            "SpriteName": "xb_cz_dikuang2",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 138,
+            "SpriteName": "xb_cz_dikuang3",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 139,
+            "SpriteName": "xb_cz_diwen",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 140,
+            "SpriteName": "xb_cz_gou",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 141,
+            "SpriteName": "xb_cz_gouk",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 142,
+            "SpriteName": "xb_cz_jia",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 143,
+            "SpriteName": "xb_cz_jian",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 144,
+            "SpriteName": "xb_cz_jinbi1",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 145,
+            "SpriteName": "xb_cz_jinbi2",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 146,
+            "SpriteName": "xb_cz_jinbi3",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 147,
+            "SpriteName": "xb_cz_jinbi4",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 148,
+            "SpriteName": "xb_cz_jinbi5",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 149,
+            "SpriteName": "xb_cz_jinbi6",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 150,
+            "SpriteName": "xb_cz_jinbi7",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 151,
+            "SpriteName": "xb_cz_jinbi8",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 152,
+            "SpriteName": "xb_cz_rmb",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 153,
+            "SpriteName": "xb_cz_shuliang1",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 154,
+            "SpriteName": "xb_cz_shuliang2",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 155,
+            "SpriteName": "xb_cz_shuzik",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 156,
+            "SpriteName": "xb_cz_tuodong",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 157,
+            "SpriteName": "xb_cz_yuananniu",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 158,
+            "SpriteName": "xb_dianquan",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 159,
+            "SpriteName": "xb_guanbi",
+            "AtlasName": "atlas_Pay",
+            "Type": 1
+        },
+        {
+            "ID": 160,
+            "SpriteName": "xb_jqms_djs",
+            "AtlasName": "atlas_Plot",
+            "Type": 1
+        },
+        {
+            "ID": 161,
+            "SpriteName": "xb_jqms_hfbdx",
+            "AtlasName": "atlas_Plot",
+            "Type": 1
+        },
+        {
+            "ID": 162,
+            "SpriteName": "xb_jqms_mzj",
+            "AtlasName": "atlas_Plot",
+            "Type": 1
+        },
+        {
+            "ID": 163,
+            "SpriteName": "xb_jqms_mzj1",
+            "AtlasName": "atlas_Plot",
+            "Type": 1
+        },
+        {
+            "ID": 164,
+            "SpriteName": "xb_jqms_mzjbtn",
+            "AtlasName": "atlas_Plot",
+            "Type": 1
+        },
+        {
+            "ID": 165,
+            "SpriteName": "xb_jqms_mzjkd",
+            "AtlasName": "atlas_Plot",
+            "Type": 1
+        },
+        {
+            "ID": 166,
+            "SpriteName": "xb_jqms_smbtn",
+            "AtlasName": "atlas_Plot",
+            "Type": 1
+        },
+        {
+            "ID": 167,
+            "SpriteName": "xb_jqms_smd",
+            "AtlasName": "atlas_Plot",
+            "Type": 1
+        },
+        {
+            "ID": 168,
+            "SpriteName": "xb_jqms_smpic1",
+            "AtlasName": "atlas_Plot",
+            "Type": 1
+        },
+        {
+            "ID": 169,
+            "SpriteName": "xb_jqms_smpic2",
+            "AtlasName": "atlas_Plot",
+            "Type": 1
+        },
+        {
+            "ID": 170,
+            "SpriteName": "xb_jqms_wenzid",
+            "AtlasName": "atlas_Plot",
+            "Type": 1
+        },
+        {
+            "ID": 171,
+            "SpriteName": "xb_jqms_zdbtn",
+            "AtlasName": "atlas_Plot",
+            "Type": 1
+        },
+        {
+            "ID": 172,
+            "SpriteName": "xb_jqms_zdbtn1",
+            "AtlasName": "atlas_Plot",
+            "Type": 1
+        },
+        {
+            "ID": 173,
+            "SpriteName": "xb_sm_cj1",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 174,
+            "SpriteName": "xb_sm_cj2",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 175,
+            "SpriteName": "xb_sm_cj3",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 176,
+            "SpriteName": "xb_sm_cj4",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 177,
+            "SpriteName": "xb_sm_cjf",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 178,
+            "SpriteName": "xb_sm_cjpf",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 179,
+            "SpriteName": "xb_sm_cjw",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 180,
+            "SpriteName": "xb_sm_cjxz",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 181,
+            "SpriteName": "xb_sm_cjzd",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 182,
+            "SpriteName": "xb_sm_dise1",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 183,
+            "SpriteName": "xb_sm_fenye1",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 184,
+            "SpriteName": "xb_sm_fenye2",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 185,
+            "SpriteName": "xb_sm_kuang1",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 186,
+            "SpriteName": "xb_sm_kuang11",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 187,
+            "SpriteName": "xb_sm_kuang2",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 188,
+            "SpriteName": "xb_sm_kuang3",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 189,
+            "SpriteName": "xb_sm_kuang4",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 190,
+            "SpriteName": "xb_sm_tujian",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 191,
+            "SpriteName": "xb_sm_xian",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 192,
+            "SpriteName": "xb_sm_xingxing",
+            "AtlasName": "atlas_Rule",
+            "Type": 1
+        },
+        {
+            "ID": 193,
+            "SpriteName": "100100",
+            "AtlasName": "atlas_Atlas_Scene_1001",
+            "Type": 1
+        },
+        {
+            "ID": 194,
+            "SpriteName": "100101",
+            "AtlasName": "atlas_Atlas_Scene_1001",
+            "Type": 1
+        },
+        {
+            "ID": 195,
+            "SpriteName": "100102",
+            "AtlasName": "atlas_Atlas_Scene_1001",
+            "Type": 1
+        },
+        {
+            "ID": 196,
+            "SpriteName": "100103",
+            "AtlasName": "atlas_Atlas_Scene_1001",
+            "Type": 1
+        },
+        {
+            "ID": 197,
+            "SpriteName": "100104",
+            "AtlasName": "atlas_Atlas_Scene_1001",
+            "Type": 1
+        },
+        {
+            "ID": 198,
+            "SpriteName": "Atlas_Scene_1001",
+            "AtlasName": "atlas_Atlas_Scene_1001",
+            "Type": 1
+        },
+        {
+            "ID": 199,
+            "SpriteName": "100200",
+            "AtlasName": "atlas_Atlas_Scene_1002",
+            "Type": 1
+        },
+        {
+            "ID": 200,
+            "SpriteName": "100201",
+            "AtlasName": "atlas_Atlas_Scene_1002",
+            "Type": 1
+        },
+        {
+            "ID": 201,
+            "SpriteName": "100202",
+            "AtlasName": "atlas_Atlas_Scene_1002",
+            "Type": 1
+        },
+        {
+            "ID": 202,
+            "SpriteName": "100203",
+            "AtlasName": "atlas_Atlas_Scene_1002",
+            "Type": 1
+        },
+        {
+            "ID": 203,
+            "SpriteName": "Atlas_Scene_1002",
+            "AtlasName": "atlas_Atlas_Scene_1002",
+            "Type": 1
+        },
+        {
+            "ID": 204,
+            "SpriteName": "100300",
+            "AtlasName": "atlas_Atlas_Scene_1003",
+            "Type": 1
+        },
+        {
+            "ID": 205,
+            "SpriteName": "100301",
+            "AtlasName": "atlas_Atlas_Scene_1003",
+            "Type": 1
+        },
+        {
+            "ID": 206,
+            "SpriteName": "100302",
+            "AtlasName": "atlas_Atlas_Scene_1003",
+            "Type": 1
+        },
+        {
+            "ID": 207,
+            "SpriteName": "100303",
+            "AtlasName": "atlas_Atlas_Scene_1003",
+            "Type": 1
+        },
+        {
+            "ID": 208,
+            "SpriteName": "100304",
+            "AtlasName": "atlas_Atlas_Scene_1003",
+            "Type": 1
+        },
+        {
+            "ID": 209,
+            "SpriteName": "100400",
+            "AtlasName": "atlas_Atlas_Scene_1004",
+            "Type": 1
+        },
+        {
+            "ID": 210,
+            "SpriteName": "100401",
+            "AtlasName": "atlas_Atlas_Scene_1004",
+            "Type": 1
+        },
+        {
+            "ID": 211,
+            "SpriteName": "100402",
+            "AtlasName": "atlas_Atlas_Scene_1004",
+            "Type": 1
+        },
+        {
+            "ID": 212,
+            "SpriteName": "100403",
+            "AtlasName": "atlas_Atlas_Scene_1004",
+            "Type": 1
+        },
+        {
+            "ID": 213,
+            "SpriteName": "xb_jineng1",
+            "AtlasName": "atlas_Skill",
+            "Type": 1
+        },
+        {
+            "ID": 214,
+            "SpriteName": "xb_jineng2",
+            "AtlasName": "atlas_Skill",
+            "Type": 1
+        },
+        {
+            "ID": 215,
+            "SpriteName": "xb_jineng3",
+            "AtlasName": "atlas_Skill",
+            "Type": 1
+        },
+        {
+            "ID": 216,
+            "SpriteName": "xb_jineng4",
+            "AtlasName": "atlas_Skill",
+            "Type": 1
+        },
+        {
+            "ID": 217,
+            "SpriteName": "xb_jineng5",
+            "AtlasName": "atlas_Skill",
+            "Type": 1
+        },
+        {
+            "ID": 218,
+            "SpriteName": "xb_dl_ztu",
+            "AtlasName": "atlas_Loading",
+            "Type": 1
+        },
+        {
+            "ID": 219,
+            "SpriteName": "300",
+            "AtlasName": "",
+            "Type": 2
+        },
+        {
+            "ID": 220,
+            "SpriteName": "301",
+            "AtlasName": "",
+            "Type": 2
+        },
+        {
+            "ID": 221,
+            "SpriteName": "302",
+            "AtlasName": "",
+            "Type": 2
+        },
+        {
+            "ID": 222,
+            "SpriteName": "303",
+            "AtlasName": "",
+            "Type": 2
+        },
+        {
+            "ID": 223,
+            "SpriteName": "304",
+            "AtlasName": "",
+            "Type": 2
+        },
+        {
+            "ID": 224,
+            "SpriteName": "305",
+            "AtlasName": "",
+            "Type": 2
+        },
+        {
+            "ID": 225,
+            "SpriteName": "306",
+            "AtlasName": "",
+            "Type": 2
+        },
+        {
+            "ID": 226,
+            "SpriteName": "307",
+            "AtlasName": "",
+            "Type": 2
+        },
+        {
+            "ID": 227,
+            "SpriteName": "311",
+            "AtlasName": "",
+            "Type": 2
+        },
+        {
+            "ID": 228,
+            "SpriteName": "312",
+            "AtlasName": "",
+            "Type": 2
+        },
+        {
+            "ID": 229,
+            "SpriteName": "313",
+            "AtlasName": "",
+            "Type": 2
+        },
+        {
+            "ID": 230,
+            "SpriteName": "314",
+            "AtlasName": "",
+            "Type": 2
+        },
+        {
+            "ID": 231,
+            "SpriteName": "315",
+            "AtlasName": "",
+            "Type": 2
+        },
+        {
+            "ID": 232,
+            "SpriteName": "400",
+            "AtlasName": "",
+            "Type": 2
+        },
+        {
+            "ID": 233,
+            "SpriteName": "401",
+            "AtlasName": "",
+            "Type": 2
+        },
+        {
+            "ID": 234,
+            "SpriteName": "404",
+            "AtlasName": "",
+            "Type": 2
+        }
+    ]
+}

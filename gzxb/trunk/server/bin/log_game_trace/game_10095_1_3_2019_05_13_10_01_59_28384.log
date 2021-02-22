@@ -1,0 +1,10 @@
+2019/05/13 10:01:59.617200 git.huoys.com/qp/common/hall_logic/launcher.OnStart 40 Warning: url.json:&{%!s(int32=10095) %!s(int32=1) %!s(int32=0) %!s(int32=3) %!s(int=4)}.
+2019/05/13 10:01:59.633200 git.huoys.com/qp/common/hall_logic/launcher.OnStart 42 Warning: Start Game(10095) Arena(1) Server(3) Sucess !
+2019/05/13 10:01:59.646200 git.huoys.com/qp/common/hall_message_s.RegisterGame 110 Info: RegisterGame:1,3.
+2019/05/13 10:01:59.680200 git.huoys.com/qp/common/hall_message_s.RegisterGame 126 Info: register game msgRecv.En: 0.
+2019/05/13 10:01:59.709200 git.huoys.com/qp/cells/module/web.(*webmodule).OnInit 44 Warning: http url:0.0.0.0:9021.
+2019/05/13 10:01:59.710200 git.huoys.com/qp/common/http_message.acceptHTTPRequest 80 Info: Http server listen at:0.0.0.0:9021
+2019/05/13 10:02:04.595200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/13 10:02:09.595200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/13 10:02:14.597200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.
+2019/05/13 10:02:19.600200 git.huoys.com/qp/common/hall_message_s.GameUpdate 157 Info: game update msgRecv.En: 0.

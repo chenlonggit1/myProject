@@ -1,0 +1,117 @@
+{
+	"HallUrl":"http://localhost:8100",
+	"ChatUrl":"http://localhost:8200",
+
+	"Match": {
+		"Time": [{
+			"BHour": 10,
+			"BMin": 0,
+			"EHour": 11,
+			"EMin": 0
+		}, {
+			"BHour": 12,
+			"BMin": 0,
+			"EHour": 13,
+			"EMin": 0
+		}, {
+			"BHour": 14,
+			"BMin": 0,
+			"EHour": 15,
+			"EMin": 0
+		}, {
+			"BHour": 16,
+			"BMin": 0,
+			"EHour": 17,
+			"EMin": 0
+		}, {
+			"BHour": 18,
+			"BMin": 0,
+			"EHour": 19,
+			"EMin": 0
+		}, {
+			"BHour": 20,
+			"BMin": 0,
+			"EHour": 21,
+			"EMin": 0
+		}],
+		"SignUpMoney": [0, 3000, 3000, 3000, 3000, 3000],
+		"HitRatio": [0, 0.1, 0.2, 0.3, 0.4, 0.5],
+		"MaxMatchTimes": 6,
+		"LastSignUpTime": 180,
+
+		"Reward": [[{
+			"LRankIdx": 1,
+			"RRankIdx": 1,
+			"Money": 300000
+		},{
+			"LRankIdx": 2,
+			"RRankIdx": 2,
+			"Money": 300000
+		},{
+			"LRankIdx": 3,
+			"RRankIdx": 3,
+			"Money": 300000
+		},{
+			"LRankIdx": 4,
+			"RRankIdx": 10,
+			"Money": 300000
+		},{
+			"LRankIdx": 11,
+			"RRankIdx": 20,
+			"Money": 300000
+		},{
+			"LRankIdx": 21,
+			"RRankIdx": 50,
+			"Money": 300000
+		},{
+			"LRankIdx": 51,
+			"RRankIdx": 100,
+			"Money": 300000
+		}],[{
+			"LRankIdx": 1,
+			"RRankIdx": 1,
+			"Money": 300000
+		},{
+			"LRankIdx": 2,
+			"RRankIdx": 2,
+			"Money": 300000
+		},{
+			"LRankIdx": 3,
+			"RRankIdx": 3,
+			"Money": 300000
+		},{
+			"LRankIdx": 4,
+			"RRankIdx": 10,
+			"Money": 300000
+		},{
+			"LRankIdx": 11,
+			"RRankIdx": 20,
+			"Money": 300000
+		},{
+			"LRankIdx": 21,
+			"RRankIdx": 50,
+			"Money": 300000
+		},{
+			"LRankIdx": 51,
+			"RRankIdx": 100,
+			"Money": 300000
+		}]]
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "ef_Txibao_attack2_02",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.26666666666666666,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "dandao": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "61afe238-b4cb-4b0d-bb04-0e8fceb8066d"
+                }
+              },
+              {
+                "frame": 0.06666666666666667,
+                "value": {
+                  "__uuid__": "990134bc-6422-4929-b115-ab8f945e4a11"
+                }
+              },
+              {
+                "frame": 0.13333333333333333,
+                "value": {
+                  "__uuid__": "71480451-a9e5-46f4-bd1d-ebddab64da38"
+                }
+              },
+              {
+                "frame": 0.2,
+                "value": {
+                  "__uuid__": "bbf58428-5bc7-4c8e-a6bc-1f6f9021d03f"
+                }
+              },
+              {
+                "frame": 0.23333333333333334,
+                "value": {
+                  "__uuid__": "bbf58428-5bc7-4c8e-a6bc-1f6f9021d03f"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

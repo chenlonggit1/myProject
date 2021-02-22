@@ -1,0 +1,340 @@
+2019/05/14 11:16:44.084200 git.huoys.com/qp/cells/game_trace.polling 557 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 总输赢:0 总消耗:-0 总收益:+0 总免伤次数:0 总免伤:0 返回率:0.000000 时间:2019-05-14_11_16_44
+2019/05/14 11:21:19.130200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107217150 2019-05-14_11_21_08 lockratio:10 totaltimes:60 consume:10 groupindex:5 group:{Weight:10 Detail:[1 0 1 0 0] RewardTimes:60} attack: reward:600 levemoney:107217750 2019-05-14_11_21_19
+2019/05/14 11:21:19.144200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107217750 消耗:40 收益:600 写分增量:560 阵容变化:[201,], 
+2019/05/14 11:21:19.229200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107217190 '2019-05-14 11:21:03'
+Match=>ID :150015 玩家消耗金额:-40 玩家赢取金额:+600 返还率:15.000000 单个最高的结算金额:600 从进入到退出之间的最大余额:107217750
+Leave=>ID:150015 Money:107217750 '2019-05-14 11:21:19'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:40,收益:600,返回率:15.000000;
+2019/05/14 11:23:41.180200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107215490 消耗:2260 收益:0 写分增量:-2260 阵容变化:[201,], 
+2019/05/14 11:24:23.974200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107214940 2019-05-14_11_24_08 lockratio:10 totaltimes:20 consume:10 groupindex:3 group:{Weight:10 Detail:[0 0 0 1 0] RewardTimes:20} attack: reward:200 levemoney:107215140 2019-05-14_11_24_23
+2019/05/14 11:24:23.980200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107215140 消耗:550 收益:200 写分增量:-350 阵容变化:[201,], 
+2019/05/14 11:24:24.004200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107217750 '2019-05-14 11:21:40'
+Match=>ID :150015 玩家消耗金额:-2810 玩家赢取金额:+200 返还率:0.071174 单个最高的结算金额:200 从进入到退出之间的最大余额:107217750
+Leave=>ID:150015 Money:107215140 '2019-05-14 11:24:24'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:2810,收益:200,返回率:0.071174;
+2019/05/14 11:35:40.861200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107215130 2019-05-14_11_34_54 lockratio:10 totaltimes:90 consume:10 groupindex:20 group:{Weight:10 Detail:[0 1 0 1 1] RewardTimes:90} attack:0-0,1-200,2-0,3-200,4-500, reward:900 levemoney:107216030 2019-05-14_11_35_40
+2019/05/14 11:35:48.650200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107216030 消耗:10 收益:900 写分增量:890 阵容变化:[201,], 
+2019/05/14 11:35:48.727200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107215140 '2019-05-14 11:34:52'
+Match=>ID :150015 玩家消耗金额:-10 玩家赢取金额:+900 返还率:90.000000 单个最高的结算金额:500 从进入到退出之间的最大余额:107216030
+Leave=>ID:150015 Money:107216030 '2019-05-14 11:35:48'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:10,收益:900,返回率:90.000000;
+2019/05/14 11:46:45.281200 git.huoys.com/qp/cells/game_trace.polling 557 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:2860,收益:1700,返回率:0.594406;
+	全局统计 总输赢:-1160 总消耗:-2860 总收益:+1700 总免伤次数:0 总免伤:0 返回率:0.594406 时间:2019-05-14_11_46_45
+2019/05/14 11:56:39.328200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107215860 2019-05-14_11_55_57 lockratio:10 totaltimes:70 consume:10 groupindex:18 group:{Weight:10 Detail:[0 0 1 1 0] RewardTimes:70} attack:0-0,1-0,2-200,3-500,4-0, reward:700 levemoney:107216560 2019-05-14_11_56_39
+2019/05/14 11:56:49.065200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107216560 消耗:170 收益:700 写分增量:530 阵容变化:[201,],[201,], 
+2019/05/14 11:56:49.143200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107216030 '2019-05-14 11:55:45'
+Match=>ID :150015 玩家消耗金额:-170 玩家赢取金额:+700 返还率:4.117647 单个最高的结算金额:500 从进入到退出之间的最大余额:107216560
+Leave=>ID:150015 Money:107216560 '2019-05-14 11:56:49'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:170,收益:700,返回率:4.117647;
+2019/05/14 11:57:35.363200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107216540 2019-05-14_11_56_57 lockratio:10 totaltimes:280 consume:10 groupindex:28 group:{Weight:25 Detail:[1 1 1 1 0] RewardTimes:280} attack:0-400,1-500,2-700,3-1200,4-0, reward:2800 levemoney:107219340 2019-05-14_11_57_35
+2019/05/14 11:57:43.806200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107219340 消耗:20 收益:2800 写分增量:2780 阵容变化:[201,], 
+2019/05/14 11:57:43.872200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107216560 '2019-05-14 11:56:53'
+Match=>ID :150015 玩家消耗金额:-20 玩家赢取金额:+2800 返还率:140.000000 单个最高的结算金额:1200 从进入到退出之间的最大余额:107219340
+Leave=>ID:150015 Money:107219340 '2019-05-14 11:57:43'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:20,收益:2800,返回率:140.000000;
+2019/05/14 12:00:32.128200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107219010 2019-05-14_11_59_39 lockratio:10 totaltimes:40 consume:10 groupindex:0 group:{Weight:10 Detail:[1 0 0 0 0] RewardTimes:40} attack:0-400,1-0,2-0,3-0,4-0, reward:400 levemoney:107219410 2019-05-14_12_00_32
+2019/05/14 12:01:07.368200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107219160 2019-05-14_12_00_48 lockratio:10 totaltimes:40 consume:10 groupindex:8 group:{Weight:10 Detail:[0 1 0 1 0] RewardTimes:40} attack:0-0,1-200,2-0,3-200,4-0, reward:400 levemoney:107219560 2019-05-14_12_01_07
+2019/05/14 12:01:21.298200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107219530 消耗:610 收益:800 写分增量:190 阵容变化:[201,],[201,],[201,], 
+2019/05/14 12:01:27.276200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107219530 消耗:0 收益:0 写分增量:0 阵容变化:[201,], 
+2019/05/14 12:01:27.353200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107219340 '2019-05-14 11:59:20'
+Match=>ID :150015 玩家消耗金额:-610 玩家赢取金额:+800 返还率:1.311475 单个最高的结算金额:400 从进入到退出之间的最大余额:107219560
+Leave=>ID:150015 Money:107219530 '2019-05-14 12:01:27'
+	ID:150015 翻牌统计: 攻击次数:1,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:1,Boss怪次数:0,消耗:10 收益:0 返回率:0.000000;
+	ID:150015 BOXID:101	攻击次数:1,击杀次数:0,免伤次数:0,消耗:10,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:600,收益:800,返回率:1.333333;
+2019/05/14 12:16:45.300200 git.huoys.com/qp/cells/game_trace.polling 557 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:1,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:1,Boss怪次数:0,消耗:10 收益:0 返回率:0.000000;
+	全局统计 BOXID:101	攻击次数:1,击杀次数:0,免伤次数:0,消耗:10,收益:0,单次最大盈利:0 单次时间:2019-05-14 12:16:45;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:790,收益:4300,返回率:5.443038;
+	全局统计 总输赢:3500 总消耗:-800 总收益:+4300 总免伤次数:0 总免伤:0 返回率:5.375000 时间:2019-05-14_12_16_45
+2019/05/14 12:36:18.298200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107218270 2019-05-14_12_35_33 lockratio:10 totaltimes:20 consume:10 groupindex:2 group:{Weight:10 Detail:[0 0 1 0 0] RewardTimes:20} attack:0-0,1-0,2-200,3-0,4-0, reward:200 levemoney:107218470 2019-05-14_12_36_18
+2019/05/14 12:36:25.349200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107218470 消耗:1260 收益:200 写分增量:-1060 阵容变化:[201,], 
+2019/05/14 12:37:15.381200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107218430 2019-05-14_12_36_30 lockratio:10 totaltimes:40 consume:10 groupindex:0 group:{Weight:10 Detail:[1 0 0 0 0] RewardTimes:40} attack:0-400,1-0,2-0,3-0,4-0, reward:400 levemoney:107218830 2019-05-14_12_37_15
+2019/05/14 12:38:26.396200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107218770 消耗:300 收益:600 写分增量:300 阵容变化:[201,],[201,],[201,], 
+2019/05/14 12:38:27.813200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107218570 2019-05-14_12_37_39 lockratio:10 totaltimes:20 consume:10 groupindex:2 group:{Weight:10 Detail:[0 0 1 0 0] RewardTimes:20} attack:0-0,1-0,2-200,3-0,4-0, reward:200 levemoney:107218770 2019-05-14_12_38_27
+2019/05/14 12:40:21.530200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107217750 2019-05-14_12_39_30 lockratio:10 totaltimes:90 consume:10 groupindex:12 group:{Weight:10 Detail:[1 1 0 0 0] RewardTimes:90} attack:0-400,1-500,2-0,3-0,4-0, reward:900 levemoney:107218650 2019-05-14_12_40_21
+2019/05/14 12:40:27.353200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107218650 消耗:1020 收益:900 写分增量:-120 阵容变化:[201,],[201,], 
+2019/05/14 12:41:40.163200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107218190 2019-05-14_12_40_55 lockratio:10 totaltimes:90 consume:10 groupindex:16 group:{Weight:10 Detail:[0 1 1 0 1] RewardTimes:90} attack:0-0,1-200,2-500,3-0,4-200, reward:900 levemoney:107219090 2019-05-14_12_41_40
+2019/05/14 12:42:28.348200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107218590 消耗:960 收益:900 写分增量:-60 阵容变化:[201,],[201,],[201,], 
+2019/05/14 12:43:00.148200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107218590 2019-05-14_12_42_05 lockratio:10 totaltimes:20 consume:10 groupindex:3 group:{Weight:10 Detail:[0 0 0 1 0] RewardTimes:20} attack:0-0,1-0,2-0,3-200,4-0, reward:200 levemoney:107218790 2019-05-14_12_43_00
+2019/05/14 12:44:29.397200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107217080 消耗:1710 收益:200 写分增量:-1510 阵容变化:[201,],[201,], 
+2019/05/14 12:45:17.563200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107217050 2019-05-14_12_44_30 lockratio:10 totaltimes:180 consume:10 groupindex:24 group:{Weight:20 Detail:[1 1 1 0 1] RewardTimes:180} attack:0-400,1-500,2-700,3-0,4-200, reward:1800 levemoney:107218850 2019-05-14_12_45_17
+2019/05/14 12:46:30.390200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107218760 消耗:320 收益:2000 写分增量:1680 阵容变化:[201,],[201,], 
+2019/05/14 12:46:39.464200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107218560 2019-05-14_12_45_42 lockratio:10 totaltimes:20 consume:10 groupindex:3 group:{Weight:10 Detail:[0 0 0 1 0] RewardTimes:20} attack:0-0,1-0,2-0,3-200,4-0, reward:200 levemoney:107218760 2019-05-14_12_46_39
+2019/05/14 12:46:45.339200 git.huoys.com/qp/cells/game_trace.polling 557 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:2,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:2,Boss怪次数:0,消耗:20 收益:0 返回率:0.000000;
+	全局统计 BOXID:100	攻击次数:1,击杀次数:0,免伤次数:0,消耗:10,收益:0,单次最大盈利:0 单次时间:2019-05-14 12:46:45;
+	全局统计 BOXID:101	攻击次数:1,击杀次数:0,免伤次数:0,消耗:10,收益:0,单次最大盈利:0 单次时间:2019-05-14 12:46:45;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:5550,收益:4800,返回率:0.864865;
+	全局统计 总输赢:-770 总消耗:-5570 总收益:+4800 总免伤次数:0 总免伤:0 返回率:0.861759 时间:2019-05-14_12_46_45
+2019/05/14 12:47:54.396200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107218450 2019-05-14_12_47_05 lockratio:10 totaltimes:20 consume:10 groupindex:2 group:{Weight:10 Detail:[0 0 1 0 0] RewardTimes:20} attack:0-0,1-0,2-200,3-0,4-0, reward:200 levemoney:107218650 2019-05-14_12_47_54
+2019/05/14 12:48:31.413200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107218240 消耗:720 收益:200 写分增量:-520 阵容变化:[201,],[201,],[201,], 
+2019/05/14 12:49:26.581200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107218240 2019-05-14_12_48_25 lockratio:10 totaltimes:20 consume:10 groupindex:1 group:{Weight:10 Detail:[0 1 0 0 0] RewardTimes:20} attack:0-0,1-200,2-0,3-0,4-0, reward:200 levemoney:107218440 2019-05-14_12_49_26
+2019/05/14 12:50:32.368200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107218390 消耗:250 收益:400 写分增量:150 阵容变化:[201,],[201,], 
+2019/05/14 12:50:38.465200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107218190 2019-05-14_12_49_49 lockratio:10 totaltimes:20 consume:10 groupindex:2 group:{Weight:10 Detail:[0 0 1 0 0] RewardTimes:20} attack:0-0,1-0,2-200,3-0,4-0, reward:200 levemoney:107218390 2019-05-14_12_50_38
+2019/05/14 12:52:33.401200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107216360 消耗:2030 收益:0 写分增量:-2030 阵容变化:[201,],[201,], 
+2019/05/14 12:54:34.388200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107215120 消耗:1640 收益:400 写分增量:-1240 阵容变化:[201,], 
+2019/05/14 12:54:46.248200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107214720 2019-05-14_12_53_57 lockratio:10 totaltimes:40 consume:10 groupindex:0 group:{Weight:10 Detail:[1 0 0 0 0] RewardTimes:40} attack:0-400,1-0,2-0,3-0,4-0, reward:400 levemoney:107215120 2019-05-14_12_54_46
+2019/05/14 12:56:25.167200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107214970 2019-05-14_12_55_04 lockratio:10 totaltimes:60 consume:10 groupindex:6 group:{Weight:10 Detail:[1 0 0 1 0] RewardTimes:60} attack:0-400,1-0,2-0,3-200,4-0, reward:600 levemoney:107215570 2019-05-14_12_56_25
+2019/05/14 12:56:35.402200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107215570 消耗:150 收益:600 写分增量:450 阵容变化:[201,],[201,],[201,], 
+2019/05/14 12:57:35.264200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107215550 2019-05-14_12_56_36 lockratio:10 totaltimes:280 consume:10 groupindex:28 group:{Weight:25 Detail:[1 1 1 1 0] RewardTimes:280} attack:0-400,1-500,2-700,3-1200,4-0, reward:2800 levemoney:107218350 2019-05-14_12_57_35
+2019/05/14 12:58:36.393200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107217370 消耗:1000 收益:2800 写分增量:1800 阵容变化:[201,],[201,], 
+2019/05/14 13:00:37.396200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107215020 消耗:2350 收益:0 写分增量:-2350 阵容变化:[201,], 
+2019/05/14 13:01:56.754200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107214340 2019-05-14_13_01_12 lockratio:10 totaltimes:20 consume:10 groupindex:4 group:{Weight:10 Detail:[0 0 0 0 1] RewardTimes:20} attack:0-0,1-0,2-0,3-0,4-200, reward:200 levemoney:107214540 2019-05-14_13_01_56
+2019/05/14 13:02:38.462200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107214140 消耗:1080 收益:200 写分增量:-880 阵容变化:[201,],[201,], 
+2019/05/14 13:03:18.154200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107214140 2019-05-14_13_02_27 lockratio:10 totaltimes:20 consume:10 groupindex:2 group:{Weight:10 Detail:[0 0 1 0 0] RewardTimes:20} attack:0-0, reward:200 levemoney:107214340 2019-05-14_13_03_18
+2019/05/14 13:03:18.154200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107214340 消耗:0 收益:200 写分增量:200 阵容变化:[201,], 
+2019/05/14 13:03:18.169200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107219530 '2019-05-14 12:34:24'
+Match=>ID :150015 玩家消耗金额:-14790 玩家赢取金额:+9600 返还率:0.649087 单个最高的结算金额:1200 从进入到退出之间的最大余额:107219530
+Leave=>ID:150015 Money:107214340 '2019-05-14 13:03:18'
+	ID:150015 翻牌统计: 攻击次数:4,击杀次数:0,免伤次数:0,空卡次数:1,宝箱次数:0,普通怪次数:3,Boss怪次数:0,消耗:40 收益:0 返回率:0.000000;
+	ID:150015 BOXID:100	攻击次数:1,击杀次数:0,免伤次数:0,消耗:10,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150015 BOXID:101	攻击次数:2,击杀次数:0,免伤次数:0,消耗:20,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150015 BOXID:102	攻击次数:1,击杀次数:0,免伤次数:0,消耗:10,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:14750,收益:9600,返回率:0.650847;
+2019/05/14 13:16:45.393200 git.huoys.com/qp/cells/game_trace.polling 557 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:2,击杀次数:0,免伤次数:0,空卡次数:1,宝箱次数:0,普通怪次数:1,Boss怪次数:0,消耗:20 收益:0 返回率:0.000000;
+	全局统计 BOXID:100	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-14 13:16:45;
+	全局统计 BOXID:101	攻击次数:1,击杀次数:0,免伤次数:0,消耗:10,收益:0,单次最大盈利:0 单次时间:2019-05-14 13:16:45;
+	全局统计 BOXID:102	攻击次数:1,击杀次数:0,免伤次数:0,消耗:10,收益:0,单次最大盈利:0 单次时间:2019-05-14 13:16:45;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:9200,收益:4800,返回率:0.521739;
+	全局统计 总输赢:-4420 总消耗:-9220 总收益:+4800 总免伤次数:0 总免伤:0 返回率:0.520607 时间:2019-05-14_13_16_45
+2019/05/14 13:46:45.409200 git.huoys.com/qp/cells/game_trace.polling 557 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	全局统计 BOXID:100	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-14 13:46:45;
+	全局统计 BOXID:101	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-14 13:46:45;
+	全局统计 BOXID:102	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-14 13:46:45;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 总输赢:0 总消耗:-0 总收益:+0 总免伤次数:0 总免伤:0 返回率:0.000000 时间:2019-05-14_13_46_45
+2019/05/14 14:16:45.425200 git.huoys.com/qp/cells/game_trace.polling 557 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	全局统计 BOXID:100	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-14 14:16:45;
+	全局统计 BOXID:101	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-14 14:16:45;
+	全局统计 BOXID:102	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-14 14:16:45;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+	全局统计 总输赢:0 总消耗:-0 总收益:+0 总免伤次数:0 总免伤:0 返回率:0.000000 时间:2019-05-14_14_16_45
+2019/05/14 14:20:46.043200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107214040 2019-05-14_14_19_47 lockratio:10 totaltimes:90 consume:10 groupindex:16 group:{Weight:10 Detail:[0 1 1 0 1] RewardTimes:90} attack:0-0,1-200,2-500,3-0,4-200, reward:900 levemoney:107214940 2019-05-14_14_20_46
+2019/05/14 14:21:30.442200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107214300 消耗:940 收益:900 写分增量:-40 阵容变化:[201,],[201,], 
+2019/05/14 14:22:20.277200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107214280 2019-05-14_14_21_31 lockratio:10 totaltimes:20 consume:10 groupindex:3 group:{Weight:10 Detail:[0 0 0 1 0] RewardTimes:20} attack:0-0,1-0,2-0,3-200,4-0, reward:200 levemoney:107214480 2019-05-14_14_22_20
+2019/05/14 14:22:33.887200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107214440 消耗:60 收益:200 写分增量:140 阵容变化:[201,],[201,], 
+2019/05/14 14:22:33.948200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107214340 '2019-05-14 14:19:29'
+Match=>ID :150015 玩家消耗金额:-1000 玩家赢取金额:+1100 返还率:1.100000 单个最高的结算金额:500 从进入到退出之间的最大余额:107214940
+Leave=>ID:150015 Money:107214440 '2019-05-14 14:22:33'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:1000,收益:1100,返回率:1.100000;
+2019/05/14 14:25:29.533200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150016 entermoney:99999290 2019-05-14_14_24_52 lockratio:10 totaltimes:90 consume:10 groupindex:20 group:{Weight:10 Detail:[0 1 0 1 1] RewardTimes:90} attack:0-0,1-200,2-0,3-200,4-500, reward:900 levemoney:100000190 2019-05-14_14_25_29
+2019/05/14 14:25:40.643200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150016 剩余金币:100000180 消耗:360 收益:900 写分增量:540 阵容变化:[201,],[201,], 
+2019/05/14 14:25:40.678200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150016 Money:99999640 '2019-05-14 14:24:31'
+Match=>ID :150016 玩家消耗金额:-360 玩家赢取金额:+900 返还率:2.500000 单个最高的结算金额:500 从进入到退出之间的最大余额:100000190
+Leave=>ID:150016 Money:100000180 '2019-05-14 14:25:40'
+	ID:150016 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150016 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150016 过敏源剧情 消耗:360,收益:900,返回率:2.500000;
+2019/05/14 14:27:21.277200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107214000 2019-05-14_14_26_22 lockratio:10 totaltimes:40 consume:10 groupindex:10 group:{Weight:10 Detail:[0 0 1 0 1] RewardTimes:40} attack:0-0,1-0,2-200,3-0,4-200, reward:400 levemoney:107214400 2019-05-14_14_27_21
+2019/05/14 14:27:52.230200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150016 entermoney:99999750 2019-05-14_14_27_02 lockratio:10 totaltimes:140 consume:10 groupindex:27 group:{Weight:20 Detail:[0 0 1 1 1] RewardTimes:140} attack:0-0,1-0,2-200,3-500,4-700, reward:1400 levemoney:100001150 2019-05-14_14_27_52
+2019/05/14 14:27:56.437200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107213920 消耗:920 收益:400 写分增量:-520 阵容变化:[201,],[201,], 
+2019/05/14 14:28:39.434200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150016 剩余金币:100002000 消耗:480 收益:2300 写分增量:1820 阵容变化:[201,],[201,], 
+2019/05/14 14:28:41.612200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107213900 2019-05-14_14_27_57 lockratio:10 totaltimes:20 consume:10 groupindex:1 group:{Weight:10 Detail:[0 1 0 0 0] RewardTimes:20} attack:0-0,1-200,2-0,3-0,4-0, reward:200 levemoney:107214100 2019-05-14_14_28_41
+2019/05/14 14:28:45.977200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150016 entermoney:100001100 2019-05-14_14_28_05 lockratio:10 totaltimes:160 consume:10 groupindex:22 group:{Weight:10 Detail:[1 1 0 1 1] RewardTimes:160} attack:0-400,1-500,2-0,3-200,4-500, reward:1600 levemoney:100002700 2019-05-14_14_28_45
+2019/05/14 14:29:31.635200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107213350 消耗:770 收益:200 写分增量:-570 阵容变化:[201,],[201,], 
+2019/05/14 14:29:31.677200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107214440 '2019-05-14 14:25:55'
+Match=>ID :150015 玩家消耗金额:-1690 玩家赢取金额:+600 返还率:0.355030 单个最高的结算金额:200 从进入到退出之间的最大余额:107214440
+Leave=>ID:150015 Money:107213350 '2019-05-14 14:29:31'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:1690,收益:600,返回率:0.355030;
+2019/05/14 14:29:53.393200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150016 entermoney:100002460 2019-05-14_14_29_08 lockratio:10 totaltimes:20 consume:10 groupindex:4 group:{Weight:10 Detail:[0 0 0 0 1] RewardTimes:20} attack:0-0,1-0,2-0,3-0,4-200, reward:200 levemoney:100002660 2019-05-14_14_29_53
+2019/05/14 14:30:30.422200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150016 剩余金币:100002440 消耗:460 收益:900 写分增量:440 阵容变化:[201,],[201,],[201,], 
+2019/05/14 14:30:30.442200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150016 Money:100000180 '2019-05-14 14:26:38'
+Match=>ID :150016 玩家消耗金额:-940 玩家赢取金额:+3200 返还率:3.404255 单个最高的结算金额:700 从进入到退出之间的最大余额:100002700
+Leave=>ID:150016 Money:100002440 '2019-05-14 14:30:30'
+	ID:150016 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150016 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150016 过敏源剧情 消耗:940,收益:3200,返回率:3.404255;
+2019/05/14 14:39:51.945200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107213270 2019-05-14_14_39_04 lockratio:10 totaltimes:40 consume:10 groupindex:10 group:{Weight:10 Detail:[0 0 1 0 1] RewardTimes:40} attack:0-0,1-0,2-200,3-0,4-200, reward:400 levemoney:107213670 2019-05-14_14_39_51
+2019/05/14 14:40:57.489200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107212590 消耗:1160 收益:400 写分增量:-760 阵容变化:[201,],[201,], 
+2019/05/14 14:42:58.508200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107211330 消耗:1460 收益:200 写分增量:-1260 阵容变化:[201,], 
+2019/05/14 14:43:00.543200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107211130 2019-05-14_14_42_11 lockratio:10 totaltimes:40 consume:10 groupindex:10 group:{Weight:10 Detail:[0 0 1 0 1] RewardTimes:40} attack:0-0,1-0,2-200,3-0,4-200, reward:400 levemoney:107211530 2019-05-14_14_43_00
+2019/05/14 14:44:15.077200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107211110 2019-05-14_14_43_32 lockratio:10 totaltimes:180 consume:10 groupindex:26 group:{Weight:20 Detail:[1 0 1 1 1] RewardTimes:180} attack:0-400,1-0,2-200,3-500,4-700, reward:1800 levemoney:107212910 2019-05-14_14_44_15
+2019/05/14 14:44:59.487200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107212250 消耗:1080 收益:2000 写分增量:920 阵容变化:[201,],[201,],[201,], 
+2019/05/14 14:46:06.363200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107211150 2019-05-14_14_45_55 lockratio:10 totaltimes:110 consume:10 groupindex:14 group:{Weight:10 Detail:[1 1 0 0 1] RewardTimes:110} attack: reward:1100 levemoney:107212250 2019-05-14_14_46_06
+2019/05/14 14:46:06.367200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107212250 消耗:1100 收益:1100 写分增量:0 阵容变化:[201,], 
+2019/05/14 14:46:06.469200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107213350 '2019-05-14 14:38:56'
+Match=>ID :150015 玩家消耗金额:-4800 玩家赢取金额:+3700 返还率:0.770833 单个最高的结算金额:1100 从进入到退出之间的最大余额:107213670
+Leave=>ID:150015 Money:107212250 '2019-05-14 14:46:06'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:4800,收益:3700,返回率:0.770833;
+2019/05/14 14:46:45.430200 git.huoys.com/qp/cells/game_trace.polling 557 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	全局统计 BOXID:100	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-14 14:46:45;
+	全局统计 BOXID:101	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-14 14:46:45;
+	全局统计 BOXID:102	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-14 14:46:45;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:8790,收益:9500,返回率:1.080774;
+	全局统计 总输赢:710 总消耗:-8790 总收益:+9500 总免伤次数:0 总免伤:0 返回率:1.080774 时间:2019-05-14_14_46_45
+2019/05/14 14:52:00.279200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107212020 2019-05-14_14_51_13 lockratio:10 totaltimes:180 consume:10 groupindex:24 group:{Weight:20 Detail:[1 1 1 0 1] RewardTimes:180} attack:0-400,1-500,2-700,3-0,4-200, reward:1800 levemoney:107213820 2019-05-14_14_52_00
+2019/05/14 14:52:53.378200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107213740 2019-05-14_14_52_14 lockratio:10 totaltimes:180 consume:10 groupindex:24 group:{Weight:20 Detail:[1 1 1 0 1] RewardTimes:180} attack:0-400,1-500,2-700,3-0,4-200, reward:1800 levemoney:107215540 2019-05-14_14_52_53
+2019/05/14 14:53:00.499200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107215540 消耗:310 收益:3600 写分增量:3290 阵容变化:[201,],[201,], 
+2019/05/14 14:54:33.580200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107214830 2019-05-14_14_53_39 lockratio:10 totaltimes:20 consume:10 groupindex:2 group:{Weight:10 Detail:[0 0 1 0 0] RewardTimes:20} attack:0-0,1-0,2-200,3-0,4-0, reward:200 levemoney:107215030 2019-05-14_14_54_33
+2019/05/14 14:55:01.485200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107214700 消耗:1040 收益:200 写分增量:-840 阵容变化:[201,],[201,],[201,], 
+2019/05/14 14:55:21.455200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107214310 消耗:390 收益:0 写分增量:-390 阵容变化:[201,], 
+2019/05/14 14:55:21.547200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107212250 '2019-05-14 14:50:59'
+Match=>ID :150015 玩家消耗金额:-1740 玩家赢取金额:+3800 返还率:2.183908 单个最高的结算金额:700 从进入到退出之间的最大余额:107215540
+Leave=>ID:150015 Money:107214310 '2019-05-14 14:55:21'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:1740,收益:3800,返回率:2.183908;
+2019/05/14 14:56:27.662200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107213990 2019-05-14_14_55_48 lockratio:10 totaltimes:180 consume:10 groupindex:24 group:{Weight:20 Detail:[1 1 1 0 1] RewardTimes:180} attack:0-400,1-500,2-700,3-0,4-200, reward:1800 levemoney:107215790 2019-05-14_14_56_27
+2019/05/14 14:57:07.602200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107215430 2019-05-14_14_56_56 lockratio:10 totaltimes:110 consume:10 groupindex:14 group:{Weight:10 Detail:[1 1 0 0 1] RewardTimes:110} attack: reward:1100 levemoney:107216530 2019-05-14_14_57_07
+2019/05/14 14:57:07.606200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107216530 消耗:680 收益:2900 写分增量:2220 阵容变化:[201,],[201,], 
+2019/05/14 14:57:07.691200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107214310 '2019-05-14 14:55:28'
+Match=>ID :150015 玩家消耗金额:-680 玩家赢取金额:+2900 返还率:4.264706 单个最高的结算金额:1100 从进入到退出之间的最大余额:107216530
+Leave=>ID:150015 Money:107216530 '2019-05-14 14:57:07'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:680,收益:2900,返回率:4.264706;
+2019/05/14 15:15:50.479200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107216530 消耗:0 收益:0 写分增量:0 阵容变化:[201,],[201,],[201,],[201,],[201,],[201,],[201,],[201,],[201,], 
+2019/05/14 15:16:45.450200 git.huoys.com/qp/cells/game_trace.polling 557 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	全局统计 BOXID:100	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-14 15:16:45;
+	全局统计 BOXID:101	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-14 15:16:45;
+	全局统计 BOXID:102	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-14 15:16:45;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:2420,收益:6700,返回率:2.768595;
+	全局统计 总输赢:4280 总消耗:-2420 总收益:+6700 总免伤次数:0 总免伤:0 返回率:2.768595 时间:2019-05-14_15_16_45
+2019/05/14 15:17:09.497200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107216530 消耗:0 收益:0 写分增量:0 阵容变化:[201,], 
+2019/05/14 15:17:09.579200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107216530 '2019-05-14 15:13:49'
+Match=>ID :150015 玩家消耗金额:-0 玩家赢取金额:+0 返还率:0.000000 单个最高的结算金额:0 从进入到退出之间的最大余额:107216530
+Leave=>ID:150015 Money:107216530 '2019-05-14 15:17:09'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+2019/05/14 15:17:53.390200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107216530 消耗:0 收益:0 写分增量:0 阵容变化:[201,],[201,],[201,], 
+2019/05/14 15:17:53.467200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107216530 '2019-05-14 15:17:13'
+Match=>ID :150015 玩家消耗金额:-0 玩家赢取金额:+0 返还率:0.000000 单个最高的结算金额:0 从进入到退出之间的最大余额:107216530
+Leave=>ID:150015 Money:107216530 '2019-05-14 15:17:53'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+2019/05/14 15:18:26.620200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107216530 消耗:0 收益:0 写分增量:0 阵容变化:[201,],[201,],[201,],[201,], 
+2019/05/14 15:18:26.664200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107216530 '2019-05-14 15:17:58'
+Match=>ID :150015 玩家消耗金额:-0 玩家赢取金额:+0 返还率:0.000000 单个最高的结算金额:0 从进入到退出之间的最大余额:107216530
+Leave=>ID:150015 Money:107216530 '2019-05-14 15:18:26'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:0,收益:0,返回率:0.000000;
+2019/05/14 15:19:56.539200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150018 entermoney:88113660 2019-05-14_15_19_31 lockratio:10000 totaltimes:40 consume:20000 groupindex:8 group:{Weight:10 Detail:[0 1 0 1 0] RewardTimes:40} attack:0-0,1-200000,2-0,3-200000,4-0, reward:400000 levemoney:88513660 2019-05-14_15_19_56
+2019/05/14 15:20:31.064200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150018 entermoney:88173660 2019-05-14_15_20_15 lockratio:10000 totaltimes:20 consume:20000 groupindex:1 group:{Weight:10 Detail:[0 1 0 0 0] RewardTimes:20} attack:0-0,1-200000,2-0,3-0,4-0, reward:200000 levemoney:88373660 2019-05-14_15_20_31
+2019/05/14 15:21:06.061200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150018 entermoney:87873660 2019-05-14_15_20_51 lockratio:10000 totaltimes:20 consume:20000 groupindex:3 group:{Weight:10 Detail:[0 0 0 1 0] RewardTimes:20} attack:0-0,1-0,2-0,3-200000,4-0, reward:200000 levemoney:88073660 2019-05-14_15_21_06
+2019/05/14 15:21:19.523200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150018 剩余金币:88073660 消耗:920000 收益:800000 写分增量:-120000 阵容变化:[201,200,],[201,200,],[201,200,],[201,200,],[201,200,],[201,200,],[201,200,],[201,200,], 
+2019/05/14 15:21:47.584200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150018 剩余金币:87393660 消耗:680000 收益:0 写分增量:-680000 阵容变化:[201,200,],[201,200,],[201,200,], 
+2019/05/14 15:21:47.673200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150018 Money:88193660 '2019-05-14 15:19:18'
+Match=>ID :150018 玩家消耗金额:-1600000 玩家赢取金额:+800000 返还率:0.500000 单个最高的结算金额:200000 从进入到退出之间的最大余额:88513660
+Leave=>ID:150018 Money:87393660 '2019-05-14 15:21:47'
+	ID:150018 翻牌统计: 攻击次数:1,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:1,Boss怪次数:0,消耗:20000 收益:0 返回率:0.000000;
+	ID:150018 BOXID:100	攻击次数:1,击杀次数:0,免伤次数:0,消耗:20000,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150018 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150018 过敏源剧情 消耗:1580000,收益:800000,返回率:0.506329;
+2019/05/14 15:29:06.484200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107216410 2019-05-14_15_28_22 lockratio:10 totaltimes:20 consume:10 groupindex:3 group:{Weight:10 Detail:[0 0 0 1 0] RewardTimes:20} attack:0-0,1-0,2-0,3-200,4-0, reward:200 levemoney:107216610 2019-05-14_15_29_06
+2019/05/14 15:29:40.121200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107216340 2019-05-14_15_29_30 lockratio:10 totaltimes:20 consume:10 groupindex:3 group:{Weight:10 Detail:[0 0 0 1 0] RewardTimes:20} attack: reward:200 levemoney:107216540 2019-05-14_15_29_40
+2019/05/14 15:29:40.129200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107216540 消耗:390 收益:400 写分增量:10 阵容变化:[201,],[201,], 
+2019/05/14 15:29:40.207200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107216530 '2019-05-14 15:28:12'
+Match=>ID :150015 玩家消耗金额:-390 玩家赢取金额:+400 返还率:1.025641 单个最高的结算金额:200 从进入到退出之间的最大余额:107216610
+Leave=>ID:150015 Money:107216540 '2019-05-14 15:29:40'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:390,收益:400,返回率:1.025641;
+2019/05/14 15:33:48.460200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107214520 消耗:2020 收益:0 写分增量:-2020 阵容变化:[201,], 
+2019/05/14 15:33:48.535200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107216540 '2019-05-14 15:31:57'
+Match=>ID :150015 玩家消耗金额:-2020 玩家赢取金额:+0 返还率:0.000000 单个最高的结算金额:0 从进入到退出之间的最大余额:107216540
+Leave=>ID:150015 Money:107214520 '2019-05-14 15:33:48'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:2020,收益:0,返回率:0.000000;
+2019/05/14 15:34:54.422200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107213880 2019-05-14_15_34_29 lockratio:10 totaltimes:70 consume:10 groupindex:21 group:{Weight:10 Detail:[0 0 0 1 1] RewardTimes:70} attack:0-0,1-0,2-0,3-200,4-500, reward:700 levemoney:107214580 2019-05-14_15_34_54
+2019/05/14 15:35:55.531200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107213600 消耗:1620 收益:700 写分增量:-920 阵容变化:[201,],[201,], 
+2019/05/14 15:36:12.459200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107213490 2019-05-14_15_36_00 lockratio:10 totaltimes:110 consume:10 groupindex:17 group:{Weight:10 Detail:[1 0 1 1 0] RewardTimes:110} attack: reward:1100 levemoney:107214590 2019-05-14_15_36_12
+2019/05/14 15:36:12.487200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107214590 消耗:110 收益:1100 写分增量:990 阵容变化:[201,], 
+2019/05/14 15:36:12.525200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107214520 '2019-05-14 15:33:54'
+Match=>ID :150015 玩家消耗金额:-1730 玩家赢取金额:+1800 返还率:1.040462 单个最高的结算金额:1100 从进入到退出之间的最大余额:107214590
+Leave=>ID:150015 Money:107214590 '2019-05-14 15:36:12'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:1730,收益:1800,返回率:1.040462;
+2019/05/14 15:41:14.494200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107213970 2019-05-14_15_40_50 lockratio:10 totaltimes:70 consume:10 groupindex:21 group:{Weight:10 Detail:[0 0 0 1 1] RewardTimes:70} attack:0-0,1-0,2-0,3-200,4-500, reward:700 levemoney:107214670 2019-05-14_15_41_14
+2019/05/14 15:42:03.697200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107214110 2019-05-14_15_41_53 lockratio:10 totaltimes:40 consume:10 groupindex:0 group:{Weight:10 Detail:[1 0 0 0 0] RewardTimes:40} attack: reward:400 levemoney:107214510 2019-05-14_15_42_03
+2019/05/14 15:42:03.698200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107214510 消耗:1180 收益:1100 写分增量:-80 阵容变化:[201,],[201,], 
+2019/05/14 15:42:03.789200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107214590 '2019-05-14 15:40:16'
+Match=>ID :150015 玩家消耗金额:-1180 玩家赢取金额:+1100 返还率:0.932203 单个最高的结算金额:500 从进入到退出之间的最大余额:107214670
+Leave=>ID:150015 Money:107214510 '2019-05-14 15:42:03'
+	ID:150015 翻牌统计: 攻击次数:0,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:0,Boss怪次数:0,消耗:0 收益:0 返回率:0.000000;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:1180,收益:1100,返回率:0.932203;
+2019/05/14 15:46:45.525200 git.huoys.com/qp/cells/game_trace.polling 557 Info: log money polling....
+	全局统计 翻牌统计: 攻击次数:1,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:1,Boss怪次数:0,消耗:20000 收益:0 返回率:0.000000;
+	全局统计 BOXID:100	攻击次数:1,击杀次数:0,免伤次数:0,消耗:20000,收益:0,单次最大盈利:0 单次时间:2019-05-14 15:46:45;
+	全局统计 BOXID:101	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-14 15:46:45;
+	全局统计 BOXID:102	攻击次数:0,击杀次数:0,免伤次数:0,消耗:0,收益:0,单次最大盈利:0 单次时间:2019-05-14 15:46:45;
+	全局统计 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	全局统计 过敏源剧情 消耗:1585320,收益:803300,返回率:0.506712;
+	全局统计 总输赢:-802020 总消耗:-1605320 总收益:+803300 总免伤次数:0 总免伤:0 返回率:0.500399 时间:2019-05-14_15_46_45
+2019/05/14 15:52:47.158200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107213730 2019-05-14_15_52_23 lockratio:10 totaltimes:20 consume:10 groupindex:2 group:{Weight:10 Detail:[0 0 1 0 0] RewardTimes:20} attack:0-0,1-0,2-200,3-0,4-0, reward:200 levemoney:107213930 2019-05-14_15_52_47
+2019/05/14 15:53:36.843200 git.huoys.com/qp/cells/module/room/logic/storysys.(*Allergen).CalcSettle 322 Info: Allergen Settle uid:150015 entermoney:107213380 2019-05-14_15_53_16 lockratio:10 totaltimes:140 consume:10 groupindex:25 group:{Weight:20 Detail:[0 1 1 1 0] RewardTimes:140} attack:0-0,1-200,2-500,3-700,4-0, reward:1400 levemoney:107214780 2019-05-14_15_53_36
+2019/05/14 15:53:42.579200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107214780 消耗:1330 收益:1600 写分增量:270 阵容变化:[201,],[201,], 
+2019/05/14 15:54:03.305200 git.huoys.com/qp/cells/game_trace.LogSettle 473 Info: 	 单局结算 uid:150015 剩余金币:107214470 消耗:310 收益:0 写分增量:-310 阵容变化:[201,],[201,], 
+2019/05/14 15:54:03.344200 git.huoys.com/qp/cells/game_trace.LeaveGame 458 Info: 
+Enter=>ID:150015 Money:107214510 '2019-05-14 15:51:41'
+Match=>ID :150015 玩家消耗金额:-1640 玩家赢取金额:+1600 返还率:0.975610 单个最高的结算金额:700 从进入到退出之间的最大余额:107214780
+Leave=>ID:150015 Money:107214470 '2019-05-14 15:54:03'
+	ID:150015 翻牌统计: 攻击次数:1,击杀次数:0,免伤次数:0,空卡次数:0,宝箱次数:0,普通怪次数:1,Boss怪次数:0,消耗:10 收益:0 返回率:0.000000;
+	ID:150015 BOXID:101	攻击次数:1,击杀次数:0,免伤次数:0,消耗:10,收益:0,单次最大盈利:0 单次时间:1970-01-01 08:00:00;
+	ID:150015 ALLMONSTERID 消耗:0,收益:0,返回率:0.000000;
+	ID:150015 过敏源剧情 消耗:1630,收益:1600,返回率:0.981595;

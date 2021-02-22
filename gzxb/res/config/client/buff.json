@@ -1,0 +1,7 @@
+[
+	{ "ID":2001, "Name":"两倍下注倍率", "Type":2, "BuffTargetType":1, "Duration":-1, "Params":[], "Desc":"拥有该Buff时，细胞攻击时下注倍率翻倍，奖励也会翻倍，持续时间为3s。" },
+	{ "ID":2002, "Name":"自爆", "Type":3, "BuffTargetType":2, "Duration":5, "Params":[], "Desc":"5秒后销毁自身，不会对敌人造成伤害。" },
+	{ "ID":2003, "Name":"吞噬作用", "Type":1, "BuffTargetType":2, "Duration":5, "Params":[20,4,1011], "Desc":"每隔0.2秒使用一次1011技能。" },
+	{ "ID":2004, "Name":"提高自动攻击的速度", "Type":4, "BuffTargetType":1, "Duration":-1, "Params":[23], "Desc":"拥有该Buff时，处于全自动或自动攻击细胞模式下，细胞的攻击速度得到提高。" },
+	{ "ID":2005, "Name":"提高自动翻牌的速度", "Type":5, "BuffTargetType":1, "Duration":-1, "Params":[20], "Desc":"拥有该Buff时，处于全自动或自动攻击细胞模式下，翻牌的速度得到提高。" }
+]

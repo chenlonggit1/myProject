@@ -1,0 +1,50 @@
+{
+	"UpdatePlayerNumSec": 60,
+	"MainGameID": 10888,
+	"GameList": [
+		{
+			"GameID": 10095,
+			"ArenaID": 1,
+			"DBArenaID": 10561
+		}
+	],
+	"ReloadConfigSec": 600,
+
+	"JackpotRecordNum": 50,
+
+	"JackpotConfig": [{
+		"Type": 0,
+		"GameID": 10059,
+		"Items": [{
+			"OnListValue": 50000,
+			"InitValue": 6591300
+		}, {
+			"OnListValue": 50000,
+			"InitValue": 75032900
+		}, {
+			"OnListValue": 50000,
+			"InitValue": 192969000
+		}, {
+			"OnListValue": 50000,
+			"InitValue": 742029876
+		}]
+	}, {
+		"Type": 1,
+		"GameID": 10059,
+		"Items": [{
+			"OnListValue":32000,
+			"InitValue": 98500
+		}, {
+			"OnListValue": 32000,
+			"InitValue": 520000
+		}, {
+			"OnListValue": 32000,
+			"InitValue": 1998000
+		}, {
+			"OnListValue": 32000,
+			"InitValue": 9600000
+		}]
+	}],
+	"UpdatePoolSec": 10
+}
+

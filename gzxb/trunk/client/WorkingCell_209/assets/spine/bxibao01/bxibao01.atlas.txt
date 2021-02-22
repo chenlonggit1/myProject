@@ -1,0 +1,125 @@
+
+bxibao01.png
+size: 375,375
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm
+  rotate: false
+  xy: 259, 136
+  size: 43, 63
+  orig: 43, 63
+  offset: 0, 0
+  index: -1
+L_foot
+  rotate: false
+  xy: 267, 45
+  size: 44, 35
+  orig: 44, 35
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: false
+  xy: 257, 2
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+L_leg
+  rotate: false
+  xy: 154, 9
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1
+R_foot
+  rotate: true
+  xy: 313, 95
+  size: 47, 34
+  orig: 47, 34
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: false
+  xy: 198, 16
+  size: 57, 48
+  orig: 57, 48
+  offset: 0, 0
+  index: -1
+R_hand_1
+  rotate: false
+  xy: 313, 50
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+R_leg
+  rotate: true
+  xy: 267, 82
+  size: 52, 44
+  orig: 52, 44
+  offset: 0, 0
+  index: -1
+R_upper
+  rotate: false
+  xy: 304, 144
+  size: 47, 63
+  orig: 47, 63
+  offset: 0, 0
+  index: -1
+attack
+  rotate: true
+  xy: 193, 116
+  size: 73, 64
+  orig: 73, 64
+  offset: 0, 0
+  index: -1
+close
+  rotate: true
+  xy: 300, 209
+  size: 86, 48
+  orig: 86, 48
+  offset: 0, 0
+  index: -1
+die
+  rotate: false
+  xy: 2, 54
+  size: 189, 135
+  orig: 189, 135
+  offset: 0, 0
+  index: -1
+nomal
+  rotate: false
+  xy: 193, 66
+  size: 72, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: -1
+spine
+  rotate: false
+  xy: 206, 201
+  size: 92, 94
+  orig: 92, 94
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 191
+  size: 202, 182
+  orig: 202, 182
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 206, 297
+  size: 146, 76
+  orig: 146, 76
+  offset: 0, 0
+  index: -1
+yinying
+  rotate: false
+  xy: 2, 9
+  size: 150, 43
+  orig: 150, 43
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,104 @@
+
+xiaochoujihuizhimingbingdu01.png
+size: 764,764
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_foot
+  rotate: true
+  xy: 540, 70
+  size: 104, 127
+  orig: 104, 127
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: false
+  xy: 2, 2
+  size: 97, 111
+  orig: 97, 111
+  offset: 0, 0
+  index: -1
+R_foot
+  rotate: true
+  xy: 219, 29
+  size: 96, 121
+  orig: 96, 121
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: true
+  xy: 101, 14
+  size: 99, 116
+  orig: 99, 116
+  offset: 0, 0
+  index: -1
+attack
+  rotate: false
+  xy: 547, 572
+  size: 214, 190
+  orig: 214, 190
+  offset: 0, 0
+  index: -1
+close
+  rotate: true
+  xy: 369, 318
+  size: 219, 169
+  orig: 219, 169
+  offset: 0, 0
+  index: -1
+die
+  rotate: false
+  xy: 547, 403
+  size: 214, 167
+  orig: 214, 167
+  offset: 0, 0
+  index: -1
+hair1
+  rotate: false
+  xy: 2, 115
+  size: 192, 303
+  orig: 192, 303
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: true
+  xy: 196, 127
+  size: 291, 171
+  orig: 291, 171
+  offset: 0, 0
+  index: -1
+hair3
+  rotate: true
+  xy: 540, 176
+  size: 225, 159
+  orig: 225, 159
+  offset: 0, 0
+  index: -1
+hair4
+  rotate: false
+  xy: 305, 539
+  size: 240, 223
+  orig: 240, 223
+  offset: 0, 0
+  index: -1
+nomal
+  rotate: true
+  xy: 369, 102
+  size: 214, 169
+  orig: 214, 169
+  offset: 0, 0
+  index: -1
+spine
+  rotate: false
+  xy: 2, 420
+  size: 301, 342
+  orig: 301, 342
+  offset: 0, 0
+  index: -1
+yinying
+  rotate: true
+  xy: 701, 251
+  size: 150, 43
+  orig: 150, 43
+  offset: 0, 0
+  index: -1

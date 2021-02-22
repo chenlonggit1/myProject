@@ -1,0 +1,146 @@
+
+baixibao01.png
+size: 355,355
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm
+  rotate: true
+  xy: 219, 125
+  size: 47, 31
+  orig: 47, 31
+  offset: 0, 0
+  index: -1
+L_foot
+  rotate: false
+  xy: 132, 13
+  size: 47, 42
+  orig: 47, 42
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: true
+  xy: 230, 58
+  size: 34, 40
+  orig: 34, 40
+  offset: 0, 0
+  index: -1
+L_leg
+  rotate: false
+  xy: 298, 141
+  size: 39, 45
+  orig: 39, 45
+  offset: 0, 0
+  index: -1
+L_upper
+  rotate: true
+  xy: 219, 94
+  size: 29, 38
+  orig: 29, 38
+  offset: 0, 0
+  index: -1
+R_arm
+  rotate: false
+  xy: 240, 17
+  size: 37, 39
+  orig: 37, 39
+  offset: 0, 0
+  index: -1
+R_foot
+  rotate: false
+  xy: 219, 174
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+R_foot1
+  rotate: false
+  xy: 252, 145
+  size: 44, 41
+  orig: 44, 41
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: true
+  xy: 298, 105
+  size: 34, 39
+  orig: 34, 39
+  offset: 0, 0
+  index: -1
+R_leg
+  rotate: false
+  xy: 259, 107
+  size: 37, 36
+  orig: 37, 36
+  offset: 0, 0
+  index: -1
+R_upper
+  rotate: true
+  xy: 178, 57
+  size: 35, 50
+  orig: 35, 50
+  offset: 0, 0
+  index: -1
+attack
+  rotate: true
+  xy: 47, 13
+  size: 42, 83
+  orig: 42, 83
+  offset: 0, 0
+  index: -1
+close
+  rotate: false
+  xy: 2, 2
+  size: 43, 53
+  orig: 43, 53
+  offset: 0, 0
+  index: -1
+die
+  rotate: false
+  xy: 2, 57
+  size: 174, 123
+  orig: 174, 123
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 182
+  size: 200, 171
+  orig: 200, 171
+  offset: 0, 0
+  index: -1
+nomal
+  rotate: true
+  xy: 181, 16
+  size: 39, 57
+  orig: 39, 57
+  offset: 0, 0
+  index: -1
+skirt
+  rotate: true
+  xy: 178, 94
+  size: 86, 39
+  orig: 86, 39
+  offset: 0, 0
+  index: -1
+spine
+  rotate: false
+  xy: 249, 188
+  size: 77, 64
+  orig: 77, 64
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 249, 254
+  size: 77, 99
+  orig: 77, 99
+  offset: 0, 0
+  index: -1
+yinying
+  rotate: true
+  xy: 204, 203
+  size: 150, 43
+  orig: 150, 43
+  offset: 0, 0
+  index: -1

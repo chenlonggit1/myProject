@@ -1,0 +1,19 @@
+
+{
+	"Tips": [{
+		"msg": "【SUPER WORLD CUP】：ยินดีด้วย<color=#00F033FF>【%s】</color>ได้รับแจ็คแพ็ต ได้รับ<color=#FFF900FF>%d</color>เงินรางวัล",
+		"value": [200, 0],
+		"ID": 1,
+		"priority": 50
+	}, {
+		"msg": "【SUPER WORLD CUP】：ยินดีด้วย<color=#00F033FF>【%s】</color>เปิดใช้งานวงล้อระเบิดหมุนได้วงล้อแจ็คพอต รางวัลกองกลางที่ได้(แจ็คพ็อตเล็ก) ได้รับ<color=#FFF900FF>%d</color>เงินรางวัล",
+		"value": [500, 0],
+		"ID": 2,
+		"priority": 30
+	}, {
+		"msg": "【SUPER WORLD CUP】: ยินดีด้วย <color=#00F033FF>【%s】</color> เปิดใช้ วงล้อระเบิด ได้รับ <color=#FFF900FF>%d</color>รางวัล",
+		"value": [500, 1],
+		"ID": 3,
+		"priority": 20
+	}]
+	}

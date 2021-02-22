@@ -1,0 +1,77 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Effect_JinBi",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.8,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "JinBi": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "9d4da9f1-442c-41c8-ae89-fad53670aac7"
+                }
+              },
+              {
+                "frame": 0.1,
+                "value": {
+                  "__uuid__": "46cc471c-687c-4cdf-b033-284fcb491112"
+                }
+              },
+              {
+                "frame": 0.2,
+                "value": {
+                  "__uuid__": "aee59826-3f58-419f-94a4-2d33e420ba98"
+                }
+              },
+              {
+                "frame": 0.3,
+                "value": {
+                  "__uuid__": "0bf6d4ae-e49a-47af-a66f-554b7a135d36"
+                }
+              },
+              {
+                "frame": 0.4,
+                "value": {
+                  "__uuid__": "4b836e77-4484-48b4-acfd-1729139875dd"
+                }
+              },
+              {
+                "frame": 0.5,
+                "value": {
+                  "__uuid__": "1439bd42-3f96-4f64-850c-9c7f721316c0"
+                }
+              },
+              {
+                "frame": 0.6,
+                "value": {
+                  "__uuid__": "7df68eaa-f5a5-46b2-bc8f-24501fb378d5"
+                }
+              },
+              {
+                "frame": 0.7,
+                "value": {
+                  "__uuid__": "b4bcbec0-ee56-474e-820e-4aa190ee059e"
+                }
+              },
+              {
+                "frame": 0.7666666666666667,
+                "value": {
+                  "__uuid__": "b4bcbec0-ee56-474e-820e-4aa190ee059e"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

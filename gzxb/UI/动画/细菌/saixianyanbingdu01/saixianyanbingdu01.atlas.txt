@@ -1,0 +1,104 @@
+
+saixianyanbingdu01.png
+size: 347,347
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm
+  rotate: false
+  xy: 163, 39
+  size: 42, 37
+  orig: 42, 37
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: false
+  xy: 48, 8
+  size: 44, 30
+  orig: 44, 30
+  offset: 0, 0
+  index: -1
+L_upper
+  rotate: true
+  xy: 265, 160
+  size: 58, 80
+  orig: 58, 80
+  offset: 0, 0
+  index: -1
+R_arm
+  rotate: false
+  xy: 2, 2
+  size: 44, 36
+  orig: 44, 36
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: false
+  xy: 94, 14
+  size: 44, 24
+  orig: 44, 24
+  offset: 0, 0
+  index: -1
+R_upper
+  rotate: false
+  xy: 163, 78
+  size: 51, 73
+  orig: 51, 73
+  offset: 0, 0
+  index: -1
+attack
+  rotate: true
+  xy: 216, 86
+  size: 65, 58
+  orig: 65, 58
+  offset: 0, 0
+  index: -1
+close
+  rotate: false
+  xy: 276, 69
+  size: 64, 44
+  orig: 64, 44
+  offset: 0, 0
+  index: -1
+die
+  rotate: false
+  xy: 2, 40
+  size: 159, 116
+  orig: 159, 116
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 158
+  size: 179, 187
+  orig: 179, 187
+  offset: 0, 0
+  index: -1
+nomal
+  rotate: false
+  xy: 276, 115
+  size: 67, 43
+  orig: 67, 43
+  offset: 0, 0
+  index: -1
+spine
+  rotate: false
+  xy: 183, 153
+  size: 80, 65
+  orig: 80, 65
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 183, 265
+  size: 141, 80
+  orig: 141, 80
+  offset: 0, 0
+  index: -1
+yinying
+  rotate: false
+  xy: 183, 220
+  size: 150, 43
+  orig: 150, 43
+  offset: 0, 0
+  index: -1
